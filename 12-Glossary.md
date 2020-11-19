@@ -20,7 +20,7 @@ A textual description of the functionality provided by the system that captures 
 
 A component is a software unit with a well-defined interface and explicitly specified dependencies. A software component can be as small as a block of reusable code, or it can be as big as an entire application depending on the level of granularity a system is being looked at.
 
-## MediaWiki Extension
+## [MediaWiki Extension](https://www.mediawiki.org/wiki/Manual:Extensions)
 
 Extensions are software components that administrators can add (or remove) to their MediaWiki application in order to customize how it looks and works.
 Examples: WikibaseClient, UniversalLanguageSelector, OAuth
