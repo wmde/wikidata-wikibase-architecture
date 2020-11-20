@@ -1,6 +1,4 @@
-# Scope
-
-## Usecases
+# Usecase Scope
 
 We initially want to focus on the primary usecases that drove the development of the system as a whole, individual components and connections between components.
 
