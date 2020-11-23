@@ -16,3 +16,11 @@ This documentation follows the [arc42 template](https://docs.arc42.org/home/) st
 10. Quality: Quality tree and quality scenarios
 11. Risks and technical debt: Known problems, risks and technical debt
 12. Glossary: Definitions of important business and technical terms
+
+## Development
+
+Fetch the needed dependencies:
+
+```lang=sh
+docker run -it --rm -v "$PWD:/app" -w /app  node:14 npm install
+```
