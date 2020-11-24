@@ -6,6 +6,12 @@ You can use this tool for live editing: https://mermaid-js.github.io/mermaid-liv
 
 ### Generating
 
+Fetch the needed dependencies:
+
+```lang=sh
+docker run -it --rm -v "$PWD:/app" -w /app  node:14 npm install
+```
+
 Build a container to build the diagrams in:
 
 ```lang=sh
