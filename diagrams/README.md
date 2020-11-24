@@ -6,26 +6,26 @@ You can use this tool for live editing: https://mermaid-js.github.io/mermaid-liv
 
 ### Generating
 
-Fetch the needed dependencies:
+Fetch the needed npm dependencies:
 
 ```sh
-docker run -it --rm -v "$PWD:/app" -w /app  node:14 npm install
+npm install
 ```
 
-Build a container to build the diagrams in:
+If you don't want to use docker you'll need the mermaid build dependencies too:
 
 ```sh
-docker build -t wikibase-architecture-diagrams .
+sudo apt-get install -y libnss3 libatk-bridge2.0 libx11-xcb1 libdrm2 libxkbcommon0 libgtk-3-0 libasound2
 ```
 
-Generate a SVG representation of the mermaid diagram with:
+Generate SVGs from diagrams on local system:
 
 ```sh
-docker run -it --rm -v "$PWD:/app" wikibase-architecture-diagrams node_modules/.bin/mmdc -i 05-blocks-1.mmd -o 05-blocks-1.svg
+npm run build:diagrams
 ```
 
-If you get a Chrome error `Running as root without --no-sandbox is not supported` you might need to use the `--no-sandbox` option of the Puppeteer:
+OR build them in a docker container:
 
 ```sh
-docker run -it --rm -v "$PWD:/app" wikibase-architecture-diagrams node_modules/.bin/mmdc -p puppeteer-config.json -i 05-blocks-1.mmd -o 05-blocks-1.svg
+npm run buildd:diagrams
 ```
