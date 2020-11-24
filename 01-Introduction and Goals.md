@@ -13,7 +13,7 @@
 - Make the centralized data not only useful for Wikimedia projects, but also other users (researchers, apps etc.)
 - Store structured data relevant to the Wiktionary project in a meaningful way, that will also be useful for Abstract Wikipedia.
 - Store structured data relevant to files on Commons.
-- The stored data and changes must be managable by a distributed community.
+- The stored data and changes must be manageable by a distributed community.
 - Solution should not enforce too tight rigidity in the data (e.g. enforcing and supporting by automation symmetric properties) because “world is complex and there are always exceptions”
 
 ### Wikibase Product Manager
