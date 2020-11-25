@@ -2,7 +2,7 @@
   "name": "diagrams",
   "scripts": {
     "build:diagrams" : "node_modules/.bin/mmdc -p puppeteer-config.json -i 05-blocks-1.mmd -o 05-blocks-1.svg",
-    "buildd:diagrams" : "docker run --rm -it -v \"$PWD:/app\" $(docker build -t wikibase-architecture-diagrams -q .) npm run build:diagrams"
+    "build-docker:diagrams" : "docker run --rm -it -v \"$PWD:/app\" $(docker build -t wikibase-architecture-diagrams -q .) npm run build:diagrams"
   },
   "dependencies": {},
   "devDependencies": {

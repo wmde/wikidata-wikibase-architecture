@@ -27,5 +27,5 @@ npm run build:diagrams
 OR build them in a docker container:
 
 ```sh
-npm run buildd:diagrams
+npm run build-docker:diagrams
 ```
