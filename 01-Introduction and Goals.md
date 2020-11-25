@@ -6,9 +6,38 @@
 
 ## Stakeholders & Expectations
 
+### Wikidata editor
+
+- Ability to add new structured entity data on Wikidata via a desktop web interface.
+- Ability to edit existing structured entity data on Wikidata via a desktop web interface.
+- Ability to programmatically add new structured data to Wikidata.
+- Ability to programmatically edit existing structured data on Wikidata.
+- Ability to view existing structured entity data on Wikidata on mobile web.
+- Ability to edit labels, descriptions, aliases on Wikidata via a mobile web interface.
+- Ability to edit terms and sitelinks of entities without using JavaScript in a browser.
+- Have Statements about external identifiers separated from other Statements in the Wikidata UI.
+- Have Statements shown in a useful order.
+- Ability to search on Wikidata for an entity.
+- Ability to ensure the coherence of data modeling in a certain topic.
+- Ability to review edits.
+
+### Wikipedia editor
+
+- Ability to connect pages on different Wikipedias, showing interwiki links on the Articles.
+- Ability to store Wikipedia page connections in a central place.
+- Ability to store infomation relating to article quality in a central place, for use in interwiki links on the Articles.
+- Ability to use data from Wikidata in Wikipedia pages.
+- Have Wikipedia pages automatically update when data on Wikidata changes.
+- Have data updates which cause page changes to be shown in RecentChanges and Watchlists.
+- Ability to update Wikidata’s data used on Wikipedia when it is incorrect or outdated via web interface.
+- Ability to see the "unconnected pages" on a Wikipedia to try to create connections.
+
+### Small Wikipedia editor
+
+- Have placeholder pages be automatically generated for topics Wikidata contains data for, in order to gain more readers and thus more editors.
+
 ### Wikidata Product Manager
 
-- Store structured data for Wikipedia / Wikimedia projects in a central place (Initially sitelinks and infoboxes)
 - It should be possible to create lists from the stored structured data.
 - Make the centralized data not only useful for Wikimedia projects, but also other users (researchers, apps etc.)
 - Store structured data relevant to the Wiktionary project in a meaningful way, that will also be useful for Abstract Wikipedia.
