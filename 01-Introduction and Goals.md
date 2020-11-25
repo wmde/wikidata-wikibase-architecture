@@ -32,9 +32,18 @@
 - Ability to update Wikidata’s data used on Wikipedia when it is incorrect or outdated via web interface.
 - Ability to see the "unconnected pages" on a Wikipedia to try to create connections.
 
-### Small Wikipedia editor
+#### Small Wikipedia editor
 
 - Have placeholder pages be automatically generated for topics Wikidata contains data for, in order to gain more readers and thus more editors.
+
+### Data re-user
+
+- Ability to access Wikidata's content via a web API.
+
+#### Researcher
+
+- Ability to obtain large parts of the data on Wikidata.
+- Ability to quickly create visualizations based on data from Wikidata without the need to download it.
 
 ### Wikidata Product Manager
 
