@@ -56,10 +56,14 @@
 - The stored data and changes must be manageable by a distributed community.
 - Solution should not enforce too tight rigidity in the data (e.g. enforcing and supporting by automation symmetric properties) because “world is complex and there are always exceptions”
 
-### Wikibase Product Manager
+### Non Wikimedia Wikibase Project
 
-- People outside of Wikimedia are able to create knowledge bases similar to Wikidata using our same software stack.
-- It is easy to write tools and scripts that work for both Wikidata and other Wikibases.
-- I can replicate the Wikidata experience on a non Wikimedia Wikibase.
-- I can use the same Wikidata ontology on a non Wikimedia Wikibase.
-- I can easily import my own large data set into a non Wikimedia Wikibase.
+- Ability to create knowledge bases similar to Wikidata using our same software stack (including extensions, tools and features)
+- Ability to install, configure, update, and maintain a Wikibase instance with confidence.
+- Ability to easily import a large data set into a non Wikimedia Wikibase.
+- Ability to use the same Wikidata ontology on a non Wikimedia Wikibase.
+- Ability to extend a non Wikimedia Wikibase with relevant entities from Wikidata (federation).
+
+#### Large Non Wikimedia Wikibase Project
+
+- Ability to import large amount of data (>1M entities) into the Wikibase quickly & efficiently.
