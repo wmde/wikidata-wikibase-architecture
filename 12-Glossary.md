@@ -38,3 +38,11 @@ Sitelinks (also known as interwiki links or interlanguage links) are special lin
 
 Interwiki links are links to pages of other projects, using a prefixed internal link style.
 Interwiki links make it possible to link to pages of (e.g.) Wikipedia, Wikibooks, Wikinews etc. or to your wiki-project in different languages.
+
+## [Lua](https://en.wikipedia.org/wiki/Wikipedia:Lua)
+
+Lua is a programming language that can be embedded into [Wikitext](https://www.mediawiki.org/wiki/Wikitext) to programmatically enhance the content of wiki articles. It is available on most Wikimedia sites (Wikipedias, Commons, Wiktionaries, ...) via the [Scribunto MediaWiki extension](https://www.mediawiki.org/wiki/Extension:Scribunto). It's often used in templates for [Infoboxes](https://en.wikipedia.org/wiki/Help:Infobox) on Wikipedias.
+
+## [Wikitext](https://en.wikipedia.org/wiki/Help:Wikitext)
+
+Wikitext, also known as Wiki markup or Wikicode, consists of the syntax and keywords used by the MediaWiki software to format a page. It's what editors work with to create and edit wiki articles.
