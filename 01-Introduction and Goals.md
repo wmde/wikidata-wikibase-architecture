@@ -61,4 +61,5 @@
 - People outside of Wikimedia are able to create knowledge bases similar to Wikidata using our same software stack.
 - It is easy to write tools and scripts that work for both Wikidata and other Wikibases.
 - I can replicate the Wikidata experience on a non Wikimedia Wikibase.
-- I can used the same Wikidata ontology on a non Wikimedia Wikibase.
+- I can use the same Wikidata ontology on a non Wikimedia Wikibase.
+- I can easily import my own large data set into a non Wikimedia Wikibase.
