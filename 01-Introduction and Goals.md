@@ -72,3 +72,8 @@
 #### Large Non Wikimedia Wikibase Project
 
 - Ability to import large amount of data (>1M entities) into the Wikibase quickly & efficiently.
+
+### Wikibase / Wikidata System Developers
+
+- Access to a quick, easy and consistent dev system setup.
+- Easily discoverable, well written documentation of the system and its parts.
