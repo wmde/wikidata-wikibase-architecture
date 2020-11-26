@@ -52,14 +52,6 @@
 - Ability to import (donate) subset of my collection data to Wikidata.
 - Ability to monitor, maintain, and re-export the data donated to Wikidata.
 
-### Wikidata Product Manager
-
-- It should be possible to create lists from the stored structured data.
-- Make the centralized data not only useful for Wikimedia projects, but also other users (researchers, apps etc.)
-- Store structured data relevant to the Wiktionary project in a meaningful way, that will also be useful for Abstract Wikipedia.
-- Store structured data relevant to files on Commons.
-- The stored data and changes must be manageable by a distributed community.
-- Solution should not enforce too tight rigidity in the data (e.g. enforcing and supporting by automation symmetric properties) because “world is complex and there are always exceptions”
 
 ### Non Wikimedia Wikibase Project
 
@@ -72,6 +64,19 @@
 #### Large Non Wikimedia Wikibase Project
 
 - Ability to import large amount of data (>1M entities) into the Wikibase quickly & efficiently.
+
+### Product Managers
+
+- Access to an appropriate test system for product verification for new features.
+
+#### Wikidata Product Manager
+
+- It should be possible to create lists from the stored structured data.
+- Make the centralized data not only useful for Wikimedia projects, but also other users (researchers, apps etc.)
+- Store structured data relevant to the Wiktionary project in a meaningful way, that will also be useful for Abstract Wikipedia.
+- Store structured data relevant to files on Commons.
+- The stored data and changes must be manageable by a distributed community.
+- Solution should not enforce too tight rigidity in the data (e.g. enforcing and supporting by automation symmetric properties) because “world is complex and there are always exceptions”
 
 ### Wikibase / Wikidata System Developers
 
