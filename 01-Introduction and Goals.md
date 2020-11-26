@@ -47,6 +47,11 @@
 - Ability to obtain large parts of the data on Wikidata.
 - Ability to quickly create visualizations based on data from Wikidata without the need to download it.
 
+### Data donor
+
+- Ability to import (donate) subset of my collection data to Wikidata.
+- Ability to monitor, maintain, and re-export the data donated to Wikidata.
+
 ### Wikidata Product Manager
 
 - It should be possible to create lists from the stored structured data.
