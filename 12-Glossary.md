@@ -6,6 +6,7 @@ The goal is for all consumers of the architecture documentation to have an ident
 ## Stakeholder
 
 All persons, roles or organizations that:
+
 - will use the system
 - should know the architecture
 - have to work with the architecture or with code
