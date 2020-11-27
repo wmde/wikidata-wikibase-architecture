@@ -1,0 +1,32 @@
+graph TD
+    classDef notus fill:#fed8b1;
+    classDef user fill:#c0efd8;
+
+    user-wd[Wikidata User]:::user
+    user-query[Queryservice User]:::user
+    user-quickstatements[Quickstatements User]:::user
+
+    mwwb[MediaWiki & Wikibase]
+    termbox[Termbox V2 SSR]
+    query-ui[Queryservice UI]
+    query[Queryservice]:::notus
+    elastic[Elasticsearch]:::notus
+    commons[Wikimedia Commons]:::notus
+    quickstatements[Quickstatements]:::notus
+
+    user-wd-->|Interacts with|mwwb
+    user-quickstatements-->|Interacts with|quickstatements
+    user-query-->|Interacts with|query-ui
+    user-query-->|Queries|query
+
+    query-ui-->|Queries|query
+    query-->|Get recent changes & RDF for a revision|mwwb
+
+    quickstatements-->|Authenticates & Edits|mwwb
+
+    mwwb-->|Get rendered termbox etc|termbox
+    termbox-->|Get entity data|mwwb
+
+    mwwb-->|Update search index & Perform searches|elastic
+
+    mwwb-->|Perform media search|commons
