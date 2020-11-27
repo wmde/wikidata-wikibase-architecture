@@ -21,6 +21,6 @@ A high levels [arc42 templates](https://docs.arc42.org/home/) connects all of th
 
 ## Inner components
 
-* [Repo](./components/repo)
-* [Client](./components/client)
-* TBA...
+- [Repo](./components/repo)
+- [Client](./components/client)
+- TBA...
