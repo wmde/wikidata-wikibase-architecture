@@ -4,4 +4,4 @@
 
 ## Quality Goals
 
-## Stakeholders
+## Stakeholders & Expectations
