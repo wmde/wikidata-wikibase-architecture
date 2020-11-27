@@ -4,7 +4,7 @@ This documentation follows the [arc42 template](https://docs.arc42.org/home/) st
 
 ## Contents
 
-1.  Introduction and goals: Requirements, stakeholder, (top) quality goals
+1. Introduction and goals: Requirements, stakeholder, (top) quality goals
 2. Constraints: Technical and organizational constraints, conventions
 3. Context and scope: Business and technical context, external interfaces
 4. Solution strategy: Fundamental solution decisions and ideas
