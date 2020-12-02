@@ -2,7 +2,7 @@
 
 This documentation is made up of multiple [arc42 templates](https://docs.arc42.org/home/), divided by component.
 
-A high levels [arc42 templates](https://docs.arc42.org/home/) connects all of the components.
+A high level [arc42 template](https://docs.arc42.org/home/) connects all of the components.
 
 ## High level Contents
 
