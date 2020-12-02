@@ -48,7 +48,7 @@ Some Commons editor expectations probably only apply to the MediaInfo extension,
 
 - Fix and add values on Wikidata.
 
-#### Wikidata Researcher
+#### Researcher
 
 - Obtain large parts of the data on Wikidata.
 - Quickly create visualizations based on data from Wikidata without the need to download it.

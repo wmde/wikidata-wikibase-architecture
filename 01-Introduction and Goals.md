@@ -14,7 +14,7 @@ Some stakeholders and expectations may stay at this high level though.
 
 - Have placeholder pages be automatically generated for topics Wikidata contains data for, in order to gain more readers and thus more editors.
 
-### Wikidata Researcher
+### Researcher
 
 - Quickly create visualizations based on data from Wikidata without the need to download it.
 
