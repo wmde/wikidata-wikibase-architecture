@@ -21,6 +21,6 @@ A high level [arc42 template](https://docs.arc42.org/home/) connects all of the 
 
 ## Inner components
 
-- [Repo](./components/repo)
-- [Client](./components/client)
+- [WikibaseRepo](./components/WikibaseRepo)
+- [WikibaseClient](./components/WikibaseClient)
 - TBA...
