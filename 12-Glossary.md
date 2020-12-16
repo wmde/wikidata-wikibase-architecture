@@ -47,3 +47,7 @@ Lua is a programming language that can be embedded into [Wikitext](https://www.m
 ## [Wikitext](https://en.wikipedia.org/wiki/Help:Wikitext)
 
 Wikitext, also known as Wiki markup or Wikicode, consists of the syntax and keywords used by the MediaWiki software to format a page. It's what editors work with to create and edit wiki articles.
+
+## [MediaWiki Core](https://www.mediawiki.org/wiki/Core)
+
+MediaWiki Core refers to all files that are part of the main MediaWiki package.
