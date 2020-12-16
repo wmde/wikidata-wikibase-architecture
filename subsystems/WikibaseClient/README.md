@@ -1,10 +1,8 @@
-# Wikidata/Wikibase Architecture Documentation
+# Client
 
-This documentation is made up of multiple [arc42 templates](https://docs.arc42.org/home/), divided by component.
+This documentation follows the [arc42 template](https://docs.arc42.org/home/) structure.
 
-A high level [arc42 template](https://docs.arc42.org/home/) connects all of the components.
-
-## High level Contents
+## Contents
 
 1. [Introduction and goals: Requirements, stakeholder, (top) quality goals](./01-Introduction&#32;and&#32;Goals.md)
 2. [Constraints: Technical and organizational constraints, conventions](./02-Architecture&#32;Constraints.md)
@@ -18,9 +16,3 @@ A high level [arc42 template](https://docs.arc42.org/home/) connects all of the 
 10. [Quality: Quality tree and quality scenarios](./10-Quality.md)
 11. [Risks and technical debt: Known problems, risks and technical debt](./11-Risks&#32;and&#32;Technical&#32;Debt.md)
 12. [Glossary: Definitions of important business and technical terms](./12-Glossary.md)
-
-## Subsystems
-
-- [WikibaseRepo](./subsystems/WikibaseRepo/README.md)
-- [WikibaseClient](./subsystems/WikibaseClient/README.md)
-- TBA...
