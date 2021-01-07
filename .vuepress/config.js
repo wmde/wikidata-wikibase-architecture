@@ -5,6 +5,9 @@ module.exports = {
         '**/*.md',
         '!**/node_modules'
     ],
+    plugins: [
+        'vuepress-plugin-mermaidjs',
+    ],
     themeConfig: {
         repo: '',
         docsDir: '',
@@ -12,20 +15,20 @@ module.exports = {
         activeHeaderLinks: false, // Default: true
         nav: [
             {
-                text: 'Meta',
-                link: '/meta/',
-            },
-            {
-                text: 'Overview',
+                text: 'Home',
                 link: '/',
             },
             {
+                text: 'Overview',
+                link: '/systems/overview/',
+            },
+            {
                 text: 'WikibaseRepo',
-                link: '/subsystems/WikibaseRepo/',
+                link: '/systems/WikibaseRepo/',
             },
             {
                 text: 'WikibaseClient',
-                link: '/subsystems/WikibaseClient/',
+                link: '/systems/WikibaseClient/',
             },
         ],
         sidebar: {
@@ -34,7 +37,8 @@ module.exports = {
                 'decisions/client-repo-split',
                 'decisions/usecase-scope',
             ],
-            '/subsystems/WikibaseRepo/': [
+            '/systems/WikibaseRepo/': [
+                '',
                 '01-Introduction_and_Goals',
                 '02-Architecture_Constraints',
                 '03-Context_and_Scope',
@@ -48,7 +52,23 @@ module.exports = {
                 '11-Risks_and_Technical_Debt',
                 '12-Glossary',
             ],
-            '/subsystems/WikibaseClient/': [
+            '/systems/WikibaseClient/': [
+                '',
+                '01-Introduction_and_Goals',
+                '02-Architecture_Constraints',
+                '03-Context_and_Scope',
+                '04-Solution_Strategy',
+                '05-Building_Block_View',
+                '06-Runtime_View',
+                '07-Deployment_View',
+                '08-Concepts',
+                '09-Architecture_Decisions',
+                '10-Quality',
+                '11-Risks_and_Technical_Debt',
+                '12-Glossary',
+            ],
+            '/systems/overview/': [
+                '',
                 '01-Introduction_and_Goals',
                 '02-Architecture_Constraints',
                 '03-Context_and_Scope',
@@ -63,23 +83,16 @@ module.exports = {
                 '12-Glossary',
             ],
             '/': [
-                '01-Introduction_and_Goals',
-                '02-Architecture_Constraints',
-                '03-Context_and_Scope',
-                '04-Solution_Strategy',
-                '05-Building_Block_View',
-                '06-Runtime_View',
-                '07-Deployment_View',
-                '08-Concepts',
-                '09-Architecture_Decisions',
-                '10-Quality',
-                '11-Risks_and_Technical_Debt',
-                '12-Glossary',
+                '',
+                {
+                    title: 'Decisions',
+                    path: '/docs/decisions/',
+                    children: [
+                        '/docs/decisions/usecase-scope',
+                        '/docs/decisions/client-repo-split',
+                    ]
+                }
             ],
         }
     },
 }
-
-
-
-
