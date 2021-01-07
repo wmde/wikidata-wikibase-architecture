@@ -4,9 +4,12 @@
   "dependencies": {},
   "devDependencies": {
     "hallmark": "^3.1.0",
-    "husky": "^5.0.4"
+    "husky": "^5.0.4",
+    "vuepress": "^1.8.0"
   },
   "scripts": {
+    "docs:dev": "vuepress dev --no-clear-screen .",
+    "docs:build": "vuepress build .",
     "test": "hallmark",
     "fix": "hallmark fix",
     "postinstall": "husky install"
