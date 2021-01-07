@@ -1,6 +1,11 @@
 module.exports = {
     title: 'Wikibase Architecture Documentation',
     description: 'I\'m all about architecture',
+    /**
+     * Ref：https://v1.vuepress.vuejs.org/guide/assets.html#base-url
+     * Ref: https://vuepress.vuejs.org/guide/deploy.html#github-pages
+     */
+    base: "/wikidata-wikibase-architecture/",
     patterns: [
         '**/*.md',
         '!**/node_modules'
@@ -8,9 +13,18 @@ module.exports = {
     plugins: [
         'vuepress-plugin-mermaidjs',
     ],
+    /**
+     * Theme configuration, here is the default theme configuration for VuePress.
+     *
+     * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
+     */
     themeConfig: {
         repo: '',
         docsDir: '',
+        docsRepo: 'wmde/wikidata-wikibase-architecture',
+        docsBranch: 'main',
+        editLinks: true,
+        editLinkText: 'Edit this page on Github!',
         lastUpdated: true,
         activeHeaderLinks: false, // Default: true
         nav: [
