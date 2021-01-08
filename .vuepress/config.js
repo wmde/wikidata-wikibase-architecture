@@ -12,6 +12,7 @@ module.exports = {
     ],
     plugins: [
         'vuepress-plugin-mermaidjs',
+        '@vuepress/medium-zoom',
     ],
     /**
      * Theme configuration, here is the default theme configuration for VuePress.
