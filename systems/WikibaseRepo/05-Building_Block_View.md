@@ -6,6 +6,9 @@ TBA
 
 ### External Interfaces
 
+#### Action API Edit Entity
+
+![Alt Text](./diagrams/05-api-wbeditentity.drawio.svg)
 #### Action API Merge Items
 
 ![Alt Text](./diagrams/05-api-wbmergeitems.drawio.svg)
