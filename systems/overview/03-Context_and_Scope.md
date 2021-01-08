@@ -4,4 +4,4 @@
 
 ### Technical Context
 
-Wikibase extension, containing [WikibaseRepo](./subsystems/WikibaseRepo/README.md), [WikibaseClient](./subsystems/WikibaseClient/README.md) and more.
+Wikibase extension, containing [WikibaseRepo](../WikibaseRepo/README.md), [WikibaseClient](../WikibaseClient/README.md) and more.
