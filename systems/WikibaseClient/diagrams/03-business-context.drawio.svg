@@ -1,0 +1,122 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="574px" height="315px" viewBox="-0.5 -0.5 574 315" content="&lt;mxfile host=&quot;e7543e6d-676a-4929-97dd-3f96d850f45a&quot; modified=&quot;2021-01-08T15:50:43.277Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;Ampi5CD88RAS4y2GbVC9&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;ZZAaw9F9bndAv2IfB5-a&quot; name=&quot;Page-1&quot;&gt;3Vhdc6s2EP01fgwjvuExdnJvH9qZTNPObR9lo4BqgRghJ/b99V2BAAns63zYvZOSmQxaSQs6u3vO4oW/KvdfBa6L33hG2MJD2X7h3y08L4kR/FeGQ2eIorgz5IJmnckdDY/0O9FGvS/f0Yw01kLJOZO0to0bXlVkIy0bFoK/2MueOLOfWuOczAyPG8zm1m80k4W2hgiNE78QmhdyOlPifrU2NAXO+Ith8u8X/kpwLru7cr8iTIHXA9Pt+3JidngzQSr5mg1et+EZs50+3De6pWvcELD+TmquX1Me+sMLvqsyorajhb8c3t+FwROvpI6Wi/R4xRkX7U4ftZfaJAXfkn6m4hXsWGZUQKwor8D0Qhqp9lPGjP3LW/UH9vkh9bmfiZBkb5j0ob8SXhIpDrBEz8Z9RPoU7HPyZQyoH2pbYcQy0TascygfXI8ow40G+kSU5qj/2RAxgxrArdXtrmS3G6lgWKoTUsjEX/GasAfeUI3YmkvJS2PBLaO5mpC8BmshS6aDxHeS0QrQ72sDXQbRILERHXLeRPQIoNElAE1ngM7AJFV2q2pfgcX4ZvtHQatZLppZ+rZs7olAQQyP+kIZG0Zwmr/Mwd8KdSfsh3d7HYVudOhHeyqHbXDf7fInl54cfaiB6eKBCAqAEnEu1A3fiU3PcBo/iUVO9LJ+HcksdpwnhBHwYxXU2wRhWNJnm1OPZYF+wgOn8MZjvoV2viXeJJG68+hdJgVOHEVTKggmjjoQZo7apByO/ao8PUK34JQIvJFNCxzg5kW4VCVbrZu6ywkqFaoZlnjhwSMiprhxDXQR5equxLRiaoUsgJvzonW0pa3WARUwUMpZLUAIWwaxqQFrztiQqs2XGZmUNMuUj6UgDf2O160/lVS1AqeFK1wuwrshzbQC65Wj7M1oZZKR6Q+pBjmen0RW0G7ciyTVjRtDXVqOPddB1hXYTvnTU0M+nBjuLDEMHV4xStq3fDw0kpQQeOCflpOIkztgV2trklH8EbWeMWHirf0oepU0ZyFJsmAI+7nwvkmag+CV0uxeQkq89AyGXMiC57wCDeZKW1ss/yFSHjSYeCe5XVcnpGciE5rukROkJuVD+gXBm1l+EB3kJHFgC0+a+OekR42OC8eE/Y8qiaUax2P9wTqNg8DpRb+nbeQ6vpuO1/vUADxbbuPrqYE/V4NHKgl0Z1tFnQWu8p/J3UeK+BSdmzngneVuhPyLkLXreHasbmLI7Suwsx9cgxOGAnWjaYGmwdkCHRhFfz6NZNJxOWj/8XYXJgzWsZtX71Ttj+Tkwrf6SE43yEHu29np9VRiNqX/Hb2k6aQlRO/sLdPUm/QTcXg9PglnfHJvd4+frA3s6u4HVOIGXnyNNhBE01QSJZjWU0InuUYX6P/veo8wSifUFn/63iMJgfTs3iNMU8fMl3f2Hq1n43KnzAHhmM1enkf6juc0j6BdDTef8MPS//TNCQzHX4e75eNv7P79vw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="220" y="230" width="350" height="80" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,395,270)" opacity="0.25"/>
+        <rect x="220" y="230" width="350" height="80" fill="#bababa" stroke="none" transform="rotate(180,395,270)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="394.5" y="273.5">
+                Wikibase Repo
+            </text>
+        </g>
+        <ellipse cx="15" cy="67.5" rx="7.5" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <path d="M 15 75 L 15 100 M 15 80 L 0 80 M 15 80 L 30 80 M 15 100 L 0 120 M 15 100 L 30 120" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 127px; margin-left: 15px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                User
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="15" y="139" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    User
+                </text>
+            </switch>
+        </g>
+        <path d="M 30 80 L 211.88 80" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 218.88 80 L 211.88 82.33 L 211.88 77.67 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 60px; margin-left: 130px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                interacts with entity data,
+                                <br/>
+                                mainly through wiki articles
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="130" y="64" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    interacts with entity data,...
+                </text>
+            </switch>
+        </g>
+        <rect x="220" y="0" width="350" height="160" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,395,80)" opacity="0.25"/>
+        <rect x="220" y="0" width="350" height="160" fill="#d5e8d4" stroke="#82b366" transform="rotate(180,395,80)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="394.5" y="77.5">
+                Wikibase Client System
+            </text>
+            <text x="394.5" y="89.5">
+                e.g. Wikipedia
+            </text>
+        </g>
+        <path d="M 264.19 161.32 L 264.11 223.24" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 264.1 230.24 L 261.78 223.24 L 266.44 223.25 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 195px; margin-left: 266px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                Sitelink changes
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="266" y="199" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Sitelink changes
+                </text>
+            </switch>
+        </g>
+        <path d="M 511.71 172.47 L 512.6 230.48" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 511.58 164.48 L 514.37 172.43 L 509.04 172.52 Z" fill="#000000" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 196px; margin-left: 512px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                Entity data
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="512" y="199" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Entity data
+                </text>
+            </switch>
+        </g>
+        <path d="M 370.09 160 L 370.76 224.04" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 370.84 231.04 L 368.43 224.07 L 373.1 224.02 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 196px; margin-left: 372px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                Entity data updates
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="372" y="199" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Entity data updates
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
