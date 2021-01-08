@@ -4,9 +4,13 @@
   "dependencies": {},
   "devDependencies": {
     "hallmark": "^3.1.0",
-    "husky": "^5.0.4"
+    "husky": "^5.0.6",
+    "vuepress": "^1.8.0",
+    "vuepress-plugin-mermaidjs": "^1.8.1"
   },
   "scripts": {
+    "dev": "vuepress dev --no-clear-screen .",
+    "build": "vuepress build .",
     "test": "hallmark",
     "fix": "hallmark fix",
     "postinstall": "husky install"
