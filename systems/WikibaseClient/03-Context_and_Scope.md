@@ -2,7 +2,7 @@
 
 ### Business Context
 
-![Alt Text](./diagrams/03-business-context.drawio.svg)
+![WikibaseClient business context diagram](./diagrams/03-business-context.drawio.svg)
 
 | Neighbour             | Description                |
 | --------------------- | -------------------------- |
@@ -10,3 +10,5 @@
 | Wikibase Repo         | A Wikibase Repository that the Client connects to |
 
 ### Technical Context
+
+![WikibaseClient technical context diagram](./diagrams/03-technical-context.drawio.svg)
