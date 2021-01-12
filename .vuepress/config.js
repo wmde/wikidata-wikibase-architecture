@@ -5,7 +5,7 @@ module.exports = {
      * Ref：https://v1.vuepress.vuejs.org/guide/assets.html#base-url
      * Ref: https://vuepress.vuejs.org/guide/deploy.html#github-pages
      */
-    base: "/wikidata-wikibase-architecture/",
+    base: process.env.BASE_PATH || '/',
     patterns: [
         '**/*.md',
         '!**/node_modules'
