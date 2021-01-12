@@ -18,6 +18,7 @@ Some of these also have fairly notable sub systems identified here for convenien
   - Property Suggester
   - QualityConstraints
   - WikibaseLexeme
+  - WikibaseMediaInfo
 - [WikibaseClient](./systems/WikibaseClient/)
   - DataBridge
   - Article Placeholder
