@@ -17,6 +17,53 @@
 
 ## APIs
 
+### Action API Description
+
+![Alt Text](./diagrams/05-api-description.drawio.svg)
+
+|  Building Block | Type/Context  | Responsibility   |
+| ------------ | ------------ | ------------ |
+| DescriptionLookup   | Lookups | Lookup client descriptions from a variety of sources |
+| RepoLinker   | Response | Creates links to Repo Entity concepts |
+
+### Action API EntityUsage
+
+![Alt Text](./diagrams/05-api-entityusage.drawio.svg)
+
+|  Building Block | Type/Context  | Responsibility   |
+| ------------ | ------------ | ------------ |
+| RepoLinker   | Response | Creates links to Repo Entity concepts |
+
+### Action API Meta Wikibase
+
+![Alt Text](./diagrams/05-api-metawikibase.drawio.svg)
+
+|  Building Block | Type/Context  | Responsibility   |
+| ------------ | ------------ | ------------ |
+| ...   | ... | ... |
+
+### Action API Page Terms
+
+![Alt Text](./diagrams/05-api-pageterms.drawio.svg)
+
+|  Building Block | Type/Context  | Responsibility   |
+| ------------ | ------------ | ------------ |
+| EntityIdLookup   | Lookups | Lookup EntityIds from Titles |
+| TermBuffer   | Lookups | Lookup buffered Terms |
+| AliasTermBuffer   | Lookups | Lookup buffered Aliases |
+| RepoLinker   | Response | Creates links to Repo Entity concepts |
+
+### Action API Format Reference
+
+![Alt Text](./diagrams/05-api-wbformatreference.drawio.svg)
+
+|  Building Block | Type/Context  | Responsibility   |
+| ------------ | ------------ | ------------ |
+| Deserializer (Reference)   | Input | Get reference objects from user input |
+| ReferenceFormatter   | Format Reference | Format reference as wikitext |
+| Parser   | Output | Parse reference wikitext and output HTML |
+
+
 ## Client Side Item Edits
 
 ## Linked Site Page Changes
