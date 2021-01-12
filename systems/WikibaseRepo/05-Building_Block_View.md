@@ -4,9 +4,9 @@
 
 TBA
 
-### External Interfaces
+## External Interfaces
 
-#### Action API Edit Entity
+### Action API Edit Entity
 
 ![Alt Text](./diagrams/05-api-wbeditentity.drawio.svg)
 
@@ -25,8 +25,7 @@ TBA
 | EntityChangeOpProvider  | Changes applied to the entity | Turns entity change request into ChangeOp objects based on change request deserialization configured for the particular entity type  |
 |  ChangeOpDeserializers | Changes applied to the entity | ChangeOpDeserializers for fields of items and properties, such as label, description, alias, claim and sitelink  |
 |  ChangeOps | Changes applied to the entity | Class for holding a batch of change operations  |
-| TitleLookup  | lookups |   Represents an arbitrary mapping from entity IDs to wiki page titles, with no further guarantees given. The resulting title does not necessarily represent the page that actually stores the entity contents. |
-| EntityTitleStoreLookup  | lookups | Represents a mapping from entity IDs to wiki page titles, assuming that the resulting title represents a page that actually stores the entity contents. For example, the property P1 will be resolved to the "Property" namespace and the page "Property:P1".  |
+| EntityTitleLookup  | lookups |   Represents an arbitrary mapping from entity IDs to wiki page titles, with no further guarantees given. The resulting title does not necessarily represent the page that actually stores the entity contents. |
 |  EntityRevisionLookup | lookups | Service interface for retrieving EntityRevisions from storage |
 |  EditSummaryHelper | MediaWiki binding | Helper methods for preparing summary instance for editing entity activity  |
 | EntityPermissionChecker  | MediaWiki binding | Service interface for checking a user's permissions on a given entity.  |
@@ -34,7 +33,7 @@ TBA
 | ApiErrorReporter  | API response | A component for API modules that handles error reporting  |
 | ResultBuilder  | API response | Builder of MediaWiki ApiResult objects with various convenience functions for adding Wikibase concepts and result parts to results in a uniform way |
 
-#### Action API Merge Items
+### Action API Merge Items
 
 ![Alt Text](./diagrams/05-api-wbmergeitems.drawio.svg)
 
@@ -42,11 +41,11 @@ TBA
 | ------------ | ------------ | ------------ |
 | ApiBase   |  base class | Base class for MediaWiki Action API modules  |
 | EntityIdParser | Handling user input | Interface for objects that can parse strings into EntityIds  |
-| ItemMergeInteractor | Processing | Performs an Item merge  |
+| [ItemMergeInteractor](#itemmergeinteractor) | Processing | Performs an Item merge  |
 | ApiErrorReporter  | API response | A component for API modules that handles error reporting  |
 | ResultBuilder  | API response | Builder of MediaWiki ApiResult objects with various convenience functions for adding Wikibase concepts and result parts to results in a uniform way |
 
-#### Special Merge Items
+### Special Merge Items
 
 ![Alt Text](./diagrams/05-special-mergeitems.drawio.svg)
 
@@ -55,20 +54,20 @@ TBA
 | SpecialWikibasePage   |  base class | Base class for Wikibase Special Pages  |
 | EntityIdParser | Handling user input | Interface for objects that can parse strings into EntityIds  |
 | TokenCheckInteractor | Handling user input | Checks a submitted edit toke  |
-| ItemMergeInteractor | Processing | Performs an Item merge  |
+| [ItemMergeInteractor](#itemmergeinteractor) | Processing | Performs an Item merge  |
 | EntityTitleLookup  | API response | Represents an arbitrary mapping from entity IDs to wiki page titles, with no further guarantees given. The resulting title does not necessarily represent the page that actually stores the entity contents.  |
 | ExceptionLocalizer  | API response | Provide localized messages for some types of Exceptions |
 
-### Interactors
+## Interactors
 
-#### ItemMergeInteractor
+### ItemMergeInteractor
 
 ![Alt Text](./diagrams/05-interactor-itemmerge.drawio.svg)
 
 |  Building Block | Type/Context  | Responsibility   |
 | ------------ | ------------ | ------------ |
-| MergeFactory   | Changes applied to the entity | ...  |
-| EntityRedirectInteractor   | Changes applied to the entity | ...  |
+| MergeFactory   | Changes applied to the entity | Factory for merging services  |
+| [EntityRedirectCreationInteractor](#entityredirectcreationinteractor)   | Changes applied to the entity | Performs an Entity redirect creation  |
 | EntityRevisionLookup | lookups | Service interface for retrieving EntityRevisions from storage |
 | EntityTitleStoreLookup  | lookups | Represents a mapping from entity IDs to wiki page titles, assuming that the resulting title represents a page that actually stores the entity contents. For example, the property P1 will be resolved to the "Property" namespace and the page "Property:P1".  |
 | SummaryFormatter   | MediaWiki binding | Formats Wikibase Summary objects to strings for MediaWiki |
@@ -76,13 +75,12 @@ TBA
 | PermissionManager   | MediaWiki binding | A MediaWiki service class for checking permissions |
 | EntityStore   | Persistence | Storage interface for Entities |
 
-#### EntityRedirectCreationInteractor
+### EntityRedirectCreationInteractor
 
 ![Alt Text](./diagrams/05-interactor-entityredirect.drawio.svg)
 
 |  Building Block | Type/Context  | Responsibility   |
 | ------------ | ------------ | ------------ |
-| ItemRedirectCreationInteractor   | Implementation | Items |
 | EntityRevisionLookup | lookups | Service interface for retrieving EntityRevisions from storage |
 | EntityTitleStoreLookup  | lookups | Represents a mapping from entity IDs to wiki page titles, assuming that the resulting title represents a page that actually stores the entity contents. For example, the property P1 will be resolved to the "Property" namespace and the page "Property:P1".  |
 | EntityRedirectLookup  | lookups | Service interface for retrieving information about entity redirects. |
