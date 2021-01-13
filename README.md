@@ -25,4 +25,3 @@ Some of these also have fairly notable sub systems identified here for convenien
 - QueryService ([wikitech docs](https://wikitech.wikimedia.org/wiki/Wikidata_query_service))
   - Query UI
   - Query Builder
-
