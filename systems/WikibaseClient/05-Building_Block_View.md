@@ -15,3 +15,67 @@
 ## Entity Data Access
 
 ## Entity Change Notifications
+
+![](./diagrams/05-entitychangenotifications.drawio.svg)
+
+| Building Block                               | Responsibility                                                            |
+| -------------------------------------------- | ------------------------------------------------------------------------- |
+| [Changes](#changes)                          | Receive and handle regular Repository Entity Data changes                 |
+| [ChangeModifications](#change-modifications) | Receive and handle changes to the history of Repository Entities          |
+| [RecentChanges](#recent-changes)             | Represent changes to Repository Entities in a Client RecentChanges system |
+| [Usage](#usage)                              | Tracking the usage of Repository Entities on a Client                     |
+
+### Usage
+
+![](./diagrams/05-entitychangenotifications-usage.drawio.svg)
+
+::: warning
+UsageAspectTransformer is only used outside of this block and perhaps shouldn't live here
+:::
+
+| Building Block                                      | Responsibility                                                                                         |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| UsageLookup                                         | Find EntityUsages for pages                                                                            |
+| EntityUsage                                         | Data object representing the usage of an Entity (but not identifying where it is used)                 |
+| PageEntityUsages                                    | Data object associating a EntityUsage with a Page ID                                                   |
+| UsageAccumulator                                    | Interface allowing accumulation of usage tracking information for a given page                         |
+| UsageTrackingSnakFormatter                          | SnakFormatter implementation that will accumulate usage in a UsageAccumulator                          |
+| UsageTrackingLanguageFallbackLabelDescriptionLookup | LanguageFallbackLabelDescriptionLookup implementation that will accumulate usage in a UsageAccumulator |
+| UsageDeduplicator                                   | De-duplicates entity usage listsfor performance and storage reasons                                    |
+| SubscriptionManager                                 | Persists infomation about pages being "subscribed" to updates for an Entity                            |
+| UsageTracker                                        | Persists infomation about the EntityUsages of a page                                                   |
+| UsageAspectTransformer                              | Transforms usage aspect based on a filter of aspects relevant in some context.                         |
+
+### Recent Changes
+
+![](./diagrams/05-entitychangenotifications-recentchanges.drawio.svg)
+
+| Building Block         | Responsibility                                                                     |
+| ---------------------- | ---------------------------------------------------------------------------------- |
+| RecentChangesFinder    | Find RecentChange entries based on their meta data                                 |
+| ExtenalChange          | Data object representing a revision that has changed an Entity on an external site |
+| RevisionData           | Data object representing a revision on an external site                            |
+| ChangeLineFormatter    | Formats and ExternalChange as HTML                                                 |
+| SiteLinkCommentCreator | Deals with creating comment infomation relating to SiteLink changes                |
+
+### Changes
+
+![](./diagrams/05-entitychangenotifications-changes.drawio.svg)
+
+| Building Block      | Responsibility                                                                              |
+| ------------------- | ------------------------------------------------------------------------------------------- |
+| AffectedPagesFinder | Finds PageEntityUsages that are affected by a Change                                        |
+| ChangeHandler       | Handles EntityChanges                                                                       |
+| ChangeRunCoalescer  | A transformer for lists of EntityChanges that combines runs of changes into a single change |
+| InjectRCRecordsJob  | Persists RecentChanges entries                                                              |
+| PageUpdater         | Triggers various updates needed when pages will change                                      |
+
+### Change Modifications
+
+![](./diagrams/05-entitychangenotifications-modifications.drawio.svg)
+
+| Building Block                    | Responsibility                                        |
+| --------------------------------- | ----------------------------------------------------- |
+| ChangeModificationNotificationJob | Base for handling Entity Revision changes             |
+| ChangeDeletionNotificationJob     | Handles Repository Entity Revision Deletions          |
+| ChangeVisibilityNotificationJob   | Handles Repository Entity Revision Visibility Changes |
