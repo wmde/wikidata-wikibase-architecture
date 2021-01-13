@@ -4,11 +4,20 @@
 
 ![Alt Text](./diagrams/05-building-blocks.drawio.svg)
 
+| Building Block                                              | Responsibility                                                              |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [User Interfaces](#user-interfaces)                         | Represent domain data through MediaWiki user interfaces                     |
+| [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                |
+| [Client Side Item Edits](#client-side-item-edits)           | Edit Item Data on the Repository                                            |
+| [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to pages that are linked to Repository Items |
+| [Entity Data Access](#entity-data-access)                   | Access Entities from a Repository                                           |
+| [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository            |
+
 ## User Interfaces
 
 ## APIs
 
-## Client Side Entity Edits
+## Client Side Item Edits
 
 ## Linked Site Page Changes
 
