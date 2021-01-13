@@ -12,8 +12,8 @@
   "scripts": {
     "dev": "vuepress dev --no-clear-screen .",
     "build": "vuepress build .",
-    "test": "hallmark",
-    "fix": "hallmark fix",
+    "test": "hallmark '**/*.md'",
+    "fix": "hallmark fix '**/*.md'",
     "postinstall": "husky install"
   },
   "repository": {
