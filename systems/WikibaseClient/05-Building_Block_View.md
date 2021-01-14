@@ -21,6 +21,14 @@
 
 ## Linked Site Page Changes
 
+![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
+
+| Building Block     | Responsibility                                                          |
+| ------------------ | ----------------------------------------------------------------------- |
+| UpdateRepo         | Update the repo after certain changes have been performed in the client |
+| UpdateRepoOnDelete | Update the repo after page deletes in the client                        |
+| UpdateRepoOnMove   | Update the repo after page moves in the client                          |
+
 ## Entity Data Access
 
 ## Entity Change Notifications
