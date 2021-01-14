@@ -17,34 +17,34 @@
 
 ## APIs
 
-### Action API Description
+### [Action API Description](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bdescription)
 
-![Alt Text](./diagrams/05-api-description.drawio.svg)
+![Action API Description Building Block Diagram](./diagrams/05-api-description.drawio.svg)
 
 |  Building Block | Type/Context  | Responsibility   |
 | ------------ | ------------ | ------------ |
 | DescriptionLookup   | Lookups | Lookup client descriptions from a variety of sources |
 | RepoLinker   | Response | Creates links to Repo Entity concepts |
 
-### Action API EntityUsage
+### [Action API EntityUsage](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwbentityusage)
 
-![Alt Text](./diagrams/05-api-entityusage.drawio.svg)
+![Action API EntityUsage Building Block Diagram](./diagrams/05-api-entityusage.drawio.svg)
 
 |  Building Block | Type/Context  | Responsibility   |
 | ------------ | ------------ | ------------ |
 | RepoLinker   | Response | Creates links to Repo Entity concepts |
 
-### Action API Meta Wikibase
+### [Action API Meta Wikibase](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwikibase)
 
-![Alt Text](./diagrams/05-api-metawikibase.drawio.svg)
+!Action API Meta Building Block Diagram](./diagrams/05-api-metawikibase.drawio.svg)
 
 |  Building Block | Type/Context  | Responsibility   |
 | ------------ | ------------ | ------------ |
-| ...   | ... | ... |
+| SettingsArray   | Config | WikibaseClient settings containing meta information |
 
-### Action API Page Terms
+### [Action API Page Terms](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bpageterms)
 
-![Alt Text](./diagrams/05-api-pageterms.drawio.svg)
+![Action API Page Terms Building Block Diagram](./diagrams/05-api-pageterms.drawio.svg)
 
 |  Building Block | Type/Context  | Responsibility   |
 | ------------ | ------------ | ------------ |
@@ -55,7 +55,7 @@
 
 ### Action API Format Reference
 
-![Alt Text](./diagrams/05-api-wbformatreference.drawio.svg)
+![Action API Format Reference Building Block Diagram](./diagrams/05-api-wbformatreference.drawio.svg)
 
 |  Building Block | Type/Context  | Responsibility   |
 | ------------ | ------------ | ------------ |
