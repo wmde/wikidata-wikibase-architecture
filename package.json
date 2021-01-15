@@ -16,7 +16,7 @@
     "build": "vuepress build .",
     "test": "npm-run-all test:*",
     "test:md": "hallmark '**/*.md'",
-    "test:svg": "svglint $(git ls-tree -r HEAD --name-only | grep \".svg\")",
+    "test:svg": "svglint $(git ls-tree -r HEAD --name-only | grep \".svg$\")",
     "fix": "hallmark fix '**/*.md'",
     "postinstall": "husky install"
   },
