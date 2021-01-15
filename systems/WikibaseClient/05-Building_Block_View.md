@@ -63,7 +63,6 @@
 | ReferenceFormatter       | Format Reference | Format reference as wikitext             |
 | Parser                   | Output           | Parse reference wikitext and output HTML |
 
-
 ## Client Side Item Edits
 
 ## Linked Site Page Changes
