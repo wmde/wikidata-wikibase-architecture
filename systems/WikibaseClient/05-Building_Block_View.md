@@ -17,6 +17,53 @@
 
 ## APIs
 
+### [Action API Description](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bdescription)
+
+![Action API Description Building Block Diagram](./diagrams/05-api-description.drawio.svg)
+
+| Building Block    | Type/Context | Responsibility                                       |
+| ----------------- | ------------ | ---------------------------------------------------- |
+| DescriptionLookup | Lookups      | Lookup client descriptions from a variety of sources |
+| RepoLinker        | Response     | Creates links to Repo Entity concepts                |
+
+### [Action API EntityUsage](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwbentityusage)
+
+![Action API EntityUsage Building Block Diagram](./diagrams/05-api-entityusage.drawio.svg)
+
+| Building Block | Type/Context | Responsibility                        |
+| -------------- | ------------ | ------------------------------------- |
+| RepoLinker     | Response     | Creates links to Repo Entity concepts |
+
+### [Action API Meta Wikibase](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwikibase)
+
+!Action API Meta Building Block Diagram](./diagrams/05-api-metawikibase.drawio.svg)
+
+| Building Block | Type/Context | Responsibility                                      |
+| -------------- | ------------ | --------------------------------------------------- |
+| SettingsArray  | Config       | WikibaseClient settings containing meta information |
+
+### [Action API Page Terms](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bpageterms)
+
+![Action API Page Terms Building Block Diagram](./diagrams/05-api-pageterms.drawio.svg)
+
+| Building Block  | Type/Context | Responsibility                        |
+| --------------- | ------------ | ------------------------------------- |
+| EntityIdLookup  | Lookups      | Lookup EntityIds from Titles          |
+| TermBuffer      | Lookups      | Lookup buffered Terms                 |
+| AliasTermBuffer | Lookups      | Lookup buffered Aliases               |
+| RepoLinker      | Response     | Creates links to Repo Entity concepts |
+
+### Action API Format Reference
+
+![Action API Format Reference Building Block Diagram](./diagrams/05-api-wbformatreference.drawio.svg)
+
+| Building Block           | Type/Context     | Responsibility                           |
+| ------------------------ | ---------------- | ---------------------------------------- |
+| Deserializer (Reference) | Input            | Get reference objects from user input    |
+| ReferenceFormatter       | Format Reference | Format reference as wikitext             |
+| Parser                   | Output           | Parse reference wikitext and output HTML |
+
+
 ## Client Side Item Edits
 
 ## Linked Site Page Changes
