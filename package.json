@@ -6,13 +6,17 @@
     "@vuepress/plugin-medium-zoom": "^1.8.0",
     "hallmark": "^3.1.0",
     "husky": "^5.0.6",
+    "npm-run-all": "^4.1.5",
+    "svglint": "^1.0.7",
     "vuepress": "^1.8.0",
     "vuepress-plugin-mermaidjs": "^1.8.1"
   },
   "scripts": {
     "dev": "vuepress dev --no-clear-screen .",
     "build": "vuepress build .",
-    "test": "hallmark '**/*.md'",
+    "test": "npm-run-all test:*",
+    "test:md": "hallmark '**/*.md'",
+    "test:svg": "svglint $(git ls-tree -r HEAD --name-only | grep \".svg$\")",
     "fix": "hallmark fix '**/*.md'",
     "postinstall": "husky install"
   },
