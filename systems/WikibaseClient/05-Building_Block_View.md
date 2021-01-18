@@ -15,6 +15,16 @@
 
 ## User Interfaces
 
+![User Interfaces Building Block Diagram](./diagrams/05-user-interfaces.drawio.svg)
+
+| Building Block          | Type/Context   | Responsibility                                                              |
+| ----------------------- | -------------- | --------------------------------------------------------------------------- |
+| Pages & Content         | MediWiki       | Provide entity data, mainly through wiki articles (web UI)                  |
+| SpecialPages            | WikibaseClient | Provide entity usage meta information                                       |
+| SpecialEntityUsage      | WikibaseClient | Lists client wiki pages that use a given entity ID and the aspects they use |
+| SpecialPagesWithBadges  | WikibaseClient | Shows a list of pages with a given badge                                    |
+| SpecialUnconnectedPages | WikibaseClient | Lists client pages that are not connected to repository items               |
+
 ## APIs
 
 ### [Action API Description](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bdescription)
