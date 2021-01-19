@@ -65,6 +65,21 @@
 
 ## Client Side Item Edits
 
+### Data Bridge
+
+Data Bridge is a frontend component enabling Repo edits on the Client via the Repo API. 
+
+![Data Bridge](./diagrams/05-databridge.drawio.svg)
+
+| Building Block | Responsibility                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------- |
+| Data Access    | A group of classes and interfaces for interacting with WikibaseRepo data                       |
+| Presentation   | UI components for presentation                                                                 |
+| Store          | State management of the UI components                                                          |
+| MediaWiki      | Logic that has to do with Data Bridge attaching itself in the right places on the wiki article |
+| ChangeOp       | Strategies for applying changes (update or replace) to the entity                              |
+| Tracking       | Tracking data bridge usage and errors                                                          |
+
 ## Linked Site Page Changes
 
 ![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
