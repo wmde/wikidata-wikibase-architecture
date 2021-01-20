@@ -105,6 +105,29 @@ Data Bridge is a frontend component enabling Repo edits on the Client via the Re
 | prepareContainer         | Creates a container element based on OO.ui.Dialog in which Data Bridge is placed on the wiki page                             |
 | EventTracker             | An abstraction layer for MediaWiki's event tracker                                                                            |
 
+#### Data Access
+
+![Data Bridge Data Access](./diagrams/05-databridge-dataaccess.drawio.svg)
+
+| Building Block                        | Responsibility                                                                                                                         |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Errors                                | Provide context about errors that might occur in Data Bridge. The native Error TypeScript class is used                                |
+| ApiErrors                             | Error returned from the Repo API                                                                                                       |
+| Other Errors                          | Error that may occur in Data Bridge and are not related to the API, e.g. an error on saving                                            |
+| Repo API                              | Implementations of WikibaseRepo API requests                                                                                           |
+| Reading API                           | Implementations of WikibaseRepo API requests that have to do with reading from repo                                                    |
+| Writing API                           | Implementations of WikibaseRepo API requests that have to do with writing to repo                                                      |
+| ApiEntityLabelRepository              | A repository to get the label of specific entity in a specific language                                                                |
+| ApiPageEditPermissionErrorsRepository | A repository for determining potential permission errors when editing a page.                                                          |
+| ApiPropertyDataTypeRepository         | A repository to get the data type of a property                                                                                        |
+| ApiRenderReferencesRepository         | A repository to render reference JSON blobs into HTML strings                                                                          |
+| ApiReadingEntityRepository            | A repository for reading the latest revision of an entity.                                                                             |
+| ApiRepoConfigRepository               | A repository to get the configuration from the Wikibase repo instance where the data is going to be saved                              |
+| ApiWritingRepository                  | Saves the modified entity                                                                                                              |
+| CombiningPermissionsRepository        | A repository for determining potential permission errors when using the Data Bridge                                                    |
+| TrimmingWritingRepository             | A WritingEntityRepository that compares the old and new entity data and sends parts that changed to an underlying ApiWritingRepository |
+| SpecialPageReadingEntityRepository    | A repository for reading the latest revision of an entity                                                                              |
+
 ## Linked Site Page Changes
 
 ![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
