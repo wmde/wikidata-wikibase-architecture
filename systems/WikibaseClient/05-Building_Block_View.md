@@ -92,6 +92,19 @@ Data Bridge is a frontend component enabling Repo edits on the Client via the Re
 | StatementMutationError    | Represents an error that can occur when mutating a statement                       |
 | StatementMutationFactory  | Chooses the right mutation strategy based on the edit decision (replace or update) |
 
+#### MediaWiki
+
+![Data Bridge MediaWiki](./diagrams/05-databridge-mediawiki.drawio.svg)
+
+| Building Block           | Responsibility                                                                                                                |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Dispatcher               | Dispatches Data Bridge to the appropriate DOM element in the wiki article                                                     |
+| BridgeDomElementSelector | Selects elements in a wiki article's DOM that can be overloaded with Data Bridge                                              |
+| SelectedElement          | An interface which describes a DOM element to which Data Bridge is dispatched                                                 |
+| subscribeToEvents        | Actions taken on the wiki page when certain data bridge events occur. E.g. reload the page when the data bridge edit is saved |
+| prepareContainer         | Creates a container element based on OO.ui.Dialog in which Data Bridge is placed on the wiki page                             |
+| EventTracker             | An abstraction layer for MediaWiki's event tracker                                                                            |
+
 ## Linked Site Page Changes
 
 ![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
