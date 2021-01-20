@@ -80,6 +80,18 @@ Data Bridge is a frontend component enabling Repo edits on the Client via the Re
 | ChangeOp       | Strategies for applying changes (update or replace) to the entity                              |
 | Tracking       | Tracking data bridge usage and errors                                                          |
 
+#### ChangeOp
+
+![Data Bridge Change Op](./diagrams/05-databridge-changeop.drawio.svg)
+
+| Building Block            | Responsibility                                                                     |
+| ------------------------- | ---------------------------------------------------------------------------------- |
+| ReplaceMutationStrategy   | Strategy for replacing a statement                                                 |
+| StatementMutationStrategy | Interface for a statement mutation strategy                                        |
+| UpdateMutationStrategy    | Strategy for updating a statement                                                  |
+| StatementMutationError    | Represents an error that can occur when mutating a statement                       |
+| StatementMutationFactory  | Chooses the right mutation strategy based on the edit decision (replace or update) |
+
 ## Linked Site Page Changes
 
 ![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
