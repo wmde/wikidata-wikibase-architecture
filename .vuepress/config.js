@@ -50,6 +50,7 @@ module.exports = {
             '/meta/': [
                 '',
                 'decisions/client-repo-split',
+                'decisions/client-repo-mediawiki',
                 'decisions/usecase-scope',
             ],
             '/systems/WikibaseRepo/': [
@@ -105,6 +106,7 @@ module.exports = {
                     children: [
                         '/docs/decisions/usecase-scope',
                         '/docs/decisions/client-repo-split',
+                        '/docs/decisions/client-repo-mediawiki',
                     ]
                 }
             ],

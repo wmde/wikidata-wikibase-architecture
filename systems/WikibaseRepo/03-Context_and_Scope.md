@@ -13,6 +13,8 @@
 
 ### Technical Context
 
+WikibaseRepo is being developed as a MediaWiki extension, but other than WikibaseClient, it is not a "plugin" that lives inside MediaWiki, adding functionality to it. Instead, it should be considered a system of its own, which is reflected in this diagram by not regarding MediaWiki as an external system to WikibaseRepo. See further details on this decision in the [Solution Strategy](04-Solution_Strategy.md#developing-wikibase-repo-as-a-mediawiki-extension) section.
+
 ![Wikibase Repo technical context diagram](./diagrams/03-technical-context.drawio.svg)
 
 ::: tip
