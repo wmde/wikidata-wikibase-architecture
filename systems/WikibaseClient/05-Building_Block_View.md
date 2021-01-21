@@ -77,7 +77,7 @@
 
 ## Entity Data Access
 
-![](./diagrams/05-entitydataaccess.drawio.svg)
+![Entity Data Access](./diagrams/05-entitydataaccess.drawio.svg)
 
 | Building Block                       | Responsibility                                                                                |
 | ------------------------------------ | --------------------------------------------------------------------------------------------- |
@@ -87,7 +87,7 @@
 
 ### Shared (Entity Data Access)
 
-![](./diagrams/05-entitydataaccess-shared.drawio.svg)
+![Entity Data Access Shared](./diagrams/05-entitydataaccess-shared.drawio.svg)
 
 | Building Block                  | Responsibility                                                         |
 | ------------------------------- | ---------------------------------------------------------------------- |
@@ -100,7 +100,7 @@
 
 ### ParserFunctions
 
-![](./diagrams/05-entitydataaccess-parserfunctions.drawio.svg)
+![Entity Data Access Parser Functions](./diagrams/05-entitydataaccess-parserfunctions.drawio.svg)
 
 | Building Block         | Responsibility                                                          |
 | ---------------------- | ----------------------------------------------------------------------- |
@@ -109,7 +109,7 @@
 
 ### Scribunto
 
-![](./diagrams/05-entitydataaccess-scribunto.drawio.svg)
+![Entity Data Access Scribunto](./diagrams/05-entitydataaccess-scribunto.drawio.svg)
 
 | Building Block                 | Responsibility                                                                      |
 | ------------------------------ | ----------------------------------------------------------------------------------- |
