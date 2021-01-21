@@ -19,7 +19,7 @@ While working on this source locally, you can install needed dependencies with `
 
 Commands exist for other local actions:
 
-- `npm run test` - Runs basic markdown and SVG 
+- `npm run test` - Runs basic markdown and SVG linting
 - `npm run fix` - Fixes markdown issues
 - `npm run dev` - Run a development server with live reload of the build documentation site
 - `npm run build` - Build a static version of the site
