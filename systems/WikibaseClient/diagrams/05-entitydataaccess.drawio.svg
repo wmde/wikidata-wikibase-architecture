@@ -1,0 +1,41 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="384px" height="175px" viewBox="-0.5 -0.5 384 175" content="&lt;mxfile host=&quot;5f907a0f-cefb-4e47-bc10-b84c6b0bef56&quot; modified=&quot;2021-01-18T21:27:56.653Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;eD3G0iYOvcydK3TyhywN&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;ZZAaw9F9bndAv2IfB5-a&quot; name=&quot;Page-1&quot;&gt;7Vhdb5swFP01PHYCHELy2NC007Rq1VKt61PlwC1YcXBmnK/++tnBJmBolk7NVlVtpCr3+Poa33N8gDgomm+uOF5k1ywB6vhusnHQheP7w9CT/xWwLYGB65ZAyklSQt4emJAn0KBJW5IEikaiYIwKsmiCMctziEUDw5yzdTPtkdHmqgucQguYxJi20TuSiEyjgdmGGvgMJM2EPTLHJlsDRYYTtq5BaOygiDMmym/zTQRUNc80ppx3+cxodWUccnHMhNvxA/r1dRgj6uLr1cWXWzd9OBsMyzIrTJd6y/pqxdb0gLNlnoCq4jloVG1DBY8sF5o0L1AxoTRilHEJ5CwHlS84m4EBHR+5bhTJJpkR01Zfl+vK3C2jL0gtS/EU6IjxBLi1WjmC41m6u2prNGOcPMlamOpCK+CCSLbPKUlziQm2kGi7s7rZKh02NUh3+grYHATfyhQ9GiDNutZ90NPxeq8iNNBYVhPQUGNYCzetSu+plV80u91Mxz341qPDyeOK5GQUkR/k4eYsbBE9iTmZLnPBDjDuHmLc7aJM/bVo1/1PCJeHlDDV6jUUwlKMnD86V59X4iC0OOi3OeiiIDgVBZ7f4uAG8wL45TLftaV4p0z0B2+NCfRn24M8OVd3EBlNKYtntxnJlYeIuXGPDmvTPX8ZN8YCVU256iWhtIrkbn8q9j8FJryvj11stDTKaGuiDRG1aTK6r43sJ6nAzHmW54IteaybotskME9BHCF1SBr317ZCagoIDiiAA8WCrJp35S5Z6BVuGJG7qAQYuk0Bhrayyj3qWfWbqF3IswrZfl12plVop9Jq20cJt20Wd2RGprgAiX6HxXu1bdssekeaRf8VzKL3YQsntYXwTblC328qrXo5eakr2JIN0clcwfhP/Tkuk+Qk79QNKoP9D48Ontfq9YcddB3gv/EHz+3m/R8dffvdwD6xRz8Q2C964WsdfRnufxwo0/c/saDxbw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="1" y="80" width="380" height="90" rx="13.5" ry="13.5" fill="none" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+        <rect x="1" y="80" width="380" height="90" rx="13.5" ry="13.5" fill="none" stroke="#00cc00" stroke-width="2" pointer-events="all"/>
+        <rect x="41" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,81,125)" opacity="0.25"/>
+        <rect x="41" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,81,125)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="80.5" y="128.5">
+                Scribunto
+            </text>
+        </g>
+        <rect x="151" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,191,125)" opacity="0.25"/>
+        <rect x="151" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,191,125)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="190.5" y="128.5">
+                ParserFunctions
+            </text>
+        </g>
+        <path d="M 191 60 L 191 91.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 191 98.88 L 188.67 91.88 L 193.33 91.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="151" y="0" width="80" height="60" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,191,30)" opacity="0.25"/>
+        <rect x="151" y="0" width="80" height="60" fill="#bababa" stroke="none" transform="rotate(180,191,30)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="190.5" y="33.5">
+                Wikibase Repo
+            </text>
+        </g>
+        <path d="M 191 60 L 88.63 97.23" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 82.05 99.62 L 87.83 95.03 L 89.43 99.42 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="261" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,301,125)" opacity="0.25"/>
+        <rect x="261" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,301,125)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="300.5" y="128.5">
+                Shared
+            </text>
+        </g>
+        <path d="M 191 60 L 293.37 97.23" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 299.95 99.62 L 292.57 99.42 L 294.17 95.03 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+    </g>
+</svg>

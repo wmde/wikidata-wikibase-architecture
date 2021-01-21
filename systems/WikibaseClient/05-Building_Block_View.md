@@ -117,6 +117,51 @@ Data Bridge is a frontend component enabling Repo edits on the Client via the Re
 
 ## Entity Data Access
 
+![Entity Data Access](./diagrams/05-entitydataaccess.drawio.svg)
+
+| Building Block                       | Responsibility                                                                                |
+| ------------------------------------ | --------------------------------------------------------------------------------------------- |
+| [Shared](#shared-entity-data-access) | Services shared between multiple types of entity data access (lookups, formatters, utilities) |
+| [ParserFunctions](#parserfunctions)  | MediaWiki parser function binding for entity data access                                      |
+| [Scribunto](#scribunto)              | Scribunto extension binding for entity data access                                            |
+
+### Shared (Entity Data Access)
+
+![Entity Data Access Shared](./diagrams/05-entitydataaccess-shared.drawio.svg)
+
+| Building Block                  | Responsibility                                                         |
+| ------------------------------- | ---------------------------------------------------------------------- |
+| SnakFormatter                   | Formats snaks in a client context                                      |
+| ReferenceFormatter              | Formats references in a client context                                 |
+| StatementTransclusionInteractor | Renders the main snaks associated with a given Property on an Entity   |
+| EntityTitleLookup               | Resolves a specific sitelink on a specific Item to a Title             |
+| PropertyIdResolver              | Resolved a PropertyId from input which could be a label or prefixed ID |
+| SnaksFinder                     | Find Snaks for claims in a given Entity, based on PropertyId           |
+
+### ParserFunctions
+
+![Entity Data Access Parser Functions](./diagrams/05-entitydataaccess-parserfunctions.drawio.svg)
+
+| Building Block         | Responsibility                                                          |
+| ---------------------- | ----------------------------------------------------------------------- |
+| Runner                 | Contains the methods called by MediaWiki when parser functions are used |
+| StatementGroupRenderer | Renderer for rendering a statement group                                |
+
+### Scribunto
+
+![Entity Data Access Scribunto](./diagrams/05-entitydataaccess-scribunto.drawio.svg)
+
+| Building Block                 | Responsibility                                                                      |
+| ------------------------------ | ----------------------------------------------------------------------------------- |
+| TermLookup                     | Lookup terms of Entities for use in LUA                                             |
+| Scribunto_LuaLibraryBase       | Registers and defined methods called by the Scribunto extension                     |
+| LanguageDependentLuaBindings   | Actual implementations of various functions that can be accessed through Scribunto. |
+| LanguageIndependentLuaBindings | Actual implementations of various functions that can be accessed through Scribunto. |
+| LuaEntityBindings              | Actual implementations of various functions that can be accessed through Scribunto. |
+| SnakSerializationRenderer      | Renders snaks for LUA                                                               |
+| EntityAccessor                 | Miscellaneous functionality for exposing Entities through LUA                       |
+| LuaFunctionCallTracker         | Helper for tracking accesses of Lua functions                                       |
+
 ## Entity Change Notifications
 
 ![](./diagrams/05-entitychangenotifications.drawio.svg)
