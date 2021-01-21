@@ -1,46 +1,86 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="504px" height="175px" viewBox="-0.5 -0.5 504 175" content="&lt;mxfile host=&quot;b7eff5a2-eac2-43be-acbb-7c7877ab45a9&quot; modified=&quot;2021-01-15T14:29:43.605Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;RsNqY1QB5xJRxf7iMRPQ&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;ZZAaw9F9bndAv2IfB5-a&quot; name=&quot;Page-1&quot;&gt;7Vhdb9owFP01eewUEgLJYwm007RqVWHr+oRMckksTMwcA6G/fjax881GpaJVaFRC3HPt6/iek+Okhu2vs3uGNvEDDYEYlhlmhj02LMtzXfEtgUMOuKaZAxHDYQ71SmCKX0GBetgWh5DWBnJKCcebOhjQJIGA1zDEGN3Xhy0pqa+6QRG0gGmASBt9xiGPFerobcjEZ8BRzJuZNdKjFZDGKKT7CmRPDNtnlPL81zrzgcjm6cbk8+5OZIsrY5DwcybMJnP711cvsImJHnbjLzMzmt+4Xl5mh8hWbVldLT/oHjC6TUKQVXqGPSq2IYMlTbgirefIGBPiU0KZABKagBzPGV2BBg3LNk3fF03SGd1WS5XrGnlcRl2QXJagBZARZSGwxmp5BgWr6HjVjWxMGX4VtRBRhXbAOBZs3xIcJQLjdCPQdmdVs+VwyCqQ6vQ90DVwdhBDVNbRrCvdO30V70sVFVKJKwLyFIaUcKOidEmt+KHY7WY66MO3PvGmyx1O8MjHP/D88WbYItqPURKJm+s03+af+Da7CJOfFumq+yFm4hbFVDZ6Dylv6EXMH93Kv3diYNBgYNBmwO0gwLkUAT3rBAPCNPFSqPDYmuskY+B+NDLsv/seJOGtPEJEtCA0WM1inEgT4WttHx3epnr+Nm60B8qaYtU7TEgRid3+lOx/cnT4Us2NMyWNPDroKMO8Mk1EL5VMOUkGes5JnlO6ZYFqimoTRywCfobaIawdsG2F1AzxtAIYEHGD7OrHcpcs1AqPFItdFAIcmnUBDpvKyveoZlVP0WahXqNQ07DzzrQKHVVabPss4bb94hmv8AKlINAn2NBrNYvG2dk/0ywG72AW/f+2cFFbGH4oV2gqrXg7easrNM+3oX0xV2g/sH9P5UvMdXqBZ/67Bwft9JVWP0Eg9nLdD87FiXb5louwfP/N74Xyvwj25Dc=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="534px" height="305px" viewBox="-0.5 -0.5 534 305" content="&lt;mxfile host=&quot;8accbf39-c763-4479-9ee9-afd385580830&quot; modified=&quot;2021-01-21T13:28:16.849Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) VSCodium/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;CerNmLAllJk6RRkoZ7lR&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;ZZAaw9F9bndAv2IfB5-a&quot; name=&quot;Page-1&quot;&gt;7VhNb+IwEP01HLtyEpLAsQTa1apVq9Ldbk+VSUxiYWLWmK/++rWJHRI7rKiUql3Ucigee8bxe5M3YzpeNN9eM7jIbmmCSMcFybbjDTuu6wDXF/+kZVdYPF8ZUoYTtehgGONXpD2VdYUTtKwt5JQSjhd1Y0zzHMW8ZoOM0U192ZSS+q4LmCLLMI4hsa1POOGZsvoAHCa+I5xm3JyZQ71aGZYZTOimYvJGHS9ilPLi23wbISLR08AUfldHZssnYyjnJzkEhccakpU63S1KMHzCM6yekO/0uRld5QmSnk7HG5SPLgdTmnNFlOPLMSYkooQyYchpjuR6zugMaWPH9QCIIgGMntFQuipc08r9NuqB5LYEThAZUJYgZuxWzMB4lu6f2pjNKMOvIhYkKtAaMY4Fw5cEp7mwTSjndC4mbEAVxtIDbSsmBfA1onPE2U4sUbM+6BYuKt19T5G/OSRPacsqeeNqI1QJm5axD5SKL4rVZoYfRy/en5t+7BEAb9fDH48gfbno9S3aJeMTuEQRwfKoX9y3w71+0TX33QbuQQP3DmiB+7iL7rqkP56ucY4HEf6FX+4vQov6KIN5KgT1OOfgX5yDJtLkn0W8YiDBTMgyphLsDVpyI2eE/+BSflqiIDAoCGwKeg0M+O9FgOMeYUBUSjwVmbiH5jzJCHqfjQzPIsOCHuXJpWwbpDYQGs8eM5xLIeFzLSEN+qYwfxs3WgdlTLHrFSakHInT/pbsf/P18Lk6N9yq1ChGOz3aYl5xE6PnyszBSQ60z1Gel3TFYgWKgolDliJ+QrajpNZU2RlSU8TjGcAQES/Iut6KNaWF2uGeYlnOdAKGoJ6AoZlZxRmVV7VzMgM5RqC+EahAxgq0z9Ly2Cclrq0XulgL6wNa0HMVC6N4dk8Ui6AFseh+ycK7ykL4qVTBzLSe2X2dqgpmfQvNFr49VbBb+J9LeXE9Ty3og49rHLTSV6B+QLE4y3k3zmVF+wjIG24p6mIKhgMLcAHxQn6NdwQL5JknENhkmKPxAu6VacPgoq7Nk4Kjm0lpKC+Mdysuwuh75vLI1VagPXKG/ihsEvp+EHqXQUupb3QaQWjzEDTw0GuDh97/XQcPla+9OriPcI8YFmgi9pbi2LeLo/PJCmFovPNm/Tq5PfaMQGFbhVAMD7+PFssPPzN7o78=&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
-        <rect x="1" y="80" width="500" height="90" rx="13.5" ry="13.5" fill="none" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
-        <rect x="1" y="80" width="500" height="90" rx="13.5" ry="13.5" fill="none" stroke="#00cc00" stroke-width="2" pointer-events="all"/>
-        <rect x="41" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,81,125)" opacity="0.25"/>
-        <rect x="41" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,81,125)" pointer-events="all"/>
+        <rect x="1" y="70" width="530" height="230" rx="34.5" ry="34.5" fill="none" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+        <rect x="1" y="70" width="530" height="230" rx="34.5" ry="34.5" fill="none" stroke="#00cc00" stroke-width="2" pointer-events="all"/>
+        <g fill="#00CC00" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="15px">
+            <text x="265.5" y="294.5">
+                MediaWiki
+            </text>
+        </g>
+        <rect x="17" y="80" width="500" height="100" rx="15" ry="15" fill="none" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+        <rect x="17" y="80" width="500" height="100" rx="15" ry="15" fill="none" stroke="#00cc00" stroke-width="2" pointer-events="all"/>
+        <g fill="#00CC00" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="15px">
+            <text x="266.5" y="174.5">
+                WikibaseClient
+            </text>
+        </g>
+        <rect x="57" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,97,125)" opacity="0.25"/>
+        <rect x="57" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,97,125)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="80.5" y="128.5">
+            <text x="96.5" y="128.5">
                 Changes
             </text>
         </g>
-        <rect x="161" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,201,125)" opacity="0.25"/>
-        <rect x="161" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,201,125)" pointer-events="all"/>
+        <rect x="177" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,217,125)" opacity="0.25"/>
+        <rect x="177" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,217,125)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="200.5" y="128.5">
+            <text x="216.5" y="128.5">
                 ChangeModification
             </text>
         </g>
-        <path d="M 141 60 L 194.25 95.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 200.07 99.38 L 192.95 97.44 L 195.54 93.56 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <rect x="101" y="0" width="80" height="60" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,141,30)" opacity="0.25"/>
-        <rect x="101" y="0" width="80" height="60" fill="#bababa" stroke="none" transform="rotate(180,141,30)" pointer-events="all"/>
+        <path d="M 157 60 L 210.25 95.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 216.07 99.38 L 208.95 97.44 L 211.54 93.56 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="117" y="0" width="80" height="60" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,157,30)" opacity="0.25"/>
+        <rect x="117" y="0" width="80" height="60" fill="#bababa" stroke="none" transform="rotate(180,157,30)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="140.5" y="33.5">
+            <text x="156.5" y="33.5">
                 Wikibase Repo
             </text>
         </g>
-        <path d="M 141 60 L 87.75 95.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 81.93 99.38 L 86.46 93.56 L 89.05 97.44 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <rect x="381" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,421,125)" opacity="0.25"/>
-        <rect x="381" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,421,125)" pointer-events="all"/>
+        <path d="M 157 60 L 103.75 95.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 97.93 99.38 L 102.46 93.56 L 105.05 97.44 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="397" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,437,125)" opacity="0.25"/>
+        <rect x="397" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,437,125)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="420.5" y="128.5">
+            <text x="436.5" y="128.5">
                 Usage
             </text>
         </g>
-        <rect x="271" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,311,125)" opacity="0.25"/>
-        <rect x="271" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,311,125)" pointer-events="all"/>
+        <rect x="287" y="100" width="80" height="50" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,327,125)" opacity="0.25"/>
+        <rect x="287" y="100" width="80" height="50" fill="#bababa" stroke="none" transform="rotate(180,327,125)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="310.5" y="128.5">
+            <text x="326.5" y="128.5">
                 RecentChanges
             </text>
         </g>
+        <path d="M 407 225 C 407 216.72 420.43 210 437 210 C 444.96 210 452.59 211.58 458.21 214.39 C 463.84 217.21 467 221.02 467 225 L 467 275 C 467 283.28 453.57 290 437 290 C 420.43 290 407 283.28 407 275 Z" fill="#e1d5e7" stroke="#9673a6" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 467 225 C 467 233.28 453.57 240 437 240 C 420.43 240 407 233.28 407 225" fill="none" stroke="#9673a6" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 58px; height: 1px; padding-top: 263px; margin-left: 408px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Client DB
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="437" y="266" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Client DB
+                </text>
+            </switch>
+        </g>
+        <path d="M 437 150 L 437 201.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 437 208.88 L 434.67 201.88 L 439.33 201.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
     </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
 </svg>

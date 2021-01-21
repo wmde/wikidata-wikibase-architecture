@@ -9,7 +9,7 @@
 | [User Interfaces](#user-interfaces)                         | Represent domain data through MediaWiki user interfaces                     |
 | [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                |
 | [Client Side Item Edits](#client-side-item-edits)           | Edit Item Data on the Repository                                            |
-| [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to pages that are linked to Repository Items |
+| [Interwiki / Sitelinks](#sitelinks)                         | Inform a Repository of changes to pages that are linked to Repository Items |
 | [Entity Data Access](#entity-data-access)                   | Access Entities from a Repository                                           |
 | [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository            |
 
@@ -65,15 +65,16 @@
 
 ## Client Side Item Edits
 
-## Linked Site Page Changes
+## Sitelinks
 
 ![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
 
-| Building Block     | Responsibility                                                          |
-| ------------------ | ----------------------------------------------------------------------- |
-| UpdateRepo         | Update the repo after certain changes have been performed in the client |
-| UpdateRepoOnDelete | Update the repo after page deletes in the client                        |
-| UpdateRepoOnMove   | Update the repo after page moves in the client                          |
+| Building Block     | Responsibility                                                           |
+| ------------------ | ------------------------------------------------------------------------ |
+| UpdateRepo         | Update the repo after certain changes have been performed in the client  |
+| UpdateRepoOnDelete | Update the repo after page deletes in the client                         |
+| UpdateRepoOnMove   | Update the repo after page moves in the client                           |
+| populateInterwiki  | Maintenance script that populates the interwiki table with list of sites |
 
 ## Entity Data Access
 
@@ -108,6 +109,8 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 | SubscriptionManager                                 | Persists infomation about pages being "subscribed" to updates for an Entity                            |
 | UsageTracker                                        | Persists infomation about the EntityUsages of a page                                                   |
 | UsageAspectTransformer                              | Transforms usage aspect based on a filter of aspects relevant in some context.                         |
+| populateEntityUsage                                 | Maintenance script for populating wbc_entity_usage based on the page_props table.                      |
+| updateSubscriptions                                 | Maintenance script for inserting subscriptions into wb_changes_subscription based on wbc_entity_usage. |
 
 ### Recent Changes
 
