@@ -47,11 +47,6 @@ module.exports = {
             },
         ],
         sidebar: {
-            '/meta/': [
-                '',
-                'decisions/client-repo-split',
-                'decisions/usecase-scope',
-            ],
             '/systems/WikibaseRepo/': [
                 '',
                 '01-Introduction_and_Goals',
@@ -99,6 +94,7 @@ module.exports = {
             ],
             '/': [
                 '',
+                'CONTRIBUTING.md',
                 {
                     title: 'Decisions',
                     path: '/docs/decisions/',
