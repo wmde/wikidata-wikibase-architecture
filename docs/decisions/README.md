@@ -2,7 +2,7 @@
 
 While creating this Architecture documentation some decisions were made.
 
-When those decisions to not seem to fit inside the system documentation the decisions will be recorded here.
+When those decisions do not seem to fit inside the system documentation the decisions will be recorded here.
 
 ## Template
 
