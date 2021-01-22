@@ -6,7 +6,7 @@
 
 ## Stakeholders & Expectations
 
-Stakeholders and expeectations are slowly being sorted into sub component templates.
+Stakeholders and expectations are slowly being sorted into sub component templates.
 
 Some stakeholders and expectations may stay at this high level though.
 
