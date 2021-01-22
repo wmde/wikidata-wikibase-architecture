@@ -51,3 +51,7 @@ Wikitext, also known as Wiki markup or Wikicode, consists of the syntax and keyw
 ## [MediaWiki Core](https://www.mediawiki.org/wiki/Core)
 
 MediaWiki Core refers to all files that are part of the main MediaWiki package.
+
+## [Special Page](https://www.mediawiki.org/wiki/Manual:Special_pages)
+
+Special pages are dynamically created MediaWiki pages, which perform a specific function, such as providing a list of pages, showing statistics or creating a form for user submitted feedback. They are located in their own namespace (_Special:_) and are not editable directly like other pages.  Developers can create new special pages. They will generally show up in the list of all special pages at [Special:SpecialPages](https://www.wikidata.org/wiki/Special:SpecialPages).
