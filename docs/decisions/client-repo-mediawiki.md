@@ -1,6 +1,6 @@
 # Client / Repo relation to MediaWiki
 
-**Decision Date:** Early 2021
+**Decision Date:** January 2021
 
 **Summary:** We will document Repo as a standalone system and Client as a subsystem that is embedded into a MediaWiki application.
 
