@@ -101,6 +101,7 @@ module.exports = {
                     children: [
                         '/docs/decisions/usecase-scope',
                         '/docs/decisions/client-repo-split',
+                        '/docs/decisions/client-repo-mediawiki',
                     ]
                 }
             ],

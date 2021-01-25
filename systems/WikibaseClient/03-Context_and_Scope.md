@@ -11,6 +11,8 @@
 
 ### Technical Context
 
+WikibaseClient is a "plugin" (= extension) that lives inside MediaWiki and adds functionality to it, which is reflected in this context diagram by embedding the WikibaseClient subsystem into a higher-level MediaWiki application. See further details on this decision in the [Solution Strategy](04-Solution_Strategy.md#developing-wikibase-client-as-a-mediawiki-extension) section.
+
 ![WikibaseClient technical context diagram](./diagrams/03-technical-context.drawio.svg)
 
 | Component                                                                     | Description                                                                                                                                                              |
