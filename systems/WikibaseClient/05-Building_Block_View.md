@@ -61,6 +61,97 @@
 | ReferenceFormatter       | Format Reference | Format reference as wikitext             |
 | Parser                   | Output           | Parse reference wikitext and output HTML |
 
+## Client Side Item Edits
+
+### Data Bridge
+
+Data Bridge is a frontend component enabling Repo edits on the Client via the Repo API. 
+
+![Data Bridge](./diagrams/05-databridge.drawio.svg)
+
+| Building Block | Responsibility                                                                                 |
+| -------------- | ---------------------------------------------------------------------------------------------- |
+| Data Access    | A group of classes and interfaces for interacting with WikibaseRepo data                       |
+| Presentation   | UI components for presentation                                                                 |
+| Store          | State management of the UI components                                                          |
+| MediaWiki      | Logic that has to do with Data Bridge attaching itself in the right places on the wiki article |
+| ChangeOp       | Strategies for applying changes (update or replace) to the entity                              |
+| Tracking       | Tracking data bridge usage and errors                                                          |
+
+#### ChangeOp
+
+![Data Bridge Change Op](./diagrams/05-databridge-changeop.drawio.svg)
+
+| Building Block            | Responsibility                                                                     |
+| ------------------------- | ---------------------------------------------------------------------------------- |
+| ReplaceMutationStrategy   | Strategy for replacing a statement                                                 |
+| StatementMutationStrategy | Interface for a statement mutation strategy                                        |
+| UpdateMutationStrategy    | Strategy for updating a statement                                                  |
+| StatementMutationError    | Represents an error that can occur when mutating a statement                       |
+| StatementMutationFactory  | Chooses the right mutation strategy based on the edit decision (replace or update) |
+
+#### MediaWiki
+
+![Data Bridge MediaWiki](./diagrams/05-databridge-mediawiki.drawio.svg)
+
+| Building Block           | Responsibility                                                                                                                |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Dispatcher               | Dispatches Data Bridge to the appropriate DOM element in the wiki article                                                     |
+| BridgeDomElementSelector | Selects elements in a wiki article's DOM that can be overloaded with Data Bridge                                              |
+| SelectedElement          | An interface which describes a DOM element to which Data Bridge is dispatched                                                 |
+| subscribeToEvents        | Actions taken on the wiki page when certain data bridge events occur. E.g. reload the page when the data bridge edit is saved |
+| prepareContainer         | Creates a container element based on OO.ui.Dialog in which Data Bridge is placed on the wiki page                             |
+| EventTracker             | An abstraction layer for MediaWiki's event tracker                                                                            |
+
+#### Data Access
+
+![Data Bridge Data Access](./diagrams/05-databridge-dataaccess.drawio.svg)
+
+| Building Block                        | Responsibility                                                                                                                         |
+| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Errors                                | Provide context about errors that might occur in Data Bridge. The native Error TypeScript class is used                                |
+| ApiErrors                             | Error returned from the Repo API                                                                                                       |
+| Other Errors                          | Error that may occur in Data Bridge and are not related to the API, e.g. an error on saving                                            |
+| Repo API                              | Implementations of WikibaseRepo API requests                                                                                           |
+| Reading API                           | Implementations of WikibaseRepo API requests that have to do with reading from repo                                                    |
+| Writing API                           | Implementations of WikibaseRepo API requests that have to do with writing to repo                                                      |
+| ApiEntityLabelRepository              | A repository to get the label of specific entity in a specific language                                                                |
+| ApiPageEditPermissionErrorsRepository | A repository for determining potential permission errors when editing a page.                                                          |
+| ApiPropertyDataTypeRepository         | A repository to get the data type of a property                                                                                        |
+| ApiRenderReferencesRepository         | A repository to render reference JSON blobs into HTML strings                                                                          |
+| ApiReadingEntityRepository            | A repository for reading the latest revision of an entity.                                                                             |
+| ApiRepoConfigRepository               | A repository to get the configuration from the Wikibase repo instance where the data is going to be saved                              |
+| ApiWritingRepository                  | Saves the modified entity                                                                                                              |
+| CombiningPermissionsRepository        | A repository for determining potential permission errors when using the Data Bridge                                                    |
+| TrimmingWritingRepository             | A WritingEntityRepository that compares the old and new entity data and sends parts that changed to an underlying ApiWritingRepository |
+| SpecialPageReadingEntityRepository    | A repository for reading the latest revision of an entity                                                                              |
+
+#### Presentation
+
+![Data Bridge Presentation](./diagrams/05-databridge-presentation.drawio.svg)
+
+| Building Block            | Responsibility                                                                                                                |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| UI Components             | All presentational components that construct Data Bridge's modal and its contents                                             |
+| Plugins and Utilities     | Logic which is common for several components, e.g. representing messages from mw's i18n mechanism                             |
+| Error Components          | Front end components that represent an error which occurred in Data Bridge                                                    |
+| Call To Action Components | Front end components that require an action from the user                                                                     |
+| Base components           | Purely presentational components, e.g. a button. Those components will be replaced by Design System components in the future. |
+| Messages                  | A wrapper around MediaWiki's i18n mechanism                                                                                   |
+| ClientRouter              | Format page urls for client                                                                                                   |
+| RepoRouter                | Format page urls for repo                                                                                                     |
+| BridgeConfig              | Configuration needed in some UI components, e.g. the link for reporting issues with data bridge                               |
+
+## Linked Site Page Changes
+
+![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
+
+| Building Block     | Responsibility                                                          |
+| ------------------ | ----------------------------------------------------------------------- |
+| UpdateRepo         | Update the repo after certain changes have been performed in the client |
+| UpdateRepoOnDelete | Update the repo after page deletes in the client                        |
+| UpdateRepoOnMove   | Update the repo after page moves in the client                          |
+
 ## Entity Data Access
 
 ![Entity Data Access](./diagrams/05-entitydataaccess.drawio.svg)
