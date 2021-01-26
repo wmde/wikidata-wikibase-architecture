@@ -49,7 +49,7 @@ In Wikidata, Items are used to represent all the things in human knowledge, incl
 
 ## [Property](https://www.wikidata.org/wiki/Help:Properties)
 
-Properties are Entities that describe a relationship between Items (or other Entities) and Values of the property. Typical properties are population (using numbers as values), binomial name (using strings as values), but also has father and author of (both using Items as values).
+Properties are Entities that describe a relationship between Items (or other Entities) and values of the Property. Typical Properties are _population_ (using numbers as values), _binomial name_ (using strings as values), but also _has father_ and _author of_ (both using Items as values).
 
 ## [Sitelink](https://www.wikidata.org/wiki/Help:Sitelinks)
 
