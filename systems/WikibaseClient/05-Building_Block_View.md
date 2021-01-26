@@ -34,7 +34,7 @@
 
 ### [Action API Meta Wikibase](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwikibase)
 
-!Action API Meta Building Block Diagram](./diagrams/05-api-metawikibase.drawio.svg)
+![Action API Meta Building Block Diagram](./diagrams/05-api-metawikibase.drawio.svg)
 
 | Building Block | Type/Context | Responsibility                                      |
 | -------------- | ------------ | --------------------------------------------------- |
