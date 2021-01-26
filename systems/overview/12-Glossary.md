@@ -79,3 +79,15 @@ MediaWiki Core refers to all files that are part of the main MediaWiki package.
 ## [Special Page](https://www.mediawiki.org/wiki/Manual:Special_pages)
 
 Special pages are dynamically created MediaWiki pages, which perform a specific function, such as providing a list of pages, showing statistics or creating a form for user submitted feedback. They are located in their own namespace (_Special:_) and are not editable directly like other pages.  Developers can create new special pages. They will generally show up in the list of all special pages at [Special:SpecialPages](https://www.wikidata.org/wiki/Special:SpecialPages).
+
+## Gadgets
+
+Gadgets are [tools](#tools) which can be enabled from you Wikidata's account preferences.
+
+## [Tools](https://www.wikidata.org/wiki/Wikidata:Tools)
+
+Tools which help when working with Wikidata. The full list of Wikidata tools can be found at [Toolforge](https://hay.toolforge.org/directory/#/search/wikidata)
+
+## [Bots](https://www.wikidata.org/wiki/Wikidata:Bots)
+
+ Bots are tools used to make edits without the necessity of human decision-making. Bots can add interwiki links, labels, descriptions, statements, sources, and can even create items, among other things.
