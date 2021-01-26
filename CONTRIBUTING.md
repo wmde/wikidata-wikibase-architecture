@@ -55,7 +55,7 @@ These SVGs should only be edited using a diagrams.net editor.
 
 If you are using VS Code, you can take advantage of the [diagrams.net integration plugin](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio).
 
-If you are not using VS Code you can edit diagrams on [diagrams.net iteself](https://www.diagrams.net/), exporting as an SVG.
+If you are not using VS Code you can edit diagrams on [diagrams.net itself](https://www.diagrams.net/), exporting as an SVG.
 
 ### [mermaid](https://mermaid-js.github.io/mermaid/#/)
 
