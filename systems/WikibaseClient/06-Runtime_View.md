@@ -49,7 +49,7 @@ sequenceDiagram
     participant User
     participant Page as Wikitext-generated content
     participant Bridge as Data Bridge
-    User->>+Bridge: Enters new values, clickes save
+    User->>+Bridge: Enters new values, chooses an update strategy, clickes save
     Bridge->>+Repo: Saves value
     Repo->>+Bridge: Success
     Bridge->>+Page: Purges Page
