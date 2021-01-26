@@ -24,7 +24,7 @@
 ### Wikipedia editor
 
 - Connect pages on different Wikipedias, showing interwiki links on the connected pages.
-- Store infomation relating to article quality in a central place, for use in interwiki links on the Articles.
+- Store information relating to article quality in a central place, for use in interwiki links on the Articles.
 - Have data updates which cause pages changes to be shown in RecentChanges.
 - Have data updates which cause pages changes to be shown in Watchlists, when the page being changed is watched.
 - Update Wikidata’s data used on Wikipedia when it is incorrect or outdated via web interface.
