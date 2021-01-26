@@ -249,6 +249,22 @@ Data Bridge is a frontend component enabling Repo edits on the Client via the Re
 | TrimmingWritingRepository             | A WritingEntityRepository that compares the old and new entity data and sends parts that changed to an underlying ApiWritingRepository |
 | SpecialPageReadingEntityRepository    | A repository for reading the latest revision of an entity                                                                              |
 
+#### Presentation
+
+![Data Bridge Presentation](./diagrams/05-databridge-presentation.drawio.svg)
+
+| Building Block            | Responsibility                                                                                                                |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| UI Components             | All presentational components that construct Data Bridge's modal and its contents                                             |
+| Plugins and Utilities     | Logic which is common for several components, e.g. representing messages from mw's i18n mechanism                             |
+| Error Components          | Front end components that represent an error which occurred in Data Bridge                                                    |
+| Call To Action Components | Front end components that require an action from the user                                                                     |
+| Base components           | Purely presentational components, e.g. a button. Those components will be replaced by Design System components in the future. |
+| Messages                  | A wrapper around MediaWiki's i18n mechanism                                                                                   |
+| ClientRouter              | Format page urls for client                                                                                                   |
+| RepoRouter                | Format page urls for repo                                                                                                     |
+| BridgeConfig              | Configuration needed in some UI components, e.g. the link for reporting issues with data bridge                               |
+
 ## Special Pages
 
 ![Special Pages Building Block Diagram](./diagrams/05-special-pages.drawio.svg)
