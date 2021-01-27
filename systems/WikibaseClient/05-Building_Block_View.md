@@ -173,6 +173,8 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 | SubscriptionManager                                 | Persists infomation about pages being "subscribed" to updates for an Entity                            |
 | UsageTracker                                        | Persists infomation about the EntityUsages of a page                                                   |
 | UsageAspectTransformer                              | Transforms usage aspect based on a filter of aspects relevant in some context.                         |
+| populateEntityUsage                                 | Maintenance script for populating wbc_entity_usage based on the page_props table.                      |
+| updateSubscriptions                                 | Maintenance script for inserting subscriptions into wb_changes_subscription based on wbc_entity_usage. |
 
 ## Linked Site Page Changes
 
