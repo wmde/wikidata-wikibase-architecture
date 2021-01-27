@@ -58,7 +58,7 @@ Special pages are dynamically created MediaWiki pages, which perform a specific 
 
 ## Gadgets
 
-Gadgets are [tools](#tools) which can be enabled from you Wikidata's account preferences.
+[Gadgets](https://www.mediawiki.org/wiki/Extension:Gadgets) are made up of JavaScript and/or CSS Snippets located on pages in the MediaWiki namespace. These snippets add functionality to the wiki itself and can be enabled and disabled via preferences.
 
 ## [Tools](https://www.wikidata.org/wiki/Wikidata:Tools)
 
