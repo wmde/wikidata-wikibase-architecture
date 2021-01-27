@@ -75,6 +75,10 @@
 | [ParserFunctions](#parserfunctions)  | MediaWiki parser function binding for entity data access                                      |
 | [Scribunto](#scribunto)              | Scribunto extension binding for entity data access                                            |
 
+::: tip
+You can see the interactions of components related to Entity Data Access in [the runtime view diagrams](./06-Runtime_View.md#entity-data-access).
+:::
+
 ### Shared (Entity Data Access)
 
 ![Entity Data Access Shared](./diagrams/05-entitydataaccess-shared.drawio.svg)
@@ -122,6 +126,10 @@
 | [ChangeModifications](#change-modifications) | Receive and handle changes to the history of Repository Entities          |
 | [RecentChanges](#recent-changes)             | Represent changes to Repository Entities in a Client RecentChanges system |
 | [Usage](#usage)                              | Tracking the usage of Repository Entities on a Client                     |
+
+::: tip
+You can see the interactions of components related to Entity Change Notifications in [the runtime view diagrams](./06-Runtime_View.md#entity-change-notifications).
+:::
 
 ### Changes
 
@@ -197,6 +205,10 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 | UpdateRepoOnDelete | Update the repo after page deletes in the client                        |
 | UpdateRepoOnMove   | Update the repo after page moves in the client                          |
 
+::: tip
+You can see the interactions of components related to Linked Site Page Changes in [the runtime view diagrams](./06-Runtime_View.md#updaterepohookhandler).
+:::
+
 ## Client Side Item Edits
 
 ### Data Bridge
@@ -213,6 +225,10 @@ Data Bridge is a frontend component enabling Repo edits on the Client via the Re
 | MediaWiki      | Logic that has to do with Data Bridge attaching itself in the right places on the wiki article       |
 | ChangeOp       | Strategies for applying changes (update or replace) to the entity                                    |
 | Tracking       | Tracking data bridge usage and errors                                                                |
+
+::: tip
+You can see the interactions of components related to Data Bridge in [the runtime view diagrams](./06-Runtime_View.md#data-bridge).
+:::
 
 #### ChangeOp
 
