@@ -8,6 +8,7 @@
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                     |
 | [Entity Data Access](#entity-data-access)                   | Access Entities from a Repository                                                |
+| [Usage Tracking](#usage)                                    | Tracking the usage of Repository Entities on a Client                            |
 | [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository                 |
 | [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to pages that are linked to Repository Items      |
 | [Client Side Item Edits](#client-side-item-edits)           | Edit Item Data on the Repository                                                 |
@@ -154,7 +155,11 @@
 | ChangeLineFormatter    | Formats and ExternalChange as HTML                                                 |
 | SiteLinkCommentCreator | Deals with creating comment infomation relating to SiteLink changes                |
 
-### Usage
+## Usage
+
+<!---
+This has become quite a big building block. It can likely be split up further, possibly splitting out "subscription" related components and/or dividing it into read and write components?
+-->
 
 ![](./diagrams/05-entitychangenotifications-usage.drawio.svg)
 
@@ -162,20 +167,23 @@
 UsageAspectTransformer is only used outside of this block and perhaps shouldn't live here
 :::
 
-| Building Block                                      | Responsibility                                                                                         |
-| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| UsageLookup                                         | Find EntityUsages for pages                                                                            |
-| EntityUsage                                         | Data object representing the usage of an Entity (but not identifying where it is used)                 |
-| PageEntityUsages                                    | Data object associating a EntityUsage with a Page ID                                                   |
-| UsageAccumulator                                    | Interface allowing accumulation of usage tracking information for a given page                         |
-| UsageTrackingSnakFormatter                          | SnakFormatter implementation that will accumulate usage in a UsageAccumulator                          |
-| UsageTrackingLanguageFallbackLabelDescriptionLookup | LanguageFallbackLabelDescriptionLookup implementation that will accumulate usage in a UsageAccumulator |
-| UsageDeduplicator                                   | De-duplicates entity usage listsfor performance and storage reasons                                    |
-| SubscriptionManager                                 | Persists infomation about pages being "subscribed" to updates for an Entity                            |
-| UsageTracker                                        | Persists infomation about the EntityUsages of a page                                                   |
-| UsageAspectTransformer                              | Transforms usage aspect based on a filter of aspects relevant in some context.                         |
-| populateEntityUsage                                 | Maintenance script for populating wbc_entity_usage based on the page_props table.                      |
-| updateSubscriptions                                 | Maintenance script for inserting subscriptions into wb_changes_subscription based on wbc_entity_usage. |
+| Building Block                                      | Responsibility                                                                                                               |
+| --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| UsageLookup                                         | Find EntityUsages for pages                                                                                                  |
+| EntityUsage                                         | Data object representing the usage of an Entity (but not identifying where it is used)                                       |
+| PageEntityUsages                                    | Data object associating a EntityUsage with a Page ID                                                                         |
+| UsageAccumulator                                    | Interface allowing accumulation of usage tracking information for a given page                                               |
+| UsageTrackingSnakFormatter                          | SnakFormatter implementation that will accumulate usage in a UsageAccumulator                                                |
+| UsageTrackingLanguageFallbackLabelDescriptionLookup | LanguageFallbackLabelDescriptionLookup implementation that will accumulate usage in a UsageAccumulator                       |
+| UsageDeduplicator                                   | De-duplicates entity usage listsfor performance and storage reasons                                                          |
+| SubscriptionManager                                 | Persists infomation about pages being "subscribed" to updates for an Entity                                                  |
+| UsageTracker                                        | Persists infomation about the EntityUsages of a page                                                                         |
+| UsageAspectTransformer                              | Transforms usage aspect based on a filter of aspects relevant in some context.                                               |
+| BulkSubscriptionUpdater                             | Bulk inserts for subscriptions into wb_changes_subscription based on wbc_entity_usage.                                       |
+| AddUsagesForPageJob                                 | Job for scheduled invocation of UsageUpdater which is triggered by a MediaWiki hook related to Wikitext-based content edits. |
+| UsageUpdater                                        | Service for updating usage tracking and associated change subscription information.                                          |
+| populateEntityUsage                                 | Maintenance script for populating wbc_entity_usage based on the page_props table.                                            |
+| updateSubscriptions                                 | Maintenance script for inserting subscriptions into wb_changes_subscription based on wbc_entity_usage.                       |
 
 ## Linked Site Page Changes
 
@@ -191,7 +199,7 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 
 ### Data Bridge
 
-Data Bridge is a frontend component enabling Repo edits on the Client via the Repo API. 
+Data Bridge is a frontend component enabling Repo edits on the Client via the Repo API.
 
 ![Data Bridge](./diagrams/05-databridge.drawio.svg)
 

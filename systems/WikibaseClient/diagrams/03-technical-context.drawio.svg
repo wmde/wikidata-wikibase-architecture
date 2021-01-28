@@ -1,203 +1,273 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="779px" height="394px" viewBox="-0.5 -0.5 779 394" content="&lt;mxfile host=&quot;f53873c5-ee76-4b31-8c6c-3936dbc67fe2&quot; modified=&quot;2021-01-26T16:46:48.081Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) VSCodium/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;Zl4DfBmTuptCRF8ujyBB&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;ZZAaw9F9bndAv2IfB5-a&quot; name=&quot;Page-1&quot;&gt;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&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="901px" height="394px" viewBox="-0.5 -0.5 901 394" content="&lt;mxfile host=&quot;d1fd0e7f-7655-414c-a54d-841ecf6f8320&quot; modified=&quot;2021-02-01T14:00:31.442Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;eh4gvpLTyZC0pj_CqK4C&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;ZZAaw9F9bndAv2IfB5-a&quot; name=&quot;Page-1&quot;&gt;7Vxbc5s4FP41mek+hAHE9THOpc1Mu5PZtNPuIzayrQYjL8hNsr9+JZBsdHFCbCAk2/ShIEDG5xx937nJJ+B89fCxSNbLLziF2Ylrpw8n4OLEdZ3Q8eh/bOSRjzh+VI8sCpTysd3ALfoX8kGbj25QCkvpRoJxRtBaHpzhPIczIo0lRYHv5dvmOJM/dZ0soDZwO0syffQ7SsmSj/q2vbvwCaLFkqhXVom4mw+UyyTF940hcHkCzguMSX20ejiHGROfEEz93NWeq9s3K2BO2jzgc138SrIN/3ZfYIqS7+gO8Tckj+J7F3iTp5A9aZ+AyfbVHXoyxznhinJsfn6OM1xUTwK7+mMPkQLfQXElxzl9YpKigqoJ4ZwO3cOSsOdRljWen5yxf3T8FywIopo4y9CC3U7wmo7q35oLgt0OHxpDXAofIV5BUjzSW/jVQGiEGyUI+Pn9TsMB4GPLhnJdnw8m3KoW27l3cqcHXPRmNbiaFpgCpkkJ6ehfcI3HqIsepB6ELaUedSB0J9akrokZ5ukZQwx6Ns3w7O7rEuWa6JpCfZnwBXwwtdGPukLsZfkZ/TY/uHqrk7/ZieWL04uH5sWLR3H2gMiPxnH9FFD++MXdHOykOcUNLBAVKCyEgZGkIGZJ0AuN995rFCXeFDMu1YCjDn12Afltvl+PwVQCX910GqbhGyxDjBUwSwj6JUO2yVz4J9xgRN94a5l+IFum5ykWV38f/lQTYZWJAl8xcXWiWgjaRJX1br92OxTRYYROCotkRspKcFRubpCsGGTm03JdGw8iTKppQpITl35EkLE1Py3o0YIdrRKUZ+wOsqSYs1hWEzFyoFRKoTijRKw98+EeTukN367/0BcUVe/nZEpdAjBZkpUwm4Tj+QzmldFpQL9CacrmmBSwRP8m02o+ZplrJrhKlP7kxL8wm2AsOQT86R0Ltwcs23JBFEgKPXU6MTjgK7PGFrXBxp8rz4jn8xIebTGOZjGCeM4zBLlFHsg7GkhG7hQEQSuSSX0YpV5HJAPkFbj1xpok4xigxLG7oPb4GRnigizxAudJ9hkzb6aS5U9IyCMXZrIhWF4te1hJYRDBBDVnCC54Evpbobfn6+jtBS3R+8hV4jheLMOp7VqRsjTaQrM+WahP1h08Ax2ebxGBGcrvGDYtk3xhBNOfmIHpPxu4gSPBU2HT2hrcB7FP4altg04A1LFcT4bQ0IqjHkATeH2saOHu7Tw87vB57nMu3w4NuBO/A4IX+W4mn5R+kOoL9gcswAAs3jDAEoUKScTAEm7qS3ElojAis3no6bN1CCy+BiyXsl+nYUrNwPT6xYS90mwGy3Ik4CKWVxfOmuO5YR/Omm3F0p8gDfEpsRUp2u4GeV7Nl9gDT85z0NQbVIi8XxMq3IF8EFdxKAPbOdwHUScLfTpZw/FXXq871BBx6H7UsDdremD0SZaErEcDGF1Gd2/OG/H0EO6i1t6kQGwldBnBpcE08NtFcPP53J3NuongHEdJovjhbsU1oriQi1zKz+pr85AwToBLQ8xnN9fvUrimJGyfkgWaZD9vqP1e3SRFSdHCteebvBbHO5B2ZLJkp+FKDCp6vfpTFxsqt7BDYcdBCJJ2woZO6sOwH2EPbdm6X/6tYlQm5FPKpfTrVvL6hPHdpySnFFi8Bxt37NeH6+AJ0b9LGQ9s277uPZ5XGax3ZMfxmLDa1/28rbsOU0QacLKkcFK+RwUMbePuM0IcOtzeBdgvCbdFMeCIcNs3hNtCN32H23GsGEFwYCU2jmIrdOS57FjO5Mgzdxds+7qTW8Pln5igOQ2Fa//2DeT+xaIYVe7fthxH0mMUSXqOrF7Kp77u4N0kVRHH3hba62MBzay6SsXGXn0Bc1hQjyRtXKYSJF1XXV8Luz152YJYx+7YgN1BR9gdvBZ2H5DyPDS92g67TeVaMBB2K0bghbbV7GlQJmyN5Mq0vhdYIOgNu0NtlZMCLRawYGt31xejgndjrVMVlShfGACeWhC9XOARFWDE0hkVwp8qafJTF8i+eBz2AfDRbw9Q9vYOatk7FkUcxQNUuz9b44Y6kQ2sAAzh/umtptvaik0DZh0Y1puiciRGAQjRGAFB0SV1AUPJBfR7wAMRevz2KoxexVB4oHSNe4GSlzmwbyOM5GhQjiH8yJj96R4sAj3Tw1tt6eAKU7G5VynMoDlkNCd/XgU3xGoZFW64jhWD/Vo+dT3LjvruuxW9QM30dGlImtJIb80ON6vsbEZwU0OVNm9wiXhEN8WE4JVBhfUWmYbS8YZkKKchotgd9eSif0FKGig+mmdotHVNIV8HbbaBHorri+D1N3NY7mH9M62dOdPmjVaAbtqTIXoLRrInw/HUTRnq3qvWXTd2rM1kUe+w/66bQC9Msew98wOvCVxVBkv9whVk6Dr6jRVi1Y15Y4XvW0DO+rJWnCbC20rqoBOIDyNN0Uad3fLTned4uRudHO1dtlv74RFrv7V6WkO5nm+5XcMZSthNPL/69vOjek+TI+fGhFUOU+sK2pjr6/OnlAsxbmt88d5IEVA9EUQdRqiGRSVIdjSEGqqR1KGEyhC8abxy/3sVO7l7feoO6VVPtGy3OG5Ktq+fhlCwao9E+RwXq32Ft7ERbTR+oj0NXSvw9GrqNkETRc2LoI8EjbDn99emGag1D3NPVWRAi44oItTzEhPMvFT6pP0V44wffkzoCiE6Sb+pYHa7SVSIOwCarE0/TNBFLBvqMcIIuXh7chQXi2i2Xy4ODdWLcFzB7baoIWoTomXkpVTsAZmJPWUrWugNQ8Wh7sZvqfgD42BKrfu2p41pe4lYjWOmXgdYCtvSD5O5uA+2jXS2/cadrK9FMrurSt5vn3pDPVIbkncj5xkh9l10ejFGD1l0EoLvfYOwmjF0Oio6KfP6YKAykzDNXtpaxte3GO1b9v+/rpZIrz5dM5HfH/mjbx3itUFLGjbsD5Va4LXJk+sKr/VSVEO8Nvu9j7FkMDsVszcwLbaIkg7jyZF2aCkM9yxbRoaKXm2b3ZOjUph7plei/Q9pyLHLc40eHZKjHrys8XqT1S1bT/BZ9yTWmrAUvguGIjG1oSKWlWZbnvHyMZRGT3e/kVrfvvutWXD5Hw==&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
-        <rect x="173" y="0" width="490" height="250" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,418,125)" opacity="0.25"/>
-        <rect x="173" y="0" width="490" height="250" fill="#bababa" stroke="none" transform="rotate(180,418,125)" pointer-events="all"/>
+        <rect x="160" y="0" width="630" height="250" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,475,125)" opacity="0.25"/>
+        <rect x="160" y="0" width="630" height="250" fill="#bababa" stroke="none" transform="rotate(180,475,125)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="417.5" y="15.5">
+            <text x="474.5" y="15.5">
                 MediaWiki
             </text>
         </g>
-        <rect x="173" y="310" width="480" height="80" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,413,350)" opacity="0.25"/>
-        <rect x="173" y="310" width="480" height="80" fill="#bababa" stroke="none" transform="rotate(180,413,350)" pointer-events="all"/>
+        <rect x="160" y="310" width="630" height="80" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,475,350)" opacity="0.25"/>
+        <rect x="160" y="310" width="630" height="80" fill="#bababa" stroke="none" transform="rotate(180,475,350)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="412.5" y="353.5">
+            <text x="474.5" y="353.5">
                 Wikibase Repo
             </text>
         </g>
-        <path d="M 734.88 60.03 L 501.12 60.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 741.88 60 L 734.89 62.36 L 734.87 57.7 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <path d="M 494.12 60.91 L 501.11 58.55 L 501.13 63.21 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="557" y="22" width="133" height="40" stroke-width="0"/>
-            <text x="623" y="31.5">
-                interacts with entity data,
-            </text>
-            <text x="623" y="44.5">
-                mainly through wiki articles
-            </text>
-            <text x="623" y="57.5">
-                (web UI)
-            </text>
-        </g>
-        <rect x="183" y="140" width="470" height="100" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,418,190)" opacity="0.25"/>
-        <rect x="183" y="140" width="470" height="100" fill="#d5e8d4" stroke="#82b366" transform="rotate(180,418,190)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="417.5" y="193.5">
-                WikibaseClient
-            </text>
-        </g>
-        <path d="M 503 233.64 L 503 301.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 503 308.88 L 500.67 301.88 L 505.33 301.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="464" y="260" width="82" height="27" stroke-width="0"/>
-            <text x="504.24" y="269.66">
-                Sitelink changes
-            </text>
-            <text x="504.24" y="282.66">
-                (job queue)
-            </text>
-        </g>
-        <path d="M 303 241.76 L 303 319.99" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 303 234.76 L 305.33 241.76 L 300.67 241.76 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="258" y="261" width="92" height="27" stroke-width="0"/>
-            <text x="303" y="270.8">
-                Entity data
-            </text>
-            <text x="303" y="283.8">
-                (direct DB access)
-            </text>
-        </g>
-        <path d="M 603 233.64 L 603 301.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 603 308.88 L 600.67 301.88 L 605.33 301.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="557" y="260" width="96" height="27" stroke-width="0"/>
-            <text x="604.24" y="269.66">
-                Entity data updates
-            </text>
-            <text x="604.24" y="282.66">
-                (https)
-            </text>
-        </g>
-        <rect x="563" y="211.82" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,603,222.73)" opacity="0.25"/>
-        <rect x="563" y="211.82" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,603,222.73)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="602.5" y="226.23">
-                Data Bridge
-            </text>
-        </g>
-        <rect x="563" y="310" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,603,320.91)" opacity="0.25"/>
-        <rect x="563" y="310" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,603,320.91)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="602.5" y="324.41">
-                API
-            </text>
-        </g>
-        <rect x="263" y="211.82" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,303,222.73)" opacity="0.25"/>
-        <rect x="263" y="211.82" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,303,222.73)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="302.5" y="226.23">
-                Lua/Parser function
-            </text>
-        </g>
-        <rect x="263" y="310" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,303,320.91)" opacity="0.25"/>
-        <rect x="263" y="310" width="80" height="21.82" fill="#e1d5e7" stroke="#9673a6" transform="rotate(180,303,320.91)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="302.5" y="324.41">
-                Repo DB
-            </text>
-        </g>
-        <rect x="463" y="211.82" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,503,222.73)" opacity="0.25"/>
-        <rect x="463" y="211.82" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,503,222.73)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="502.5" y="220.23">
-                UpdateRepo-
-            </text>
-            <text x="502.5" y="232.23">
-                HookHandler
-            </text>
-        </g>
-        <rect x="463" y="310" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,503,320.91)" opacity="0.25"/>
-        <rect x="463" y="310" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,503,320.91)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="502.5" y="324.41">
-                UpdateRepo
-            </text>
-        </g>
-        <rect x="363" y="211.82" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,403,222.73)" opacity="0.25"/>
-        <rect x="363" y="211.82" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,403,222.73)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="402.5" y="226.23">
-                ChangeHandler
-            </text>
-        </g>
-        <rect x="363" y="310" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,403,320.91)" opacity="0.25"/>
-        <rect x="363" y="310" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,403,320.91)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="402.5" y="318.41">
-                Entity edit
-            </text>
-            <text x="402.5" y="330.41">
-                hooks
-            </text>
-        </g>
-        <path d="M 403 310 L 403 241.76" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 403 234.76 L 405.33 241.76 L 400.67 241.76 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="357" y="260" width="95" height="27" stroke-width="0"/>
-            <text x="403.12" y="270.02">
-                ChangeNotification
-            </text>
-            <text x="403.12" y="283.02">
-                (job queue)
-            </text>
-        </g>
-        <rect x="393" y="30" width="100" height="61.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,443,60.91)" opacity="0.25"/>
-        <rect x="393" y="30" width="100" height="61.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,443,60.91)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="442.5" y="52.41">
-                Pages &amp;
-            </text>
-            <text x="442.5" y="64.41">
-                Wikitext generated
-            </text>
-            <text x="442.5" y="76.41">
-                content
-            </text>
-        </g>
-        <path d="M 393 91.82 L 307.87 205.33" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 303.67 210.93 L 306 203.93 L 309.74 206.73 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="291" y="152" width="86" height="40" stroke-width="0"/>
-            <text x="333" y="162.41">
-                triggered through
-            </text>
-            <text x="333" y="175.41">
-                Wikitext parsing
-            </text>
-            <text x="333" y="188.41">
-                (in process)
-            </text>
-        </g>
-        <path d="M 403 211.82 L 416.99 99.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 417.86 92.93 L 419.31 100.16 L 414.68 99.59 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="383" y="128" width="63" height="27" stroke-width="0"/>
-            <text x="413.99" y="137.82">
-                updates and
-            </text>
-            <text x="413.99" y="150.82">
-                purges
-            </text>
-        </g>
-        <path d="M 468 91.82 L 500.73 204.03" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 502.69 210.75 L 498.49 204.68 L 502.97 203.37 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="460" y="128" width="103" height="27" stroke-width="0"/>
-            <text x="510.94" y="137.74">
-                article move/deletion
-            </text>
-            <text x="510.94" y="150.74">
-                hooks
-            </text>
-        </g>
-        <ellipse cx="758" cy="47.5" rx="7.5" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
-        <path d="M 758 55 L 758 80 M 758 60 L 743 60 M 758 60 L 773 60 M 758 80 L 743 100 M 758 80 L 773 100" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 861.88 60.02 L 582.12 60.89" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 868.88 60 L 861.89 62.36 L 861.87 57.69 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 575.12 60.91 L 582.11 58.55 L 582.13 63.22 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 107px; margin-left: 758px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 41px; margin-left: 722px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                interacts with entity data,
+                                <br/>
+                                mainly through wiki articles
+                                <br/>
+                                (web UI)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="722" y="44" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    interacts with entity data,...
+                </text>
+            </switch>
+        </g>
+        <rect x="170" y="140" width="610" height="100" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,475,190)" opacity="0.25"/>
+        <rect x="170" y="140" width="610" height="100" fill="#d5e8d4" stroke="#82b366" transform="rotate(180,475,190)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="474.5" y="193.5">
+                WikibaseClient
+            </text>
+        </g>
+        <path d="M 627 233.64 L 627 301.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 627 308.88 L 624.67 301.88 L 629.33 301.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 272px; margin-left: 629px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                Sitelink changes
+                                <br/>
+                                (job queue)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="629" y="275" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Sitelink changes...
+                </text>
+            </switch>
+        </g>
+        <path d="M 427 241.76 L 427 319.99" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 427 234.76 L 429.33 241.76 L 424.67 241.76 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 273px; margin-left: 428px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                Entity data
+                                <br/>
+                                (direct DB access)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="428" y="277" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Entity data...
+                </text>
+            </switch>
+        </g>
+        <path d="M 727 233.64 L 727 301.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 727 308.88 L 724.67 301.88 L 729.33 301.88 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 272px; margin-left: 729px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                Entity data updates
+                                <br/>
+                                (https)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="729" y="275" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    Entity data updates...
+                </text>
+            </switch>
+        </g>
+        <rect x="690" y="211.82" width="74" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,727,222.73)" opacity="0.25"/>
+        <rect x="690" y="211.82" width="74" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,727,222.73)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="726.5" y="226.23">
+                Data Bridge
+            </text>
+        </g>
+        <rect x="690" y="310" width="74" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,727,320.91)" opacity="0.25"/>
+        <rect x="690" y="310" width="74" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,727,320.91)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="726.5" y="324.41">
+                API
+            </text>
+        </g>
+        <rect x="390" y="211.82" width="74" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,427,222.73)" opacity="0.25"/>
+        <rect x="390" y="211.82" width="74" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,427,222.73)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="426.5" y="226.23">
+                Lua/Parser function
+            </text>
+        </g>
+        <rect x="390" y="310" width="74" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,427,320.91)" opacity="0.25"/>
+        <rect x="390" y="310" width="74" height="21.82" fill="#e1d5e7" stroke="#9673a6" transform="rotate(180,427,320.91)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="426.5" y="324.41">
+                Repo DB
+            </text>
+        </g>
+        <rect x="590" y="211.82" width="74" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,627,222.73)" opacity="0.25"/>
+        <rect x="590" y="211.82" width="74" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,627,222.73)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="626.5" y="220.23">
+                UpdateRepo-
+            </text>
+            <text x="626.5" y="232.23">
+                HookHandler
+            </text>
+        </g>
+        <rect x="590" y="310" width="74" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,627,320.91)" opacity="0.25"/>
+        <rect x="590" y="310" width="74" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,627,320.91)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="626.5" y="324.41">
+                UpdateRepo
+            </text>
+        </g>
+        <rect x="490" y="211.82" width="74" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,527,222.73)" opacity="0.25"/>
+        <rect x="490" y="211.82" width="74" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,527,222.73)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="526.5" y="226.23">
+                ChangeHandler
+            </text>
+        </g>
+        <rect x="490" y="310" width="74" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,527,320.91)" opacity="0.25"/>
+        <rect x="490" y="310" width="74" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,527,320.91)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="526.5" y="318.41">
+                Entity edit
+            </text>
+            <text x="526.5" y="330.41">
+                hooks
+            </text>
+        </g>
+        <path d="M 527 310 L 527 241.76" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 527 234.76 L 529.33 241.76 L 524.67 241.76 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 273px; margin-left: 528px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                ChangeNotification
+                                <br/>
+                                (job queue)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="528" y="276" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    ChangeNotification...
+                </text>
+            </switch>
+        </g>
+        <rect x="480" y="30" width="94" height="61.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,527,60.91)" opacity="0.25"/>
+        <rect x="480" y="30" width="94" height="61.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,527,60.91)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="526.5" y="52.41">
+                Pages &amp;
+            </text>
+            <text x="526.5" y="64.41">
+                Wikitext generated
+            </text>
+            <text x="526.5" y="76.41">
+                content
+            </text>
+        </g>
+        <path d="M 527 91.82 L 432.2 205.58" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 427.72 210.96 L 430.4 204.09 L 433.99 207.08 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 141px; margin-left: 437px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                triggered through
+                                <br/>
+                                Wikitext parsing
+                                <br/>
+                                (in process)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="437" y="144" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    triggered through...
+                </text>
+            </switch>
+        </g>
+        <path d="M 527 211.82 L 527 99.94" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 527 92.94 L 529.33 99.94 L 524.67 99.94 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 141px; margin-left: 518px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                updates and
+                                <br/>
+                                purges
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="518" y="144" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    updates and...
+                </text>
+            </switch>
+        </g>
+        <path d="M 527 91.82 L 621.8 205.58" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 626.28 210.96 L 620.01 207.08 L 623.6 204.09 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 140px; margin-left: 610px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                article move/deletion
+                                <br/>
+                                hooks
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="610" y="144" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    article move/deletion...
+                </text>
+            </switch>
+        </g>
+        <ellipse cx="882" cy="47.5" rx="6" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <path d="M 882 55 L 882 80 M 882 60 L 870 60 M 882 60 L 894 60 M 882 80 L 870 100 M 882 80 L 894 100" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 107px; margin-left: 882px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
                                 User
@@ -205,60 +275,91 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="758" y="119" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                <text x="882" y="119" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
                     User
                 </text>
             </switch>
         </g>
-        <path d="M 743 100 L 628.94 206.29" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 623.82 211.06 L 627.35 204.58 L 630.53 207.99 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="671" y="149" width="107" height="27" stroke-width="0"/>
-            <text x="723" y="158.91">
-                edits Item statements
-            </text>
-            <text x="723" y="171.91">
-                (web UI)
-            </text>
-        </g>
-        <rect x="563" y="150" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,603,160.91)" opacity="0.25"/>
-        <rect x="563" y="150" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,603,160.91)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="602.5" y="164.41">
-                Special Pages
-            </text>
-        </g>
-        <path d="M 643 160.91 L 737.29 65.77" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 742.21 60.79 L 738.94 67.41 L 735.63 64.12 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="561" y="88" width="146" height="27" stroke-width="0"/>
-            <text x="633" y="98">
-                entity usage meta information
-            </text>
-            <text x="633" y="111">
-                (web UI)
-            </text>
-        </g>
-        <rect x="190" y="210" width="40" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,210,220.91)" opacity="0.25"/>
-        <rect x="190" y="210" width="40" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,210,220.91)" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="209.5" y="224.41">
-                API
-            </text>
-        </g>
-        <ellipse cx="55" cy="207.5" rx="7.5" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
-        <path d="M 55 215 L 55 240 M 55 220 L 40 220 M 55 220 L 70 220 M 55 240 L 40 260 M 55 240 L 70 260" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="12px">
-            <text x="54.5" y="277.5">
-                Bots, Tools, Gadgets
-            </text>
-        </g>
-        <path d="M 190 220.91 L 78.12 220.06" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 71.12 220.01 L 78.14 217.73 L 78.1 222.39 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 870 100 L 751.54 206.4" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 746.33 211.07 L 749.98 204.66 L 753.1 208.13 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 240px; margin-left: 130px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 161px; margin-left: 848px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                edits Item statements
+                                <br/>
+                                (web UI)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="848" y="165" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    edits Item statements...
+                </text>
+            </switch>
+        </g>
+        <path d="M 727 171.82 L 727 205.45" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 727 210.7 L 723.5 203.7 L 727 205.45 L 730.5 203.7 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="690" y="150" width="74" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,727,160.91)" opacity="0.25"/>
+        <rect x="690" y="150" width="74" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,727,160.91)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="726.5" y="164.41">
+                Special Pages
+            </text>
+        </g>
+        <path d="M 764 160.91 L 864.12 65.6" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 869.19 60.77 L 865.73 67.29 L 862.51 63.91 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 100px; margin-left: 758px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                entity usage meta information
+                                <br/>
+                                (web UI)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="758" y="104" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    entity usage meta information...
+                </text>
+            </switch>
+        </g>
+        <rect x="180" y="211.82" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,220,222.73)" opacity="0.25"/>
+        <rect x="180" y="211.82" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,220,222.73)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="219.5" y="226.23">
+                API
+            </text>
+        </g>
+        <ellipse cx="55" cy="210.5" rx="7.5" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <path d="M 55 218 L 55 243 M 55 223 L 40 223 M 55 223 L 70 223 M 55 243 L 40 263 M 55 243 L 70 263" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 270px; margin-left: 55px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
+                                Bots, Tools, Gadgets
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="55" y="282" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Bots,...
+                </text>
+            </switch>
+        </g>
+        <path d="M 180 222.73 L 78.12 222.98" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 71.12 223 L 78.11 220.65 L 78.12 225.31 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 243px; margin-left: 126px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
                                 entity (meta) data
@@ -268,30 +369,59 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="130" y="244" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                <text x="126" y="246" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
                     entity (meta) data...
                 </text>
             </switch>
         </g>
-        <rect x="203" y="160" width="50" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,228,170.91)" opacity="0.25"/>
-        <rect x="203" y="160" width="50" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,228,170.91)" pointer-events="all"/>
+        <rect x="290" y="150" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,330,160.91)" opacity="0.25"/>
+        <rect x="290" y="150" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,330,160.91)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="227.5" y="174.41">
+            <text x="329.5" y="164.41">
+                Usage Tracking
+            </text>
+        </g>
+        <path d="M 480 60.91 L 336.98 145.85" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 330.96 149.43 L 335.79 143.85 L 338.17 147.86 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 91px; margin-left: 360px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
+                                triggered through
+                                <br/>
+                                Wikitext parsing
+                                <br/>
+                                (job queue)
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="360" y="95" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                    triggered through...
+                </text>
+            </switch>
+        </g>
+        <rect x="190" y="150" width="50" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,215,160.91)" opacity="0.25"/>
+        <rect x="190" y="150" width="50" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,215,160.91)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="214.5" y="164.41">
                 Interwiki
             </text>
         </g>
-        <rect x="283" y="50" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,323,60.91)" opacity="0.25"/>
-        <rect x="283" y="50" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,323,60.91)" pointer-events="all"/>
+        <rect x="190" y="50" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,230,60.91)" opacity="0.25"/>
+        <rect x="190" y="50" width="80" height="21.82" fill="#fff2cc" stroke="#d6b656" transform="rotate(180,230,60.91)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="322.5" y="64.41">
+            <text x="229.5" y="64.41">
                 Interwiki links
             </text>
         </g>
-        <path d="M 228 160 L 317.05 77.34" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 322.18 72.58 L 318.64 79.05 L 315.46 75.63 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 215 150 L 228.47 79.79" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 229.79 72.92 L 230.76 80.23 L 226.18 79.35 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
-            <rect fill="#ffffff" stroke="none" x="263" y="102" width="50" height="14" stroke-width="0"/>
-            <text x="287.11" y="111.88">
+            <rect fill="#ffffff" stroke="none" x="202" y="98" width="50" height="14" stroke-width="0"/>
+            <text x="225.98" y="107.8">
                 populates
             </text>
         </g>
