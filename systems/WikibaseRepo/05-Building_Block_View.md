@@ -1,5 +1,7 @@
 # Building Block View
 
+![Legend](../../diagrams/legend.drawio.svg)
+
 ## Whitebox Overall System
 
 TBA
