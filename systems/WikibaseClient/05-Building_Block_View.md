@@ -23,10 +23,10 @@
 
 ![Action API Description Building Block Diagram](./diagrams/05-api-description.drawio.svg)
 
-| Building Block    | Type/Context | Responsibility                                       |
-| ----------------- | ------------ | ---------------------------------------------------- |
-| DescriptionLookup | Lookups      | Lookup client descriptions from a variety of sources |
-| RepoLinker        | Response     | Creates links to Repo Entity concepts                |
+| Building Block    | Type/Context | Responsibility                                                                                 |
+| ----------------- | ------------ | ---------------------------------------------------------------------------------------------- |
+| DescriptionLookup | Lookups      | Lookup client [descriptions](../overview/12-Glossary.md#description) from a variety of sources |
+| RepoLinker        | Response     | Creates links to Repo Entity concepts                                                          |
 
 ### [Action API EntityUsage](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwbentityusage)
 
@@ -48,12 +48,12 @@
 
 ![Action API Page Terms Building Block Diagram](./diagrams/05-api-pageterms.drawio.svg)
 
-| Building Block  | Type/Context | Responsibility                        |
-| --------------- | ------------ | ------------------------------------- |
-| EntityIdLookup  | Lookups      | Lookup EntityIds from Titles          |
-| TermBuffer      | Lookups      | Lookup buffered Terms                 |
-| AliasTermBuffer | Lookups      | Lookup buffered Aliases               |
-| RepoLinker      | Response     | Creates links to Repo Entity concepts |
+| Building Block  | Type/Context | Responsibility                                              |
+| --------------- | ------------ | ----------------------------------------------------------- |
+| EntityIdLookup  | Lookups      | Lookup EntityIds from Titles                                |
+| TermBuffer      | Lookups      | Lookup buffered [Terms](../overview/12-Glossary.md#term)    |
+| AliasTermBuffer | Lookups      | Lookup buffered [Aliases](../overview/12-Glossary.md#alias) |
+| RepoLinker      | Response     | Creates links to Repo Entity concepts                       |
 
 ### Action API Format Reference
 
@@ -79,23 +79,23 @@
 
 ![Entity Data Access Shared](./diagrams/05-entitydataaccess-shared.drawio.svg)
 
-| Building Block                  | Responsibility                                                         |
-| ------------------------------- | ---------------------------------------------------------------------- |
-| SnakFormatter                   | Formats snaks in a client context                                      |
-| ReferenceFormatter              | Formats references in a client context                                 |
-| StatementTransclusionInteractor | Renders the main snaks associated with a given Property on an Entity   |
-| EntityTitleLookup               | Resolves a specific sitelink on a specific Item to a Title             |
-| PropertyIdResolver              | Resolved a PropertyId from input which could be a label or prefixed ID |
-| SnaksFinder                     | Find Snaks for claims in a given Entity, based on PropertyId           |
+| Building Block                  | Responsibility                                                                                             |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| SnakFormatter                   | Formats snaks in a client context                                                                          |
+| ReferenceFormatter              | Formats references in a client context                                                                     |
+| StatementTransclusionInteractor | Renders the main snaks associated with a given Property on an Entity                                       |
+| EntityTitleLookup               | Resolves a specific sitelink on a specific Item to a Title                                                 |
+| PropertyIdResolver              | Resolved a PropertyId from input which could be a [label](../overview/12-Glossary.md#label) or prefixed ID |
+| SnaksFinder                     | Find Snaks for claims in a given Entity, based on PropertyId                                               |
 
 ### ParserFunctions
 
 ![Entity Data Access Parser Functions](./diagrams/05-entitydataaccess-parserfunctions.drawio.svg)
 
-| Building Block         | Responsibility                                                          |
-| ---------------------- | ----------------------------------------------------------------------- |
-| Runner                 | Contains the methods called by MediaWiki when parser functions are used |
-| StatementGroupRenderer | Renderer for rendering a statement group                                |
+| Building Block         | Responsibility                                                             |
+| ---------------------- | -------------------------------------------------------------------------- |
+| Runner                 | Contains the methods called by MediaWiki when parser functions are used    |
+| StatementGroupRenderer | Renderer for rendering a [statement](../overview/12-Glossary.md#statement) group |
 
 ### Scribunto
 
@@ -220,7 +220,7 @@ Data Bridge is a frontend component enabling Repo edits on the Client via the Re
 
 | Building Block            | Responsibility                                                                     |
 | ------------------------- | ---------------------------------------------------------------------------------- |
-| ReplaceMutationStrategy   | Strategy for replacing a statement                                                 |
+| ReplaceMutationStrategy   | Strategy for replacing a [statement](../overview/12-Glossary.md#statement)         |
 | StatementMutationStrategy | Interface for a statement mutation strategy                                        |
 | UpdateMutationStrategy    | Strategy for updating a statement                                                  |
 | StatementMutationError    | Represents an error that can occur when mutating a statement                       |
@@ -251,7 +251,7 @@ Data Bridge is a frontend component enabling Repo edits on the Client via the Re
 | Repo API                              | Implementations of WikibaseRepo API requests                                                                                           |
 | Reading API                           | Implementations of WikibaseRepo API requests that have to do with reading from repo                                                    |
 | Writing API                           | Implementations of WikibaseRepo API requests that have to do with writing to repo                                                      |
-| ApiEntityLabelRepository              | A repository to get the label of specific entity in a specific language                                                                |
+| ApiEntityLabelRepository              | A repository to get the [label](../overview/12-Glossary.md#label) of specific entity in a specific language                            |
 | ApiPageEditPermissionErrorsRepository | A repository for determining potential permission errors when editing a page.                                                          |
 | ApiPropertyDataTypeRepository         | A repository to get the data type of a property                                                                                        |
 | ApiRenderReferencesRepository         | A repository to render reference JSON blobs into HTML strings                                                                          |
@@ -282,12 +282,12 @@ Data Bridge is a frontend component enabling Repo edits on the Client via the Re
 
 ![Special Pages Building Block Diagram](./diagrams/05-special-pages.drawio.svg)
 
-| Building Block                                           | Type/Context   | Responsibility                                                              |
-| -------------------------------------------------------- | -------------- | --------------------------------------------------------------------------- |
-| [Special Pages](../overview/12-Glossary.md#special-page) | WikibaseClient | Provide entity usage meta information                                       |
-| SpecialEntityUsage                                       | WikibaseClient | Lists client wiki pages that use a given entity ID and the aspects they use |
-| SpecialPagesWithBadges                                   | WikibaseClient | Shows a list of pages with a given badge                                    |
-| SpecialUnconnectedPages                                  | WikibaseClient | Lists client pages that are not connected to repository items               |
+| Building Block                                           | Type/Context   | Responsibility                                                               |
+| -------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------- |
+| [Special Pages](../overview/12-Glossary.md#special-page) | WikibaseClient | Provide entity usage meta information                                        |
+| SpecialEntityUsage                                       | WikibaseClient | Lists client wiki pages that use a given entity ID and the aspects they use  |
+| SpecialPagesWithBadges                                   | WikibaseClient | Shows a list of pages with a given [badge](../overview/12-Glossary.md#badge) |
+| SpecialUnconnectedPages                                  | WikibaseClient | Lists client pages that are not connected to repository items                |
 
 ## Interwiki
 

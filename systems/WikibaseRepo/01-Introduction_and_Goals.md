@@ -15,8 +15,8 @@
 - Programmatically add new structured data to a Repo.
 - Programmatically edit existing structured data on a Repo.
 - View existing structured entity data on a Repo on mobile web.
-- Edit labels, descriptions, aliases on Repo via a mobile web interface.
-- Have Statements about external identifiers separated from other Statements in the Repo UI.
+- Edit [Labels](../overview/12-Glossary.md#label), [Descriptions](../overview/12-Glossary.md#description), [Aliases](../overview/12-Glossary.md#alias) on Repo via a mobile web interface.
+- Have [Statements](../overview/12-Glossary.md#statement) about external identifiers separated from other Statements in the Repo UI.
 - Have Statements shown in a useful order.
 - Search on the Repo for an entity.
 - Ensure the coherence of data modeling in a certain topic.
@@ -24,7 +24,7 @@
 
 ### Wikidata editor
 
-- Edit terms and sitelinks of entities without using JavaScript in a browser.
+- Edit [Terms](../overview/12-Glossary.md#term) and sitelinks of entities without using JavaScript in a browser.
 
 ### Commons editor
 

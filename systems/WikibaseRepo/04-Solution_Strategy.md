@@ -2,7 +2,7 @@
 
 ## Developing Wikibase Repo as a MediaWiki extension
 
-One of the main requirements of Wikibase is to make data available to MediaWiki applications. This makes it a natural choice to deliver the client (= data consumer) functionality as a MediaWiki extension. (see [this section in WikibaseClient](../WikibaseClient/04-Solution_Strategy.md#developing-wikibase-client-as-a-mediawiki-extension)) The same is not necessarily the case for the Wikibase Repository, the subsystem that provides and maintains the structured data. WikibaseRepo could have been developed independently of MediaWiki, yet it was decided to use MediaWiki like a web framework and add the functionality to store and maintain structured data through the WikibaseRepo MediaWiki extension.
+One of the main requirements of Wikibase is to make data available to [MediaWiki](../overview/12-Glossary.md#mediawiki) applications. This makes it a natural choice to deliver the client (= data consumer) functionality as a MediaWiki extension. (see [this section in WikibaseClient](../WikibaseClient/04-Solution_Strategy.md#developing-wikibase-client-as-a-mediawiki-extension)) The same is not necessarily the case for the Wikibase Repository, the subsystem that provides and maintains the structured data. WikibaseRepo could have been developed independently of MediaWiki, yet it was decided to use MediaWiki like a web framework and add the functionality to store and maintain structured data through the WikibaseRepo MediaWiki extension.
 
 This came with the following benefits:
 
@@ -18,4 +18,4 @@ It also had negative consequences:
   - storing structured data in the same place Wikitext is stored
   - showing different content dependent on user settings (language)
 - binding to multiple extension points (Hooks, API actions, Special Pages, ResourceLoader, ...) of MediaWiki makes for a confusing control flow going back and forth between it and the code within the WikibaseRepo extension, where traditional web frameworks usually have one clearly defined entry and exit point
-- strong coupling to MediaWiki concepts (`Title`, `ParserOutput`, ...) slowing down development of features that aren't backed by MediaWiki (Termbox, Federated Properties)
+- strong coupling to MediaWiki concepts (`Title`, `ParserOutput`, ...) slowing down development of features that aren't backed by MediaWiki ([Termbox](../overview/12-Glossary.md#termbox), Federated Properties)

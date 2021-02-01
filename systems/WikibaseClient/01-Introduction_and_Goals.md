@@ -26,6 +26,6 @@
 - Connect pages on different Wikipedias, showing interwiki links on the connected pages.
 - Store information relating to article quality in a central place, for use in interwiki links on the Articles.
 - Have data updates which cause pages changes to be shown in RecentChanges.
-- Have data updates which cause pages changes to be shown in Watchlists, when the page being changed is watched.
+- Have data updates which cause pages changes to be shown in [Watchlists](../overview/12-Glossary.md#watchlist), when the page being changed is watched.
 - Update Wikidata’s data used on Wikipedia when it is incorrect or outdated via web interface.
 - Find wrong or missing data on a Wikipedia article and correct or add it to Wikidata.
