@@ -1,0 +1,22 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="245px" height="235px" viewBox="-0.5 -0.5 245 235" content="&lt;mxfile host=&quot;7b8005f0-4b96-43a8-babd-7d6902879992&quot; modified=&quot;2021-01-26T12:40:25.333Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) VSCodium/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;6csdHALpKOWvSHULuS3J&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;RgGjxlw4IWio5VHUM4_V&quot; name=&quot;Page-1&quot;&gt;rVZdj5swEPw1vJ4AB5o8JuRyrdRKla5S20cfLGDF8UaO83W/vnawAQOJrtJxD5cdr9fLzKyTgGS7y4uk+/oHFsCDOCwuAVkHcRyRaKH/GeTaIIto3gCVZIVN6oBX9g4WDC16ZAUcvESFyBXb+2COQkCuPIxKiWc/rUTun7qnFYyA15zyMfqbFapu0HkSdvhXYFXtTo5Cu7KjLtkCh5oWeO5B5DkgmURUzafdJQNuyHO8NPs2d1bbxiQI9aENs2bHifKjfTnbmLq6t5V4FAWYDVFAVm3HJihRKCtPlJiYcZ4hR6kBgQJMvpK4BQcGMQnDLNN8uBVHYGzLTWXejrENmWM5fQO+QlmAHJzWrNB8W926HqzWKNm7rkW5LXQCqZjWdclZJTT2hkrhTi9QC3AolWl1T3Mmqu+3aB2ZnsZMW/JNTbj0IMv8C+AOlLzqFLtKnC3sGMxcfO5MpcEGq/uGcvah1shVW7vTWn+wct+RPh1Jv8f9kVMF34QCeWZbNvJCX2CtUFmWcZ5PqVykb2mSTlmkp2X4GSTOBiSSMYlROkFi+gkctu0+GB8QxdLcOcZeHPPtr5oJ40W1cy6cGBHzDMgLpwbE5vmjZGrqUzeM8zbSL/bHMP6UuPDvTQAbrC9edLXRXX0OeJQ5+EaCwrs1x4r1FEkmBHGYBO1BdvLv2imV7Ak/kenuWkPMSOIZIpklfommd7urfzcOC0WLp0XvmXtlyZeBfxSVFahR2ZuFWhI+5ioyclVvIkPOxPbw4JYOH93Sj1xUMKm/LRmai0+TZLRaDQZ+c3smL++Ri1dL89e6aDTSE8a6P+Vzf8rjxXjK5xOemv//kOuw+/5t1Ot+xZDnfw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="1" y="110" width="240" height="120" rx="18" ry="18" fill="none" stroke="#000000" stroke-width="2" transform="translate(2,3)" opacity="0.25"/>
+        <rect x="1" y="110" width="240" height="120" rx="18" ry="18" fill="none" stroke="#00cc00" stroke-width="2" pointer-events="all"/>
+        <rect x="41" y="140" width="160" height="60" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="15px">
+            <text x="120.5" y="176">
+                populateInterwiki
+            </text>
+        </g>
+        <path d="M 121 140 L 121 88.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 121 81.12 L 123.33 88.12 L 118.67 88.12 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="81" y="0" width="80" height="80" fill="#000000" stroke="#000000" stroke-width="2" transform="translate(2,3)rotate(90,121,40)" opacity="0.25"/>
+        <rect x="81" y="0" width="80" height="80" fill="#ffffff" stroke="#bababa" stroke-width="2" transform="rotate(90,121,40)" pointer-events="all"/>
+        <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
+            <text x="120.5" y="43.5">
+                Interwiki links
+            </text>
+        </g>
+    </g>
+</svg>

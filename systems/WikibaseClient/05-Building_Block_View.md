@@ -12,6 +12,7 @@
 | [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to pages that are linked to Repository Items      |
 | [Client Side Item Edits](#client-side-item-edits)           | Edit Item Data on the Repository                                                 |
 | [Special Pages](#special-pages)                             | WikibaseClient specific [Special Pages](../overview/12-Glossary.md#special-page) |
+| [Interwiki](#interwiki)                                     | Client side interactions with Interwiki links                                    |
 
 ## APIs
 
@@ -277,3 +278,11 @@ Data Bridge is a frontend component enabling Repo edits on the Client via the Re
 | SpecialEntityUsage                                       | WikibaseClient | Lists client wiki pages that use a given entity ID and the aspects they use |
 | SpecialPagesWithBadges                                   | WikibaseClient | Shows a list of pages with a given badge                                    |
 | SpecialUnconnectedPages                                  | WikibaseClient | Lists client pages that are not connected to repository items               |
+
+## Interwiki
+
+![Interwiki Building Block Diagram](./diagrams/05-interwiki.drawio.svg)
+
+| Building Block    | Responsibility                                                                                        |
+| ----------------- | ----------------------------------------------------------------------------------------------------- |
+| populateInterwiki | Maintenance script that populates the interwiki table in the client's MediaWiki DB with list of sites |
