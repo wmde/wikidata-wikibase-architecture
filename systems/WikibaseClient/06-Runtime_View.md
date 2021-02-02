@@ -91,4 +91,37 @@ sequenceDiagram
     end
 ```
 
-...
+## Entity Data Access
+
+### Using data via LUA
+
+```mermaid
+sequenceDiagram
+    autonumber
+    User->>+Scribunto: Edit Scribunto Module to include Wikibase LUA code
+    User->>+Wikitext-generated content page: Edit Wikitext page to use Scribunto Module
+    User->>+Wikitext-generated content page: User requests page
+    Note right of Wikitext-generated content page: This is only one part of page rendering
+    Wikitext-generated content page->>+Scribunto: Parse LUA Modules
+    Scribunto->>+Entity Data Access: Parse Wikibase LUA Functions
+    Entity Data Access->>+WikibaseRepo: Get Entity Data
+    WikibaseRepo-->>Entity Data Access: Entity Data
+    Entity Data Access-->>Scribunto: Parsed LUA Functions
+    Scribunto-->>Wikitext-generated content page: Parsed LUA Modules
+    Wikitext-generated content page->>+User: Server responds with rendered page
+```
+
+### Using data via ParserFunctions
+
+```mermaid
+sequenceDiagram
+    autonumber
+    User->>+Wikitext-generated content page: Edit Wikitext page to include a Wikibase Parser Function
+    User->>+Wikitext-generated content page: User requests page
+    Note right of Wikitext-generated content page: This is only one part of page rendering
+    Wikitext-generated content page->>+Entity Data Access: Parse Wikibase Parser Functions
+    Entity Data Access->>+WikibaseRepo: Get Entity Data
+    WikibaseRepo-->>Entity Data Access: Entity Data
+    Entity Data Access-->>Wikitext-generated content page: Parsed Parser Functions
+    Wikitext-generated content page-->>+User: Server responds with rendered page
+```
