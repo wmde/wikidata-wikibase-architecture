@@ -1,25 +1,6 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="731px" height="461px" viewBox="-0.5 -0.5 731 461" content="&lt;mxfile host=&quot;7b9f91bd-9cc5-4dfc-9be0-7633582fdb79&quot; modified=&quot;2021-01-11T16:59:08.887Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;796TBKeckk28colLUMc9&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;z8QKpxzU2QkLtF4y4z4w&quot; name=&quot;Page-1&quot;&gt;5Zhdb5swFIZ/TaTtohLmK+SyybI2kyJVq7ReG2zAi8HUmJDs1+8ApgkhUT9G2mi9wn59/HWeN9hhZM2SzY3EWbwUhPKRaZDNyPo2Mk1k2DY8KmXbKJ5hNEIkGdFBO+Ge/aFtT60WjNC8E6iE4IplXTEQaUoD1dGwlKLshoWCd2fNcER7wn2AeV99YETFWnUde9dwS1kUt1Mjd9K0JLiN1lvJY0xEuSdZ85E1k0KoppRsZpRX2WsT0/T7fqL1aWWSpuolHWauX4aP2980dIrZan21+rH8daW3sca80Dsu/YTKiDJFk3xkuhzGnvoSSlFVgidOMiikfl49ru8Wendq2+asjKHzfYaDql6CLyAuVgmHGoIizrOGVMg2FNY2DRnnM8GFrLtbxKEesUHPlRQrutfimb7lulUPkSrtFeS0db0Ao58Xnao1lYpu9iSdpxsqEqrkFkJ069jSo2xbqrpe7nmg1eIOfi1i7bvoaewdGShoOK8A5fZAtXAIW3fy7z4WlaXqpFzldZauIQA52WbX2PK8zhgAoe1YsLR6uCfY/z7DlyUlDD+wFYMQv57LCDjO86/77nrr6KcWPqwlwzA0g+CYJYnru857WNKbXJwlvZ4l67eBIWmeibQCPSwFiuDVMD5GYeKOLXxIwTsDBYTMLgbT/nAMkx6GW5wSztII1CKn1a+LpVmh/kMejnFxOBDq8VhWBypIi+ZMPaAgRZGSKr+QEWv6DJPLQ+A6zyOwrfdF0L/VvOUoq0+Xg/Nmniqmtgsy3IF5bJY7LOvf7Sc52xzUtZA17ltocsRBk7MZaJjb1jG0P2lewEBntc+0YJx8Iv8gdHBft72PNtD4bAaCG/sc/tiepDuUTTMB6f/EHnrPl5A5iFt6EKv7Rn33WKSAEgfqtGtex/Py8I295+mhgfBBdffVpm7b+/hlzf8C&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="731px" height="461px" viewBox="-0.5 -0.5 731 461" content="&lt;mxfile host=&quot;fe2b50e3-4c10-426a-b44d-65216883a0c8&quot; modified=&quot;2021-02-02T11:26:53.080Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;GyaWPJAZuElKT97Uc-mv&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;z8QKpxzU2QkLtF4y4z4w&quot; name=&quot;Page-1&quot;&gt;5Vhdb9owFP01SNsDEs4X5LFkrGUSUjWk9dnEN4mHE6eOQ2C/fk7iFNKAaKfQovEC9rnX9177HMdOBqYXb+8FTqMFJ8AGxohsB+a3gWG4yFC/JbCrAQu5NRAKSmoI7YEl/QMaHGk0pwSylqPknEmatkGfJwn4soVhIXjRdgs4a2dNcQgdYOlj1kWfKJGRRh3b2hsegIZRkxo5eoIxbrz1VLIIE14cQOZsYHqCc1m34q0HrFy8ZmHqcd9PWF8qE5DItwzwnFURPO9+Q2Dn3nozXP9Y/Bo6dZQNZrme8cBwmIo3JXRTFi13eimc57ysdBrwRA6ziqg75YDsdLs3qlZY/t+ldIozaGKpoqpwtbGXDF8WQCh+omuqXFZVrpHPcJZ9bcKvxL9HP1W40QppFBGVsEyxX/YLtQGUUyRjpnpINXGW1poM6BZImZsy5nHGRTXcDILA8H2FZ1LwNRxYiLNybEdXq3cFspu+LmDUVYAWxQaEhO0BpBVxDzwGKXbKRVsnro6ya/Sr+8WB2hssagldg1jvsPAl9l6DqqFl+A5JTjqSvHucK0BAlvKkJLpfFgARG8bHWHCdsYlfszC5AAsIGW0aDOvTaXA7NDzghDCahArNMyh3F03SXP6HfNijq6MDoQ4fCxBh+dibS4izDguC5wkp11etiDk9w8n1UeDY5ymwzI+lwOrlsKxOl1fnzSyRVO7mpL8D81iWRyyqfXsjZ5uN2hIyx10JuUcU5F5MQP3cto5R+xOyXAW6qHymOWXkhvSDkNkWkDX5bAGNLyYgdWOfqfelk+z2JdOUq+W/YQ195EPI6EUtHRLL+0Z195gnikrsy9OqeR+f10ffeHKePdQTfaq7/xhQ2Q4+qZizvw==&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
-        <rect x="230" y="0" width="110" height="110" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
-        <g transform="translate(-0.5 -0.5)">
-            <switch>
-                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 55px; margin-left: 231px;">
-                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
-                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                wbmergeitems
-                                <br/>
-                                API
-                            </div>
-                        </div>
-                    </div>
-                </foreignObject>
-                <text x="285" y="60" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
-                    wbmergeitems...
-                </text>
-            </switch>
-        </g>
         <rect x="390" y="0" width="110" height="110" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>

@@ -1,23 +1,6 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="731px" height="461px" viewBox="-0.5 -0.5 731 461" content="&lt;mxfile host=&quot;12c98b55-c4cd-4882-b2ca-2f1ed863b97d&quot; modified=&quot;2021-01-08T12:14:00.950Z&quot; agent=&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;A1L8zPX1iFvWUDEBJH0N&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;z8QKpxzU2QkLtF4y4z4w&quot; name=&quot;Page-1&quot;&gt;5VjdbpswGH0aLiNhDIRcLixrM61StVTrtYNN8OLY1JiE7OlnwDQhpGs3QRqtV9jHn//OObY/YcFwU9xIlCZ3AhNmOTYuLPjZchxgu67+lMi+RgLbroGVpNgEHYAF/UWangbNKSZZK1AJwRRN22AkOCeRamFISrFrh8WCtWdN0Yp0gEWEWBd9pFglBvU999BwS+gqaaYG/qRu2aAm2mwlSxAWuyMIziwYSiFUXdoUIWElew0xdb8vL7Q+r0wSrt7SIfSXu/hp/5PEXh6ut6P117sfI7ONLWK52fEiJRFFZcc7IjU5jj1XZJOZPah9w8wuoYosUhSV9Z1W34LTRG2YrgFdRFla6xHTgugVTGPKWCiYkFV3iD0SYFfjmZJiTY5aAmcJfb/sIbgyjgBeUzcLsLu7N4RsiVSkOIIMGzdEbIiSex1iWsfQjLJvtDP13ZHSDZa0RDYgMu5aPY994F8XjAR/IYffkcNyfKannWK6bfHvP+WlcSpSRlnF0icdALy0ODTq0qr8HjR9pGu6RFkp631pfTO6Xmw1QR3et9ZxHDtRdE5r7C997xJaB5Or0zroaP2dZKngpTj98k+APm3jc/xP/DFEp/wHA/APgNMWwHHfXYBJR4BbxDGjfKXRPCOyHICnufoP9fDsq5MDgI4ef36BpMg5LvnVjMDpK5pcnwS+97oELrysBN104F/en+rhOXmCZlxRtZ/jl16cfma5R7I6tx/kVfNA20Jw3LXQ5IyDJoMZaKAEZlZEJFVU8P7s05njm9Bpv475OPYB4CQDdoP39s94IP9Ut88DVezFlLcXB4l1nn5c+1zy+nGGMUqZaVRZx5wrIlGkRE/XwfXJNw5eVw8MJR8cRr4HzSUPExKtBzzmfVvjMke9Y4wz9nlzojHgQ6Grh39iVdvRr0U4+w0=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="731px" height="461px" viewBox="-0.5 -0.5 731 461" content="&lt;mxfile host=&quot;85e7e311-b4e2-4b41-bda2-8b50a027fcd5&quot; modified=&quot;2021-02-02T11:27:11.136Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;o-gZqgN0ueQhZXNKjrFF&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;z8QKpxzU2QkLtF4y4z4w&quot; name=&quot;Page-1&quot;&gt;5Vhdb5swFP01eawUQyDhcWVZ22mVqqVan118CV6MTY0JZL9+NjgflEbZJGiz5SWxj6997XOOP8TIDdPqRuIsuRcE2MgZk2rkfh45ToAc/WuATQNMUNAAS0lJA6E9sKC/wIJjixaUQN4KVEIwRbM2GAnOIVItDEspynZYLFg7a4aX0AEWEWZd9IkSlVjU9yb7hlugy2SbGvl2gSneRtul5AkmojyA3PnIDaUQqimlVQjMkLclpun35UjrbmYSuPqTDqH/XMYvm58Qe0W4Wl+tvt7/uPKbUdaYFXbFI8dnerxrQtdm0mpjqfBfCjPT61hwdZXXQn3SAcjLqn2jLi3N/yKDiGKT/Ymu6DPOQRcfDNd2dD3NOkETbgna5XLKhCpYZDgy9VI7SwclKmW6hnQR51kjdkwrIGZSlLFQMCHr7m4cx04UaTxXUqzgoIX4z77n22VYuyFvW7cTGHeptWyvQSqoDiBL9Q2IFJTc6BDbOgvsKJutMWy9PLDRFktaDrIgttZd7sbei6sLVt+/0HrW0fo75JngRpx++QdEPJi+xX/gT138mv/ZAPwj5LQFcCYfLkDQEeAWc8IoX2q0yEGaAXhWqP9QD298dnIg1NHjHqQ5o8Z3CtK8o4IUBSeGX82Ie31Ck/OTwPdOSzBx31eCSS/3T33xvLqC5lxRtbkjx26cfrI8YFnv2wu51TzUtpA77VooeMNBwWAGGugBM68iyBQVvD/7dHJ8E/qdqWMuxz4IuW3/TGYf7Z/pQP6pT59HqtjRJ28vDhKrIrtc+7zn8eMMYxTz0qhfHXdcgcSREj0dB+cn33R2Wj00lHzuMPI9ai55mEC0GnCb922Nf2Crv35oDHhR6Or+I0zddvApy53/Bg==&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
-        <rect x="230" y="0" width="110" height="110" fill="#d5e8d4" stroke="#82b366" pointer-events="all"/>
-        <g transform="translate(-0.5 -0.5)">
-            <switch>
-                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 55px; margin-left: 231px;">
-                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
-                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                Special Merge Items
-                            </div>
-                        </div>
-                    </div>
-                </foreignObject>
-                <text x="285" y="60" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
-                    Special Merge I...
-                </text>
-            </switch>
-        </g>
         <rect x="390" y="0" width="110" height="110" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>

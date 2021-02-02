@@ -1,5 +1,7 @@
 # Building Block View
 
+![Legend](../../diagrams/legend.drawio.svg)
+
 ## Whitebox Overall System
 
 ![Alt Text](./diagrams/05-building-blocks.drawio.svg)
