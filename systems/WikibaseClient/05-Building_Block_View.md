@@ -92,9 +92,9 @@
 
 ![Entity Data Access Parser Functions](./diagrams/05-entitydataaccess-parserfunctions.drawio.svg)
 
-| Building Block         | Responsibility                                                             |
-| ---------------------- | -------------------------------------------------------------------------- |
-| Runner                 | Contains the methods called by MediaWiki when parser functions are used    |
+| Building Block         | Responsibility                                                                   |
+| ---------------------- | -------------------------------------------------------------------------------- |
+| Runner                 | Contains the methods called by MediaWiki when parser functions are used          |
 | StatementGroupRenderer | Renderer for rendering a [statement](../overview/12-Glossary.md#statement) group |
 
 ### Scribunto
