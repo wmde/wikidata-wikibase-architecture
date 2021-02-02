@@ -13,7 +13,7 @@
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="11px">
             <rect fill="#ffffff" stroke="none" x="78" y="351" width="77" height="14" stroke-width="0"/>
             <text x="115.86" y="360.5">
-                TBA Interaction
+                Interacts with
             </text>
         </g>
         <ellipse cx="59" cy="343.5" rx="7.5" ry="7.5" fill="#dae8fc" stroke="#6c8ebf" pointer-events="all"/>
