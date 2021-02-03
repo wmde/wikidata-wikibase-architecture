@@ -5,7 +5,7 @@ The goal is for all consumers of the architecture documentation to have an ident
 
 ## [Alias](https://www.wikidata.org/wiki/Help:Aliases)
 
-Aliases are alternative names for [Entities](#entity) that are placed in the _Also known as_ column of the table on top of every Wikidata Item or Property page. The usual or most important name is the [Label](#label). Aliases help people to find an item even if they don’t search with the label. For example, the item Q2 has the label “Earth” and aliases such as “Tellus” and “Blue Planet”. It's a type of [Term](#term).
+Aliases are alternative names for [Entities](#entity) that are placed in the _Also known as_ column of the table on top of every [Wikidata Item](#item) or Property page. The usual or most important name is the [Label](#label). Aliases help people to find an item even if they don’t search with the label. For example, the item Q2 has the label “Earth” and aliases such as “Tellus” and “Blue Planet”. It's a type of [Term](#term).
 
 ## [Badge](https://www.wikidata.org/wiki/Help:Badges)
 
@@ -38,7 +38,9 @@ Interwiki links make it possible to link to pages of (e.g.) Wikipedia, Wikibooks
 
 ## [Item](https://www.wikidata.org/wiki/Help:Items)
 
-In Wikidata, Items are used to represent all the things in human knowledge, including topics, concepts, and objects. For example, the "1988 Summer Olympics", "love", "Elvis Presley", and "gorilla" are all Items in Wikidata.
+In Wikidata or any other WikibaseRepo instance, Items are used to represent all the things in human knowledge, including topics, concepts, and objects. For example, the "1988 Summer Olympics", "love", "Elvis Presley", and "gorilla" are all Items in Wikidata.
+
+The terms "Wikibase Item" and "Wikidata Item" are used interchangeably throughout the documentation. They are the same thing that lives in different contexts - Wikidata or another WikibaseRepo instance.
 
 ## [Label](https://www.wikidata.org/wiki/Help:Label)
 
