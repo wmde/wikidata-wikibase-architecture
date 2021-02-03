@@ -19,14 +19,14 @@ Detailed documentation for arc42 can be [found here](https://docs.arc42.org/home
 Multiple top level systems are identified.
 Subsystems are provided in the list below for convenience.
 
-- [WikibaseRepo](./systems/WikibaseRepo/)
+- [Wikibase Repository](./systems/WikibaseRepo/)
   - Termbox & Termbox SSR
   - EntitySchema
   - Property Suggester
   - QualityConstraints
   - WikibaseLexeme
   - WikibaseMediaInfo
-- [WikibaseClient](./systems/WikibaseClient/)
+- [Wikibase Client](./systems/WikibaseClient/)
   - DataBridge
   - Article Placeholder
 - QueryService ([wikitech docs](https://wikitech.wikimedia.org/wiki/Wikidata_query_service))

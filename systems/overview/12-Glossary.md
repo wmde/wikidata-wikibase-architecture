@@ -115,18 +115,18 @@ A watchlist is a page which allows any logged-in user to maintain a list of "wat
 
 Wikibase is the software behind [Wikidata](#wikidata). It consists of a set of [extensions](#mediawiki-extension) to the [MediaWiki](#mediawiki) software. These extensions allow Wikidata to manage and display data in [Items](#item) and [Properties](#property).
 
-## [WikibaseClient](https://www.mediawiki.org/wiki/Extension:Wikibase_Client)
+## Wikibase Repository
 
-WikibaseClient is a [MediaWiki Extension](#mediawiki-extension) that enables the use and display of Entity data from a [Wikibase Repository](#wikibase-repository) via Lua modules or parser functions. Clients can also use centralized language links.
+Wikibase Repository is an application that provides structured [Entity](#entity) data. Its core functionality is implemented as a [MediaWiki extension](#mediawiki-extension) called [WikibaseRepo](https://www.mediawiki.org/wiki/Extension:Wikibase_Repository). It can optionally contain additional [Wikibase extensions](#wikibase-extension) such as WikibaseLexeme.
+
+## Wikibase Client
+
+Wikibase Client is a set of features that enables the use, display and editing of [Entity](#entity) data from a [Wikibase Repository](#wikibase-repository). Its core functionality is implemented as a [MediaWiki extension](#mediawiki-extension) called [WikibaseClient](https://www.mediawiki.org/wiki/Extension:Wikibase_Client). It can optionally contain additional [MediaWiki extensions](#mediawiki-extension) such as ArticlePlaceholder.
 
 ## Wikibase Extension
 
 Wikibase Extensions are [MediaWiki](#mediawiki) extensions that add further functionality to [Wikibase](#wikibase). They depend on the Wikibase extension being installed and directly interact with it.
 Examples: WikibaseLexeme, WikibaseMediaInfo, WikibaseImport
-
-## Wikibase Repository
-
-Wikibase Repository is an application that provides structured [Entity](#entity) data. Its core functionality is implemented as a [MediaWiki extension](#mediawiki-extension) called [WikibaseRepo](https://www.mediawiki.org/wiki/Extension:Wikibase_Repository). It can optionally contain additional [Wikibase extensions](#wikibase-extension) such as WikibaseLexeme.
 
 ## Wikidata
 
@@ -134,7 +134,7 @@ Wikidata is a Wikimedia project that runs an instance of [MediaWiki](#mediawiki)
 
 ## Wikipedia
 
-The free, multilingual open-collaborative online encyclopedia that is run by the [MediaWiki](#mediawiki) engine and using  [WikibaseClient](#wikibaseclient) as an [extension](#mediawiki-extension) to display Entity data from [Wikidata](#wikidata).
+The free, multilingual open-collaborative online encyclopedia that is run by the [MediaWiki](#mediawiki) engine and using  [Wikibase Client](#wikibase-client) as to display Entity data from [Wikidata](#wikidata).
 
 ## [Wikitext](https://en.wikipedia.org/wiki/Help:Wikitext)
 

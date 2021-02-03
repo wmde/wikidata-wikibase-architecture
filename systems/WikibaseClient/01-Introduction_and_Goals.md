@@ -4,18 +4,18 @@
 
 ## Quality Goals
 
-- Entity data which is included in a client wiki's article content is eventually consistent with updates on the corresponding repo.
+- Entity data which is included in a [Wikibase Client's](../overall/../overview/12-Glossary.md#wikibase-client) [wikitext generated content](../overall/../overview/12-Glossary.md#wikitext-generated-content) is eventually consistent with updates on the corresponding [Wikibase Repository](../overall/../overview/12-Glossary.md#wikibase-repository).
 
 ## Stakeholders & Expectations
 
-### Client editor
+### Wikibase Client editor
 
 - Connect a page to a Wikibase Item.
 - Show that a page is connected to a Wikibase Item in the page info.
 - Link to the connected Wikibase Item for an article page in its sidebar.
-- Use data from a Repo in Client pages.
-- Have data from a Repo used in Client pages update automatically when changes happen on the Repo.
-- See the "unconnected pages" on a Client.
+- Use data from a Wikibase Repository in Wikibase Client [wikitext generated content](../overall/../overview/12-Glossary.md#wikitext-generated-content).
+- Have data from a Wikibase Repository used in Wikibase Client pages update automatically when changes happen on the Wikibase Repository.
+- See the "unconnected pages" on a Wikibase Client.
 
 ### Wikimedia editor
 

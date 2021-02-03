@@ -38,11 +38,11 @@ module.exports = {
                 link: '/systems/overview/',
             },
             {
-                text: 'WikibaseRepo',
+                text: 'Wikibase Repository',
                 link: '/systems/WikibaseRepo/',
             },
             {
-                text: 'WikibaseClient',
+                text: 'Wikibase Client',
                 link: '/systems/WikibaseClient/',
             },
         ],
