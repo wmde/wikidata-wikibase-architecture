@@ -60,7 +60,6 @@ module.exports = {
                 '09-Architecture_Decisions',
                 '10-Quality',
                 '11-Risks_and_Technical_Debt',
-                '12-Glossary',
             ],
             '/systems/WikibaseClient/': [
                 '',
@@ -75,7 +74,6 @@ module.exports = {
                 '09-Architecture_Decisions',
                 '10-Quality',
                 '11-Risks_and_Technical_Debt',
-                '12-Glossary',
             ],
             '/systems/overview/': [
                 '',
