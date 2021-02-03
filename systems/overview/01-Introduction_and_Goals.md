@@ -14,6 +14,22 @@ Some stakeholders and expectations may stay at this high level though.
 
 - Have placeholder pages be automatically generated for topics Wikidata contains data for, in order to gain more readers and thus more editors.
 
+### Query User
+
+Extract specific information by writing a query composed of logical combinations of triples.
+
+### Quickstatements user
+
+Edits Wikidata items by constructing a simple set of text commands using the [QuickStatements tool](https://www.wikidata.org/wiki/Help:QuickStatements)
+
+### Wikidata editor
+
+See [Wikidata editor](../WikibaseRepo/01-Introduction_and_Goals.md#wikidata-editor)
+
+### Client editor
+
+See [WikibaseClient editor](../WikibaseClient/01-Introduction_and_Goals.md#client-editor)
+
 ### Researcher
 
 - Quickly create visualizations based on data from Wikidata without the need to download it.
