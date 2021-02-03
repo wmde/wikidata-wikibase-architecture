@@ -1,5 +1,7 @@
 # Introduction and Goals
 
+Wikibase Client is part of [Wikibase](../overview/01-Introduction_and_Goals.md). It is a [MediaWiki extension](../overview/12-Glossary.md#mediawiki-extension) that acts as a client to the [Wikibase Repository](../WikibaseRepo/01-Introduction_and_Goals.md) extension. Its development is part of the [Wikidata](../overview/12-Glossary.md#wikidata) project. It allows to use and display data from a Wikibase Repository via [Lua](../overview/12-Glossary.md#lua) modules or parser functions. Clients can also use centralized language links or article placeholders.
+
 ## Requirements Overview
 
 ## Quality Goals

@@ -1,5 +1,9 @@
 # Introduction and Goals
 
+Wikibase is an open-source software suite for creating collaborative knowledge bases, opening the door to the Linked Open Data web. It lets you store, manage and access structured data. Its two main sub-systems are the [Wikibase Repository](../WikibaseRepo/01-Introduction_and_Goals.md) and [Wikibase Client](../WikibaseClient/01-Introduction_and_Goals.md).
+
+Wikibase is also the software behind [Wikidata](https://www.wikidata.org), a free, collaborative, multilingual, secondary database, collecting structured data to provide support for [Wikipedia](https://www.wikipedia.org), [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page), the other wikis of the [Wikimedia](https://www.wikimedia.org/) movement, and to anyone in the world.
+
 ## Requirements Overview
 
 ## Quality Goals
