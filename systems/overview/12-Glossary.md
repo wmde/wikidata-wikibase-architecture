@@ -19,6 +19,14 @@ Badges are optional markers that can be attached to a sitelink to another Wikime
 
 A component is a software unit with a well-defined interface and explicitly specified dependencies. A software component can be as small as a block of reusable code, or it can be as big as an entire application depending on the level of granularity a system is being looked at.
 
+## [Datatype](https://www.wikidata.org/wiki/Help:Data_type)
+
+Datatype (or _propertyType_) is an attribute of a [Property](#property) specifying the type and shape of the [Datavalue](#datavalue) in each statement. Each property is assigned a pre-defined datatype, which usually can not be changed. Data types can only be defined by developers; the development of new datatypes is still in progress.
+
+## [Datavalue](https://www.wikidata.org/wiki/Help:Statements#Values)
+
+Datavalue (also just _value_) is the actual piece of information stored within a [Statement](#statement). Wikidata has a range of allowed [datatypes](#datatype) (such as _Item_, _mathematical expression_, _quantity_). The datatype needed for any given statement is determined by the [Property](#property) used (e.g. the value in a _place of birth_ statement must be an _Item_). Instead of a normal value, you can also use one of the special cases _unknown value_ or _no value_ in a statement.
+
 ## [Description](https://www.wikidata.org/wiki/Help:Description)
 
 Description is a language-specific descriptive phrase for an [Entity](#entity). It provides context for the [Label](#label) (for example, there are many items about places with the label "Cambridge"). The Description therefore does not need to be unique, neither within a language or Wikidata in general, but it must be unique together with the Label. It's a type of [Term](#term).
@@ -63,7 +71,7 @@ Examples: WikibaseClient, UniversalLanguageSelector, OAuth
 
 ## [Property](https://www.wikidata.org/wiki/Help:Properties)
 
-Properties are Entities that describe a relationship between Items (or other Entities) and values of the Property. Typical Properties are _population_ (using numbers as values), _binomial name_ (using strings as values), but also _has father_ and _author of_ (both using Items as values).
+Properties are [Entities](#entity) that describe a relationship between [Items](#item) (or other Entities) and [values](#datavalue) of the Property. Typical Properties are _population_ (using numbers as values), _binomial name_ (using strings as values), but also _has father_ and _author of_ (both using Items as values).
 
 ## [QuickStatements](https://www.wikidata.org/wiki/Help:QuickStatements)
 

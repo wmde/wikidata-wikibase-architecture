@@ -46,7 +46,7 @@ Some Commons editor expectations probably only apply to the MediaInfo extension,
 
 #### Wikidata Data re-user
 
-- Fix and add values on Wikidata.
+- Fix and add [data values](../overview/12-Glossary.md#datavalue) on Wikidata.
 
 #### Researcher
 
