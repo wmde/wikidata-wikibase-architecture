@@ -1,5 +1,7 @@
 # Introduction and Goals
 
+Wikibase Repository is part of [Wikibase](../overview/01-Introduction_and_Goals.md). Wikibase Repository is a [MediaWiki extension](../overview/12-Glossary.md#mediawiki-extension) that allows you to use your wiki as a structured data repository. Its development is part of the [Wikidata](../overview/12-Glossary.md#wikidata) project. The data can in turn be used in a wiki using the [Wikibase Client](../WikibaseClient/01-Introduction_and_Goals.md) extension.
+
 ## Requirements Overview
 
 ## Quality Goals
