@@ -13,7 +13,7 @@ Badges are optional markers that can be attached to a sitelink to another Wikime
 
 ## [Bots](https://www.wikidata.org/wiki/Wikidata:Bots)
 
- Bots are tools used to make edits without the necessity of human decision-making. Bots can add interwiki links, labels, descriptions, statements, sources, and can even create items, among other things.
+ Bots are tools used to make edits without the necessity of human decision-making. Bots can add Sitelinks, labels, descriptions, statements, References, and can even create Items, among other things.
 
 ## Component
 
@@ -45,8 +45,7 @@ Federated Properties is a feature that allows a newly created [Wikibase](#wikiba
 
 ## [Interwiki Links](https://www.mediawiki.org/wiki/Manual:Interwiki)
 
-Interwiki links are links to pages of other projects, using a prefixed internal link style.
-Interwiki links make it possible to link to pages of (e.g.) Wikipedia, Wikibooks, Wikinews etc. or to your wiki-project in different languages.
+Interwiki links are links to pages of other projects, using a prefixed internal link style. Interwiki links make it possible to link to pages of e.g. Wikipedia, Wikibooks, Wikinews etc. or to your wiki-project in different languages. Interwiki links to pages referring to the same concept across wikis can be centrally stored on a Wikibase Repository by using [Sitelinks](#sitelink).
 
 ## [Item](https://www.wikidata.org/wiki/Help:Items)
 
@@ -93,7 +92,11 @@ A Reference (or source) is used to point to a specific resource that supports a 
 
 ## [Sitelink](https://www.wikidata.org/wiki/Help:Sitelinks)
 
-Sitelinks (also known as interwiki links or interlanguage links) are special links that contain a site and a title, and go from individual [Items](#item) in Wikidata to pages on other Wikimedia sites such as Wikipedia, Wikisource and Wikivoyage.
+Sitelinks are special links that contain a site and a title, and go from individual [Items](#item) in a Wikibase Repository to pages on Client wikis (e.g. from Wikidata to other Wikimedia sites such as Wikipedia, Wikisource and Wikivoyage) referring to the same concept. Adding a Sitelink to an Item on a Wikibase Repository for a wiki page on a Client connects the two, which makes it possible for the Client's wiki page to link to pages on other Clients referring to the same concept. On the Client side, these links are called [Interwiki links](#interwiki-links).
+
+## Connected Pages
+
+Pages on Client wikis for which there is a [Sitelink](#sitelink) on an Item on a Wikibase Repository are often referred to as connected or linked pages. Pages for which there isn't a Sitelink are called unconnected pages.
 
 ## Snak
 
@@ -127,7 +130,7 @@ The termbox is the zone at the top of an [Entity](#entity) page which shows its 
 
 ## Title
 
-Title is the name of a wiki page. All pages must have a unique title within a given wiki, as the title is included in the URL for the page. For example there can be only one page with the title "Douglas Adams" on English Wikipedia. In Wikidata, a title is either an entity identifier such as Q42, or it starts with a namespace prefix such as Help:. The page title is not to be confused with the [Label](#label) for a Wikidata [Item](#item) or [Property](#property). Wikidata items are connected to pages on other Wikimedia wikis via [Sitelinks](#sitelink), which use the page's title to uniquely identify the resource. 
+Title is the name of a wiki page. All pages must have a unique title within a given wiki, as the title is included in the URL for the page. For example there can be only one page with the title "Douglas Adams" on English Wikipedia. In Wikidata, a title is either an entity identifier such as Q42, or it starts with a namespace prefix such as Help:. The page title is not to be confused with the [Label](#label) for a Wikidata [Item](#item) or [Property](#property). Wikidata items are connected to pages on other Wikimedia wikis via [Sitelinks](#sitelink), which use the page's title to uniquely identify the resource.
 
 ## [Tools](https://www.wikidata.org/wiki/Wikidata:Tools)
 
