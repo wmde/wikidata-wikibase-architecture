@@ -41,7 +41,7 @@ Some Commons editor expectations probably only apply to the MediaInfo extension,
 ### Non Wikimedia project editor
 
 - Use the same Wikidata ontology on a non Wikimedia Wikibase.
-- Extend a non Wikimedia Wikibase with relevant entities from Wikidata (federation).
+- Extend a non Wikimedia Wikibase with relevant entities from Wikidata ([federation](../overview/12-Glossary.md#federated-properties)).
 
 ### Data re-user
 
