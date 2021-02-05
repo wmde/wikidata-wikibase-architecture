@@ -12,9 +12,9 @@ Wikibase Client is part of [Wikibase](../overview/01-Introduction_and_Goals.md).
 
 ### Client editor
 
-- Connect a page to a Wikibase Item.
-- Show that a page is connected to a Wikibase Item in the page info.
-- Link to the connected Wikibase Item for an article page in its sidebar.
+- Connect a page to a [Wikibase Item](../overview/12-Glossary.md#item).
+- Show that a page is connected to a [Wikibase Item](../overview/12-Glossary.md#item) in the page info.
+- Link to the connected [Wikibase Item](../overview/12-Glossary.md#item) for an article page in its sidebar.
 - Use data from a Repo in Client pages.
 - Have data from a Repo used in Client pages update automatically when changes happen on the Repo.
 - See the "unconnected pages" on a Client.
