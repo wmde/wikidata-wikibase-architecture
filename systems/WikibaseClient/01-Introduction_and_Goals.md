@@ -17,7 +17,7 @@ Wikibase Client is part of [Wikibase](../overview/01-Introduction_and_Goals.md).
 - Link to the connected [Wikibase Item](../overview/12-Glossary.md#item) for an article page in its sidebar.
 - Use data from a Repo in Client pages.
 - Have data from a Repo used in Client pages update automatically when changes happen on the Repo.
-- See the "unconnected pages" on a Client.
+- See the "[unconnected pages](../overview/12-Glossary.md#connected-pages)" on a Client.
 
 ### Wikimedia editor
 
@@ -25,7 +25,7 @@ Wikibase Client is part of [Wikibase](../overview/01-Introduction_and_Goals.md).
 
 ### Wikipedia editor
 
-- Connect pages on different Wikipedias, showing interwiki links on the connected pages.
+- Connect pages on different Wikipedias, showing interwiki links on the [connected pages](../overview/12-Glossary.md#connected-pages).
 - Store information relating to article quality in a central place, for use in interwiki links on the Articles.
 - Have data updates which cause pages changes to be shown in RecentChanges.
 - Have data updates which cause pages changes to be shown in [Watchlists](../overview/12-Glossary.md#watchlist), when the page being changed is watched.
