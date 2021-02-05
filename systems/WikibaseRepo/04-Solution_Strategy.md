@@ -18,4 +18,4 @@ It also had negative consequences:
   - storing structured data in the same place Wikitext is stored
   - showing different content dependent on user settings (language)
 - binding to multiple extension points (Hooks, API actions, Special Pages, ResourceLoader, ...) of MediaWiki makes for a confusing control flow going back and forth between it and the code within the WikibaseRepo extension, where traditional web frameworks usually have one clearly defined entry and exit point
-- strong coupling to MediaWiki concepts (`Title`, `ParserOutput`, ...) slowing down development of features that aren't backed by MediaWiki ([Termbox](../overview/12-Glossary.md#termbox), Federated Properties)
+- strong coupling to MediaWiki concepts (`Title`, `ParserOutput`, ...) slowing down development of features that aren't backed by MediaWiki ([Termbox](../overview/12-Glossary.md#termbox), [Federated Properties](../overview/12-Glossary.md#federated-properties))

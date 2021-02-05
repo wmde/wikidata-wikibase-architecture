@@ -31,31 +31,31 @@ Clicking on one of these links then opens the Data Bridge instead of taking you 
 ```mermaid
 sequenceDiagram
     autonumber
-    User->>+Wikitext-generated content: Reads
+    Client Editor->>+Wikitext-generated content: Reads
     Data Bridge->>+Wikitext-generated content: Overload links
-    User->>+Data Bridge: Clicks link
-    Data Bridge->>+User: Open with loading indicator
+    Client Editor->>+Data Bridge: Clicks link
+    Data Bridge->>+Client Editor: Open with loading indicator
     Data Bridge->>+Repo: Gets data
-    Data Bridge->>+User: Loading complete
+    Data Bridge->>+Client Editor: Loading complete
 ```
 
 ### Supported value change
 
-Once the Data Bridge is open the User can edit supported values.
+Once the Data Bridge is open the Client Editor can edit supported values.
 
 ```mermaid
 sequenceDiagram
     autonumber
-    participant User
+    participant Client Editor
     participant Page as Wikitext-generated content
     participant Bridge as Data Bridge
-    User->>+Bridge: Enters new values, chooses an update strategy, clickes save
+    Client Editor->>+Bridge: Enters new values, chooses an update strategy, clickes save
     Bridge->>+Repo: Saves value
     Repo->>+Bridge: Success
     Bridge->>+Page: Purges Page
     Page->>+Bridge: Success
     Bridge->>+Page: Trigger Reload
-    User->>+Page: Sees updated content
+    Client Editor->>+Page: Sees updated content
 ```
 
 ## Entity Change Notifications
@@ -98,9 +98,9 @@ sequenceDiagram
 ```mermaid
 sequenceDiagram
     autonumber
-    User->>+Scribunto: Edit Scribunto Module to include Wikibase LUA code
-    User->>+Wikitext-generated content page: Edit Wikitext page to use Scribunto Module
-    User->>+Wikitext-generated content page: User requests page
+    Client Editor->>+Scribunto: Edit Scribunto Module to include Wikibase LUA code
+    Client Editor->>+Wikitext-generated content page: Edit Wikitext page to use Scribunto Module
+    Client Editor->>+Wikitext-generated content page: Client Editor requests page
     Note right of Wikitext-generated content page: This is only one part of page rendering
     Wikitext-generated content page->>+Scribunto: Parse LUA Modules
     Scribunto->>+Entity Data Access: Parse Wikibase LUA Functions
@@ -108,7 +108,7 @@ sequenceDiagram
     WikibaseRepo-->>Entity Data Access: Entity Data
     Entity Data Access-->>Scribunto: Parsed LUA Functions
     Scribunto-->>Wikitext-generated content page: Parsed LUA Modules
-    Wikitext-generated content page->>+User: Server responds with rendered page
+    Wikitext-generated content page->>+Client Editor: Server responds with rendered page
 ```
 
 ### Using data via ParserFunctions
@@ -116,12 +116,12 @@ sequenceDiagram
 ```mermaid
 sequenceDiagram
     autonumber
-    User->>+Wikitext-generated content page: Edit Wikitext page to include a Wikibase Parser Function
-    User->>+Wikitext-generated content page: User requests page
+    Client Editor->>+Wikitext-generated content page: Edit Wikitext page to include a Wikibase Parser Function
+    Client Editor->>+Wikitext-generated content page: Client Editor requests page
     Note right of Wikitext-generated content page: This is only one part of page rendering
     Wikitext-generated content page->>+Entity Data Access: Parse Wikibase Parser Functions
     Entity Data Access->>+WikibaseRepo: Get Entity Data
     WikibaseRepo-->>Entity Data Access: Entity Data
     Entity Data Access-->>Wikitext-generated content page: Parsed Parser Functions
-    Wikitext-generated content page-->>+User: Server responds with rendered page
+    Wikitext-generated content page-->>+Client Editor: Server responds with rendered page
 ```

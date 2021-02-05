@@ -35,6 +35,10 @@ Description is a language-specific descriptive phrase for an [Entity](#entity). 
 
 Entities are the top level concepts of Wikibase's data model. [Items](#item) and [Properties](#property) are the core Entity types of Wikibase. Other types can be added through [Wikibase extensions](#wikibase-extension), such as [Lexemes](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme/Data_Model#Lexeme).
 
+## [Federated Properties](https://doc.wikimedia.org/Wikibase/master/php/md_docs_components_repo-federated-properties.html)
+
+Federated Properties is a feature that allows a newly created [Wikibase](#wikibase) instance to use the existing [Properties](#property) of another Wikibase. This enables new users evaluating Wikibase to get started without having to spend a lot of time defining basic Properties first.
+
 ## Gadgets
 
 [Gadgets](https://www.mediawiki.org/wiki/Extension:Gadgets) are made up of JavaScript and/or CSS Snippets located on pages in the MediaWiki namespace. These snippets add functionality to the wiki itself and can be enabled and disabled via preferences.
@@ -79,9 +83,21 @@ Properties are [Entities](#entity) that describe a relationship between [Items](
 
 QuickStatements is a tool, that can edit Wikidata [Items](#item), based on a simple set of text commands. The tool can add and remove [Statements](#statement), [Labels](#label), Descriptions, and Aliases; as well as add statements with optional qualifiers and sources.
 
+## [Rank](https://www.wikidata.org/wiki/Help:Ranking)
+
+Rank is a quality factor used for simple selection/filtering in cases where there are several [Statements](#statement) for a given [Property](#property). In such cases, users may want to indicate which statement is more important or relevant than other statements. By default, a statement has the rank _normal_, but it can be changed this to either _preferred_ or _deprecated_.
+
+## [Reference](https://www.wikidata.org/wiki/Help:Sources)
+
+A Reference (or source) is used to point to a specific resource that supports a [Statement](#statement) in Wikidata. A reference can be a link to a URL or an item; for example, an item about a book. Wikidata does not aim to answer the question of whether a statemente is correct, but only whether the statemtent appears in a reference.
+
 ## [Sitelink](https://www.wikidata.org/wiki/Help:Sitelinks)
 
 Sitelinks (also known as interwiki links or interlanguage links) are special links that contain a site and a title, and go from individual [Items](#item) in Wikidata to pages on other Wikimedia sites such as Wikipedia, Wikisource and Wikivoyage.
+
+## Snak
+
+Snak is a technical term of Wikibase software which data users are most likely to encounter when accessing Wikidata through the MediaWiki API. It refers to the combination of a [Property](#property) and either a [value](#datavalue) or one of the special cases _no value_ and _unknown value_. Snaks can be found in statements (then they are called _main snaks_) or in qualifiers (then they are called _qualifier snaks_).
 
 ## [Special Page](https://www.mediawiki.org/wiki/Manual:Special_pages)
 
@@ -99,7 +115,7 @@ All persons, roles or organizations that:
 
 ## [Statement](https://www.wikidata.org/wiki/Help:Statements)
 
-A Statement is a piece of data about an [Item](#item), recorded on the Item's page. A Statement consists of a property-value pair such as "Location: Germany", augmented by references and a rank. The term _Statement_ is often used interchangeably with _Claim_, but technically it only becomes a Statement once at least one reference has been added.
+A Statement is a piece of data about an [Item](#item), recorded on the Item's page. A Statement consists of a property-value pair such as "Location: Germany", augmented by [References](#reference) and a [Rank](#rank). The term _Statement_ is often used interchangeably with _Claim_.
 
 ## Term
 
@@ -108,6 +124,10 @@ A term is a string value with a language code. Terms are used as [Labels](#label
 ## Termbox
 
 The termbox is the zone at the top of an [Entity](#entity) page which shows its [Labels](#label), [Descriptions](#description) and [Aliases](#alias) in different languages.
+
+## Title
+
+Title is the name of a wiki page. All pages must have a unique title within a given wiki, as the title is included in the URL for the page. For example there can be only one page with the title "Douglas Adams" on English Wikipedia. In Wikidata, a title is either an entity identifier such as Q42, or it starts with a namespace prefix such as Help:. The page title is not to be confused with the [Label](#label) for a Wikidata [Item](#item) or [Property](#property). Wikidata items are connected to pages on other Wikimedia wikis via [Sitelinks](#sitelink), which use the page's title to uniquely identify the resource. 
 
 ## [Tools](https://www.wikidata.org/wiki/Wikidata:Tools)
 

@@ -6,16 +6,16 @@
 
 ![Alt Text](./diagrams/05-building-blocks.drawio.svg)
 
-| Building Block                                              | Responsibility                                                                   |
-| ----------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                     |
-| [Entity Data Access](#entity-data-access)                   | Access Entities from a Repository                                                |
-| [Usage Tracking](#usage)                                    | Tracking the usage of Repository Entities on a Client                            |
-| [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository                 |
-| [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to pages that are linked to Repository Items      |
-| [Data Bridge](#data-bridge)                                 | Edit Item Data on the Repository                                                 |
-| [Special Pages](#special-pages)                             | WikibaseClient specific [Special Pages](../overview/12-Glossary.md#special-page) |
-| [Interwiki](#interwiki)                                     | Client side interactions with Interwiki links                                    |
+| Building Block                                              | Responsibility                                                                                                 |
+| ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                                                   |
+| [Entity Data Access](#entity-data-access)                   | Access [Entities](../overview/12-Glossary.md#entity) from a Repository                                         |
+| [Usage Tracking](#usage)                                    | Tracking the usage of Repository Entities on a Client                                                          |
+| [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository                                               |
+| [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to pages that are linked to Repository [Items](../overview/12-Glossary.md#item) |
+| [Data Bridge](#data-bridge)                                 | Edit Item [data values](../overview/12-Glossary.md#datavalue) on the Repository                                |
+| [Special Pages](#special-pages)                             | WikibaseClient specific [Special Pages](../overview/12-Glossary.md#special-page)                               |
+| [Interwiki](#interwiki)                                     | Client side interactions with [Interwiki links](../overview/12-Glossary.md#interwiki-links)                    |
 
 ## APIs
 
@@ -48,22 +48,22 @@
 
 ![Action API Page Terms Building Block Diagram](./diagrams/05-api-pageterms.drawio.svg)
 
-| Building Block  | Type/Context | Responsibility                                              |
-| --------------- | ------------ | ----------------------------------------------------------- |
-| EntityIdLookup  | Lookups      | Lookup EntityIds from Titles                                |
-| TermBuffer      | Lookups      | Lookup buffered [Terms](../overview/12-Glossary.md#term)    |
-| AliasTermBuffer | Lookups      | Lookup buffered [Aliases](../overview/12-Glossary.md#alias) |
-| RepoLinker      | Response     | Creates links to Repo Entity concepts                       |
+| Building Block  | Type/Context | Responsibility                                                   |
+| --------------- | ------------ | ---------------------------------------------------------------- |
+| EntityIdLookup  | Lookups      | Lookup EntityIds from [Titles](../overview/12-Glossary.md#title) |
+| TermBuffer      | Lookups      | Lookup buffered [Terms](../overview/12-Glossary.md#term)         |
+| AliasTermBuffer | Lookups      | Lookup buffered [Aliases](../overview/12-Glossary.md#alias)      |
+| RepoLinker      | Response     | Creates links to Repo Entity concepts                            |
 
 ### Action API Format Reference
 
 ![Action API Format Reference Building Block Diagram](./diagrams/05-api-wbformatreference.drawio.svg)
 
-| Building Block           | Type/Context     | Responsibility                           |
-| ------------------------ | ---------------- | ---------------------------------------- |
-| Deserializer (Reference) | Input            | Get reference objects from user input    |
-| ReferenceFormatter       | Format Reference | Format reference as wikitext             |
-| Parser                   | Output           | Parse reference wikitext and output HTML |
+| Building Block           | Type/Context     | Responsibility                                                                |
+| ------------------------ | ---------------- | ----------------------------------------------------------------------------- |
+| Deserializer (Reference) | Input            | Get [Reference](../overview/12-Glossary.md#reference) objects from user input |
+| ReferenceFormatter       | Format Reference | Format Reference as wikitext                                                  |
+| Parser                   | Output           | Parse Reference wikitext and output HTML                                      |
 
 ## Entity Data Access
 
@@ -85,11 +85,11 @@ You can see the interactions of components related to Entity Data Access in [the
 
 | Building Block                  | Responsibility                                                                                             |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| SnakFormatter                   | Formats snaks in a client context                                                                          |
+| SnakFormatter                   | Formats [Snaks](../overview/12-Glossary.md#snak) in a client context                                       |
 | ReferenceFormatter              | Formats references in a client context                                                                     |
 | StatementTransclusionInteractor | Renders the main snaks associated with a given Property on an Entity                                       |
-| EntityTitleLookup               | Resolves a specific sitelink on a specific Item to a Title                                                 |
-| PropertyIdResolver              | Resolved a PropertyId from input which could be a [label](../overview/12-Glossary.md#label) or prefixed ID |
+| EntityTitleLookup               | Resolves a specific sitelink on a specific Item to a [Title](../overview/12-Glossary.md#title)             |
+| PropertyIdResolver              | Resolves a PropertyId from input which could be a [Label](../overview/12-Glossary.md#label) or prefixed ID |
 | SnaksFinder                     | Find Snaks for claims in a given Entity, based on PropertyId                                               |
 
 ### ParserFunctions
