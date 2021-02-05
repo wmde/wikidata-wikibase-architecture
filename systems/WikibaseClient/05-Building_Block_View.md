@@ -269,7 +269,7 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | Writing API                           | Implementations of WikibaseRepo API requests that have to do with writing to repo                                                      |
 | ApiEntityLabelRepository              | A repository to get the [label](../overview/12-Glossary.md#label) of specific entity in a specific language                            |
 | ApiPageEditPermissionErrorsRepository | A repository for determining potential permission errors when editing a page.                                                          |
-| ApiPropertyDataTypeRepository         | A repository to get the data type of a property                                                                                        |
+| ApiPropertyDataTypeRepository         | A repository to get the [datatype](../overview/12-Glossary.md#datatype) of a property                                                  |
 | ApiRenderReferencesRepository         | A repository to render reference JSON blobs into HTML strings                                                                          |
 | ApiReadingEntityRepository            | A repository for reading the latest revision of an entity.                                                                             |
 | ApiRepoConfigRepository               | A repository to get the configuration from the Wikibase repo instance where the data is going to be saved                              |
