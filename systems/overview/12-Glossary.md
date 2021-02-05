@@ -5,7 +5,7 @@ The goal is for all consumers of the architecture documentation to have an ident
 
 ## [Alias](https://www.wikidata.org/wiki/Help:Aliases)
 
-Aliases are alternative names for [Entities](#entity) that are placed in the _Also known as_ column of the table on top of every [Wikidata Item](#item) or Property page. The usual or most important name is the [Label](#label). Aliases help people to find an item even if they don’t search with the label. For example, the item Q2 has the label “Earth” and aliases such as “Tellus” and “Blue Planet”. It's a type of [Term](#term).
+Aliases are alternative names for [Entities](#entity) that are placed in the _Also known as_ column of the table on top of every [Wikibase Item](#item) or Property page. The usual or most important name is the [Label](#label). Aliases help people to find an item even if they don’t search with the label. For example, the item Q2 has the label “Earth” and aliases such as “Tellus” and “Blue Planet”. It's a type of [Term](#term).
 
 ## [Badge](https://www.wikidata.org/wiki/Help:Badges)
 
