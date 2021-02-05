@@ -6,7 +6,7 @@ Wikibase Client is part of [Wikibase](../overview/01-Introduction_and_Goals.md).
 
 ## Quality Goals
 
-- Entity data which is included in a client wiki's article content is eventually consistent with updates on the corresponding repo.
+- Entity data which is included in a Client wiki's content is eventually consistent with updates on the corresponding [Wikibase Repository](../overview/12-Glossary.md#wikibase-repository). The Repository notifies the Client of updates via [Entity Change Notifications](./06-Runtime_View.md#entity-change-notifications) to which the Client reacts by purging the caches of pages which include data of the affected Entities which in turn pulls the updated Entity data from the Repository.
 
 ## Stakeholders & Expectations
 
