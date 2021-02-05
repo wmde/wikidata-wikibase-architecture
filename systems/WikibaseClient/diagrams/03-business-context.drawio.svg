@@ -1,37 +1,39 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="590px" height="314px" viewBox="-0.5 -0.5 590 314" content="&lt;mxfile host=&quot;052956c3-e140-48ab-8095-1101fe79eba7&quot; modified=&quot;2021-02-03T14:11:25.109Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;DYNQ8WINJPhn8XOUfriM&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;ZZAaw9F9bndAv2IfB5-a&quot; name=&quot;Page-1&quot;&gt;3VjbbuM2EP0aP0agRF0fYye7+9ACQVNg20faYiTWlChQdGLv13coURdK9sZJbDRdBQjIITkyz8ycM/YCr4r9V0mq/HeRUr7wULpf4LuF54VxCP+14dAavDhoDZlkaWtyB8Mj+0GNERnrjqW0tjYqIbhilW3ciLKkG2XZiJTixd72JLj91opkdGZ43BA+t35nqcqNNUBoWPhGWZar6UpBut3GUOckFS8jE75f4JUUQrWjYr+iXIPXAdOe+3Jitf9kkpbqnANee+CZ8J253He2ZWtSU7D+QSthPqY6dJeXYlemVB9HC7zsP78LkydRKhMtF5n5SnAhm5MYNY8+pKTY0m6lFCWcWKZMQqyYKMH0QmulzzPOR+eXt/oP7PNLmns/U6nofmQyl/5KRUGVPMAWsxp1ETEpGEZm/jIEFAfGlo9iGRsbMTmU9a4HlGFggD4RpTnqK870ZTx0nzIFF56iDjhXergr+O1Gb8BLfVkGSfkbWVP+IGpmwFsLpUQx2nDLWaYXlKjAmquCm3iJneKshEB0ZYIuA64f2+D26T8G9wi24SWwTWbYzsCkZXqraUCDxcVm+2fOyllajhP2bYndcYKGGF71hXHez+A2f40nf2vUnaCb3u1NFNrZoZvtmeqPwbg9hSePWRx86MnYxQOVDACl8rVQ12InNx3ZGfwUkRk127p9NLWIcp4Qo4AfK6bOJiknij3b9HosC8wbHgRriqXLt8DOt9ibJFJ7H3NqzIYTR+GUFfyJoxaEmaMmKftrn5WnR5gXnFJJNqpugAPcvJAUumTLdV21OcGURjUliiw8eEXINU2ugS7CTI8Kwkqud6gcaDrLG0db1sgeUAEH0ZzVAoSwYRCbGojhjA0tm3yZkUnB0lT7WEpasx9k3fjTSVVpcBq4guUiuDueZokl0Ob0oIrnUw1yPNy1EyZoN+5FkurGjZzAduy5DrIe33Yqnp5q+uHEcGeJMZLkXiceD7WiBQQe+KfhJOpkDtj13oqmjHxEuGdMGHtrHIZnqXQa0Dj1r6PSvn+mSruXkBIveQVDIVUuMlGCBgutrQ2W/1ClDgZMslPCrqsT0jORCUP3yPGTMeVD+vn+m1m+Fx3kxJFvC08S49ekR8/OFg5LJM7UiA/WaeT7TscnHW0j18FuMjzvUwPwbLmNrqcGeK4Gj0xR6M62miZzUmafhbu7qphV8Sk6/xl3I4QvQtau49mxuokgt6/Azti/Bif0BeqG0wJN/FcLtGcU801qIJOWy0H7j7e7sDBiHbt59U7V/kBObhiNyOkGOch9Ozud1YP+h/SSJJOWEL2zt0wSb9JPRMH1+CSY8cm93T1+BirpiukSbaDre9E12kAQzbGSaMG03hI48TW6QPzL9R5BmEyoLfrf9x5xAKRn9x5BkjjjfHln79F4Hj3ulDkgHLPVy/NI1/Gc5hG0q2DwWZoTfMkvlp+9OYHp8ENxu334uR3f/ws=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="689px" height="314px" viewBox="-0.5 -0.5 689 314" content="&lt;mxfile host=&quot;a8ead13d-2863-4e4e-8b03-f7ca423dc93f&quot; modified=&quot;2021-02-05T10:56:43.866Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;nuV3wZfjomCT_ZSnvAHA&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;ZZAaw9F9bndAv2IfB5-a&quot; name=&quot;Page-1&quot;&gt;3VhNb+M2EP01BtpDBEnU5zF2sttDCwRNge0eaYuRWFOiQNGJvb++Q4mURMlunKyNZlcBAnJIjsx5M++NvUCrcv9Z4Lr4g2eELXw32y/Q3cL3U8+H/8pw6AyhH3WGXNCsM3mD4ZF+I9roauuOZqSxNkrOmaS1bdzwqiIbadmwEPzF3vbEmf3WGudkZnjcYDa3fqGZLLQ1dN1h4TdC80JOV0psdmtDU+CMv4xM6H6BVoJz2Y3K/YowFTwTmO7cpxOr/ScTpJLnHNBIPGO205f7Qrd0jRsC1j9JzfXHlAdzecF3VUbUcXeBlv3n92DyxCup0fJcPV9xxkV7Erntow5JwbfErFS8ghPLjArAivIKTC+kkeo8ZWx0fnmr/sA+v6S+9zMRkuxHJn3pz4SXRIoDbNGrsUFEp2AU6/nLACgKta0YYZloG9Y5lPeuhyjDQAf6BErzqN9nVMI9/Yipi6/VKFejXxQcNckohv1mE7zAVfbyiH3FqIqKMf46ww8Qq9VwV7LbjTqGlipsFNL7d7wm7IE3VMOw5lLycrThltFcLUheg7WQJdPI851ktAJITcG5l4EpSGyY+kIaw3QEpegSKKUzlGbBJFV2qwhFBYvxzfavglazBB+n/ttKxLCLCjG86hNlrJ/Bbf4eT76qqDuhmd7tNQrd7GBmeyr7YzDuTqHJoxcHH2oydvFABGSfJOI1qBu+ExtDmzp+Eouc6G1mH8ksyp0nxAjwY2VpbIIwLOmzTdTHskC/4YHTtlpMvoV2viX+JJG6++hTY16dOIqm/BJMHHVBmDlqk7K/9ll5eoTDwSkReCObNnAQNz/CpSrZat3UXU5QqaKaYYlb3pjyTolpxdQOWQDh50XraEtbAQUqYCC/s1oACFsGsakBa87YkKrNlxmZlDTLlI+lIA39htetP5VUtQpOG65wuQjvjqdZakm9Pj3o6/lU4zo+SiILtBvvIkl148VQl5Zj33Nc6wlsp/zpqSHfnRjeLDFG4t4LxeOhkaRcqB4MtZxEnNzRCqOV5/0twIwJE3+Nougsvc9CkmTBdfQ+CM7Ue+8SUuKnr8SQC1nwnFegwVxpaxvLf4iUBx1MvJPcrqsT0jORCU33rhOkY8qH9AuCN7N8Lzquk8SBLTxpgl6THjU7WzgskThTI76zTuMgcAyfGNp2PQd56fC8Tw3As+U2vp4aoLkaPFJJoDvbKposcJV/FO42VTGr4lN0/l/c7broImTtOb6N1U0MuX0FdkbBNTihL1AvmhZoGrxaoD2j6O9kA5l0XA7af7zdhYUR69jNq3+q9gdy8qJ4RE43ruN6b2ens3rQ/5Fe0nTSErrv7C3T1J/0E3F4PT4JZ3xyb3ePH4FKTDFdog30Aj++RhsIojlWEiWY1ltCJ7lGF4h+ut4jjNIJtcU/fO+RhEB6du8Rpqkzzpd39h6t59HjTZkD4JitXp5HTMdzmkfcXQ2Dj9KcoEt+sfzozQlMh5+cu+3DD/fo/l8=&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
-        <rect x="237" y="230" width="350" height="80" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,412,270)" opacity="0.25"/>
-        <rect x="237" y="230" width="350" height="80" fill="#bababa" stroke="none" transform="rotate(180,412,270)" pointer-events="all"/>
+        <rect x="336" y="230" width="350" height="80" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,511,270)" opacity="0.25"/>
+        <rect x="336" y="230" width="350" height="80" fill="#bababa" stroke="none" transform="rotate(180,511,270)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="411.5" y="273.5">
+            <text x="510.5" y="273.5">
                 Wikibase Repo
             </text>
         </g>
-        <ellipse cx="32" cy="67.5" rx="7.5" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
-        <path d="M 32 75 L 32 100 M 32 80 L 17 80 M 32 80 L 47 80 M 32 100 L 17 120 M 32 100 L 47 120" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="131" cy="67.5" rx="7.5" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
+        <path d="M 131 75 L 131 100 M 131 80 L 116 80 M 131 80 L 146 80 M 131 100 L 116 120 M 131 100 L 146 120" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 127px; margin-left: 32px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 127px; margin-left: 131px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
-                                Client Editor
+                                Editor
+                                <br/>
+                                (Wikipedia Editor, Wikimedia Editor, Client Editor)
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="32" y="139" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    Clien...
+                <text x="131" y="139" fill="#000000" font-family="Helvetica" font-size="12px" text-anchor="middle">
+                    Edito...
                 </text>
             </switch>
         </g>
-        <path d="M 47 80 L 228.88 80" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 235.88 80 L 228.88 82.33 L 228.88 77.67 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 146 80 L 327.88 80" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 334.88 80 L 327.88 82.33 L 327.88 77.67 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 61px; margin-left: 148px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 61px; margin-left: 247px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
                                 interacts with entity data,
@@ -41,27 +43,27 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="148" y="64" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                <text x="247" y="64" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
                     interacts with entity data,...
                 </text>
             </switch>
         </g>
-        <rect x="237" y="0" width="350" height="160" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,412,80)" opacity="0.25"/>
-        <rect x="237" y="0" width="350" height="160" fill="#d5e8d4" stroke="#82b366" transform="rotate(180,412,80)" pointer-events="all"/>
+        <rect x="336" y="0" width="350" height="160" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,511,80)" opacity="0.25"/>
+        <rect x="336" y="0" width="350" height="160" fill="#d5e8d4" stroke="#82b366" transform="rotate(180,511,80)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
-            <text x="411.5" y="77.5">
+            <text x="510.5" y="77.5">
                 Wikibase Client System
             </text>
-            <text x="411.5" y="89.5">
+            <text x="510.5" y="89.5">
                 e.g. Wikipedia
             </text>
         </g>
-        <path d="M 281.19 161.32 L 281.11 223.24" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 281.1 230.24 L 278.78 223.24 L 283.44 223.25 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 380.19 161.32 L 380.11 223.24" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 380.1 230.24 L 377.78 223.24 L 382.44 223.25 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 196px; margin-left: 283px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 196px; margin-left: 382px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
                                 Sitelink changes
@@ -69,17 +71,17 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="283" y="199" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                <text x="382" y="199" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
                     Sitelink changes
                 </text>
             </switch>
         </g>
-        <path d="M 528.71 172.47 L 529.6 230.48" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 528.58 164.48 L 531.37 172.43 L 526.04 172.52 Z" fill="#000000" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 627.71 172.47 L 628.6 230.48" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 627.58 164.48 L 630.37 172.43 L 625.04 172.52 Z" fill="#000000" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 196px; margin-left: 529px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 196px; margin-left: 628px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
                                 Entity data
@@ -87,17 +89,17 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="529" y="199" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                <text x="628" y="199" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
                     Entity data
                 </text>
             </switch>
         </g>
-        <path d="M 387.09 160 L 387.76 224.04" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 387.84 231.04 L 385.43 224.07 L 390.1 224.02 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 486.09 160 L 486.76 224.04" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 486.84 231.04 L 484.43 224.07 L 489.1 224.02 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 196px; margin-left: 389px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 196px; margin-left: 488px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 11px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; background-color: #ffffff; white-space: nowrap; ">
                                 Entity data updates
@@ -105,7 +107,7 @@
                         </div>
                     </div>
                 </foreignObject>
-                <text x="389" y="199" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
+                <text x="488" y="199" fill="#000000" font-family="Helvetica" font-size="11px" text-anchor="middle">
                     Entity data updates
                 </text>
             </switch>
