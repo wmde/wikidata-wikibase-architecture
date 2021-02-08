@@ -6,16 +6,16 @@
 
 ![Alt Text](./diagrams/05-building-blocks.drawio.svg)
 
-| Building Block                                              | Responsibility                                                                                                 |
-| ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                                                   |
-| [Entity Data Access](#entity-data-access)                   | Access [Entities](../overview/12-Glossary.md#entity) from a Repository                                         |
-| [Usage Tracking](#usage)                                    | Tracking the usage of Repository Entities on a Client                                                          |
-| [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository                                               |
-| [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to pages that are linked to Repository [Items](../overview/12-Glossary.md#item) |
+| Building Block                                              | Responsibility                                                                                                                                               |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                                                                                                 |
+| [Entity Data Access](#entity-data-access)                   | Access [Entities](../overview/12-Glossary.md#entity) from a Repository                                                                                       |
+| [Usage Tracking](#usage)                                    | Tracking the usage of Repository Entities on a Client                                                                                                        |
+| [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository                                                                                             |
+| [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to [pages that are linked](../overview/12-Glossary.md#connected-pages) to Repository [Items](../overview/12-Glossary.md#item) |
 | [Data Bridge](#data-bridge)                                 | Edit Item [data values](../overview/12-Glossary.md#datavalue) on the Repository                                |
-| [Special Pages](#special-pages)                             | WikibaseClient specific [Special Pages](../overview/12-Glossary.md#special-page)                               |
-| [Interwiki](#interwiki)                                     | Client side interactions with [Interwiki links](../overview/12-Glossary.md#interwiki-links)                    |
+| [Special Pages](#special-pages)                             | WikibaseClient specific [Special Pages](../overview/12-Glossary.md#special-page)                                                                             |
+| [Interwiki](#interwiki)                                     | Client side interactions with [Interwiki links](../overview/12-Glossary.md#interwiki-links)                                                                  |
 
 ## APIs
 
@@ -195,7 +195,7 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 | populateEntityUsage                                 | Maintenance script for populating wbc_entity_usage based on the page_props table.                                            |
 | updateSubscriptions                                 | Maintenance script for inserting subscriptions into wb_changes_subscription based on wbc_entity_usage.                       |
 
-## Linked Site Page Changes
+## [Linked Site Page](../overview/12-Glossary.md#connected-pages) Changes
 
 ![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
 
