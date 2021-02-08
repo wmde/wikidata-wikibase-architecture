@@ -12,7 +12,7 @@
 ### Technical Context
 
 Wikibase Client is implemented as a collection of [MediaWiki extensions](../overview/12-Glossary.md#mediawiki-extension).
-These are "plugins" (= extensions) that lives inside [MediaWiki](../overview/12-Glossary.md#mediawiki) and adds functionality to it, which is reflected in this context diagram by embedding the Wikibase Client subsystem into a higher-level MediaWiki application.
+These are "plugins" (= extensions) that live inside [MediaWiki](../overview/12-Glossary.md#mediawiki) and add functionality to it, which is reflected in this context diagram by embedding the Wikibase Client subsystem into a higher-level MediaWiki application.
 See further details on this decision in the [Solution Strategy](04-Solution_Strategy.md#developing-wikibase-client-as-mediawiki-extensions) section.
 
 ![WikibaseClient technical context diagram](./diagrams/03-technical-context.drawio.svg)
