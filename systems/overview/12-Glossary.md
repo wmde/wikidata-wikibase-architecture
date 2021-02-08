@@ -134,7 +134,7 @@ Wikidata is a Wikimedia project that runs an instance of [MediaWiki](#mediawiki)
 
 ## Wikipedia
 
-The free, multilingual open-collaborative online encyclopedia that is run by the [MediaWiki](#mediawiki) engine and using  [Wikibase Client](#wikibase-client) as to display Entity data from [Wikidata](#wikidata).
+The free, multilingual open-collaborative online encyclopedia that is run by the [MediaWiki](#mediawiki) engine and using  [Wikibase Client](#wikibase-client) to display Entity data from [Wikidata](#wikidata).
 
 ## [Wikitext](https://en.wikipedia.org/wiki/Help:Wikitext)
 
