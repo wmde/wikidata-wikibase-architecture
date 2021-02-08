@@ -19,6 +19,10 @@ Badges are optional markers that can be attached to a sitelink to another Wikime
 
 A component is a software unit with a well-defined interface and explicitly specified dependencies. A software component can be as small as a block of reusable code, or it can be as big as an entire application depending on the level of granularity a system is being looked at.
 
+## Connected Pages
+
+Pages on Client wikis for which there is a [Sitelink](#sitelink) on an Item on a Wikibase Repository are often referred to as connected or linked pages. Pages for which there isn't a Sitelink are called unconnected pages.
+
 ## [Datatype](https://www.wikidata.org/wiki/Help:Data_type)
 
 Datatype (or _propertyType_) is an attribute of a [Property](#property) specifying the type and shape of the [Datavalue](#datavalue) in each statement. Each property is assigned a pre-defined datatype, which usually can not be changed. Data types can only be defined by developers; the development of new datatypes is still in progress.
@@ -93,10 +97,6 @@ A Reference (or source) is used to point to a specific resource that supports a 
 ## [Sitelink](https://www.wikidata.org/wiki/Help:Sitelinks)
 
 Sitelinks are special links that contain a site and a title, and go from individual [Items](#item) in a Wikibase Repository to pages on Client wikis (e.g. from Wikidata to other Wikimedia sites such as Wikipedia, Wikisource and Wikivoyage) referring to the same concept. Adding a Sitelink to an Item on a Wikibase Repository for a wiki page on a Client connects the two, which makes it possible for the Client's wiki page to link to pages on other Clients referring to the same concept. On the Client side, these links are called [Interwiki links](#interwiki-links).
-
-## Connected Pages
-
-Pages on Client wikis for which there is a [Sitelink](#sitelink) on an Item on a Wikibase Repository are often referred to as connected or linked pages. Pages for which there isn't a Sitelink are called unconnected pages.
 
 ## Snak
 
