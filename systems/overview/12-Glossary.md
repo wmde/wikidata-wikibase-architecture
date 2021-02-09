@@ -158,7 +158,7 @@ Wikibase Client is a set of features that enables the use, display and editing o
 
 ## Wikibase Extension
 
-Wikibase Extensions are [MediaWiki](#mediawiki) extensions that add further functionality to [WikibaseClient](#wikibaseclient) or [Wikibase Repo](#wikibase-repository). Extensions such as [WikibaseLexeme](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme) that enable additional Entity types or Property datatypes on Wikibase need to be enabled both on the Repository, and on the Client. On the Repository the extension enables creating and editing these new types of data, and on the Client side the extension enables the wiki to consume and display them.
+Wikibase Extensions are [MediaWiki](#mediawiki) extensions that add further functionality to [WikibaseClient](#wikibase-client) or [Wikibase Repo](#wikibase-repository). Extensions such as [WikibaseLexeme](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme) that enable additional Entity types or Property datatypes on Wikibase need to be enabled both on the Repository, and on the Client. On the Repository the extension enables creating and editing these new types of data, and on the Client side the extension enables the wiki to consume and display them.
 
 Other Wikibase extensions exist only on the Repo (e.g. [WikibaseQualityConstraints](https://www.mediawiki.org/wiki/Extension:WikibaseQualityConstraints)) or only on the Client (e.g. [ArticlePlaceholder](https://www.mediawiki.org/wiki/Extension:ArticlePlaceholder)).
 
