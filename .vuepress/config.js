@@ -35,20 +35,19 @@ module.exports = {
             },
             {
                 text: 'Overview',
-                link: '/systems/overview/',
+                link: '/systems/overview/01-Introduction_and_Goals',
             },
             {
                 text: 'WikibaseRepo',
-                link: '/systems/WikibaseRepo/',
+                link: '/systems/WikibaseRepo/01-Introduction_and_Goals',
             },
             {
                 text: 'WikibaseClient',
-                link: '/systems/WikibaseClient/',
+                link: '/systems/WikibaseClient/01-Introduction_and_Goals',
             },
         ],
         sidebar: {
             '/systems/WikibaseRepo/': [
-                '',
                 '01-Introduction_and_Goals',
                 '02-Architecture_Constraints',
                 '03-Context_and_Scope',
@@ -62,7 +61,6 @@ module.exports = {
                 '11-Risks_and_Technical_Debt',
             ],
             '/systems/WikibaseClient/': [
-                '',
                 '01-Introduction_and_Goals',
                 '02-Architecture_Constraints',
                 '03-Context_and_Scope',
@@ -76,7 +74,6 @@ module.exports = {
                 '11-Risks_and_Technical_Debt',
             ],
             '/systems/overview/': [
-                '',
                 '01-Introduction_and_Goals',
                 '02-Architecture_Constraints',
                 '03-Context_and_Scope',
