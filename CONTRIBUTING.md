@@ -54,6 +54,7 @@ diagrams.net is used to create refined SVG diagrams.
 These SVGs should only be edited using a diagrams.net editor.
 
 If you are using VS Code, you can take advantage of the [diagrams.net integration plugin](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio).
+If you want to draw diagrams in collaboration with other people you can do that with [LiveShare](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack) and the aforementioned extension. Make sure to switch your VS Code theme to a light one when drawing diagrams.
 
 If you are not using VS Code you can edit diagrams on [diagrams.net itself](https://www.diagrams.net/), exporting as an SVG.
 
