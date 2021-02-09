@@ -5,7 +5,7 @@ The goal is for all consumers of the architecture documentation to have an ident
 
 ## [Alias](https://www.wikidata.org/wiki/Help:Aliases)
 
-Aliases are alternative names for [Entities](#entity) that are placed in the _Also known as_ column of the table on top of every Wikidata Item or Property page. The usual or most important name is the [Label](#label). Aliases help people to find an item even if they don’t search with the label. For example, the item Q2 has the label “Earth” and aliases such as “Tellus” and “Blue Planet”. It's a type of [Term](#term).
+Aliases are alternative names for [Entities](#entity) that are placed in the _Also known as_ column of the table on top of every [Wikibase Item](#item) or Property page. The usual or most important name is the [Label](#label). Aliases help people to find an item even if they don’t search with the label. For example, the item Q2 has the label “Earth” and aliases such as “Tellus” and “Blue Planet”. It's a type of [Term](#term).
 
 ## [Badge](https://www.wikidata.org/wiki/Help:Badges)
 
@@ -13,11 +13,23 @@ Badges are optional markers that can be attached to a sitelink to another Wikime
 
 ## [Bots](https://www.wikidata.org/wiki/Wikidata:Bots)
 
- Bots are tools used to make edits without the necessity of human decision-making. Bots can add interwiki links, labels, descriptions, statements, sources, and can even create items, among other things.
+ Bots are tools used to make edits without the necessity of human decision-making. Bots can add Sitelinks, labels, descriptions, statements, References, and can even create Items, among other things.
 
 ## Component
 
 A component is a software unit with a well-defined interface and explicitly specified dependencies. A software component can be as small as a block of reusable code, or it can be as big as an entire application depending on the level of granularity a system is being looked at.
+
+## Connected Pages
+
+Pages on Client wikis for which there is a [Sitelink](#sitelink) on an Item on a Wikibase Repository are often referred to as connected or linked pages. Pages for which there isn't a Sitelink are called unconnected pages.
+
+## [Datatype](https://www.wikidata.org/wiki/Help:Data_type)
+
+Datatype (or _propertyType_) is an attribute of a [Property](#property) specifying the type and shape of the [Datavalue](#datavalue) in each statement. Each property is assigned a pre-defined datatype, which usually can not be changed. Data types can only be defined by developers; the development of new datatypes is still in progress.
+
+## [Datavalue](https://www.wikidata.org/wiki/Help:Statements#Values)
+
+Datavalue (also just _value_) is the actual piece of information stored within a [Statement](#statement). Wikidata has a range of allowed [datatypes](#datatype) (such as _Item_, _mathematical expression_, _quantity_). The datatype needed for any given statement is determined by the [Property](#property) used (e.g. the value in a _place of birth_ statement must be an _Item_). Instead of a normal value, you can also use one of the special cases _unknown value_ or _no value_ in a statement.
 
 ## [Description](https://www.wikidata.org/wiki/Help:Description)
 
@@ -27,18 +39,23 @@ Description is a language-specific descriptive phrase for an [Entity](#entity). 
 
 Entities are the top level concepts of Wikibase's data model. [Items](#item) and [Properties](#property) are the core Entity types of Wikibase. Other types can be added through [Wikibase extensions](#wikibase-extension), such as [Lexemes](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme/Data_Model#Lexeme).
 
+## [Federated Properties](https://doc.wikimedia.org/Wikibase/master/php/md_docs_components_repo-federated-properties.html)
+
+Federated Properties is a feature that allows a newly created [Wikibase](#wikibase) instance to use the existing [Properties](#property) of another Wikibase. This enables new users evaluating Wikibase to get started without having to spend a lot of time defining basic Properties first.
+
 ## Gadgets
 
 [Gadgets](https://www.mediawiki.org/wiki/Extension:Gadgets) are made up of JavaScript and/or CSS Snippets located on pages in the MediaWiki namespace. These snippets add functionality to the wiki itself and can be enabled and disabled via preferences.
 
 ## [Interwiki Links](https://www.mediawiki.org/wiki/Manual:Interwiki)
 
-Interwiki links are links to pages of other projects, using a prefixed internal link style.
-Interwiki links make it possible to link to pages of (e.g.) Wikipedia, Wikibooks, Wikinews etc. or to your wiki-project in different languages.
+Interwiki links are links to pages of other projects, using a prefixed internal link style. Interwiki links make it possible to link to pages of e.g. Wikipedia, Wikibooks, Wikinews etc. or to your wiki-project in different languages. Interwiki links to pages referring to the same concept across wikis can be centrally stored on a Wikibase Repository by using [Sitelinks](#sitelink).
 
 ## [Item](https://www.wikidata.org/wiki/Help:Items)
 
-In Wikidata, Items are used to represent all the things in human knowledge, including topics, concepts, and objects. For example, the "1988 Summer Olympics", "love", "Elvis Presley", and "gorilla" are all Items in Wikidata.
+In Wikidata or any other WikibaseRepo instance, Items are used to represent all the things in human knowledge, including topics, concepts, and objects. For example, the "1988 Summer Olympics", "love", "Elvis Presley", and "gorilla" are all Items in Wikidata.
+
+The terms "Wikibase Item" and "Wikidata Item" are used interchangeably throughout the documentation. They are the same thing that lives in different contexts - Wikidata or another WikibaseRepo instance.
 
 ## [Label](https://www.wikidata.org/wiki/Help:Label)
 
@@ -63,15 +80,27 @@ Examples: WikibaseClient, UniversalLanguageSelector, OAuth
 
 ## [Property](https://www.wikidata.org/wiki/Help:Properties)
 
-Properties are Entities that describe a relationship between Items (or other Entities) and values of the Property. Typical Properties are _population_ (using numbers as values), _binomial name_ (using strings as values), but also _has father_ and _author of_ (both using Items as values).
+Properties are [Entities](#entity) that describe a relationship between [Items](#item) (or other Entities) and [values](#datavalue) of the Property. Typical Properties are _population_ (using numbers as values), _binomial name_ (using strings as values), but also _has father_ and _author of_ (both using Items as values).
 
 ## [QuickStatements](https://www.wikidata.org/wiki/Help:QuickStatements)
 
 QuickStatements is a tool, that can edit Wikidata [Items](#item), based on a simple set of text commands. The tool can add and remove [Statements](#statement), [Labels](#label), Descriptions, and Aliases; as well as add statements with optional qualifiers and sources.
 
+## [Rank](https://www.wikidata.org/wiki/Help:Ranking)
+
+Rank is a quality factor used for simple selection/filtering in cases where there are several [Statements](#statement) for a given [Property](#property). In such cases, users may want to indicate which statement is more important or relevant than other statements. By default, a statement has the rank _normal_, but it can be changed this to either _preferred_ or _deprecated_.
+
+## [Reference](https://www.wikidata.org/wiki/Help:Sources)
+
+A Reference (or source) is used to point to a specific resource that supports a [Statement](#statement) in Wikidata. A reference can be a link to a URL or an item; for example, an item about a book. Wikidata does not aim to answer the question of whether a statemente is correct, but only whether the statemtent appears in a reference.
+
 ## [Sitelink](https://www.wikidata.org/wiki/Help:Sitelinks)
 
-Sitelinks (also known as interwiki links or interlanguage links) are special links that contain a site and a title, and go from individual [Items](#item) in Wikidata to pages on other Wikimedia sites such as Wikipedia, Wikisource and Wikivoyage.
+Sitelinks are special links that contain a site and a title, and go from individual [Items](#item) in a Wikibase Repository to pages on Client wikis (e.g. from Wikidata to other Wikimedia sites such as Wikipedia, Wikisource and Wikivoyage) referring to the same concept. Adding a Sitelink to an Item on a Wikibase Repository for a wiki page on a Client connects the two, which makes it possible for the Client's wiki page to link to pages on other Clients referring to the same concept. On the Client side, these links are called [Interwiki links](#interwiki-links).
+
+## Snak
+
+Snak is a technical term of Wikibase software which data users are most likely to encounter when accessing Wikidata through the MediaWiki API. It refers to the combination of a [Property](#property) and either a [value](#datavalue) or one of the special cases _no value_ and _unknown value_. Snaks can be found in statements (then they are called _main snaks_) or in qualifiers (then they are called _qualifier snaks_).
 
 ## [Special Page](https://www.mediawiki.org/wiki/Manual:Special_pages)
 
@@ -89,7 +118,7 @@ All persons, roles or organizations that:
 
 ## [Statement](https://www.wikidata.org/wiki/Help:Statements)
 
-A Statement is a piece of data about an [Item](#item), recorded on the Item's page. A Statement consists of a property-value pair such as "Location: Germany", augmented by references and a rank. The term _Statement_ is often used interchangeably with _Claim_, but technically it only becomes a Statement once at least one reference has been added.
+A Statement is a piece of data about an [Item](#item), recorded on the Item's page. A Statement consists of a property-value pair such as "Location: Germany", augmented by [References](#reference) and a [Rank](#rank). The term _Statement_ is often used interchangeably with _Claim_.
 
 ## Term
 
@@ -98,6 +127,10 @@ A term is a string value with a language code. Terms are used as [Labels](#label
 ## Termbox
 
 The termbox is the zone at the top of an [Entity](#entity) page which shows its [Labels](#label), [Descriptions](#description) and [Aliases](#alias) in different languages.
+
+## Title
+
+Title is the name of a wiki page. All pages must have a unique title within a given wiki, as the title is included in the URL for the page. For example there can be only one page with the title "Douglas Adams" on English Wikipedia. In Wikidata, a title is either an entity identifier such as Q42, or it starts with a namespace prefix such as Help:. The page title is not to be confused with the [Label](#label) for a Wikidata [Item](#item) or [Property](#property). Wikidata items are connected to pages on other Wikimedia wikis via [Sitelinks](#sitelink), which use the page's title to uniquely identify the resource.
 
 ## [Tools](https://www.wikidata.org/wiki/Wikidata:Tools)
 
@@ -125,8 +158,9 @@ Wikibase Client is a set of features that enables the use, display and editing o
 
 ## Wikibase Extension
 
-Wikibase Extensions are [MediaWiki](#mediawiki) extensions that add further functionality to [Wikibase](#wikibase). They depend on the Wikibase extension being installed and directly interact with it.
-Examples: WikibaseLexeme, WikibaseMediaInfo, WikibaseImport
+Wikibase Extensions are [MediaWiki](#mediawiki) extensions that add further functionality to [WikibaseClient](#wikibaseclient) or [Wikibase Repo](#wikibase-repository). Extensions such as [WikibaseLexeme](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme) that enable additional Entity types or Property datatypes on Wikibase need to be enabled both on the Repository, and on the Client. On the Repository the extension enables creating and editing these new types of data, and on the Client side the extension enables the wiki to consume and display them.
+
+Other Wikibase extensions exist only on the Repo (e.g. [WikibaseQualityConstraints](https://www.mediawiki.org/wiki/Extension:WikibaseQualityConstraints)) or only on the Client (e.g. [ArticlePlaceholder](https://www.mediawiki.org/wiki/Extension:ArticlePlaceholder)).
 
 ## Wikidata
 
@@ -142,4 +176,4 @@ Wikitext, also known as Wiki markup or Wikicode, consists of the syntax and keyw
 
 ## Wikitext-generated content
 
-This describes the content of a wiki that is generated by [Wikitext](#wikitext), such as wiki pages or [messages](https://www.mediawiki.org/wiki/Help:System_message).
+This describes the content of a wiki that is generated by [Wikitext](#wikitext), such as wiki pages or [messages](https://www.mediawiki.org/wiki/Help:System_message). The format of Wikitext-generated content is typically HTML, but it can also be plain text.

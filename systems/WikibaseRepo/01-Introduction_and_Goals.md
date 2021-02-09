@@ -1,10 +1,13 @@
 # Introduction and Goals
 
+Wikibase Repository is part of [Wikibase](../overview/01-Introduction_and_Goals.md). Wikibase Repository is a [MediaWiki extension](../overview/12-Glossary.md#mediawiki-extension) that allows you to use your wiki as a structured data repository. Its development is part of the [Wikidata](../overview/12-Glossary.md#wikidata) project. The data can in turn be used in a wiki using the [Wikibase Client](../WikibaseClient/01-Introduction_and_Goals.md) extension.
+
 ## Requirements Overview
 
 ## Quality Goals
 
-- Data updates from the repo are available to the [Wikibase Client](../overview/12-Glossary.md#wikibase-client) within [10 minutes](https://gerrit.wikimedia.org/r/plugins/gitiles/operations/puppet/+/e3423c8627067a8de8352b9b7f3c59870d9b47c5/modules/icinga/manifests/monitor/wikidata.pp#10).
+- Whenever any data (entity [label](../overview/12-Glossary.md#label), description, [alias](../overview/12-Glossary.md#alias), [statements](../overview/12-Glossary.md#statement) etc.) changes on a [Wikibase Repository](../overview/12-Glossary.md#wikibase-repository) (e.g. Wikidata), it becomes available to the connected wiki with [Wikibase Client](../overview/12-Glossary.md#wikibase-client) within [10 minutes](https://gerrit.wikimedia.org/r/plugins/gitiles/operations/puppet/+/e3423c8627067a8de8352b9b7f3c59870d9b47c5/modules/icinga/manifests/monitor/wikidata.pp#10).  
+  For example, if the mayor of Berlin changes and that is updated on Wikidata, the corresponding article that uses the Wikidata item "Mayor of Berlin" on English Wikipedia should have the updated information within 10 minutes.
 
 ## Stakeholders & Expectations
 
@@ -38,7 +41,7 @@ Some Commons editor expectations probably only apply to the MediaInfo extension,
 ### Non Wikimedia project editor
 
 - Use the same Wikidata ontology on a non Wikimedia Wikibase.
-- Extend a non Wikimedia Wikibase with relevant entities from Wikidata (federation).
+- Extend a non Wikimedia Wikibase with relevant entities from Wikidata ([federation](../overview/12-Glossary.md#federated-properties)).
 
 ### Data re-user
 
@@ -46,7 +49,7 @@ Some Commons editor expectations probably only apply to the MediaInfo extension,
 
 #### Wikidata Data re-user
 
-- Fix and add values on Wikidata.
+- Fix and add [data values](../overview/12-Glossary.md#datavalue) on Wikidata.
 
 #### Researcher
 

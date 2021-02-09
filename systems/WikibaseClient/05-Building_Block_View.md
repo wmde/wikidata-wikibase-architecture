@@ -6,16 +6,16 @@
 
 ![Alt Text](./diagrams/05-building-blocks.drawio.svg)
 
-| Building Block                                              | Responsibility                                                                   |
-| ----------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                     |
-| [Entity Data Access](#entity-data-access)                   | Access Entities from a Repository                                                |
-| [Usage Tracking](#usage)                                    | Tracking the usage of Repository Entities on a Client                            |
-| [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository                 |
-| [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to pages that are linked to Repository Items      |
-| [Client Side Item Edits](#client-side-item-edits)           | Edit Item Data on the Repository                                                 |
-| [Special Pages](#special-pages)                             | WikibaseClient specific [Special Pages](../overview/12-Glossary.md#special-page) |
-| [Interwiki](#interwiki)                                     | Client side interactions with Interwiki links                                    |
+| Building Block                                              | Responsibility                                                                                                                                               |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                                                                                                 |
+| [Entity Data Access](#entity-data-access)                   | Access [Entities](../overview/12-Glossary.md#entity) from a Repository                                                                                       |
+| [Usage Tracking](#usage)                                    | Tracking the usage of Repository Entities on a Client                                                                                                        |
+| [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository                                                                                             |
+| [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to [pages that are linked](../overview/12-Glossary.md#connected-pages) to Repository [Items](../overview/12-Glossary.md#item) |
+| [Data Bridge](#data-bridge)                                 | Edit Item [data values](../overview/12-Glossary.md#datavalue) on the Repository                                                                              |
+| [Special Pages](#special-pages)                             | WikibaseClient specific [Special Pages](../overview/12-Glossary.md#special-page)                                                                             |
+| [Interwiki](#interwiki)                                     | Client side interactions with [Interwiki links](../overview/12-Glossary.md#interwiki-links)                                                                  |
 
 ## APIs
 
@@ -48,22 +48,22 @@
 
 ![Action API Page Terms Building Block Diagram](./diagrams/05-api-pageterms.drawio.svg)
 
-| Building Block  | Type/Context | Responsibility                                              |
-| --------------- | ------------ | ----------------------------------------------------------- |
-| EntityIdLookup  | Lookups      | Lookup EntityIds from Titles                                |
-| TermBuffer      | Lookups      | Lookup buffered [Terms](../overview/12-Glossary.md#term)    |
-| AliasTermBuffer | Lookups      | Lookup buffered [Aliases](../overview/12-Glossary.md#alias) |
-| RepoLinker      | Response     | Creates links to Repo Entity concepts                       |
+| Building Block  | Type/Context | Responsibility                                                   |
+| --------------- | ------------ | ---------------------------------------------------------------- |
+| EntityIdLookup  | Lookups      | Lookup EntityIds from [Titles](../overview/12-Glossary.md#title) |
+| TermBuffer      | Lookups      | Lookup buffered [Terms](../overview/12-Glossary.md#term)         |
+| AliasTermBuffer | Lookups      | Lookup buffered [Aliases](../overview/12-Glossary.md#alias)      |
+| RepoLinker      | Response     | Creates links to Repo Entity concepts                            |
 
 ### Action API Format Reference
 
 ![Action API Format Reference Building Block Diagram](./diagrams/05-api-wbformatreference.drawio.svg)
 
-| Building Block           | Type/Context     | Responsibility                           |
-| ------------------------ | ---------------- | ---------------------------------------- |
-| Deserializer (Reference) | Input            | Get reference objects from user input    |
-| ReferenceFormatter       | Format Reference | Format reference as wikitext             |
-| Parser                   | Output           | Parse reference wikitext and output HTML |
+| Building Block           | Type/Context     | Responsibility                                                                |
+| ------------------------ | ---------------- | ----------------------------------------------------------------------------- |
+| Deserializer (Reference) | Input            | Get [Reference](../overview/12-Glossary.md#reference) objects from user input |
+| ReferenceFormatter       | Format Reference | Format Reference as wikitext                                                  |
+| Parser                   | Output           | Parse Reference wikitext and output HTML                                      |
 
 ## Entity Data Access
 
@@ -85,11 +85,11 @@ You can see the interactions of components related to Entity Data Access in [the
 
 | Building Block                  | Responsibility                                                                                             |
 | ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| SnakFormatter                   | Formats snaks in a client context                                                                          |
+| SnakFormatter                   | Formats [Snaks](../overview/12-Glossary.md#snak) in a client context                                       |
 | ReferenceFormatter              | Formats references in a client context                                                                     |
 | StatementTransclusionInteractor | Renders the main snaks associated with a given Property on an Entity                                       |
-| EntityTitleLookup               | Resolves a specific sitelink on a specific Item to a Title                                                 |
-| PropertyIdResolver              | Resolved a PropertyId from input which could be a [label](../overview/12-Glossary.md#label) or prefixed ID |
+| EntityTitleLookup               | Resolves a specific sitelink on a specific Item to a [Title](../overview/12-Glossary.md#title)             |
+| PropertyIdResolver              | Resolves a PropertyId from input which could be a [Label](../overview/12-Glossary.md#label) or prefixed ID |
 | SnaksFinder                     | Find Snaks for claims in a given Entity, based on PropertyId                                               |
 
 ### ParserFunctions
@@ -195,7 +195,7 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 | populateEntityUsage                                 | Maintenance script for populating wbc_entity_usage based on the page_props table.                                            |
 | updateSubscriptions                                 | Maintenance script for inserting subscriptions into wb_changes_subscription based on wbc_entity_usage.                       |
 
-## Linked Site Page Changes
+## [Linked Site Page](../overview/12-Glossary.md#connected-pages) Changes
 
 ![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
 
@@ -209,53 +209,26 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 You can see the interactions of components related to Linked Site Page Changes in [the runtime view diagrams](./06-Runtime_View.md#updaterepohookhandler).
 :::
 
-## Client Side Item Edits
-
-### Data Bridge
+## Data Bridge
 
 Data Bridge is a frontend component enabling Repo edits on the Client via the Repo API.
 
 ![Data Bridge](./diagrams/05-databridge.drawio.svg)
 
-| Building Block | Responsibility                                                                                       |
-| -------------- | ---------------------------------------------------------------------------------------------------- |
-| Data Access    | A group of classes and interfaces for interacting with WikibaseRepo data and MediaWiki functionality |
-| Presentation   | UI components for presentation                                                                       |
-| Store          | State management of the UI components                                                                |
-| MediaWiki      | Logic that has to do with Data Bridge attaching itself in the right places on the wiki article       |
-| ChangeOp       | Strategies for applying changes (update or replace) to the entity                                    |
-| Tracking       | Tracking data bridge usage and errors                                                                |
+| Building Block                | Responsibility                                                                                       |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [Data Access](#data-access)   | A group of classes and interfaces for interacting with WikibaseRepo data and MediaWiki functionality |
+| [Presentation](#presentation) | UI components for presentation                                                                       |
+| Store                         | State management of the UI components                                                                |
+| [MediaWiki](#mediawiki)       | Logic that has to do with Data Bridge attaching itself in the right places on the wiki article       |
+| [ChangeOp](#changeop)         | Strategies for applying changes (update or replace) to the entity                                    |
+| Tracking                      | Tracking data bridge usage and errors                                                                |
 
 ::: tip
 You can see the interactions of components related to Data Bridge in [the runtime view diagrams](./06-Runtime_View.md#data-bridge).
 :::
 
-#### ChangeOp
-
-![Data Bridge Change Op](./diagrams/05-databridge-changeop.drawio.svg)
-
-| Building Block            | Responsibility                                                                     |
-| ------------------------- | ---------------------------------------------------------------------------------- |
-| ReplaceMutationStrategy   | Strategy for replacing a [statement](../overview/12-Glossary.md#statement)         |
-| StatementMutationStrategy | Interface for a statement mutation strategy                                        |
-| UpdateMutationStrategy    | Strategy for updating a statement                                                  |
-| StatementMutationError    | Represents an error that can occur when mutating a statement                       |
-| StatementMutationFactory  | Chooses the right mutation strategy based on the edit decision (replace or update) |
-
-#### MediaWiki
-
-![Data Bridge MediaWiki](./diagrams/05-databridge-mediawiki.drawio.svg)
-
-| Building Block           | Responsibility                                                                                                                |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
-| Dispatcher               | Dispatches Data Bridge to the appropriate DOM element in the wiki article                                                     |
-| BridgeDomElementSelector | Selects elements in a wiki article's DOM that can be overloaded with Data Bridge                                              |
-| SelectedElement          | An interface which describes a DOM element to which Data Bridge is dispatched                                                 |
-| subscribeToEvents        | Actions taken on the wiki page when certain data bridge events occur. E.g. reload the page when the data bridge edit is saved |
-| prepareContainer         | Creates a container element based on OO.ui.Dialog in which Data Bridge is placed on the wiki page                             |
-| EventTracker             | An abstraction layer for MediaWiki's event tracker                                                                            |
-
-#### Data Access
+### Data Access
 
 ![Data Bridge Data Access](./diagrams/05-databridge-dataaccess.drawio.svg)
 
@@ -269,7 +242,7 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | Writing API                           | Implementations of WikibaseRepo API requests that have to do with writing to repo                                                      |
 | ApiEntityLabelRepository              | A repository to get the [label](../overview/12-Glossary.md#label) of specific entity in a specific language                            |
 | ApiPageEditPermissionErrorsRepository | A repository for determining potential permission errors when editing a page.                                                          |
-| ApiPropertyDataTypeRepository         | A repository to get the data type of a property                                                                                        |
+| ApiPropertyDataTypeRepository         | A repository to get the [datatype](../overview/12-Glossary.md#datatype) of a property                                                  |
 | ApiRenderReferencesRepository         | A repository to render reference JSON blobs into HTML strings                                                                          |
 | ApiReadingEntityRepository            | A repository for reading the latest revision of an entity.                                                                             |
 | ApiRepoConfigRepository               | A repository to get the configuration from the Wikibase repo instance where the data is going to be saved                              |
@@ -278,7 +251,7 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | TrimmingWritingRepository             | A WritingEntityRepository that compares the old and new entity data and sends parts that changed to an underlying ApiWritingRepository |
 | SpecialPageReadingEntityRepository    | A repository for reading the latest revision of an entity                                                                              |
 
-#### Presentation
+### Presentation
 
 ![Data Bridge Presentation](./diagrams/05-databridge-presentation.drawio.svg)
 
@@ -293,6 +266,31 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | ClientRouter              | Format page urls for client                                                                                                   |
 | RepoRouter                | Format page urls for repo                                                                                                     |
 | BridgeConfig              | Configuration needed in some UI components, e.g. the link for reporting issues with data bridge                               |
+
+### MediaWiki
+
+![Data Bridge MediaWiki](./diagrams/05-databridge-mediawiki.drawio.svg)
+
+| Building Block           | Responsibility                                                                                                                |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Dispatcher               | Dispatches Data Bridge to the appropriate DOM element in the wiki article                                                     |
+| BridgeDomElementSelector | Selects elements in a wiki article's DOM that can be overloaded with Data Bridge                                              |
+| SelectedElement          | An interface which describes a DOM element to which Data Bridge is dispatched                                                 |
+| subscribeToEvents        | Actions taken on the wiki page when certain data bridge events occur. E.g. reload the page when the data bridge edit is saved |
+| prepareContainer         | Creates a container element based on OO.ui.Dialog in which Data Bridge is placed on the wiki page                             |
+| EventTracker             | An abstraction layer for MediaWiki's event tracker                                                                            |
+
+### ChangeOp
+
+![Data Bridge Change Op](./diagrams/05-databridge-changeop.drawio.svg)
+
+| Building Block            | Responsibility                                                                     |
+| ------------------------- | ---------------------------------------------------------------------------------- |
+| ReplaceMutationStrategy   | Strategy for replacing a [statement](../overview/12-Glossary.md#statement)         |
+| StatementMutationStrategy | Interface for a statement mutation strategy                                        |
+| UpdateMutationStrategy    | Strategy for updating a statement                                                  |
+| StatementMutationError    | Represents an error that can occur when mutating a statement                       |
+| StatementMutationFactory  | Chooses the right mutation strategy based on the edit decision (replace or update) |
 
 ## Special Pages
 

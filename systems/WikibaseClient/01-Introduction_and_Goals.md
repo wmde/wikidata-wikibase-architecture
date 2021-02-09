@@ -1,21 +1,23 @@
 # Introduction and Goals
 
+Wikibase Client is part of [Wikibase](../overview/01-Introduction_and_Goals.md). It is a [MediaWiki extension](../overview/12-Glossary.md#mediawiki-extension) that acts as a client to the [Wikibase Repository](../WikibaseRepo/01-Introduction_and_Goals.md) extension. Its development is part of the [Wikidata](../overview/12-Glossary.md#wikidata) project. It allows to use and display data from a Wikibase Repository via [Lua](../overview/12-Glossary.md#lua) modules or parser functions. Clients can also use centralized language links or article placeholders.
+
 ## Requirements Overview
 
 ## Quality Goals
 
-- Entity data which is included in a [Wikibase Client's](../overall/../overview/12-Glossary.md#wikibase-client) [wikitext generated content](../overall/../overview/12-Glossary.md#wikitext-generated-content) is eventually consistent with updates on the corresponding [Wikibase Repository](../overall/../overview/12-Glossary.md#wikibase-repository).
+- Entity data which is included in a [Wikibase Client's](../overall/../overview/12-Glossary.md#wikibase-client) content is eventually consistent with updates on the corresponding [Wikibase Repository](../overview/12-Glossary.md#wikibase-repository). The Repository notifies the Client of updates via [Entity Change Notifications](./06-Runtime_View.md#entity-change-notifications) to which the Client reacts by purging the caches of pages which include data of the affected Entities which in turn pulls the updated Entity data from the Repository.
 
 ## Stakeholders & Expectations
 
 ### Wikibase Client editor
 
-- Connect a page to a Wikibase Item.
-- Show that a page is connected to a Wikibase Item in the page info.
-- Link to the connected Wikibase Item for an article page in its sidebar.
+- Connect a page to a [Wikibase Item](../overview/12-Glossary.md#item).
+- Show that a page is connected to a [Wikibase Item](../overview/12-Glossary.md#item) in the page info.
+- Link to the connected [Wikibase Item](../overview/12-Glossary.md#item) for an article page in its sidebar.
 - Use data from a Wikibase Repository in Wikibase Client [wikitext generated content](../overall/../overview/12-Glossary.md#wikitext-generated-content).
 - Have data from a Wikibase Repository used in Wikibase Client pages update automatically when changes happen on the Wikibase Repository.
-- See the "unconnected pages" on a Wikibase Client.
+- See the "[unconnected pages](../overview/12-Glossary.md#connected-pages)" on a Wikibase Client.
 
 ### Wikimedia editor
 
@@ -23,7 +25,7 @@
 
 ### Wikipedia editor
 
-- Connect pages on different Wikipedias, showing interwiki links on the connected pages.
+- Connect pages on different Wikipedias, showing interwiki links on the [connected pages](../overview/12-Glossary.md#connected-pages).
 - Store information relating to article quality in a central place, for use in interwiki links on the Articles.
 - Have data updates which cause pages changes to be shown in RecentChanges.
 - Have data updates which cause pages changes to be shown in [Watchlists](../overview/12-Glossary.md#watchlist), when the page being changed is watched.
