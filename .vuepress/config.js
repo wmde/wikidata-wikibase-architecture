@@ -38,11 +38,11 @@ module.exports = {
                 link: '/systems/overview/01-Introduction_and_Goals',
             },
             {
-                text: 'WikibaseRepo',
+                text: 'Wikibase Repository',
                 link: '/systems/WikibaseRepo/01-Introduction_and_Goals',
             },
             {
-                text: 'WikibaseClient',
+                text: 'Wikibase Client',
                 link: '/systems/WikibaseClient/01-Introduction_and_Goals',
             },
         ],

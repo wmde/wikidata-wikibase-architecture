@@ -148,13 +148,13 @@ A watchlist is a page which allows any logged-in user to maintain a list of "wat
 
 Wikibase is the software behind [Wikidata](#wikidata). It consists of a set of [extensions](#mediawiki-extension) to the [MediaWiki](#mediawiki) software. These extensions allow Wikidata to manage and display data in [Items](#item) and [Properties](#property).
 
-## [WikibaseClient](https://www.mediawiki.org/wiki/Extension:Wikibase_Client)
+## Wikibase Client
 
-WikibaseClient is a [MediaWiki Extension](#mediawiki-extension) that enables the use and display of Entity data from a [Wikibase Repository](#wikibase-repository) via Lua modules or parser functions. Clients can also use centralized language links.
+Wikibase Client is a set of features that enables the use, display and editing of [Entity](#entity) data from a [Wikibase Repository](#wikibase-repository). Its core functionality is implemented as a [MediaWiki extension](#mediawiki-extension) called [WikibaseClient](https://www.mediawiki.org/wiki/Extension:Wikibase_Client). It can optionally contain additional [MediaWiki extensions](#mediawiki-extension) such as ArticlePlaceholder.
 
 ## Wikibase Extension
 
-Wikibase Extensions are [MediaWiki](#mediawiki) extensions that add further functionality to [WikibaseClient](#wikibaseclient) or [Wikibase Repo](#wikibase-repository). Extensions such as [WikibaseLexeme](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme) that enable additional Entity types or Property datatypes on Wikibase need to be enabled both on the Repository, and on the Client. On the Repository the extension enables creating and editing these new types of data, and on the Client side the extension enables the wiki to consume and display them.
+Wikibase Extensions are [MediaWiki](#mediawiki) extensions that add further functionality to [WikibaseClient](#wikibase-client) or [Wikibase Repo](#wikibase-repository). Extensions such as [WikibaseLexeme](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme) that enable additional Entity types or Property datatypes on Wikibase need to be enabled both on the Repository, and on the Client. On the Repository the extension enables creating and editing these new types of data, and on the Client side the extension enables the wiki to consume and display them.
 
 Other Wikibase extensions exist only on the Repo (e.g. [WikibaseQualityConstraints](https://www.mediawiki.org/wiki/Extension:WikibaseQualityConstraints)) or only on the Client (e.g. [ArticlePlaceholder](https://www.mediawiki.org/wiki/Extension:ArticlePlaceholder)).
 
@@ -168,7 +168,7 @@ Wikidata is a Wikimedia project that runs an instance of [MediaWiki](#mediawiki)
 
 ## Wikipedia
 
-The free, multilingual open-collaborative online encyclopedia that is run by the [MediaWiki](#mediawiki) engine and using  [WikibaseClient](#wikibaseclient) as an [extension](#mediawiki-extension) to display Entity data from [Wikidata](#wikidata).
+The free, multilingual open-collaborative online encyclopedia that is run by the [MediaWiki](#mediawiki) engine and using  [Wikibase Client](#wikibase-client) to display Entity data from [Wikidata](#wikidata).
 
 ## [Wikitext](https://en.wikipedia.org/wiki/Help:Wikitext)
 

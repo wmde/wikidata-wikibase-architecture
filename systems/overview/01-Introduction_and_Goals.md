@@ -32,7 +32,7 @@ See [Wikidata editor](../WikibaseRepo/01-Introduction_and_Goals.md#wikidata-edit
 
 ### Client editor
 
-See [WikibaseClient editor](../WikibaseClient/01-Introduction_and_Goals.md#client-editor)
+See [WikibaseClient editor](../WikibaseClient/01-Introduction_and_Goals.md#wikibase-client-editor)
 
 ### Researcher
 
