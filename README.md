@@ -16,6 +16,12 @@ Detailed documentation for arc42 can be [found here](https://docs.arc42.org/home
 
 [Overview](./systems/overview/01-Introduction_and_Goals.md) provides a high level view of the whole Wikidata / Wikibase system landscape.
 
+![Overall Context](./systems/overview/diagrams/03-business-context.drawio.svg)
+
+::: tip
+The [context and scope section](./systems/overview/03-Context_and_Scope.md) has more information on the diagram above.
+:::
+
 Multiple top level systems are identified.
 Subsystems are provided in the list below for convenience.
 
