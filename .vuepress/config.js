@@ -94,6 +94,7 @@ module.exports = {
                     title: 'Decisions',
                     path: '/docs/decisions/',
                     children: [
+                        '/docs/decisions/using-arc42',
                         '/docs/decisions/usecase-scope',
                         '/docs/decisions/client-repo-split',
                         '/docs/decisions/client-repo-mediawiki',
