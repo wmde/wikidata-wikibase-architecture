@@ -6,7 +6,7 @@ Wikibase Repository is part of [Wikibase](../overview/01-Introduction_and_Goals.
 
 ## Quality Goals
 
-- Whenever any data (entity [label](../overview/12-Glossary.md#label), description, [alias](../overview/12-Glossary.md#alias), [statements](../overview/12-Glossary.md#statement) etc.) changes on [WikibaseRepo](../overview/12-Glossary.md#wikibase-repository) (e.g. Wikidata), it becomes available to the connected wiki with [WikibaseClient](../overview/12-Glossary.md#wikibaseclient) within [10 minutes](https://gerrit.wikimedia.org/r/plugins/gitiles/operations/puppet/+/e3423c8627067a8de8352b9b7f3c59870d9b47c5/modules/icinga/manifests/monitor/wikidata.pp#10).  
+- Whenever any data (entity [label](../overview/12-Glossary.md#label), description, [alias](../overview/12-Glossary.md#alias), [statements](../overview/12-Glossary.md#statement) etc.) changes on a [Wikibase Repository](../overview/12-Glossary.md#wikibase-repository) (e.g. Wikidata), it becomes available to the connected wiki with [Wikibase Client](../overview/12-Glossary.md#wikibase-client) within [10 minutes](https://gerrit.wikimedia.org/r/plugins/gitiles/operations/puppet/+/e3423c8627067a8de8352b9b7f3c59870d9b47c5/modules/icinga/manifests/monitor/wikidata.pp#10).  
   For example, if the mayor of Berlin changes and that is updated on Wikidata, the corresponding article that uses the Wikidata item "Mayor of Berlin" on English Wikipedia should have the updated information within 10 minutes.
 
 ## Stakeholders & Expectations

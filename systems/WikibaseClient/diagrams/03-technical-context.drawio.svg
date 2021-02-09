@@ -12,7 +12,7 @@
         <rect x="160" y="310" width="630" height="80" fill="#bababa" stroke="none" transform="rotate(180,475,350)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
             <text x="474.5" y="353.5">
-                Wikibase Repo
+                Wikibase Repository
             </text>
         </g>
         <path d="M 861.88 60.02 L 582.12 60.89" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
@@ -42,7 +42,7 @@
         <rect x="170" y="140" width="610" height="100" fill="#d5e8d4" stroke="#82b366" transform="rotate(180,475,190)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
             <text x="474.5" y="193.5">
-                WikibaseClient
+                Wikibase Client
             </text>
         </g>
         <path d="M 627 233.64 L 627 301.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>

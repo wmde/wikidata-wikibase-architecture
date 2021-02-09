@@ -5,14 +5,14 @@
         <rect x="256" y="220" width="480" height="120" fill="#d5e8d4" stroke="#82b366" transform="rotate(180,496,280)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
             <text x="495.5" y="283.5">
-                Wikibase Repo
+                Wikibase Repository
             </text>
         </g>
         <rect x="256" y="410" width="480" height="80" fill="#000000" stroke="none" transform="translate(2,3)rotate(180,496,450)" opacity="0.25"/>
         <rect x="256" y="410" width="480" height="80" fill="#bababa" stroke="none" transform="rotate(180,496,450)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
             <text x="495.5" y="453.5">
-                WikibaseClient
+                Wikibase Client
             </text>
         </g>
         <path d="M 586 431.82 L 586 339.94" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>

@@ -5,7 +5,7 @@
         <rect x="336" y="230" width="350" height="80" fill="#bababa" stroke="none" transform="rotate(180,511,270)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
             <text x="510.5" y="273.5">
-                Wikibase Repo
+                Wikibase Repository
             </text>
         </g>
         <ellipse cx="131" cy="67.5" rx="7.5" ry="7.5" fill="#ffffff" stroke="#000000" pointer-events="all"/>
@@ -52,7 +52,7 @@
         <rect x="336" y="0" width="350" height="160" fill="#d5e8d4" stroke="#82b366" transform="rotate(180,511,80)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
             <text x="510.5" y="77.5">
-                Wikibase Client System
+                Wikibase Client
             </text>
             <text x="510.5" y="89.5">
                 e.g. Wikipedia
