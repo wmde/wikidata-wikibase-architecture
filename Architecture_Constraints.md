@@ -6,6 +6,6 @@ An architecture constraint is any requirement that constrains software developer
 
 Technical constraints that apply to the design and development of the system.
 
-## [Lua](./12-Glossary.md#lua)
+## [Lua](./Glossary.md#lua)
 
-Any Wikibase entity data displayed as part of article content has to be loadable by a [Lua](./12-Glossary.md#Lua) function.
+Any Wikibase entity data displayed as part of article content has to be loadable by a [Lua](./Glossary.md#Lua) function.

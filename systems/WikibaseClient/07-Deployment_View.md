@@ -1,6 +1,6 @@
 # Deployment View
 
-Wikibase Client extensions are deployed to the production applications (Wikipedias, Wiktionaries, ...) in the same way as other [MediaWiki extensions](../overview/12-Glossary.md#mediawiki-extension). The ownership of the infrastructure and responsibility for deployments lies with the [Wikimedia Site Reliability Engineering team](https://www.mediawiki.org/wiki/Wikimedia_Site_Reliability_Engineering). All MediaWiki applications follow a weekly deploy cadence which is documented in the [deployment calendar](https://wikitech.wikimedia.org/wiki/Deployments).
+Wikibase Client extensions are deployed to the production applications (Wikipedias, Wiktionaries, ...) in the same way as other [MediaWiki extensions](../../Glossary.md#mediawiki-extension). The ownership of the infrastructure and responsibility for deployments lies with the [Wikimedia Site Reliability Engineering team](https://www.mediawiki.org/wiki/Wikimedia_Site_Reliability_Engineering). All MediaWiki applications follow a weekly deploy cadence which is documented in the [deployment calendar](https://wikitech.wikimedia.org/wiki/Deployments).
 
 Further reading:
 

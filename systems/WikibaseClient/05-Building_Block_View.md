@@ -6,16 +6,16 @@
 
 ![Alt Text](./diagrams/05-building-blocks.drawio.svg)
 
-| Building Block                                              | Responsibility                                                                                                                                               |
-| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                                                                                                 |
-| [Entity Data Access](#entity-data-access)                   | Access [Entities](../overview/12-Glossary.md#entity) from a Repository                                                                                       |
-| [Usage Tracking](#usage)                                    | Tracking the usage of Repository Entities on a Client                                                                                                        |
-| [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository                                                                                             |
-| [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to [pages that are linked](../overview/12-Glossary.md#connected-pages) to Repository [Items](../overview/12-Glossary.md#item) |
-| [Data Bridge](#data-bridge)                                 | Edit Item [data values](../overview/12-Glossary.md#datavalue) on the Repository                                                                              |
-| [Special Pages](#special-pages)                             | WikibaseClient specific [Special Pages](../overview/12-Glossary.md#special-page)                                                                             |
-| [Interwiki](#interwiki)                                     | Client side interactions with [Interwiki links](../overview/12-Glossary.md#interwiki-links)                                                                  |
+| Building Block                                              | Responsibility                                                                                                                             |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| [APIs](#apis)                                               | Represent domain data through MediaWiki APIs                                                                                               |
+| [Entity Data Access](#entity-data-access)                   | Access [Entities](../../Glossary.md#entity) from a Repository                                                                              |
+| [Usage Tracking](#usage)                                    | Tracking the usage of Repository Entities on a Client                                                                                      |
+| [Entity Change Notifications](#entity-change-notifications) | Be notified about and act on changes to Entities on a Repository                                                                           |
+| [Linked Site Page Changes](#linked-site-page-changes)       | Inform a Repository of changes to [pages that are linked](../../Glossary.md#connected-pages) to Repository [Items](../../Glossary.md#item) |
+| [Data Bridge](#data-bridge)                                 | Edit Item [data values](../../Glossary.md#datavalue) on the Repository                                                                     |
+| [Special Pages](#special-pages)                             | WikibaseClient specific [Special Pages](../../Glossary.md#special-page)                                                                    |
+| [Interwiki](#interwiki)                                     | Client side interactions with [Interwiki links](../../Glossary.md#interwiki-links)                                                         |
 
 ## APIs
 
@@ -23,10 +23,10 @@
 
 ![Action API Description Building Block Diagram](./diagrams/05-api-description.drawio.svg)
 
-| Building Block    | Type/Context | Responsibility                                                                                 |
-| ----------------- | ------------ | ---------------------------------------------------------------------------------------------- |
-| DescriptionLookup | Lookups      | Lookup client [descriptions](../overview/12-Glossary.md#description) from a variety of sources |
-| RepoLinker        | Response     | Creates links to Repo Entity concepts                                                          |
+| Building Block    | Type/Context | Responsibility                                                                        |
+| ----------------- | ------------ | ------------------------------------------------------------------------------------- |
+| DescriptionLookup | Lookups      | Lookup client [descriptions](../../Glossary.md#description) from a variety of sources |
+| RepoLinker        | Response     | Creates links to Repo Entity concepts                                                 |
 
 ### [Action API EntityUsage](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwbentityusage)
 
@@ -48,22 +48,22 @@
 
 ![Action API Page Terms Building Block Diagram](./diagrams/05-api-pageterms.drawio.svg)
 
-| Building Block  | Type/Context | Responsibility                                                   |
-| --------------- | ------------ | ---------------------------------------------------------------- |
-| EntityIdLookup  | Lookups      | Lookup EntityIds from [Titles](../overview/12-Glossary.md#title) |
-| TermBuffer      | Lookups      | Lookup buffered [Terms](../overview/12-Glossary.md#term)         |
-| AliasTermBuffer | Lookups      | Lookup buffered [Aliases](../overview/12-Glossary.md#alias)      |
-| RepoLinker      | Response     | Creates links to Repo Entity concepts                            |
+| Building Block  | Type/Context | Responsibility                                          |
+| --------------- | ------------ | ------------------------------------------------------- |
+| EntityIdLookup  | Lookups      | Lookup EntityIds from [Titles](../../Glossary.md#title) |
+| TermBuffer      | Lookups      | Lookup buffered [Terms](../../Glossary.md#term)         |
+| AliasTermBuffer | Lookups      | Lookup buffered [Aliases](../../Glossary.md#alias)      |
+| RepoLinker      | Response     | Creates links to Repo Entity concepts                   |
 
 ### Action API Format Reference
 
 ![Action API Format Reference Building Block Diagram](./diagrams/05-api-wbformatreference.drawio.svg)
 
-| Building Block           | Type/Context     | Responsibility                                                                |
-| ------------------------ | ---------------- | ----------------------------------------------------------------------------- |
-| Deserializer (Reference) | Input            | Get [Reference](../overview/12-Glossary.md#reference) objects from user input |
-| ReferenceFormatter       | Format Reference | Format Reference as wikitext                                                  |
-| Parser                   | Output           | Parse Reference wikitext and output HTML                                      |
+| Building Block           | Type/Context     | Responsibility                                                       |
+| ------------------------ | ---------------- | -------------------------------------------------------------------- |
+| Deserializer (Reference) | Input            | Get [Reference](../../Glossary.md#reference) objects from user input |
+| ReferenceFormatter       | Format Reference | Format Reference as wikitext                                         |
+| Parser                   | Output           | Parse Reference wikitext and output HTML                             |
 
 ## Entity Data Access
 
@@ -83,23 +83,23 @@ You can see the interactions of components related to Entity Data Access in [the
 
 ![Entity Data Access Shared](./diagrams/05-entitydataaccess-shared.drawio.svg)
 
-| Building Block                  | Responsibility                                                                                             |
-| ------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| SnakFormatter                   | Formats [Snaks](../overview/12-Glossary.md#snak) in a client context                                       |
-| ReferenceFormatter              | Formats references in a client context                                                                     |
-| StatementTransclusionInteractor | Renders the main snaks associated with a given Property on an Entity                                       |
-| EntityTitleLookup               | Resolves a specific sitelink on a specific Item to a [Title](../overview/12-Glossary.md#title)             |
-| PropertyIdResolver              | Resolves a PropertyId from input which could be a [Label](../overview/12-Glossary.md#label) or prefixed ID |
-| SnaksFinder                     | Find Snaks for claims in a given Entity, based on PropertyId                                               |
+| Building Block                  | Responsibility                                                                                    |
+| ------------------------------- | ------------------------------------------------------------------------------------------------- |
+| SnakFormatter                   | Formats [Snaks](../../Glossary.md#snak) in a client context                                       |
+| ReferenceFormatter              | Formats references in a client context                                                            |
+| StatementTransclusionInteractor | Renders the main snaks associated with a given Property on an Entity                              |
+| EntityTitleLookup               | Resolves a specific sitelink on a specific Item to a [Title](../../Glossary.md#title)             |
+| PropertyIdResolver              | Resolves a PropertyId from input which could be a [Label](../../Glossary.md#label) or prefixed ID |
+| SnaksFinder                     | Find Snaks for claims in a given Entity, based on PropertyId                                      |
 
 ### ParserFunctions
 
 ![Entity Data Access Parser Functions](./diagrams/05-entitydataaccess-parserfunctions.drawio.svg)
 
-| Building Block         | Responsibility                                                                   |
-| ---------------------- | -------------------------------------------------------------------------------- |
-| Runner                 | Contains the methods called by MediaWiki when parser functions are used          |
-| StatementGroupRenderer | Renderer for rendering a [statement](../overview/12-Glossary.md#statement) group |
+| Building Block         | Responsibility                                                          |
+| ---------------------- | ----------------------------------------------------------------------- |
+| Runner                 | Contains the methods called by MediaWiki when parser functions are used |
+| StatementGroupRenderer | Renderer for rendering a [statement](../../Glossary.md#statement) group |
 
 ### Scribunto
 
@@ -195,7 +195,7 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 | populateEntityUsage                                 | Maintenance script for populating wbc_entity_usage based on the page_props table.                                            |
 | updateSubscriptions                                 | Maintenance script for inserting subscriptions into wb_changes_subscription based on wbc_entity_usage.                       |
 
-## [Linked Site Page](../overview/12-Glossary.md#connected-pages) Changes
+## [Linked Site Page](../../Glossary.md#connected-pages) Changes
 
 ![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
 
@@ -240,9 +240,9 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | Repo API                              | Implementations of WikibaseRepo API requests                                                                                           |
 | Reading API                           | Implementations of WikibaseRepo API requests that have to do with reading from repo                                                    |
 | Writing API                           | Implementations of WikibaseRepo API requests that have to do with writing to repo                                                      |
-| ApiEntityLabelRepository              | A repository to get the [label](../overview/12-Glossary.md#label) of specific entity in a specific language                            |
+| ApiEntityLabelRepository              | A repository to get the [label](../../Glossary.md#label) of specific entity in a specific language                                     |
 | ApiPageEditPermissionErrorsRepository | A repository for determining potential permission errors when editing a page.                                                          |
-| ApiPropertyDataTypeRepository         | A repository to get the [datatype](../overview/12-Glossary.md#datatype) of a property                                                  |
+| ApiPropertyDataTypeRepository         | A repository to get the [datatype](../../Glossary.md#datatype) of a property                                                           |
 | ApiRenderReferencesRepository         | A repository to render reference JSON blobs into HTML strings                                                                          |
 | ApiReadingEntityRepository            | A repository for reading the latest revision of an entity.                                                                             |
 | ApiRepoConfigRepository               | A repository to get the configuration from the Wikibase repo instance where the data is going to be saved                              |
@@ -286,7 +286,7 @@ You can see the interactions of components related to Data Bridge in [the runtim
 
 | Building Block            | Responsibility                                                                     |
 | ------------------------- | ---------------------------------------------------------------------------------- |
-| ReplaceMutationStrategy   | Strategy for replacing a [statement](../overview/12-Glossary.md#statement)         |
+| ReplaceMutationStrategy   | Strategy for replacing a [statement](../../Glossary.md#statement)                  |
 | StatementMutationStrategy | Interface for a statement mutation strategy                                        |
 | UpdateMutationStrategy    | Strategy for updating a statement                                                  |
 | StatementMutationError    | Represents an error that can occur when mutating a statement                       |
@@ -296,12 +296,12 @@ You can see the interactions of components related to Data Bridge in [the runtim
 
 ![Special Pages Building Block Diagram](./diagrams/05-special-pages.drawio.svg)
 
-| Building Block                                           | Type/Context   | Responsibility                                                               |
-| -------------------------------------------------------- | -------------- | ---------------------------------------------------------------------------- |
-| [Special Pages](../overview/12-Glossary.md#special-page) | WikibaseClient | Provide entity usage meta information                                        |
-| SpecialEntityUsage                                       | WikibaseClient | Lists client wiki pages that use a given entity ID and the aspects they use  |
-| SpecialPagesWithBadges                                   | WikibaseClient | Shows a list of pages with a given [badge](../overview/12-Glossary.md#badge) |
-| SpecialUnconnectedPages                                  | WikibaseClient | Lists client pages that are not connected to repository items                |
+| Building Block                                  | Type/Context   | Responsibility                                                              |
+| ----------------------------------------------- | -------------- | --------------------------------------------------------------------------- |
+| [Special Pages](../../Glossary.md#special-page) | WikibaseClient | Provide entity usage meta information                                       |
+| SpecialEntityUsage                              | WikibaseClient | Lists client wiki pages that use a given entity ID and the aspects they use |
+| SpecialPagesWithBadges                          | WikibaseClient | Shows a list of pages with a given [badge](../../Glossary.md#badge)         |
+| SpecialUnconnectedPages                         | WikibaseClient | Lists client pages that are not connected to repository items               |
 
 ## Interwiki
 

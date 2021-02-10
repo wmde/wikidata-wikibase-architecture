@@ -2,7 +2,7 @@
 
 **Decision Date:** January 2021
 
-**Summary:** We will document [Wikibase Repository](../../systems/overview/12-Glossary.md#wikibase-repository) as a standalone system and [Wikibase Client](../../systems/overview/12-Glossary.md#wikibase-client) as a subsystem that is embedded into a [MediaWiki](../../systems/overview/12-Glossary.md#mediawiki) application.
+**Summary:** We will document [Wikibase Repository](../../Glossary.md#wikibase-repository) as a standalone system and [Wikibase Client](../../Glossary.md#wikibase-client) as a subsystem that is embedded into a [MediaWiki](../../Glossary.md#mediawiki) application.
 
 ## Details
 

@@ -2,11 +2,11 @@
 
 **Decision Date:** End of 2020
 
-**Summary:** We will have separate arc42 documentation for [Wikibase Client](../../systems/overview/12-Glossary.md#wikibase-client) and [Wikibase Repository](../../systems/overview/12-Glossary.md#wikibase-repository).
+**Summary:** We will have separate arc42 documentation for [Wikibase Client](../../Glossary.md#wikibase-client) and [Wikibase Repository](../../Glossary.md#wikibase-repository).
 
 ## Details
 
-Within the [Wikidata](../../systems/overview/12-Glossary.md#wikidata) context there are two types of systems:
+Within the [Wikidata](../../Glossary.md#wikidata) context there are two types of systems:
 
 - The Wikibase Repository (Wikidata) storing and providing structured data
 - Various Wikibase Clients (Wikipedias, Wiktionaries, ...) consuming the data provided by Wikidata.

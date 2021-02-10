@@ -4,11 +4,11 @@
 
 ![Wikibase Repo business context diagram](./diagrams/03-business-context.drawio.svg)
 
-| Neighbour              | Description                                                                                                                                                                                            |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Tools and Bots         | Applications and [Bots](https://www.mediawiki.org/wiki/Manual:Bots) interacting with the Repo's data programmatically                                                                                  |
-| Wikibase Client        | Wikibase Clients are [MediaWiki](../overview/12-Glossary.md#mediawiki) applications consuming the Wikibase Repository's data. In Wikidata's case these would include Wikipedia, Wiktionary and others. |
-| Wikidata Query Service | A SPARQL endpoint and graphical user interface for querying the Repo's data.                                                                                                                           |
+| Neighbour              | Description                                                                                                                                                                                   |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tools and Bots         | Applications and [Bots](https://www.mediawiki.org/wiki/Manual:Bots) interacting with the Repo's data programmatically                                                                         |
+| Wikibase Client        | Wikibase Clients are [MediaWiki](../../Glossary.md#mediawiki) applications consuming the Wikibase Repository's data. In Wikidata's case these would include Wikipedia, Wiktionary and others. |
+| Wikidata Query Service | A SPARQL endpoint and graphical user interface for querying the Repo's data.                                                                                                                  |
 
 ### Technical Context
 
@@ -22,12 +22,12 @@ Note that updates to the Query Service from the Repo will use either Recent Chan
 
 | Component                                                                 | Description                                                                                                                                 |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Entity UI and Special Pages                                               | These are the main web user interfaces for viewing and editing [Entity](../overview/12-Glossary.md#entity) data                             |
+| Entity UI and Special Pages                                               | These are the main web user interfaces for viewing and editing [Entity](../../Glossary.md#entity) data                                      |
 | RdfDumpGenerator                                                          | Generates an RDF file from the Repo's Entities                                                                                              |
 | [MW Recent Changes](https://www.mediawiki.org/wiki/Help:Recent_changes)   | A MediaWiki page listing the most recent edits                                                                                              |
 | [MW EventLogging](https://www.mediawiki.org/wiki/Extension:EventLogging)  | Backend-agnostic logs of structured event data                                                                                              |
 | [EventGate](https://wikitech.wikimedia.org/wiki/Event_Platform/EventGate) | An EventLogging backend which in production is backed by Kafka                                                                              |
-| Repo DB                                                                   | The SQL database containing [Entity](../overview/12-Glossary.md#entity) data                                                                |
-| Entity edit hooks                                                         | Hooks that get triggered when an [Entity](../overview/12-Glossary.md#entity) is edited                                                      |
-| UpdateRepo                                                                | Updates [Sitelinks](../overview/12-Glossary.md#sitelink) when the sitelink target is moved or deleted on the Wikibase Client                |
+| Repo DB                                                                   | The SQL database containing [Entity](../../Glossary.md#entity) data                                                                         |
+| Entity edit hooks                                                         | Hooks that get triggered when an [Entity](../../Glossary.md#entity) is edited                                                               |
+| UpdateRepo                                                                | Updates [Sitelinks](../../Glossary.md#sitelink) when the sitelink target is moved or deleted on the Wikibase Client                         |
 | API                                                                       | The Repo's actions on the [MW Action API](https://www.mediawiki.org/wiki/API:Main_page) for editing Entities and reading Entity (meta) data |
