@@ -1,6 +1,8 @@
-## Context and Scope
+# Context and Scope
 
-### Business Context
+![Legend](../../diagrams/legend.drawio.svg)
+
+## Business Context
 
 ![Overall Context](./diagrams/03-business-context.drawio.svg)
 
@@ -14,6 +16,8 @@
 | Wikimedia Commons                                                     | A source of media files for Wikibase                          |
 | Quickstatements                                                       | A tool enabling mass editing of Wikibase Entities             |
 
-### Technical Context
+## Technical Context
 
 Wikibase extension, containing [Wikibase Repository](../WikibaseRepo/01-Introduction_and_Goals.md), [Wikibase Client](../WikibaseClient/01-Introduction_and_Goals.md) and more.
+
+![Overall Technical Context](../../diagrams/03-dataflow-out.drawio.svg)
