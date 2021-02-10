@@ -1,4 +1,4 @@
-## Context and Scope
+# Context and Scope
 
 ![Legend](../../diagrams/legend.drawio.svg)
 
