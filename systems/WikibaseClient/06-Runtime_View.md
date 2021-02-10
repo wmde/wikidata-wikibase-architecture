@@ -2,7 +2,7 @@
 
 ## UpdateRepoHookHandler
 
-see the [Wikipedia editor's use case](01-Introduction_and_Goals.md#wikipedia-editor): _Connect pages on different Wikipedias_
+see the [Wikipedia editor's use case](01-Introduction_and_Goals.md#wikipedia-editor): _Have interwiki links keep up to date, when pages are moved or deleted_
 
 ```mermaid
 sequenceDiagram

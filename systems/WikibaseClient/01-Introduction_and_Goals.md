@@ -26,6 +26,7 @@ Wikibase Client is part of [Wikibase](../overview/01-Introduction_and_Goals.md).
 ### Wikipedia editor
 
 - Connect pages on different Wikipedias, showing interwiki links on the [connected pages](../overview/12-Glossary.md#connected-pages).
+- Have [interwiki links](../overview/12-Glossary.md#interwiki-links) keep up to date, when pages are moved or deleted.
 - Store information relating to article quality in a central place, for use in interwiki links on the Articles.
 - Have data updates which cause pages changes to be shown in RecentChanges.
 - Have data updates which cause pages changes to be shown in [Watchlists](../overview/12-Glossary.md#watchlist), when the page being changed is watched.
