@@ -16,7 +16,7 @@
 | Wikimedia Commons                                                     | A source of media files for Wikibase                          |
 | Quickstatements                                                       | A tool enabling mass editing of Wikibase Entities             |
 
-### Technical Context
+## Technical Context
 
 Wikibase extension, containing [Wikibase Repository](../WikibaseRepo/01-Introduction_and_Goals.md), [Wikibase Client](../WikibaseClient/01-Introduction_and_Goals.md) and more.
 
