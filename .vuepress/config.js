@@ -30,12 +30,8 @@ module.exports = {
         activeHeaderLinks: false, // Default: true
         nav: [
             {
-                text: 'Home',
-                link: '/',
-            },
-            {
                 text: 'Overview',
-                link: '/systems/overview/01-Introduction_and_Goals',
+                link: '/',
             },
             {
                 text: 'Wikibase Repository',
@@ -73,14 +69,12 @@ module.exports = {
                 '10-Quality',
                 '11-Risks_and_Technical_Debt',
             ],
-            '/systems/overview/': [
-                '01-Introduction_and_Goals',
-                '02-Architecture_Constraints',
-                '03-Context_and_Scope',
-                '12-Glossary',
-            ],
             '/': [
                 '',
+                'Introduction_and_Goals',
+                'Architecture_Constraints',
+                'Context_and_Scope',
+                'Glossary',
                 'CONTRIBUTING.md',
                 {
                     title: 'Decisions',
