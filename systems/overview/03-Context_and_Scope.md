@@ -2,7 +2,7 @@
 
 ![Legend](../../diagrams/legend.drawio.svg)
 
-### Business Context
+## Business Context
 
 ![Overall Context](./diagrams/03-business-context.drawio.svg)
 
