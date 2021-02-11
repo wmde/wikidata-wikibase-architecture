@@ -1,4 +1,4 @@
-# Home
+# Overview
 
 :::warning
 WORK IN PROGRESS home of Wikibase architecture documentation.
@@ -14,12 +14,12 @@ Detailed documentation for arc42 can be [found here](https://docs.arc42.org/home
 
 ## Systems
 
-[Overview](./systems/overview/01-Introduction_and_Goals.md) provides a high level view of the whole Wikidata / Wikibase system landscape.
+[Overview](./Introduction_and_Goals.md) provides a high level view of the whole Wikidata / Wikibase system landscape.
 
-![Overall Context](./systems/overview/diagrams/03-business-context.drawio.svg)
+![Overall Context](./diagrams/03-business-context.drawio.svg)
 
 ::: tip
-The [context and scope section](./systems/overview/03-Context_and_Scope.md) has more information on the diagram above.
+The [context and scope section](./Context_and_Scope.md) has more information on the diagram above.
 :::
 
 Multiple top level systems are identified.
