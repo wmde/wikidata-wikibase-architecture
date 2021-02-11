@@ -14,7 +14,7 @@ Detailed documentation for arc42 can be [found here](https://docs.arc42.org/home
 
 ## Systems
 
-[Overview](./Introduction_and_Goals.md) provides a high level view of the whole Wikidata / Wikibase system landscape.
+The following diagram provides a high level view of the whole Wikidata / Wikibase system landscape. Its main goals and stakeholders are described in the following [Introduction and Goals](./Introduction_and_Goals.md) section.
 
 ![Overall Context](./diagrams/03-business-context.drawio.svg)
 
