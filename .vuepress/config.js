@@ -51,7 +51,6 @@ module.exports = {
                 '05-Building_Block_View',
                 '06-Runtime_View',
                 '07-Deployment_View',
-                '08-Concepts',
                 '09-Architecture_Decisions',
                 '10-Quality',
                 '11-Risks_and_Technical_Debt',
@@ -64,7 +63,6 @@ module.exports = {
                 '05-Building_Block_View',
                 '06-Runtime_View',
                 '07-Deployment_View',
-                '08-Concepts',
                 '09-Architecture_Decisions',
                 '10-Quality',
                 '11-Risks_and_Technical_Debt',
@@ -73,6 +71,7 @@ module.exports = {
                 '',
                 'Introduction_and_Goals',
                 'Context_and_Scope',
+                'Concepts',
                 'Glossary',
                 'CONTRIBUTING.md',
                 {
