@@ -59,7 +59,7 @@ Some Commons editor expectations probably only apply to the MediaInfo extension,
 
 ### Data importer
 
-- Import a large data set into a Wikibase.
+- - Import large amount of data (>1M entities) into a third-party Wikibase quickly & efficiently.
 
 #### Wikidata Data donor
 

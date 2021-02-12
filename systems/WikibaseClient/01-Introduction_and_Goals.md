@@ -32,3 +32,9 @@ Wikibase Client is part of [Wikibase](../../Introduction_and_Goals.md). It is a 
 - Have data updates which cause pages changes to be shown in [Watchlists](../../Glossary.md#watchlist), when the page being changed is watched.
 - Update Wikidata’s data used on Wikipedia when it is incorrect or outdated via web interface.
 - Find wrong or missing data on a Wikipedia article and correct or add it to Wikidata.
+
+### Wikipedia reader
+
+- Have a representation of structured data about the world in Wikipedia articles (e.g. infoboxes)
+- Rely on centrally maintained data and trust that information in articles is up-to-date, even on small Wikipedias
+- Find reliable and up-to-date references for claims about the world
