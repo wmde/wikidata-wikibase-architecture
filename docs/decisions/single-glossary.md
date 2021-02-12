@@ -1,4 +1,4 @@
-# Usecase Scope
+# Glossary Scope
 
 **Decision Date:** February 2021
 
