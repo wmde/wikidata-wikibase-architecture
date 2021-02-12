@@ -1,4 +1,4 @@
-# Decision name
+# Keep low level building block view diagrams (for now)
 
 **Decision Date**: 2021-02-12
 
