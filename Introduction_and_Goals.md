@@ -36,18 +36,18 @@ See [WikibaseClient editor](./systems/WikibaseClient/01-Introduction_and_Goals.m
 
 ### Researcher
 
-- Quickly create visualizations based on data from Wikidata without the need to download it.
+See [Researcher](./systems/WikibaseRepo/01-Introduction_and_Goals.md#researcher)
 
 ### Non Wikimedia Wikibase Project
 
 - Create knowledge bases similar to Wikidata using our same software stack (including extensions, tools and features)
 - Install, configure, update, and maintain a set of Wikibase systems with confidence.
 
-#### Large Non Wikimedia Wikibase Project
+### Tool Builder
 
-- Import large amount of data (>1M entities) into the Wikibase quickly & efficiently.
+- Easily write tools and scripts that work for both Wikidata and other Wikibases
 
-### Product Managers
+### Product Manager
 
 - Access to an appropriate test system for product verification for new features.
 
@@ -59,7 +59,7 @@ See [WikibaseClient editor](./systems/WikibaseClient/01-Introduction_and_Goals.m
 - The stored data and changes must be manageable by a distributed community.
 - Solution should not enforce too tight rigidity in the data (e.g. enforcing and supporting by automation symmetric properties) because “world is complex and there are always exceptions”
 
-### Wikibase / Wikidata System Developers
+### Wikibase / Wikidata System Developer
 
 - Access to a quick, easy and consistent dev system setup.
 - Easily discoverable, well written documentation of the system and its parts.
