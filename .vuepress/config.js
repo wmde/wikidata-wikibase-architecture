@@ -83,6 +83,7 @@ module.exports = {
                         '/docs/decisions/client-repo-split',
                         '/docs/decisions/client-repo-mediawiki',
                         '/docs/decisions/building-block-diagrams',
+                        '/docs/decisions/single-glossary',
                     ]
                 }
             ],
