@@ -4,9 +4,17 @@
 
 ## Whitebox Overall System
 
-TBA
+![Alt Text](./diagrams/05-building-blocks.drawio.svg)
 
-## Action API modules
+| Building Block                  | Responsibility                                                                                                                                                    |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Special Pages](#special-pages) | WikibaseRepo specific [Special Pages](../../Glossary.md#special-page)                                                                                             |
+| Entity UI                       | The primary Wikibase UI made up of editable Entity pages                                                                                                          |
+| [APIs](#apis)                   | Represent domain data through MediaWiki APIs                                                                                                                      |
+| UpdateRepo                      | Be notified about changes to [pages that are linked](../../Glossary.md#connected-pages) to Repository [Items](../../Glossary.md#item) from Wikibase Client pages. |
+| Change Notification             | Notify Wikibase Client sites about changes to Entities on a Repository the Client may want to act upon.                                                           |
+
+## APIs
 
 | Building Block                          | Responsibility                                                                                     |
 | --------------------------------------- | -------------------------------------------------------------------------------------------------- |
