@@ -1,7 +1,6 @@
 {
   "name": "wikidata-wikibase-architecture",
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@vuepress/plugin-medium-zoom": "^1.8.0",
     "hallmark": "^3.1.0",
