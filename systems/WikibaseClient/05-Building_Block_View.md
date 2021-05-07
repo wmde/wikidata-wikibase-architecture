@@ -72,7 +72,7 @@
 | Building Block                       | Responsibility                                                                                |
 | ------------------------------------ | --------------------------------------------------------------------------------------------- |
 | [Shared](#shared-entity-data-access) | Services shared between multiple types of entity data access (lookups, formatters, utilities) |
-| [ParserFunctions](#parserfunctions)  | MediaWiki parser function binding for entity data access                                      |
+| [ParserFunctions](#parserfunctions)  | MediaWiki [parser function](../../Glossary.md#parser-function) binding for entity data access |
 | [Scribunto](#scribunto)              | Scribunto extension binding for entity data access                                            |
 
 ::: tip
@@ -96,10 +96,10 @@ You can see the interactions of components related to Entity Data Access in [the
 
 ![Entity Data Access Parser Functions](./diagrams/05-entitydataaccess-parserfunctions.drawio.svg)
 
-| Building Block         | Responsibility                                                          |
-| ---------------------- | ----------------------------------------------------------------------- |
-| Runner                 | Contains the methods called by MediaWiki when parser functions are used |
-| StatementGroupRenderer | Renderer for rendering a [statement](../../Glossary.md#statement) group |
+| Building Block         | Responsibility                                                                                               |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Runner                 | Contains the methods called by MediaWiki when [parser functions](../../Glossary.md#parser-function) are used |
+| StatementGroupRenderer | Renderer for rendering a [statement](../../Glossary.md#statement) group                                      |
 
 ### Scribunto
 
