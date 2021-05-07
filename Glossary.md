@@ -78,6 +78,10 @@ MediaWiki Core refers to all files that are part of the main [MediaWiki](#mediaw
 Extensions are software components that administrators can add (or remove) to their [MediaWiki](#mediawiki) application in order to customize how it looks and works.
 Examples: WikibaseClient, UniversalLanguageSelector, OAuth
 
+## [Parser function](https://www.mediawiki.org/wiki/Manual:Parser_functions)
+
+Parser functions are dynamic functions that can be used directly in wikitext. Functionality of such functions can be defined by extensions.
+
 ## [Property](https://www.wikidata.org/wiki/Help:Properties)
 
 Properties are [Entities](#entity) that describe a relationship between [Items](#item) (or other Entities) and [values](#datavalue) of the Property. Typical Properties are _population_ (using numbers as values), _binomial name_ (using strings as values), but also _has father_ and _author of_ (both using Items as values).
