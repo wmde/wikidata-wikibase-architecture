@@ -14,7 +14,7 @@ jobs:
       with:
         node-version: 15.x
     - run: npm install
-    - run: npm test
+    - run: npm run test
 
   build:
 
@@ -27,4 +27,4 @@ jobs:
       with:
         node-version: 15.x
     - run: npm install
-    - run: npm build
+    - run: npm run build
