@@ -14,8 +14,7 @@ You can read more about Wikibase's data model in the [Glossary](./Glossary.md#en
 
 ### User Interface
 
-User interfaces which were build prior to 2017 use either [OOUI](https://www.mediawiki.org/wiki/OOUI) or [jQuery UI](https://jqueryui.com).  
-[OOUI](https://www.mediawiki.org/wiki/OOUI) is a MediaWiki core library (developed and supported by the WMF) that contains a set of ready-to-use widgets, layouts, windows and a server-side component that generates compatible output in PHP for cases where JavaScript is not supported.
+User interfaces which were built prior to 2017 use either [OOUI](https://www.mediawiki.org/wiki/OOUI) or [jQuery UI](https://jqueryui.com).  
 
 There are several applications which are written in [Vue](https://vuejs.org/) and [TypeScript](https://www.typescriptlang.org/).  
 JavaScript and CSS dependencies are managed through npm. Optimization and minification of files is done through [Webpack](https://v4.webpack.js.org/).  

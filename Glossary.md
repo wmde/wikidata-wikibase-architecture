@@ -78,6 +78,10 @@ MediaWiki Core refers to all files that are part of the main [MediaWiki](#mediaw
 Extensions are software components that administrators can add (or remove) to their [MediaWiki](#mediawiki) application in order to customize how it looks and works.
 Examples: WikibaseClient, UniversalLanguageSelector, OAuth
 
+## [OOUI](https://www.mediawiki.org/wiki/OOUI)
+
+OOUI is a MediaWiki core library (developed and supported by the WMF) that contains a set of ready-to-use widgets, layouts, windows and a server-side component that generates compatible output in PHP for cases where JavaScript is not supported.
+
 ## [Parser function](https://www.mediawiki.org/wiki/Manual:Parser_functions)
 
 Parser functions are dynamic functions that can be used directly in wikitext. Functionality of such functions can be defined by extensions.
