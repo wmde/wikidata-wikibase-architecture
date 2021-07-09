@@ -37,7 +37,18 @@ Description is a language-specific descriptive phrase for an [Entity](#entity). 
 
 ## Entity
 
-Entities are the top level concepts of Wikibase's data model. [Items](#item) and [Properties](#property) are the core Entity types of Wikibase. Other types can be added through [Wikibase extensions](#wikibase-extension), such as [Lexemes](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme/Data_Model#Lexeme).
+Entities are the top level concepts of Wikibase's data model. [Items](#item) and [Properties](#property) are the core Entity types(#entity-types) of Wikibase. Other types can be added through [Wikibase extensions](#wikibase-extension), such as [Lexemes](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme/Data_Model#Lexeme).
+
+## [Entity Sources](https://doc.wikimedia.org/Wikibase/master/php/md_docs_topics_entitysources.html)
+
+The source of an entity type. Only a single entity source is allowed per entity type on a given repo.
+
+## [Entity Types](https://doc.wikimedia.org/Wikibase/master/php/md_docs_topics_entitytypes.html)
+
+Entities as defined by Wikibase have a type, e.g. `item`, `property`, `lexeme`.
+The entity type has a defined ID format and json structure. It also has a set of services, which differ based on the type.
+There's a minimum set of services which need to be set though, like serializer/deserializer, ID Factory, content factory, rdf factory etc.
+For detailed information on those services see a `*.entitytypes.php` file in Wikibase's repo.
 
 ## [Federated Properties](https://doc.wikimedia.org/Wikibase/master/php/md_docs_components_repo-federated-properties.html)
 
