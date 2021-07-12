@@ -42,20 +42,20 @@ Recurring patterns within the system.
 ### Dispatching
 
 Wikibase, particularly [Wikibase Repository](./systems/WikibaseRepo/01-Introduction_and_Goals.md) and [Wikibase Client](./systems/WikibaseClient/01-Introduction_and_Goals.md), make use of a [Dynamic Dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch#Single_and_multiple_dispatch) pattern.
-This is most notably used for switching internal service implementations based on the type of entity being interacted with.
+This is most notably used for switching internal service implementations based on the [type of entity](./Glossary.md#entity-types) being interacted with.
 
 ```mermaid
 graph LR
 A[Caller] -->|Calls service| B(DispatchingService)
 B -->D[ItemServiceImplementation]
 B -->|Call one service implementation based on entity type| E[LexemeServiceImplementation]
-B -->F[...ServceImplementation]
+B -->F[...ServiceImplementation]
 ```
 
 A few different implementations of the dispatching pattern currently exist, the most notable difference being:
 
 - Default / fallback implementation available in some implementations
-- Callbacks passed into dispatching code, rather than concrete implementations
+- Callbacks that act as factory methods passed into dispatching code, rather than concrete implementations (see Wikibase's [Topics/EntityTypes](https://doc.wikimedia.org/Wikibase/master/php/md_docs_topics_entitytypes.html))
 - Multiple implementations able to be called for a single entity type
 
 ## “Under-the-hood” concepts
