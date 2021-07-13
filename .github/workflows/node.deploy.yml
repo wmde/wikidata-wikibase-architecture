@@ -10,9 +10,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 16.x
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.CR_PAT }}
-        BUILD_SCRIPT: npm i && BASE_PATH='/wikidata-wikibase-architecture/' npm run build
+        BUILD_SCRIPT: npm install && BASE_PATH='/wikidata-wikibase-architecture/' npm run build
         BUILD_DIR: .vuepress/dist/
