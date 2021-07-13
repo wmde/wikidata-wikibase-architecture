@@ -7,16 +7,16 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
+      - name: Checkout
+        uses: actions/checkout@master
 
-    - name: Use Node.js 16.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: 16.x
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.CR_PAT }}
-        BUILD_SCRIPT: npm install && BASE_PATH='/wikidata-wikibase-architecture/' npm run build
-        BUILD_DIR: .vuepress/dist/
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
+        env:
+          ACCESS_TOKEN: ${{ secrets.CR_PAT }}
+          BUILD_SCRIPT: npm install && BASE_PATH='/wikidata-wikibase-architecture/' npm run build
+          BUILD_DIR: .vuepress/dist/

@@ -3,28 +3,28 @@ name: Build and deploy to Netlify
 on:
   push:
     branches:
-      - '*'
-      - '!master'
+      - "*"
+      - "!master"
 
 jobs:
   preview:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js 16.x
-      uses: actions/setup-node@v1
-      with:
-        node-version: 16.x
-    - run: npm install
-    - run: npm run build
-    - name: Deploy branch preview to Netlify
-      id: netlify_deploy
-      run: echo "::set-output name=url::$(npx -p netlify-cli
-        netlify deploy --dir=.vuepress/dist --json
-        --alias $(echo '${{ github.ref }}' | shasum | awk '{print $1}' | head -c 10 )
-        | jq '.deploy_url' --raw-output)"
-      env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-    - name: Print deploy URL
-      run: echo ${{ steps.netlify_deploy.outputs.url }}
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - run: npm install
+      - run: npm run build
+      - name: Deploy branch preview to Netlify
+        id: netlify_deploy
+        run: echo "::set-output name=url::$(npx -p netlify-cli
+          netlify deploy --dir=.vuepress/dist --json
+          --alias $(echo '${{ github.ref }}' | shasum | awk '{print $1}' | head -c 10 )
+          | jq '.deploy_url' --raw-output)"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+      - name: Print deploy URL
+        run: echo ${{ steps.netlify_deploy.outputs.url }}
