@@ -75,6 +75,17 @@
 | ApiErrorReporter                            | API response        | A component for API modules that handles error reporting                                                                                            |
 | ResultBuilder                               | API response        | Builder of MediaWiki ApiResult objects with various convenience functions for adding Wikibase concepts and result parts to results in a uniform way |
 
+### [Action API Format Entities](https://www.wikidata.org/w/api.php?action=help&modules=wbformatentities)
+
+![API Format Entities](./diagrams/05-api-wbformatentities.drawio.svg)
+
+| Building Block                              | Type/Context        | Responsibility                                                                                                |
+| ------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------- |
+| ApiBase                                     | base class          | Base class for MediaWiki Action API modules                                                                                                         |
+| EntityIdParser                              | Handling user input | Transforms strings into EntityId objects                                                                                                            |
+| ApiErrorReporter                            | API response        | A component for API modules that handles error reporting                                                                                            |
+| ResultBuilder                               | API response        | Builder of MediaWiki ApiResult objects with various convenience functions for adding Wikibase concepts and result parts to results in a uniform way |
+
 ## Special Pages
 
 ### Special Merge Items
