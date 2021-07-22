@@ -4,6 +4,17 @@ Wikibase Repository is part of [Wikibase](../../Introduction_and_Goals.md). Wiki
 
 ## Requirements Overview
 
+The overall goal of Wikibase Repository is to allow humans and machines to store, change, maintain, manage, retrieve and dive into (query) structured multi lingual data in a non rigid fashion.
+
+Wikidata specific goals are also fullfilled by Wikibase Repository:
+
+- Store structured information for Wikimedia projects in a central place.
+- Wikidata is not only useful for Wikimedia projects, but also other stakeholders (data re-users, researchers, apps, etc)
+
+### Basic Usage
+
+- A user interacts with data entities via UIs and APIs, retrieving or changing them
+
 ## Quality Goals
 
 - Whenever any data (entity [label](../../Glossary.md#label), description, [alias](../../Glossary.md#alias), [statements](../../Glossary.md#statement) etc.) changes on a [Wikibase Repository](../../Glossary.md#wikibase-repository) (e.g. Wikidata), it becomes available to the connected wiki with [Wikibase Client](../../Glossary.md#wikibase-client) within [10 minutes](https://gerrit.wikimedia.org/r/plugins/gitiles/operations/puppet/+/e3423c8627067a8de8352b9b7f3c59870d9b47c5/modules/icinga/manifests/monitor/wikidata.pp#10).

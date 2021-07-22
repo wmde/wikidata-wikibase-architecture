@@ -4,6 +4,18 @@ Wikibase Client is part of [Wikibase](../../Introduction_and_Goals.md). It is a 
 
 ## Requirements Overview
 
+The overall goal of Wikibase Client is to allow MediaWiki sites to connect to a [Wikibase Repository](../../Glossary.md#wikibase-repository), using repository data in articles.
+
+Wikidata specific goals are also fullfilled by Wikibase Client:
+
+- Centrally manage interwiki links
+
+### Basic Usage
+
+- A user can include data from a [Wikibase Repository](../../Glossary.md#wikibase-repository) in [wikitext](../../Glossary.md#wikitext)
+- A user can connect multiple pages on separate sites together
+- A user can edit some amount of centrally held data from the Wikibase Client site
+
 ## Quality Goals
 
 - Entity data which is included in a [Wikibase Client's](../overall/../../Glossary.md#wikibase-client) content is eventually consistent with updates on the corresponding [Wikibase Repository](../../Glossary.md#wikibase-repository). The Repository notifies the Client of updates via [Entity Change Notifications](./06-Runtime_View.md#entity-change-notifications) to which the Client reacts by purging the caches of pages which include data of the affected Entities which in turn pulls the updated Entity data from the Repository.
