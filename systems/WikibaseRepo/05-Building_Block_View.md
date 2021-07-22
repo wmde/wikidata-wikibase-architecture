@@ -6,13 +6,14 @@
 
 ![Alt Text](./diagrams/05-building-blocks.drawio.svg)
 
-| Building Block                  | Responsibility                                                                                                                                                    |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Special Pages](#special-pages) | WikibaseRepo specific [Special Pages](../../Glossary.md#special-page)                                                                                             |
-| Entity UI                       | The primary Wikibase UI made up of editable Entity pages                                                                                                          |
-| [APIs](#apis)                   | Represent domain data through MediaWiki APIs                                                                                                                      |
-| UpdateRepo                      | Be notified about changes to [pages that are linked](../../Glossary.md#connected-pages) to Repository [Items](../../Glossary.md#item) from Wikibase Client pages. |
-| Change Notification             | Notify Wikibase Client sites about changes to Entities on a Repository the Client may want to act upon.                                                           |
+| Building Block                      | Responsibility                                                                                                                                                    |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Special Pages](#special-pages)     | WikibaseRepo specific [Special Pages](../../Glossary.md#special-page)                                                                                             |
+| Entity UI                           | The primary Wikibase UI made up of editable Entity pages                                                                                                          |
+| [APIs](#apis)                       | Represent domain data through MediaWiki APIs                                                                                                                      |
+| UpdateRepo                          | Be notified about changes to [pages that are linked](../../Glossary.md#connected-pages) to Repository [Items](../../Glossary.md#item) from Wikibase Client pages. |
+| Change Notification                 | Notify Wikibase Client sites about changes to Entities on a Repository the Client may want to act upon.                                                           |
+| [Dump Generation](#dump-generation) | Generates various formats of data dump from the Repo's [Entities](../../Glossary.md#entity)                                                                       |
 
 ## APIs
 
@@ -89,6 +90,15 @@
 | [ItemMergeInteractor](#itemmergeinteractor) | Processing          | Performs an Item merge                                                                                                                                                                                       |
 | EntityTitleLookup                           | API response        | Represents an arbitrary mapping from entity IDs to wiki page titles, with no further guarantees given. The resulting title does not necessarily represent the page that actually stores the entity contents. |
 | ExceptionLocalizer                          | API response        | Provide localized messages for some types of Exceptions                                                                                                                                                      |
+
+## Dump Generation
+
+![Alt Text](./diagrams/05-dump-generation.drawio.svg)                                                                                                                                \|
+
+| Building Block           | Responsibility                                                                                                      |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| Dump Maintenance scripts | User entrypoints to dump file creation, in the form of MediaWiki maintenance scripts, reports progress to the user. |
+| Dump Generators          | Creation of dump files on disk                                                                                      |
 
 ## Interactors
 
