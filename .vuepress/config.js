@@ -71,6 +71,7 @@ module.exports = {
             '/': [
                 '',
                 'Introduction_and_Goals',
+                'Architecture_Constraints',
                 'Context_and_Scope',
                 'Concepts',
                 'Glossary',

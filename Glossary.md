@@ -79,7 +79,7 @@ Label (also name) is the main name given to identify an [Entity](#entity). E.g.:
 
 ## [Lua](https://en.wikipedia.org/wiki/Wikipedia:Lua)
 
-Lua is a programming language that can be embedded into [Wikitext](https://www.mediawiki.org/wiki/Wikitext) to programmatically enhance the content of wiki articles. It is available on most Wikimedia sites (Wikipedias, Commons, Wiktionaries, ...) via the [Scribunto MediaWiki extension](https://www.mediawiki.org/wiki/Extension:Scribunto). It's often used in templates for [Infoboxes](https://en.wikipedia.org/wiki/Help:Infobox) on Wikipedias.
+Lua is a programming language that can be embedded into [Wikitext](https://www.mediawiki.org/wiki/Wikitext) to programmatically enhance the content of wiki articles. It is available on most [Wikimedia sites](#wikimedia-sites) via the [Scribunto MediaWiki extension](https://www.mediawiki.org/wiki/Extension:Scribunto). It's often used in templates for [Infoboxes](https://en.wikipedia.org/wiki/Help:Infobox) on Wikipedias.
 
 ## MediaWiki
 
@@ -212,9 +212,21 @@ It can optionally contain additional [Wikibase extensions](#wikibase-extension) 
 
 Wikidata is a Wikimedia project that runs an instance of [MediaWiki](#mediawiki) with the [Wikibase](#wikibase) extensions. It enables Wikidata editors to enter structured Entity data and browse pages.
 
+## Wikimedia
+
+Wikimedia is a global movement whose mission is to bring free educational content to the world.
+
+## Wikimedia sites
+
+Wikimedia is made up of various projects or sites, most of which run [MediaWiki](#mediawiki) and [Wikibase Client](#wikibase-client).
+
+These sites include but is not limited to [Wikidata](#wikidata), [Commons](#commons), [Wikipedia](#wikipedia), Wiktionaries, ...
+
+[Wikidata](#wikidata), which is a primary user of [Wikibase](#wikibase) is also a site run by [Wikimedia](#wikimedia).
+
 ## Wikipedia
 
-The free, multilingual open-collaborative online encyclopedia that is run by the [MediaWiki](#mediawiki) engine and using  [Wikibase Client](#wikibase-client) to display Entity data from [Wikidata](#wikidata).
+The free, multilingual open-collaborative online encyclopedia that is run by the [MediaWiki](#mediawiki) engine and using [Wikibase Client](#wikibase-client) to display Entity data from [Wikidata](#wikidata).
 
 ## [Wikitext](https://en.wikipedia.org/wiki/Help:Wikitext)
 
