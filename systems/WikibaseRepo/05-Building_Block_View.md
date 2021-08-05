@@ -4,7 +4,7 @@
 
 ## Whitebox Overall System
 
-![Alt Text](./diagrams/05-building-blocks.drawio.svg)
+![](./diagrams/05-building-blocks.drawio.svg)
 
 | Building Block                          | Responsibility                                                                                                                                                    |
 | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -46,7 +46,7 @@
 
 ### [Action API Edit Entity](https://www.wikidata.org/w/api.php?action=help&modules=wbeditentity)
 
-![Alt Text](./diagrams/05-api-wbeditentity.drawio.svg)
+![](./diagrams/05-api-wbeditentity.drawio.svg)
 
 | Building Block                         | Type/Context                  | Responsibility                                                                                                                                                                                               |
 | -------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -67,7 +67,7 @@
 
 ### [Action API Merge Items](https://www.wikidata.org/w/api.php?action=help&modules=wbmergeitems)
 
-![Alt Text](./diagrams/05-api-wbmergeitems.drawio.svg)
+![](./diagrams/05-api-wbmergeitems.drawio.svg)
 
 | Building Block                              | Type/Context        | Responsibility                                                                                                                                      |
 | ------------------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -81,7 +81,7 @@
 
 ### Special Merge Items
 
-![Alt Text](./diagrams/05-special-mergeitems.drawio.svg)
+![](./diagrams/05-special-mergeitems.drawio.svg)
 
 | Building Block                              | Type/Context        | Responsibility                                                                                                                                                                                               |
 | ------------------------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -94,7 +94,7 @@
 
 ## Dump Generation
 
-![Alt Text](./diagrams/05-dump-generation.drawio.svg)
+![](./diagrams/05-dump-generation.drawio.svg)
 
 | Building Block           | Responsibility                                                                                                                         |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -105,7 +105,7 @@
 
 ### ItemMergeInteractor
 
-![Alt Text](./diagrams/05-interactor-itemmerge.drawio.svg)
+![](./diagrams/05-interactor-itemmerge.drawio.svg)
 
 | Building Block                                                        | Type/Context                  | Responsibility                                                                                                                                                                                                                                                |
 | --------------------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -120,7 +120,7 @@
 
 ### EntityRedirectCreationInteractor
 
-![Alt Text](./diagrams/05-interactor-entityredirect.drawio.svg)
+![](./diagrams/05-interactor-entityredirect.drawio.svg)
 
 | Building Block          | Type/Context      | Responsibility                                                                                                                                                                                                                                                |
 | ----------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -134,7 +134,7 @@
 
 ## PropertySuggester
 
-![Alt Text](./diagrams/05-propertysuggester.drawio.svg)
+![](./diagrams/05-propertysuggester.drawio.svg)
 
 #### Contained Blackboxes
 

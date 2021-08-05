@@ -4,7 +4,7 @@
 
 ## Whitebox Overall System
 
-![Alt Text](./diagrams/05-building-blocks.drawio.svg)
+![](./diagrams/05-building-blocks.drawio.svg)
 
 | Building Block                                              | Responsibility                                                                                                                             |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
