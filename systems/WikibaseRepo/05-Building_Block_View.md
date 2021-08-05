@@ -6,14 +6,15 @@
 
 ![Alt Text](./diagrams/05-building-blocks.drawio.svg)
 
-| Building Block                      | Responsibility                                                                                                                                                    |
-| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Special Pages](#special-pages)     | WikibaseRepo specific [Special Pages](../../Glossary.md#special-page)                                                                                             |
-| Entity UI                           | The primary Wikibase UI made up of editable Entity pages                                                                                                          |
-| [APIs](#apis)                       | Represent domain data through MediaWiki APIs                                                                                                                      |
-| UpdateRepo                          | Be notified about changes to [pages that are linked](../../Glossary.md#connected-pages) to Repository [Items](../../Glossary.md#item) from Wikibase Client pages. |
-| Change Notification                 | Notify Wikibase Client sites about changes to Entities on a Repository the Client may want to act upon.                                                           |
-| [Dump Generation](#dump-generation) | Generates various formats of data dump from the Repo's [Entities](../../Glossary.md#entity)                                                                       |
+| Building Block                          | Responsibility                                                                                                                                                    |
+| --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Special Pages](#special-pages)         | WikibaseRepo specific [Special Pages](../../Glossary.md#special-page)                                                                                             |
+| Entity UI                               | The primary Wikibase UI made up of editable Entity pages                                                                                                          |
+| [APIs](#apis)                           | Represent domain data through MediaWiki APIs                                                                                                                      |
+| UpdateRepo                              | Be notified about changes to [pages that are linked](../../Glossary.md#connected-pages) to Repository [Items](../../Glossary.md#item) from Wikibase Client pages. |
+| Change Notification                     | Notify Wikibase Client sites about changes to Entities on a Repository the Client may want to act upon.                                                           |
+| [Dump Generation](#dump-generation)     | Generates various formats of data dump from the Repo's [Entities](../../Glossary.md#entity)                                                                       |
+| [PropertySuggester](#propertysuggester) | Provide property recommendations when Editors intend to add new statements                                                                                        |
 
 ## APIs
 
@@ -93,12 +94,12 @@
 
 ## Dump Generation
 
-![Alt Text](./diagrams/05-dump-generation.drawio.svg)                                                                                                                                \|
+![Alt Text](./diagrams/05-dump-generation.drawio.svg)
 
-| Building Block           | Responsibility                                                                                                      |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| Dump Maintenance scripts | User entrypoints to dump file creation, in the form of MediaWiki maintenance scripts, reports progress to the user. |
-| Dump Generators          | Creation of dump files on disk                                                                                      |
+| Building Block           | Responsibility                                                                                                                         |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Dump Maintenance scripts | Repository operator entrypoints to dump file creation, in the form of MediaWiki maintenance scripts that, report progress to the user. |
+| Dump Generators          | Turns persisted entity data into dump files on disk in a variety of formats.                                                           |
 
 ## Interactors
 
@@ -130,3 +131,18 @@
 | EntityPermissionChecker | MediaWiki binding | Service interface for checking a user's permissions on a given entity.                                                                                                                                                                                        |
 | EditFilterHookRunner    | MediaWiki binding | Runs the MediaWiki EditFilter hook                                                                                                                                                                                                                            |
 | EntityStore             | Persistence       | Storage interface for Entities                                                                                                                                                                                                                                |
+
+## PropertySuggester
+
+![Alt Text](./diagrams/05-propertysuggester.drawio.svg)
+
+#### Contained Blackboxes
+
+| Block          | Responsibility                                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------------------------ |
+| UI Override    | Adds the PropertySuggester functionality to existing elements provided to Repository Editors by WikibaseRepo |
+| API            | Provides user access to property suggestions                                                                 |
+| Suggester      | Collects suggestions from the database based on a request                                                    |
+| Datbase        | SQL tables storing data to geenrate suggestions from                                                         |
+| Table Updater  | Mechanism for updating the data stored in the Database                                                       |
+| Property Pairs | Externally calculated dataset for loading into the Database                                                  |

@@ -24,25 +24,22 @@ Wikidata specific goals are also fullfilled by Wikibase Repository:
 
 ## Stakeholders & Expectations
 
-Stakeholders and their expectations are di
-
 ### Editor
 
-- Add new structured entity data on a Repository via a desktop web interface.
-- Edit existing structured entity data on a Repository via a desktop web interface.
-- Programmatically add new structured data to a Repository.
-- Programmatically edit existing structured data on a Repository.
-- View existing structured entity data on a Repository on mobile web.
+- Find structured entity data on the repository.
+- View structured entity data on devices of varying capabilities (including mobile).
+- Interact with (CRUD) structured entity datain a repository via a desktop web interface.
+- Programmatically interact with (CRUD) structured data in a repository.
+- Review changes to the structured entity data.
 - Edit [Labels](../../Glossary.md#label), [Descriptions](../../Glossary.md#description), [Aliases](../../Glossary.md#alias) on Repository via a mobile web interface.
 - Have [Statements](../../Glossary.md#statement) about external identifiers separated from other Statements in the Repository UI.
 - Have Statements shown in a useful order.
-- Search on the Repository for an entity.
 - Ensure the coherence of data modeling in a certain topic.
-- Review changes to the structured data.
 
 #### Wikidata editor
 
 - Edit [Terms](../../Glossary.md#term) and sitelinks of entities without using JavaScript in a browser.
+- Receive suggestions for [properties](../../Glossary.md#property) in a meaningful order when trying to add new [statements](../../Glossary.md#statement).
 
 #### Commons editor
 
