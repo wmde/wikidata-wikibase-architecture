@@ -1,8 +1,8 @@
 # Runtime View
 
-## Basic Editing on Wikidata
+## Basic Editing on a Repository
 
-see the [Wikidata editor's use case](./01-Introduction_and_Goals.md#repository-editor): _Edit existing structured entity data on a Repository via a desktop web interface_
+See the [editor's use case](./01-Introduction_and_Goals.md#editor): _Edit existing structured entity data on a Repository via a desktop web interface_
 
 ```mermaid
 sequenceDiagram

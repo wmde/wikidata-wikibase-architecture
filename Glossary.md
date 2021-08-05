@@ -15,6 +15,11 @@ Badges are optional markers that can be attached to a sitelink to another Wikime
 
  Bots are tools used to make edits without the necessity of human decision-making. Bots can add Sitelinks, labels, descriptions, statements, References, and can even create Items, among other things.
 
+## [Commons](https://commons.wikimedia.org/wiki/Main_Page)
+
+Commons, or Wikimedia Commons is a media repository, running [MediaWiki](#mediawiki), of free-use images, sounds, other media, and JSON files.
+It runs the MediaInfo [Wikibase Extension](#wikibase-extension).
+
 ## Component
 
 A component is a software unit with a well-defined interface and explicitly specified dependencies. A software component can be as small as a block of reusable code, or it can be as big as an entire application depending on the level of granularity a system is being looked at.
@@ -88,6 +93,18 @@ MediaWiki Core refers to all files that are part of the main [MediaWiki](#mediaw
 
 Extensions are software components that administrators can add (or remove) to their [MediaWiki](#mediawiki) application in order to customize how it looks and works.
 Examples: WikibaseClient, UniversalLanguageSelector, OAuth
+
+## [MediaWiki file page](https://www.mediawiki.org/wiki/Help:Managing_files#File_description_page)
+
+A MediaWiki file page refers to a type of [MediaWiki](#mediawiki) page in the `File` [namespace](#mediawiki-namespace).
+
+An example file page on [Commons](#commons) would be <https://commons.wikimedia.org/wiki/File:ISS050-E-68411_-_View_of_Earth.jpg>
+
+## [MediaWiki namespace](https://www.mediawiki.org/wiki/Manual:Namespace)
+
+A MediaWiki namespace is a collection of pages which have content with a similar purpose.
+
+Wikibase [Items](#item) and [Properties](#property) each exist in their own namespaces.
 
 ## [OOUI](https://www.mediawiki.org/wiki/OOUI)
 

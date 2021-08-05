@@ -24,7 +24,9 @@ Wikidata specific goals are also fullfilled by Wikibase Repository:
 
 ## Stakeholders & Expectations
 
-### Repository editor
+Stakeholders and their expectations are di
+
+### Editor
 
 - Add new structured entity data on a Repository via a desktop web interface.
 - Edit existing structured entity data on a Repository via a desktop web interface.
@@ -38,27 +40,37 @@ Wikidata specific goals are also fullfilled by Wikibase Repository:
 - Ensure the coherence of data modeling in a certain topic.
 - Review changes to the structured data.
 
-### Wikidata editor
+#### Wikidata editor
 
 - Edit [Terms](../../Glossary.md#term) and sitelinks of entities without using JavaScript in a browser.
 
-### Commons editor
+#### Commons editor
 
-Some Commons editor expectations probably only apply to the MediaInfo extension, however many end up influencing Repository architecture.
+Some [Commons](../../Glossary.md#commons) editor expectations probably only apply to the MediaInfo extension, however many end up influencing Repository architecture.
 
 - Store structured data relevant to files on Commons, on Commons.
 - Describe Commons files using concepts from Wikidata.
-- Structured data can be added to a file without the need for extra "creation" of some entity.
-- There is a known mapping between the File page and structured data?
+- Structured data can be added to a file without the need for extra "creation" of some entity or page.
+- There is a known mapping between the [File page](../../Glossary.md#mediawiki-file-page) and structured data location
 
-### Non Wikimedia project editor
+#### 3rd party editor
 
 - Use the same Wikidata ontology on a non Wikimedia Wikibase.
 - Extend a non Wikimedia Wikibase with relevant entities from Wikidata ([federation](../../Glossary.md#federated-properties)).
 
+### Importer
+
+- - Import large amount of data (>1M entities) into a third-party Wikibase quickly & efficiently.
+
+#### Wikidata Data donor
+
+- Import (donate) subset of my collection data to Wikidata.
+- Monitor, maintain, and re-export the data donated to Wikidata.
+- Cross-check an external data collection against Wikidata.
+
 ### Data re-user
 
-- Access a Repos's content via a web API.
+- Access a Repositories content via a web API.
 
 #### Wikidata Data re-user
 
@@ -69,13 +81,3 @@ Some Commons editor expectations probably only apply to the MediaInfo extension,
 - Obtain large parts of the data on Wikidata.
 - Quickly create visualizations based on data from Wikidata without the need to download it.
 - Fix minor modeling and data issues.
-
-### Data importer
-
-- - Import large amount of data (>1M entities) into a third-party Wikibase quickly & efficiently.
-
-#### Wikidata Data donor
-
-- Import (donate) subset of my collection data to Wikidata.
-- Monitor, maintain, and re-export the data donated to Wikidata.
-- Cross-check an external data collection against Wikidata.
