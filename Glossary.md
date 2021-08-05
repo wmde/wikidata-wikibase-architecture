@@ -48,7 +48,7 @@ The source of an entity type. Only a single entity source is allowed per entity 
 Entities as defined by Wikibase have a type, e.g. `item`, `property`, `lexeme`.
 The entity type has a defined ID format and json structure. It also has a set of services, which differ based on the type.
 There's a minimum set of services which need to be set though, like serializer/deserializer, ID Factory, content factory, rdf factory etc.
-For detailed information on those services see a `*.entitytypes.php` file in Wikibase's repo.
+For detailed information on those services see a `*.entitytypes.php` file in Wikibase's repository.
 
 ## [Federated Properties](https://doc.wikimedia.org/Wikibase/master/php/md_docs_components_repo-federated-properties.html)
 
@@ -169,17 +169,27 @@ Wikibase is the software behind [Wikidata](#wikidata). It consists of a set of [
 
 ## Wikibase Client
 
-Wikibase Client is a set of features that enables the use, display and editing of [Entity](#entity) data from a [Wikibase Repository](#wikibase-repository). Its core functionality is implemented as a [MediaWiki extension](#mediawiki-extension) called [WikibaseClient](https://www.mediawiki.org/wiki/Extension:Wikibase_Client). It can optionally contain additional [MediaWiki extensions](#mediawiki-extension) such as ArticlePlaceholder.
+Wikibase Client is a set of features that enables the use, display and editing of [Entity](#entity) data from a [Wikibase Repository](#wikibase-repository).
+Its core functionality is implemented as a [MediaWiki extension](#mediawiki-extension) called [WikibaseClient](https://www.mediawiki.org/wiki/Extension:Wikibase_Client).
+It can optionally contain additional [MediaWiki extensions](#mediawiki-extension) such as ArticlePlaceholder.
+
+[Wikibase Client](./systems/WikibaseClient/01-Introduction_and_Goals.md) is identified as a top level system of the Wikibase architecture.
 
 ## Wikibase Extension
 
-Wikibase Extensions are [MediaWiki](#mediawiki) extensions that add further functionality to [WikibaseClient](#wikibase-client) or [Wikibase Repo](#wikibase-repository). Extensions such as [WikibaseLexeme](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme) that enable additional Entity types or Property datatypes on Wikibase need to be enabled both on the Repository, and on the Client. On the Repository the extension enables creating and editing these new types of data, and on the Client side the extension enables the wiki to consume and display them.
+Wikibase Extensions are [MediaWiki](#mediawiki) extensions that add further functionality to the main extensions that make up Wikibase ([WikibaseClient](#wikibase-client) and [WikibaseRepo](#wikibase-repository)).
+Extensions such as [WikibaseLexeme](https://www.mediawiki.org/wiki/Extension:WikibaseLexeme) that enable additional Entity types or Property datatypes on Wikibase need to be enabled both on the Repository, and on the Client.
+On the Repository the extension enables creating and editing these new types of data, and on the Client side the extension enables the wiki to consume and display them.
 
-Other Wikibase extensions exist only on the Repo (e.g. [WikibaseQualityConstraints](https://www.mediawiki.org/wiki/Extension:WikibaseQualityConstraints)) or only on the Client (e.g. [ArticlePlaceholder](https://www.mediawiki.org/wiki/Extension:ArticlePlaceholder)).
+Other Wikibase extensions exist only on the Repository (e.g. [WikibaseQualityConstraints](https://www.mediawiki.org/wiki/Extension:WikibaseQualityConstraints)) or only on the Client (e.g. [ArticlePlaceholder](https://www.mediawiki.org/wiki/Extension:ArticlePlaceholder)).
 
 ## Wikibase Repository
 
-Wikibase Repository is an application that provides structured [Entity](#entity) data. Its core functionality is implemented as a [MediaWiki extension](#mediawiki-extension) called [WikibaseRepo](https://www.mediawiki.org/wiki/Extension:Wikibase_Repository). It can optionally contain additional [Wikibase extensions](#wikibase-extension) such as WikibaseLexeme.
+Wikibase Repository is an application that provides structured [Entity](#entity) data.
+Its core functionality is implemented as a [MediaWiki extension](#mediawiki-extension) called [WikibaseRepo](https://www.mediawiki.org/wiki/Extension:Wikibase_Repository).
+It can optionally contain additional [Wikibase extensions](#wikibase-extension) such as WikibaseLexeme, and is often surrounded by other services such as a Query Service.
+
+[Wikibase Repository](./systems/WikibaseRepo/01-Introduction_and_Goals.md) is identified as a top level system of the Wikibase architecture.
 
 ## Wikidata
 

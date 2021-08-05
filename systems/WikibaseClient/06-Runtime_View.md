@@ -16,8 +16,8 @@ sequenceDiagram
     opt Not connected to Items
         UpdateRepo-HookHandler-->>MediaWiki Page: Return control flow
     end
-    UpdateRepo-HookHandler->>+Repo MediaWiki JobQueue: Notify Repo of the changes (job)
-    opt Repo Notified
+    UpdateRepo-HookHandler->>+Repo MediaWiki JobQueue: Notify Repository of the changes (job)
+    opt Repository Notified
         UpdateRepo-HookHandler-->>MediaWiki Page: Return control flow
     end
 ```
@@ -30,7 +30,7 @@ see the [Wikipedia editor's use case](01-Introduction_and_Goals.md#wikipedia-edi
 
 The Data Bridge is injected into Wikitext-generated content pages that have edit links by overloading the links.
 
-Clicking on one of these links then opens the Data Bridge instead of taking you to the Repo.
+Clicking on one of these links then opens the Data Bridge instead of taking you to the Repository.
 
 ```mermaid
 sequenceDiagram
@@ -54,8 +54,8 @@ sequenceDiagram
     participant Page as Wikitext-generated content
     participant Bridge as Data Bridge
     Client Editor->>+Bridge: Enters new values, chooses an update strategy, clickes save
-    Bridge->>+Repo: Saves value
-    Repo->>+Bridge: Success
+    Bridge->>+Repository: Saves value
+    Repository->>+Bridge: Success
     Bridge->>+Page: Purges Page
     Page->>+Bridge: Success
     Bridge->>+Page: Trigger Reload
@@ -68,14 +68,14 @@ see the [Wikibase Client editor's use case](01-Introduction_and_Goals.md#wikibas
 
 ### Entity change events entering the Client
 
-A Repo will schedule Jobs on Clients including change data that the Client needs.
+A Repository will schedule Jobs on Clients including change data that the Client needs.
 
 ```mermaid
 sequenceDiagram
     autonumber
-    participant Repo
+    participant Repository
     participant ChangeNotificationJob
-    Repo->>+ChangeNotificationJob: Notify of change (job)
+    Repository->>+ChangeNotificationJob: Notify of change (job)
     ChangeNotificationJob->>+EntityChangesLookup: Get changes
     EntityChangesLookup->>+ChangeNotificationJob: Changes
     ChangeNotificationJob->>+ChangeHandler: Handle changes

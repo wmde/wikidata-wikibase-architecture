@@ -100,7 +100,7 @@
         <rect x="347" y="310" width="80" height="21.82" fill="#e1d5e7" stroke="#9673a6" transform="rotate(180,387,320.91)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
             <text x="386.5" y="324.41">
-                Repo DB
+                Repository DB
             </text>
         </g>
         <rect x="547" y="410" width="80" height="21.82" fill="#000000" stroke="#000000" transform="translate(2,3)rotate(180,587,420.91)" pointer-events="all" opacity="0.25"/>
@@ -226,7 +226,7 @@
                     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe flex-start; justify-content: unsafe center; width: 1px; height: 1px; padding-top: 307px; margin-left: 32px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: nowrap; ">
-                                Repo Editor
+                                Repository Editor
                             </div>
                         </div>
                     </div>

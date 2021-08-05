@@ -362,7 +362,7 @@
         <rect x="647" y="802" width="80" height="80" fill="#ff33ff" stroke="none" transform="rotate(180,687,842)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
             <text x="686.5" y="839.5">
-                repo
+                repository
             </text>
             <text x="686.5" y="851.5">
                 MySQL DB

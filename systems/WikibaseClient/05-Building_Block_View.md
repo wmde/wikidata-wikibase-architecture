@@ -26,15 +26,15 @@
 | Building Block    | Type/Context | Responsibility                                                                        |
 | ----------------- | ------------ | ------------------------------------------------------------------------------------- |
 | DescriptionLookup | Lookups      | Lookup client [descriptions](../../Glossary.md#description) from a variety of sources |
-| RepoLinker        | Response     | Creates links to Repo Entity concepts                                                 |
+| RepoLinker        | Response     | Creates links to Repository Entity concepts                                           |
 
 ### [Action API EntityUsage](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwbentityusage)
 
 ![Action API EntityUsage Building Block Diagram](./diagrams/05-api-entityusage.drawio.svg)
 
-| Building Block | Type/Context | Responsibility                        |
-| -------------- | ------------ | ------------------------------------- |
-| RepoLinker     | Response     | Creates links to Repo Entity concepts |
+| Building Block | Type/Context | Responsibility                              |
+| -------------- | ------------ | ------------------------------------------- |
+| RepoLinker     | Response     | Creates links to Repository Entity concepts |
 
 ### [Action API Meta Wikibase](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwikibase)
 
@@ -53,7 +53,7 @@
 | EntityIdLookup  | Lookups      | Lookup EntityIds from [Titles](../../Glossary.md#title) |
 | TermBuffer      | Lookups      | Lookup buffered [Terms](../../Glossary.md#term)         |
 | AliasTermBuffer | Lookups      | Lookup buffered [Aliases](../../Glossary.md#alias)      |
-| RepoLinker      | Response     | Creates links to Repo Entity concepts                   |
+| RepoLinker      | Response     | Creates links to Repository Entity concepts             |
 
 ### Action API Format Reference
 
@@ -199,11 +199,11 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 
 ![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
 
-| Building Block     | Responsibility                                                          |
-| ------------------ | ----------------------------------------------------------------------- |
-| UpdateRepo         | Update the repo after certain changes have been performed in the client |
-| UpdateRepoOnDelete | Update the repo after page deletes in the client                        |
-| UpdateRepoOnMove   | Update the repo after page moves in the client                          |
+| Building Block     | Responsibility                                                                |
+| ------------------ | ----------------------------------------------------------------------------- |
+| UpdateRepo         | Update the repository after certain changes have been performed in the client |
+| UpdateRepoOnDelete | Update the repository after page deletes in the client                        |
+| UpdateRepoOnMove   | Update the repository after page moves in the client                          |
 
 ::: tip
 You can see the interactions of components related to Linked Site Page Changes in [the runtime view diagrams](./06-Runtime_View.md#updaterepohookhandler).
@@ -211,7 +211,7 @@ You can see the interactions of components related to Linked Site Page Changes i
 
 ## Data Bridge
 
-Data Bridge is a frontend component enabling Repo edits on the Client via the Repo API.
+Data Bridge is a frontend component enabling Repository edits on the Client via the Repository API.
 
 ![Data Bridge](./diagrams/05-databridge.drawio.svg)
 
@@ -238,14 +238,14 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | ApiErrors                             | Error returned from the Repo API                                                                                                       |
 | Other Errors                          | Error that may occur in Data Bridge and are not related to the API, e.g. an error on saving                                            |
 | Repo API                              | Implementations of WikibaseRepo API requests                                                                                           |
-| Reading API                           | Implementations of WikibaseRepo API requests that have to do with reading from repo                                                    |
-| Writing API                           | Implementations of WikibaseRepo API requests that have to do with writing to repo                                                      |
+| Reading API                           | Implementations of WikibaseRepo API requests that have to do with reading from repository                                              |
+| Writing API                           | Implementations of WikibaseRepo API requests that have to do with writing to repository                                                |
 | ApiEntityLabelRepository              | A repository to get the [label](../../Glossary.md#label) of specific entity in a specific language                                     |
 | ApiPageEditPermissionErrorsRepository | A repository for determining potential permission errors when editing a page.                                                          |
 | ApiPropertyDataTypeRepository         | A repository to get the [datatype](../../Glossary.md#datatype) of a property                                                           |
 | ApiRenderReferencesRepository         | A repository to render reference JSON blobs into HTML strings                                                                          |
 | ApiReadingEntityRepository            | A repository for reading the latest revision of an entity.                                                                             |
-| ApiRepoConfigRepository               | A repository to get the configuration from the Wikibase repo instance where the data is going to be saved                              |
+| ApiRepoConfigRepository               | A repository to get the configuration from the Wikibase repository instance where the data is going to be saved                        |
 | ApiWritingRepository                  | Saves the modified entity                                                                                                              |
 | CombiningPermissionsRepository        | A repository for determining potential permission errors when using the Data Bridge                                                    |
 | TrimmingWritingRepository             | A WritingEntityRepository that compares the old and new entity data and sends parts that changed to an underlying ApiWritingRepository |
@@ -264,7 +264,7 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | Base components           | Purely presentational components, e.g. a button. Those components will be replaced by Design System components in the future. |
 | Messages                  | A wrapper around MediaWiki's i18n mechanism                                                                                   |
 | ClientRouter              | Format page urls for client                                                                                                   |
-| RepoRouter                | Format page urls for repo                                                                                                     |
+| RepoRouter                | Format page urls for a repository                                                                                             |
 | BridgeConfig              | Configuration needed in some UI components, e.g. the link for reporting issues with data bridge                               |
 
 ### MediaWiki

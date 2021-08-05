@@ -1,6 +1,8 @@
 # Introduction and Goals
 
-Wikibase Repository is part of [Wikibase](../../Introduction_and_Goals.md). Wikibase Repository is a [MediaWiki extension](../../Glossary.md#mediawiki-extension) that allows you to use your wiki as a structured data repository. Its development is part of the [Wikidata](../../Glossary.md#wikidata) project. The data can in turn be used in a wiki using the [Wikibase Client](../WikibaseClient/01-Introduction_and_Goals.md) extension.
+Wikibase Repository is part of [Wikibase](../../Introduction_and_Goals.md).
+Wikibase Repository is focused around a [MediaWiki extension](../../Glossary.md#mediawiki-extension) that allows you to use your [MediaWiki](../../Glossary.md#mediawiki) site as a structured data repository.
+Its development is part of the [Wikidata](../../Glossary.md#wikidata) project. The data can in turn be used in a wiki using the [Wikibase Client](../WikibaseClient/01-Introduction_and_Goals.md) extension.
 
 ## Requirements Overview
 
@@ -13,26 +15,26 @@ Wikidata specific goals are also fullfilled by Wikibase Repository:
 
 ### Basic Usage
 
-- A user interacts with data entities via UIs and APIs, retrieving or changing them
+- A user interacts with data entities via UIs and APIs, retrieving or changing them.
 
 ## Quality Goals
 
-- Whenever any data (entity [label](../../Glossary.md#label), description, [alias](../../Glossary.md#alias), [statements](../../Glossary.md#statement) etc.) changes on a [Wikibase Repository](../../Glossary.md#wikibase-repository) (e.g. Wikidata), it becomes available to the connected wiki with [Wikibase Client](../../Glossary.md#wikibase-client) within [10 minutes](https://gerrit.wikimedia.org/r/plugins/gitiles/operations/puppet/+/e3423c8627067a8de8352b9b7f3c59870d9b47c5/modules/icinga/manifests/monitor/wikidata.pp#10).
+- Whenever any data changes on a [Wikibase Repository](../../Glossary.md#wikibase-repository), it becomes available to connected wikis with [Wikibase Client](../../Glossary.md#wikibase-client) within [10 minutes](https://gerrit.wikimedia.org/r/plugins/gitiles/operations/puppet/+/e3423c8627067a8de8352b9b7f3c59870d9b47c5/modules/icinga/manifests/monitor/wikidata.pp#10).
   For example, if the mayor of Berlin changes and that is updated on Wikidata, the corresponding article that uses the Wikidata item "Mayor of Berlin" on English Wikipedia should have the updated information within 10 minutes.
 
 ## Stakeholders & Expectations
 
-### Repo editor
+### Repository editor
 
-- Add new structured entity data on a Repo via a desktop web interface.
-- Edit existing structured entity data on a Repo via a desktop web interface.
-- Programmatically add new structured data to a Repo.
-- Programmatically edit existing structured data on a Repo.
-- View existing structured entity data on a Repo on mobile web.
-- Edit [Labels](../../Glossary.md#label), [Descriptions](../../Glossary.md#description), [Aliases](../../Glossary.md#alias) on Repo via a mobile web interface.
-- Have [Statements](../../Glossary.md#statement) about external identifiers separated from other Statements in the Repo UI.
+- Add new structured entity data on a Repository via a desktop web interface.
+- Edit existing structured entity data on a Repository via a desktop web interface.
+- Programmatically add new structured data to a Repository.
+- Programmatically edit existing structured data on a Repository.
+- View existing structured entity data on a Repository on mobile web.
+- Edit [Labels](../../Glossary.md#label), [Descriptions](../../Glossary.md#description), [Aliases](../../Glossary.md#alias) on Repository via a mobile web interface.
+- Have [Statements](../../Glossary.md#statement) about external identifiers separated from other Statements in the Repository UI.
 - Have Statements shown in a useful order.
-- Search on the Repo for an entity.
+- Search on the Repository for an entity.
 - Ensure the coherence of data modeling in a certain topic.
 - Review changes to the structured data.
 
@@ -42,7 +44,7 @@ Wikidata specific goals are also fullfilled by Wikibase Repository:
 
 ### Commons editor
 
-Some Commons editor expectations probably only apply to the MediaInfo extension, however many end up influencing Repo architecture.
+Some Commons editor expectations probably only apply to the MediaInfo extension, however many end up influencing Repository architecture.
 
 - Store structured data relevant to files on Commons, on Commons.
 - Describe Commons files using concepts from Wikidata.

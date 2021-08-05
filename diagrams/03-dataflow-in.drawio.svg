@@ -209,7 +209,7 @@
         <rect x="1000" y="840" width="80" height="80" fill="#ff33ff" stroke="none" transform="rotate(180,1040,880)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
             <text x="1039.5" y="877.5">
-                repo
+                repository
             </text>
             <text x="1039.5" y="889.5">
                 MySQL DB
@@ -296,7 +296,7 @@
         <rect x="660" y="680" width="90" height="25.64" fill="#ff33ff" stroke="none" transform="rotate(180,705,692.82)" pointer-events="all"/>
         <g fill="#000000" font-family="Helvetica" text-anchor="middle" font-size="10px">
             <text x="704.5" y="696.32">
-                Repo Job Queue
+                Repository Job Queue
             </text>
         </g>
     </g>

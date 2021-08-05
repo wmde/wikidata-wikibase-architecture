@@ -61,13 +61,13 @@
                     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 548px; height: 1px; padding-top: 20px; margin-left: 481px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                Repo API
+                                Repository API
                             </div>
                         </div>
                     </div>
                 </foreignObject>
                 <text x="755" y="24" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
-                    Repo API
+                    Repository API
                 </text>
             </switch>
         </g>

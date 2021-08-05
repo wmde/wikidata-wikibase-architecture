@@ -1,4 +1,4 @@
-# Split documentation for client(s) and repo
+# Split documentation for client(s) and repositories
 
 **Decision Date:** End of 2020
 

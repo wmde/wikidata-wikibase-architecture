@@ -4,9 +4,9 @@
 
 ![Wikibase Client business context diagram](./diagrams/03-business-context.drawio.svg)
 
-| Neighbour     | Description                                                                                |
-| ------------- | ------------------------------------------------------------------------------------------ |
-| Wikibase Repo | A [Wikibase Repository](../../Glossary.md#wikibase-repository) that the Client connects to |
+| Neighbour           | Description                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------ |
+| Wikibase Repository | A [Wikibase Repository](../../Glossary.md#wikibase-repository) that the Client connects to |
 
 ### Technical Context
 

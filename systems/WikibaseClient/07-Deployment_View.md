@@ -5,4 +5,4 @@ Wikibase Client extensions are deployed to the production applications (Wikipedi
 Further reading:
 
 - <https://wikitech.wikimedia.org/wiki/Wikimedia_infrastructure> is an overview of production wiki infrastructure as a whole
-- <https://gerrit.wikimedia.org/r/plugins/gitiles/operations/mediawiki-config/+/21ada6d33d5d3a3775bd4d9e2a576f74a00e8e90/wmf-config/InitialiseSettings.php#20417> ff. contains the production configuration for WikibaseClient and Repo
+- <https://gerrit.wikimedia.org/r/plugins/gitiles/operations/mediawiki-config/+/21ada6d33d5d3a3775bd4d9e2a576f74a00e8e90/wmf-config/InitialiseSettings.php#20417> ff. contains the production configuration for WikibaseClient, WikibaseRepo and other Wikibase extensions.
