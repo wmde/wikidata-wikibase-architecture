@@ -1,6 +1,6 @@
-## Context and Scope
+# Context and Scope
 
-### Business Context
+## Business Context
 
 ![Wikibase Client business context diagram](./diagrams/03-business-context.drawio.svg)
 
@@ -8,7 +8,7 @@
 | ------------------- | ------------------------------------------------------------------------------------------ |
 | Wikibase Repository | A [Wikibase Repository](../../Glossary.md#wikibase-repository) that the Client connects to |
 
-### Technical Context
+## Technical Context
 
 Wikibase Client is implemented as a collection of [MediaWiki extensions](../../Glossary.md#mediawiki-extension).
 These are "plugins" (= extensions) that live inside [MediaWiki](../../Glossary.md#mediawiki) and add functionality to it, which is reflected in this context diagram by embedding the Wikibase Client subsystem into a higher-level MediaWiki application.

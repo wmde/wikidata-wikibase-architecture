@@ -18,6 +18,14 @@
 
 ## Technical Context
 
-Wikibase extension, containing [Wikibase Repository](./systems/WikibaseRepo/01-Introduction_and_Goals.md), [Wikibase Client](./systems/WikibaseClient/01-Introduction_and_Goals.md) and more.
+:::warning
+
+This diagram is not an ideal representation of the technical context, and will be improved in time.
+
+You may find that the individual Wikibase Repository and Wikibase Client components documentations are more helpful
+
+:::
+
+Wikibase extensions, containing [Wikibase Repository](./systems/WikibaseRepo/01-Introduction_and_Goals.md), [Wikibase Client](./systems/WikibaseClient/01-Introduction_and_Goals.md) and more.
 
 ![Overall Technical Context](./diagrams/03-dataflow-out.drawio.svg)

@@ -1,6 +1,6 @@
-## Context and Scope
+# Context and Scope
 
-### Business Context
+## Business Context
 
 ![Wikibase Repository business context diagram](./diagrams/03-business-context.drawio.svg)
 
@@ -10,7 +10,7 @@
 | Wikibase Client        | Wikibase Clients are [MediaWiki](../../Glossary.md#mediawiki) applications consuming the Wikibase Repository's data. In Wikidata's case these would include Wikipedia, Wiktionary and others. |
 | Wikidata Query Service | A SPARQL endpoint and graphical user interface for querying the Repository's data.                                                                                                            |
 
-### Technical Context
+## Technical Context
 
 Wikibase Repository is being developed as a set of MediaWiki extensions, but unlike Wikibase Client, they are not "plugins" that live inside MediaWiki, adding functionality to it. Instead, Wikibase Repository should be considered a system of its own, which is reflected in this diagram by not regarding MediaWiki as an external system to Wikibase Repository. See further details on this decision in the [Solution Strategy](04-Solution_Strategy.md#developing-wikibase-repository-through-mediawiki-extensions) section.
 
