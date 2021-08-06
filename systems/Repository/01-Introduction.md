@@ -1,12 +1,16 @@
 # Repository Introduction
 
 Wikibase Repository is part of [Wikibase](../../Introduction.md).
+
 Wikibase Repository is focused around a [MediaWiki extension](../../Glossary.md#mediawiki-extension) that allows you to use your [MediaWiki](../../Glossary.md#mediawiki) site as a structured data repository.
-Its development is part of the [Wikidata](../../Glossary.md#wikidata) project. The data can in turn be used in a wiki using the [Wikibase Client](../Client/01-Introduction.md) extension.
+
+The data can in turn be used in a wiki using the [Wikibase Client](../Client/01-Introduction.md), or queried using the [Query Service](../Query/01-Introduction.md)
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/46/Item_editing_in_Wikidata.png)
 
 ## Requirements Overview
 
-The overall goal of Wikibase Repository is to allow humans and machines to store, change, maintain, manage, retrieve and dive into (query) structured multi lingual data in a non rigid fashion.
+The overall goal of Wikibase Repository is to allow humans and machines to store, change, maintain, manage and retrieve structured multi lingual data in a non rigid fashion.
 
 Wikidata specific goals are also fullfilled by Wikibase Repository:
 
@@ -15,7 +19,10 @@ Wikidata specific goals are also fullfilled by Wikibase Repository:
 
 ### Basic Usage
 
-- A user interacts with data entities via UIs and APIs, retrieving or changing them.
+1) A wikibase operator sets up a Wikibase Repository as part of a MediaWiki installation.
+2) Editors interact with data entities via UIs and APIs, creating, reading, updating or deleting them.
+3) Wikibase Repository exposes changes to the data to MediaWiki features enabling monitoring of changes.
+4) The whole currated data set and be dumped and analysed by other users, such as data re-users.
 
 ## Quality Goals
 

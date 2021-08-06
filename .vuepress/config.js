@@ -62,6 +62,7 @@ module.exports = {
             ],
             '/systems/Query/': [
                 '01-Introduction',
+                '03-Context_and_Scope',
             ],
             '/systems/Client/': [
                 '01-Introduction',

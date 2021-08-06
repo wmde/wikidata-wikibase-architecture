@@ -11,6 +11,11 @@ Aliases are alternative names for [Entities](#entity) that are placed in the _Al
 
 Badges are optional markers that can be attached to a sitelink to another Wikimedia page. For instance a sitelink can be marked to link to a "featured article" and/or to a "proofread" page.
 
+## [Blazegraph](https://blazegraph.com/)
+
+Blazegraph™ DB is a ultra high-performance graph database supporting Blueprints and [RDF](#rdf)/[SPARQL](#sparql) APIs.
+It is the central part of the Query Service.
+
 ## [Bots](https://www.wikidata.org/wiki/Wikidata:Bots)
 
  Bots are tools used to make edits without the necessity of human decision-making. Bots can add Sitelinks, labels, descriptions, statements, References, and can even create Items, among other things.
@@ -52,7 +57,7 @@ The source of an entity type. Only a single entity source is allowed per entity 
 
 Entities as defined by Wikibase have a type, e.g. `item`, `property`, `lexeme`.
 The entity type has a defined ID format and json structure. It also has a set of services, which differ based on the type.
-There's a minimum set of services which need to be set though, like serializer/deserializer, ID Factory, content factory, rdf factory etc.
+There's a minimum set of services which need to be set though, like serializer/deserializer, ID Factory, content factory, [rdf](#rdf) factory etc.
 For detailed information on those services see a `*.entitytypes.php` file in Wikibase's repository.
 
 ## [Federated Properties](https://doc.wikimedia.org/Wikibase/master/php/md_docs_components_repo-federated-properties.html)
@@ -126,6 +131,28 @@ QuickStatements is a tool, that can edit Wikidata [Items](#item), based on a sim
 
 Rank is a quality factor used for simple selection/filtering in cases where there are several [Statements](#statement) for a given [Property](#property). In such cases, users may want to indicate which statement is more important or relevant than other statements. By default, a statement has the rank _normal_, but it can be changed this to either _preferred_ or _deprecated_.
 
+## [RDF](https://www.w3.org/TR/rdf-concepts/)
+
+The Resource Description Framework (RDF) is a framework for representing information in the Web.
+
+RDF extends the linking structure of the Web to use URIs to name the relationship between things as well as the two ends of the link (this is usually referred to as a “triple”).
+
+For example a triple in XML RDF form from Wikidata:
+
+```
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:ns0="http://www.wikidata.org/prop/direct/">
+
+  <rdf:Description rdf:about="http://www.wikidata.org/entity/Q123">
+    <ns0:P31 rdf:resource="http://www.wikidata.org/entity/Q47018901"/>
+  </rdf:Description>
+
+</rdf:RDF>
+```
+
+A textual form of RDF, common in Wikibase is [Turtle](#turtle).
+
 ## [Reference](https://www.wikidata.org/wiki/Help:Sources)
 
 A Reference (or source) is used to point to a specific resource that supports a [Statement](#statement) in Wikidata. A reference can be a link to a URL or an item; for example, an item about a book. Wikidata does not aim to answer the question of whether a statemente is correct, but only whether the statemtent appears in a reference.
@@ -137,6 +164,10 @@ Sitelinks are special links that contain a site and a title, and go from individ
 ## Snak
 
 Snak is a technical term of Wikibase software which data users are most likely to encounter when accessing Wikidata through the MediaWiki API. It refers to the combination of a [Property](#property) and either a [value](#datavalue) or one of the special cases _no value_ and _unknown value_. Snaks can be found in statements (then they are called _main snaks_) or in qualifiers (then they are called _qualifier snaks_).
+
+## [SPARQL](https://www.w3.org/TR/sparql11-query/)
+
+SPARQL is an [RDF](#rdf) query language that is, a semantic query language for databases.
 
 ## [Special Page](https://www.mediawiki.org/wiki/Manual:Special_pages)
 
@@ -171,6 +202,16 @@ Title is the name of a wiki page. All pages must have a unique title within a gi
 ## [Tools](https://www.wikidata.org/wiki/Wikidata:Tools)
 
 Tools which help when working with Wikidata. The full list of Wikidata tools can be found at [Toolforge](https://hay.toolforge.org/directory/#/search/wikidata)
+
+## [Turtle](https://www.w3.org/TR/turtle/)
+
+A textual syntax for [RDF](#rdf) called Turtle.
+
+For example a triple in turtle form from Wikidata:
+
+```
+<http://www.wikidata.org/entity/Q123> <http://www.wikidata.org/prop/direct/P31> <http://www.wikidata.org/entity/Q47018901>.
+```
 
 ## Use case
 

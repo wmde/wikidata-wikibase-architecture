@@ -4,11 +4,11 @@
 
 ![Wikibase Repository business context diagram](./diagrams/03-business-context.drawio.svg)
 
-| Neighbour              | Description                                                                                                                                                                                   |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Tools and Bots         | Applications and [Bots](https://www.mediawiki.org/wiki/Manual:Bots) interacting with the Repo's data programmatically                                                                         |
-| Wikibase Client        | Wikibase Clients are [MediaWiki](../../Glossary.md#mediawiki) applications consuming the Wikibase Repository's data. In Wikidata's case these would include Wikipedia, Wiktionary and others. |
-| Wikidata Query Service | A SPARQL endpoint and graphical user interface for querying the Repository's data.                                                                                                            |
+| Neighbour      | Description                                                                                                                                                                                   |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Query Service  | A SPARQL endpoint and graphical user interface for querying the Repository's data.                                                                                                            |
+| External Tools | Applications and [Bots](https://www.mediawiki.org/wiki/Manual:Bots) interacting with the Repository's data programmatically.                                                                  |
+| Client         | Wikibase Clients are [MediaWiki](../../Glossary.md#mediawiki) applications consuming the Wikibase Repository's data. In Wikidata's case these would include Wikipedia, Wiktionary and others. |
 
 ## Technical Context
 
