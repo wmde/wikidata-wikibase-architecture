@@ -1,29 +1,22 @@
 # Overview
 
-:::warning
-WORK IN PROGRESS home of Wikibase architecture documentation.
-:::
-
 Welcome to the **Wikidata & Wikibase architecture documentation**.
 The canonical place to read these docs is on [Github Pages](https://wmde.github.io/wikidata-wikibase-architecture/).
 
-This documentation has been created to provide a high level overview of Wikidata, Wikibase and surrounding systems.
+Here you will find a high level overview of [Wikibase](./Glossary.md#wikibase), its surrounding systems, and some details relating to specific cases and deployments such as [Wikidata](./Glossary.md#wikidata).
 
-Each system uses [arc42 structured](https://arc42.org/overview/) documentation.
-Detailed documentation for arc42 can be [found here](https://docs.arc42.org/home/).
+Systems are documented using [arc42 structured](https://arc42.org/overview/) templtes.
+You can read more about this method [at docs.arc42.org](https://docs.arc42.org/home/).
 
-## Systems
+## Wikibase Systems
 
-The following diagram provides a high level view of the whole Wikidata / Wikibase system landscape. Its main goals and stakeholders are described in the following [Introduction and Goals](./Introduction_and_Goals.md) section.
+Wikibase has expanded far beyond the initial [MediaWiki extension](./Glossary.md#mediawiki-extension) that was created called `Wikibase`.
+
+Multiple other MediaWiki extensions, and other surrounding systems now make up part of the Wikibase system landscape.
 
 ![Overall Context](./diagrams/03-business-context.drawio.svg)
 
-::: tip
-The [context and scope section](./Context_and_Scope.md) has more information on the diagram above.
-:::
-
-Multiple top level systems are identified.
-Subsystems are provided in the list below for convenience.
+The documentation of these systems and sub systems is currenlty a **WORK IN PROGRESS**.
 
 - [Wikibase Repository](./systems/WikibaseRepo/01-Introduction_and_Goals.md)
   - Termbox & Termbox SSR
