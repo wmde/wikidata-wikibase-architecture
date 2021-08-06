@@ -4,17 +4,50 @@
 
 ![Wikibase Client business context diagram](./diagrams/03-business-context.drawio.svg)
 
-| Neighbour           | Description                                                                                |
-| ------------------- | ------------------------------------------------------------------------------------------ |
-| Wikibase Repository | A [Wikibase Repository](../../Glossary.md#wikibase-repository) that the Client connects to |
+**Client**
+
+Provides features to a MediaWiki installation.
+
+**Editor**
+
+A MediaWiki editor uses features provided by Client in MediaWiki to connect pages to Repository Items and use structued data from a Repository in wikitext.
+The editor may also choose to edit data held within the repository directly from the Client.
+
+**Repository**
+
+The Client pulls data from the Repository, as well as updating the repository with relevant changes.
 
 ## Technical Context
+
+![Wikibase Client technical context diagram](./diagrams/03-technical-context.drawio.svg)
+
+The majority, if not all, of the Client system exists within MediaWiki as extensions.
+MediaWiki is not represented to keep things simple.
+
+**internet / https**
+
+APIs and UIs provided by MediaWiki that Client adds features to are contactable over the internet via https.
+
+Both users and other systems use these APIs.
+
+**php / sql**
+
+Client pulls data from the Repository directly from the SQL database using a connection in PHP and shared PHP data access code.
+
+**php / job queue**
+
+Both Client and Repository have MediaWiki job queues, and they both "send messages" via these job queues.
+
+## Deepdive Context
+
+While we were still figuring out how to use the arc42 documentation model lots of diagrams were created.
+The diagram below was "technical context" but probably goes too deep, but is kept here for reference until its content is represented elsewhere (mostlikely in building block views)
 
 Wikibase Client is implemented as a collection of [MediaWiki extensions](../../Glossary.md#mediawiki-extension).
 These are "plugins" (= extensions) that live inside [MediaWiki](../../Glossary.md#mediawiki) and add functionality to it, which is reflected in this context diagram by embedding the Wikibase Client subsystem into a higher-level MediaWiki application.
 See further details on this decision in the [Solution Strategy](04-Solution_Strategy.md#developing-wikibase-client-as-mediawiki-extensions) section.
 
-![WikibaseClient technical context diagram](./diagrams/03-technical-context.drawio.svg)
+![Wikibase Client old technical context diagram](./diagrams/03-technical-context-old.drawio.svg)
 
 | Component                                                                     | Description                                                                                                                                                                                                             |   |
 | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |

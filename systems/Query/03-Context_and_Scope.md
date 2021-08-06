@@ -12,8 +12,8 @@
 
 The query service is made up of a set of components, which all surround a core [Blazegraph](./../../Glossary.md#blazegraph) powered [SPARQL](./../../Glossary.md#sparql) backend.
 
-::: warning
-This does not currently reflect the current Wikdiata production deployment of the Query Service.
+:::warning
+This does not currently reflect the current Wikidata production deployment of the Query Service.
 :::
 
 ![Query Service technical context diagram](./diagrams/03-technical-context.drawio.svg)
