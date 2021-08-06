@@ -2,7 +2,7 @@
 
 ## UpdateRepoHookHandler
 
-see the [Wikipedia editor's use case](01-Introduction_and_Goals.md#wikipedia-editor): _Have interwiki links keep up to date, when pages are moved or deleted_
+see the [Wikipedia editor's use case](01-Introduction.md#wikipedia-editor): _Have interwiki links keep up to date, when pages are moved or deleted_
 
 ```mermaid
 sequenceDiagram
@@ -24,7 +24,7 @@ sequenceDiagram
 
 ## Data Bridge
 
-see the [Wikipedia editor's use case](01-Introduction_and_Goals.md#wikipedia-editor): _Update Wikidata’s data used on Wikipedia_
+see the [Wikipedia editor's use case](01-Introduction.md#wikipedia-editor): _Update Wikidata’s data used on Wikipedia_
 
 ### Attachment and Opening
 
@@ -64,7 +64,7 @@ sequenceDiagram
 
 ## Entity Change Notifications
 
-see the [Wikibase Client editor's use case](01-Introduction_and_Goals.md#wikibase-client-editor) _Have Repository data used in Client pages update automatically, when changes happen_
+see the [Wikibase Client editor's use case](01-Introduction.md#wikibase-client-editor) _Have Repository data used in Client pages update automatically, when changes happen_
 
 ### Entity change events entering the Client
 
@@ -99,7 +99,7 @@ sequenceDiagram
 
 ## Entity Data Access
 
-see the [Wikibase Client editor's use case](01-Introduction_and_Goals.md#wikibase-client-editor) _Use Repository data in Client wikitext generated content_
+see the [Wikibase Client editor's use case](01-Introduction.md#wikibase-client-editor) _Use Repository data in Client wikitext generated content_
 
 ### Using data via LUA
 

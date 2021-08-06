@@ -1,4 +1,4 @@
-# Overview
+# Architecture Overview
 
 Welcome to the **Wikidata & Wikibase architecture documentation**.
 The canonical place to read these docs is on [Github Pages](https://wmde.github.io/wikidata-wikibase-architecture/).
@@ -14,24 +14,28 @@ Wikibase has expanded far beyond the initial [MediaWiki extension](./Glossary.md
 
 Multiple other MediaWiki extensions, and other surrounding systems now make up part of the Wikibase system landscape.
 
+To simplify things the whole system is represented as [Repository](./systems/Repository/01-Introduction.md), [Query Service](./systems/Query/01-Introduction.md) and [Client](./systems/Client/01-Introduction.md).
+
 ![Overall Context](./diagrams/03-business-context.drawio.svg)
 
-The documentation of these systems and sub systems is currenlty a **WORK IN PROGRESS**.
+## Other components
 
-- [Wikibase Repository](./systems/WikibaseRepo/01-Introduction_and_Goals.md)
-  - Termbox & Termbox SSR
-  - EntitySchema
-  - Property Suggester
-  - QualityConstraints
-  - WikibaseLexeme
-  - WikibaseMediaInfo
-- [Wikibase Client](./systems/WikibaseClient/01-Introduction_and_Goals.md)
-  - DataBridge
-  - Article Placeholder
-- QueryService ([wikitech docs](https://wikitech.wikimedia.org/wiki/Wikidata_query_service))
-  - Query UI
-  - Query Builder
+You may be familiar with other components, and should be able to easily navigate to their location using the table below.
+
+| Component                                                                              | Parent System  |
+| -------------------------------------------------------------------------------------- | -------------- |
+| Termbox & Termbox SSR                                                                  | Repository     |
+| EntitySchema                                                                           | Repository     |
+| [Property Suggester](./systems/Repository/05-Building_Block_View.md#propertysuggester) | Repository     |
+| QualityConstraints                                                                     | Repository     |
+| WikibaseLexeme                                                                         | Repository     |
+| WikibaseMediaInfo                                                                      | Repository     |
+| [DataBridge](./systems/Client/05-Building_Block_View.md#data-bridge)                   | Client         |
+| Article Placeholder                                                                    | Client         |
+| Query UI                                                                               | Query Service  |
+| Query Builder                                                                          | Query Service  |
+| Quickstatements                                                                        | External tools |
 
 ## Contributing
 
-See [CONTRIBUTING](./CONTRIBUTING.md)
+If you would like to contribute to these docs then please read the dedicated [contributing guide](./CONTRIBUTING.md).

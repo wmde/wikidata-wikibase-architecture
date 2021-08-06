@@ -31,21 +31,25 @@ module.exports = {
         sidebarDepth: 2,
         nav: [
             {
-                text: 'Overview',
+                text: 'Wikibase',
                 link: '/',
             },
             {
-                text: 'Wikibase Repository',
-                link: '/systems/WikibaseRepo/01-Introduction_and_Goals',
+                text: 'Repository',
+                link: '/systems/Repository/01-Introduction',
             },
             {
-                text: 'Wikibase Client',
-                link: '/systems/WikibaseClient/01-Introduction_and_Goals',
+                text: 'Query Service',
+                link: '/systems/Query/01-Introduction',
+            },
+            {
+                text: 'Client',
+                link: '/systems/Client/01-Introduction',
             },
         ],
         sidebar: {
-            '/systems/WikibaseRepo/': [
-                '01-Introduction_and_Goals',
+            '/systems/Repository/': [
+                '01-Introduction',
                 '02-Architecture_Constraints',
                 '03-Context_and_Scope',
                 '04-Solution_Strategy',
@@ -56,8 +60,11 @@ module.exports = {
                 '10-Quality',
                 '11-Risks_and_Technical_Debt',
             ],
-            '/systems/WikibaseClient/': [
-                '01-Introduction_and_Goals',
+            '/systems/Query/': [
+                '01-Introduction',
+            ],
+            '/systems/Client/': [
+                '01-Introduction',
                 '02-Architecture_Constraints',
                 '03-Context_and_Scope',
                 '04-Solution_Strategy',
@@ -70,7 +77,7 @@ module.exports = {
             ],
             '/': [
                 '',
-                'Introduction_and_Goals',
+                'Introduction',
                 'Architecture_Constraints',
                 'Context_and_Scope',
                 'Concepts',

@@ -1,8 +1,8 @@
-# Introduction and Goals
+# Repository Introduction
 
-Wikibase Repository is part of [Wikibase](../../Introduction_and_Goals.md).
+Wikibase Repository is part of [Wikibase](../../Introduction.md).
 Wikibase Repository is focused around a [MediaWiki extension](../../Glossary.md#mediawiki-extension) that allows you to use your [MediaWiki](../../Glossary.md#mediawiki) site as a structured data repository.
-Its development is part of the [Wikidata](../../Glossary.md#wikidata) project. The data can in turn be used in a wiki using the [Wikibase Client](../WikibaseClient/01-Introduction_and_Goals.md) extension.
+Its development is part of the [Wikidata](../../Glossary.md#wikidata) project. The data can in turn be used in a wiki using the [Wikibase Client](../Client/01-Introduction.md) extension.
 
 ## Requirements Overview
 

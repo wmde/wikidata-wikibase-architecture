@@ -182,7 +182,8 @@ A watchlist is a page which allows any logged-in user to maintain a list of "wat
 
 ## Wikibase
 
-Wikibase is the software behind [Wikidata](#wikidata). It consists of a set of [extensions](#mediawiki-extension) to the [MediaWiki](#mediawiki) software. These extensions allow Wikidata to manage and display data in [Items](#item) and [Properties](#property).
+Wikibase is a collection of software and services to enable creation and maintenance of a powerful, flexible and customizable knowledge base.
+[Wikidata](#wikidata) is the largest current public deployement of this system.
 
 ## Wikibase Client
 
@@ -190,7 +191,7 @@ Wikibase Client is a set of features that enables the use, display and editing o
 Its core functionality is implemented as a [MediaWiki extension](#mediawiki-extension) called [WikibaseClient](https://www.mediawiki.org/wiki/Extension:Wikibase_Client).
 It can optionally contain additional [MediaWiki extensions](#mediawiki-extension) such as ArticlePlaceholder.
 
-[Wikibase Client](./systems/WikibaseClient/01-Introduction_and_Goals.md) is identified as a top level system of the Wikibase architecture.
+[Wikibase Client](./systems/Client/01-Introduction.md) is identified as a top level system of the Wikibase architecture.
 
 ## Wikibase Extension
 
@@ -206,7 +207,7 @@ Wikibase Repository is an application that provides structured [Entity](#entity)
 Its core functionality is implemented as a [MediaWiki extension](#mediawiki-extension) called [WikibaseRepo](https://www.mediawiki.org/wiki/Extension:Wikibase_Repository).
 It can optionally contain additional [Wikibase extensions](#wikibase-extension) such as WikibaseLexeme, and is often surrounded by other services such as a Query Service.
 
-[Wikibase Repository](./systems/WikibaseRepo/01-Introduction_and_Goals.md) is identified as a top level system of the Wikibase architecture.
+[Wikibase Repository](./systems/Repository/01-Introduction.md) is identified as a top level system of the Wikibase architecture.
 
 ## Wikidata
 

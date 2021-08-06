@@ -41,7 +41,7 @@ Recurring patterns within the system.
 
 ### Dispatching
 
-Wikibase, particularly [Wikibase Repository](./systems/WikibaseRepo/01-Introduction_and_Goals.md) and [Wikibase Client](./systems/WikibaseClient/01-Introduction_and_Goals.md), make use of a [Dynamic Dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch#Single_and_multiple_dispatch) pattern.
+Wikibase, particularly [Wikibase Repository](./systems/Repository/01-Introduction.md) and [Wikibase Client](./systems/Client/01-Introduction.md), make use of a [Dynamic Dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch#Single_and_multiple_dispatch) pattern.
 This is most notably used for switching internal service implementations based on the [type of entity](./Glossary.md#entity-types) being interacted with.
 
 ```mermaid

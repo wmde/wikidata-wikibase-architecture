@@ -2,7 +2,7 @@
 
 ## Basic Viewing on a Repository
 
-See the [editor's use case](./01-Introduction_and_Goals.md#editor): _View structured entity data on devices of varying capabilities (including mobile)._
+See the [editor's use case](./01-Introduction.md#editor): _View structured entity data on devices of varying capabilities (including mobile)._
 
 ```mermaid
 sequenceDiagram
@@ -18,7 +18,7 @@ sequenceDiagram
 
 ## Basic JS Editing on a Repository
 
-See the [editor's use case](./01-Introduction_and_Goals.md#editor): _Interact with (CRUD) structured entity datain a repository via a desktop web interface._
+See the [editor's use case](./01-Introduction.md#editor): _Interact with (CRUD) structured entity datain a repository via a desktop web interface._
 
 ```mermaid
 sequenceDiagram
@@ -34,7 +34,7 @@ sequenceDiagram
 
 ## User suggested a property when adding a statement
 
-See the [editor's use case](./01-Introduction_and_Goals.md#editor): _Receive suggestions for [properties](../../Glossary.md#property) in a meaningful order when trying to add new [statements](../../Glossary.md#statement)._
+See the [editor's use case](./01-Introduction.md#editor): _Receive suggestions for [properties](../../Glossary.md#property) in a meaningful order when trying to add new [statements](../../Glossary.md#statement)._
 
 ```mermaid
 sequenceDiagram
