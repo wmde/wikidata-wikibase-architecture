@@ -5,7 +5,7 @@ The canonical place to read these docs is on [Github Pages](https://wmde.github.
 
 Here you will find a high level overview of [Wikibase](./Glossary.md#wikibase), its surrounding systems, and some details relating to specific cases and deployments such as [Wikidata](./Glossary.md#wikidata).
 
-Systems are documented using [arc42 structured](https://arc42.org/overview/) templtes.
+Systems are documented using [arc42 structured](https://arc42.org/overview/) templates.
 You can read more about this method [at docs.arc42.org](https://docs.arc42.org/home/).
 
 ## Wikibase Systems
