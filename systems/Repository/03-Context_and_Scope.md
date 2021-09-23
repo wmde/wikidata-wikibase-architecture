@@ -14,7 +14,7 @@ A Data Re-user will access data from a Repository directly, but also via the Que
 
 **Importer**
 
-Importers will use external tools, or a Repository directly to import large ammounts of data.
+Importers will use external tools, or a Repository directly to import large amounts of data.
 
 **Query Service**
 
@@ -22,7 +22,7 @@ The Query Service stores a current version of all data held in the Repository al
 
 **External Tools**
 
-External tools make use of any availible public entrypoint to interact with the data heald within a Repository.
+External tools make use of any available public entry-point to interact with the data held within a Repository.
 
 **Client**
 
@@ -31,7 +31,7 @@ A Client will notify a Repository if things happen on it that the Repository mig
 
 **Repository**
 
-The Reposiotry holds the canonical source of truth for structured data.
+The Repository holds the canonical source of truth for structured data.
 It provides a variety of public and non public interfaces to create, reads, updates, deletes, monitors and maintain this data.
 
 ## Technical Context
