@@ -51,7 +51,7 @@ Entities are the top level concepts of Wikibase's data model. [Items](#item) and
 
 ## [Entity Sources](https://doc.wikimedia.org/Wikibase/master/php/md_docs_topics_entitysources.html)
 
-The source of an entity type. Only a single entity source is allowed per entity type on a given repo.
+Entity Sources define the data sources for entities. There are two types: API Entity Sources and Database Entity Sources. API sources are for Entities that are usable in Statements on the local Repository, but stored and edited on a remote Repository (see also [Federated Properties](#federated-properties)). Database sources are used for Entities whose data is stored in a database that is accessible to the local repository. Only a single Database Entity Source is allowed per entity type on a given repo.
 
 ## [Entity Types](https://doc.wikimedia.org/Wikibase/master/php/md_docs_topics_entitytypes.html)
 
