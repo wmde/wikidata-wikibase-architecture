@@ -74,11 +74,9 @@ A Repository will schedule Jobs on Clients including change data that the Client
 sequenceDiagram
     autonumber
     participant Repository
-    participant ChangeNotificationJob
-    Repository->>+ChangeNotificationJob: Notify of change (job)
-    ChangeNotificationJob->>+EntityChangesLookup: Get changes
-    EntityChangesLookup->>+ChangeNotificationJob: Changes
-    ChangeNotificationJob->>+ChangeHandler: Handle changes
+    participant EntityChangeNotificationJob
+    Repository->>+EntityChangeNotificationJob: Notify of change(s) (job)
+    EntityChangeNotificationJob->>+ChangeHandler: Handle changes
 ```
 
 ### Handle change events on the Client
