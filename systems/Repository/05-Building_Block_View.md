@@ -12,7 +12,7 @@
 | Entity UI                               | The primary Wikibase UI made up of editable Entity pages                                                                                                          |
 | [APIs](#apis)                           | Represent domain data through MediaWiki APIs                                                                                                                      |
 | UpdateRepo                              | Be notified about changes to [pages that are linked](../../Glossary.md#connected-pages) to Repository [Items](../../Glossary.md#item) from Wikibase Client pages. |
-| Change Notification                     | Notify Wikibase Client sites about changes to Entities on a Repository the Client may want to act upon.                                                           |
+| EntityChangeNotification                | Notify Wikibase Client sites about changes to Entities on a Repository the Client may want to act upon.                                                           |
 | [Dump Generation](#dump-generation)     | Generates various formats of data dump from the Repo's [Entities](../../Glossary.md#entity)                                                                       |
 | [PropertySuggester](#propertysuggester) | Provide property recommendations when Editors intend to add new statements                                                                                        |
 
