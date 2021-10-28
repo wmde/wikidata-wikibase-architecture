@@ -100,4 +100,10 @@ module.exports = {
             ],
         }
     },
+    markdown: {
+        extendMarkdown: md => {
+            md.set({ breaks: true })
+            md.use(require('markdown-it-imsize'))
+        }
+    }
 }

@@ -123,6 +123,14 @@ Parser functions are dynamic functions that can be used directly in wikitext. Fu
 
 Properties are [Entities](#entity) that describe a relationship between [Items](#item) (or other Entities) and [values](#datavalue) of the Property. Typical Properties are _population_ (using numbers as values), _binomial name_ (using strings as values), but also _has father_ and _author of_ (both using Items as values).
 
+## [QueryBuilder](https://www.wikidata.org/wiki/Wikidata:Query_Builder)
+
+The Query Builder provides a visual interface for building a simple query.
+It is ideal for users with little or no experience in [SPARQL](#sparql).
+The Query Builder doesn't offer SPARQL's full functionality.
+
+The Query Builder was initially developed for the Wikidata usecase, and may not currently be optimized for generic Wikibase usage.
+
 ## [QuickStatements](https://www.wikidata.org/wiki/Help:QuickStatements)
 
 QuickStatements is a tool, that can edit Wikidata [Items](#item), based on a simple set of text commands. The tool can add and remove [Statements](#statement), [Labels](#label), Descriptions, and Aliases; as well as add statements with optional qualifiers and sources.
