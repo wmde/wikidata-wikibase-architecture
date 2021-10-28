@@ -18,14 +18,12 @@
 
 ## Technical Context
 
-:::warning
-
-This diagram is not an ideal representation of the technical context, and will be improved in time.
+::: details Draft expansive context
 
 You may find that the individual Wikibase Repository and Wikibase Client components documentations are more helpful
-
-:::
 
 Wikibase extensions, containing [Wikibase Repository](./systems/Repository/01-Introduction.md), [Wikibase Client](./systems/Client/01-Introduction.md) and more.
 
 ![Overall Technical Context](./diagrams/03-dataflow-out.drawio.svg)
+
+:::

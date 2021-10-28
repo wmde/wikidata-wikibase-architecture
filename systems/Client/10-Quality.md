@@ -19,7 +19,3 @@ Test coverage for PHP code is measured via [SonarQube](https://www.sonarqube.org
 
 Wikibase Client provides several Action API modules. For more info see the [API Building Blocks section](./05-Building_Block_View.md#apis).  
 Wikibase Client also provides the so called Special Pages. For more see the [Special Pages Building Blocks section](./05-Building_Block_View.md#special-pages).
-
-## External Quality Scenarios
-
-TBD

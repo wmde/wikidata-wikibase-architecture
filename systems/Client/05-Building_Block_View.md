@@ -17,9 +17,13 @@
 | [Special Pages](#special-pages)                             | WikibaseClient specific [Special Pages](../../Glossary.md#special-page)                                                                    |
 | [Interwiki](#interwiki)                                     | Client side interactions with [Interwiki links](../../Glossary.md#interwiki-links)                                                         |
 
-## APIs
+::: details Legacy detailed views
 
-### [Action API Description](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bdescription)
+The future of this detailed content is undecided...
+
+#### APIs
+
+##### [Action API Description](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bdescription)
 
 ![Action API Description Building Block Diagram](./diagrams/05-api-description.drawio.svg)
 
@@ -28,7 +32,7 @@
 | DescriptionLookup | Lookups      | Lookup client [descriptions](../../Glossary.md#description) from a variety of sources |
 | RepoLinker        | Response     | Creates links to Repository Entity concepts                                           |
 
-### [Action API EntityUsage](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwbentityusage)
+##### [Action API EntityUsage](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwbentityusage)
 
 ![Action API EntityUsage Building Block Diagram](./diagrams/05-api-entityusage.drawio.svg)
 
@@ -36,7 +40,7 @@
 | -------------- | ------------ | ------------------------------------------- |
 | RepoLinker     | Response     | Creates links to Repository Entity concepts |
 
-### [Action API Meta Wikibase](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwikibase)
+##### [Action API Meta Wikibase](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwikibase)
 
 ![Action API Meta Building Block Diagram](./diagrams/05-api-metawikibase.drawio.svg)
 
@@ -44,7 +48,7 @@
 | -------------- | ------------ | --------------------------------------------------- |
 | SettingsArray  | Config       | WikibaseClient settings containing meta information |
 
-### [Action API Page Terms](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bpageterms)
+##### [Action API Page Terms](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bpageterms)
 
 ![Action API Page Terms Building Block Diagram](./diagrams/05-api-pageterms.drawio.svg)
 
@@ -55,7 +59,7 @@
 | AliasTermBuffer | Lookups      | Lookup buffered [Aliases](../../Glossary.md#alias)      |
 | RepoLinker      | Response     | Creates links to Repository Entity concepts             |
 
-### Action API Format Reference
+##### Action API Format Reference
 
 ![Action API Format Reference Building Block Diagram](./diagrams/05-api-wbformatreference.drawio.svg)
 
@@ -65,7 +69,7 @@
 | ReferenceFormatter       | Format Reference | Format Reference as wikitext                                         |
 | Parser                   | Output           | Parse Reference wikitext and output HTML                             |
 
-## Entity Data Access
+#### Entity Data Access
 
 ![Entity Data Access](./diagrams/05-entitydataaccess.drawio.svg)
 
@@ -75,11 +79,7 @@
 | [ParserFunctions](#parserfunctions)  | MediaWiki [parser function](../../Glossary.md#parser-function) binding for entity data access |
 | [Scribunto](#scribunto)              | Scribunto extension binding for entity data access                                            |
 
-::: tip
-You can see the interactions of components related to Entity Data Access in [the runtime view diagrams](./06-Runtime_View.md#entity-data-access).
-:::
-
-### Shared (Entity Data Access)
+##### Shared (Entity Data Access)
 
 ![Entity Data Access Shared](./diagrams/05-entitydataaccess-shared.drawio.svg)
 
@@ -92,7 +92,7 @@ You can see the interactions of components related to Entity Data Access in [the
 | PropertyIdResolver              | Resolves a PropertyId from input which could be a [Label](../../Glossary.md#label) or prefixed ID |
 | SnaksFinder                     | Find Snaks for claims in a given Entity, based on PropertyId                                      |
 
-### ParserFunctions
+##### ParserFunctions
 
 ![Entity Data Access Parser Functions](./diagrams/05-entitydataaccess-parserfunctions.drawio.svg)
 
@@ -101,7 +101,7 @@ You can see the interactions of components related to Entity Data Access in [the
 | Runner                 | Contains the methods called by MediaWiki when [parser functions](../../Glossary.md#parser-function) are used |
 | StatementGroupRenderer | Renderer for rendering a [statement](../../Glossary.md#statement) group                                      |
 
-### Scribunto
+##### Scribunto
 
 ![Entity Data Access Scribunto](./diagrams/05-entitydataaccess-scribunto.drawio.svg)
 
@@ -116,7 +116,7 @@ You can see the interactions of components related to Entity Data Access in [the
 | EntityAccessor                 | Miscellaneous functionality for exposing Entities through LUA                       |
 | LuaFunctionCallTracker         | Helper for tracking accesses of Lua functions                                       |
 
-## Entity Change Notifications
+#### Entity Change Notifications
 
 ![](./diagrams/05-entitychangenotifications.drawio.svg)
 
@@ -127,11 +127,7 @@ You can see the interactions of components related to Entity Data Access in [the
 | [RecentChanges](#recent-changes)             | Represent changes to Repository Entities in a Client RecentChanges system |
 | [Usage](#usage)                              | Tracking the usage of Repository Entities on a Client                     |
 
-::: tip
-You can see the interactions of components related to Entity Change Notifications in [the runtime view diagrams](./06-Runtime_View.md#entity-change-notifications).
-:::
-
-### Changes
+##### Changes
 
 ![](./diagrams/05-entitychangenotifications-changes.drawio.svg)
 
@@ -143,7 +139,7 @@ You can see the interactions of components related to Entity Change Notification
 | InjectRCRecordsJob  | Persists RecentChanges entries                                                              |
 | PageUpdater         | Triggers various updates needed when pages will change                                      |
 
-### Change Modifications
+##### Change Modifications
 
 ![](./diagrams/05-entitychangenotifications-modifications.drawio.svg)
 
@@ -153,7 +149,7 @@ You can see the interactions of components related to Entity Change Notification
 | ChangeDeletionNotificationJob     | Handles Repository Entity Revision Deletions          |
 | ChangeVisibilityNotificationJob   | Handles Repository Entity Revision Visibility Changes |
 
-### Recent Changes
+##### Recent Changes
 
 ![](./diagrams/05-entitychangenotifications-recentchanges.drawio.svg)
 
@@ -165,7 +161,7 @@ You can see the interactions of components related to Entity Change Notification
 | ChangeLineFormatter    | Formats and ExternalChange as HTML                                                 |
 | SiteLinkCommentCreator | Deals with creating comment infomation relating to SiteLink changes                |
 
-## Usage
+#### Usage
 
 <!---
 This has become quite a big building block. It can likely be split up further, possibly splitting out "subscription" related components and/or dividing it into read and write components?
@@ -173,9 +169,7 @@ This has become quite a big building block. It can likely be split up further, p
 
 ![](./diagrams/05-entitychangenotifications-usage.drawio.svg)
 
-::: warning
 UsageAspectTransformer is only used outside of this block and perhaps shouldn't live here
-:::
 
 | Building Block                                      | Responsibility                                                                                                               |
 | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -195,7 +189,7 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 | populateEntityUsage                                 | Maintenance script for populating wbc_entity_usage based on the page_props table.                                            |
 | updateSubscriptions                                 | Maintenance script for inserting subscriptions into wb_changes_subscription based on wbc_entity_usage.                       |
 
-## [Linked Site Page](../../Glossary.md#connected-pages) Changes
+#### [Linked Site Page](../../Glossary.md#connected-pages) Changes
 
 ![Linked Site Page Changes](./diagrams/05-linkedsitepagechanges.drawio.svg)
 
@@ -205,11 +199,7 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 | UpdateRepoOnDelete | Update the repository after page deletes in the client                        |
 | UpdateRepoOnMove   | Update the repository after page moves in the client                          |
 
-::: tip
-You can see the interactions of components related to Linked Site Page Changes in [the runtime view diagrams](./06-Runtime_View.md#updaterepohookhandler).
-:::
-
-## Data Bridge
+#### Data Bridge
 
 Data Bridge is a frontend component enabling Repository edits on the Client via the Repository API.
 
@@ -224,11 +214,7 @@ Data Bridge is a frontend component enabling Repository edits on the Client via 
 | [ChangeOp](#changeop)         | Strategies for applying changes (update or replace) to the entity                                    |
 | Tracking                      | Tracking data bridge usage and errors                                                                |
 
-::: tip
-You can see the interactions of components related to Data Bridge in [the runtime view diagrams](./06-Runtime_View.md#data-bridge).
-:::
-
-### Data Access
+##### Data Access
 
 ![Data Bridge Data Access](./diagrams/05-databridge-dataaccess.drawio.svg)
 
@@ -251,7 +237,7 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | TrimmingWritingRepository             | A WritingEntityRepository that compares the old and new entity data and sends parts that changed to an underlying ApiWritingRepository |
 | SpecialPageReadingEntityRepository    | A repository for reading the latest revision of an entity                                                                              |
 
-### Presentation
+##### Presentation
 
 ![Data Bridge Presentation](./diagrams/05-databridge-presentation.drawio.svg)
 
@@ -267,7 +253,7 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | RepoRouter                | Format page urls for a repository                                                                                             |
 | BridgeConfig              | Configuration needed in some UI components, e.g. the link for reporting issues with data bridge                               |
 
-### MediaWiki
+##### MediaWiki
 
 ![Data Bridge MediaWiki](./diagrams/05-databridge-mediawiki.drawio.svg)
 
@@ -280,7 +266,7 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | prepareContainer         | Creates a container element based on OO.ui.Dialog in which Data Bridge is placed on the wiki page                             |
 | EventTracker             | An abstraction layer for MediaWiki's event tracker                                                                            |
 
-### ChangeOp
+##### ChangeOp
 
 ![Data Bridge Change Op](./diagrams/05-databridge-changeop.drawio.svg)
 
@@ -292,7 +278,7 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | StatementMutationError    | Represents an error that can occur when mutating a statement                       |
 | StatementMutationFactory  | Chooses the right mutation strategy based on the edit decision (replace or update) |
 
-## Special Pages
+#### Special Pages
 
 ![Special Pages Building Block Diagram](./diagrams/05-special-pages.drawio.svg)
 
@@ -303,10 +289,12 @@ You can see the interactions of components related to Data Bridge in [the runtim
 | SpecialPagesWithBadges                          | WikibaseClient | Shows a list of pages with a given [badge](../../Glossary.md#badge)         |
 | SpecialUnconnectedPages                         | WikibaseClient | Lists client pages that are not connected to repository items               |
 
-## Interwiki
+#### Interwiki
 
 ![Interwiki Building Block Diagram](./diagrams/05-interwiki.drawio.svg)
 
 | Building Block    | Responsibility                                                                                        |
 | ----------------- | ----------------------------------------------------------------------------------------------------- |
 | populateInterwiki | Maintenance script that populates the interwiki table in the client's MediaWiki DB with list of sites |
+
+:::

@@ -16,7 +16,35 @@
 | [Dump Generation](#dump-generation)     | Generates various formats of data dump from the Repo's [Entities](../../Glossary.md#entity)                                                                       |
 | [PropertySuggester](#propertysuggester) | Provide property recommendations when Editors intend to add new statements                                                                                        |
 
-## APIs
+## Dump Generation
+
+![](./diagrams/05-dump-generation.drawio.svg)
+
+| Building Block           | Responsibility                                                                                                                         |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Dump Maintenance scripts | Repository operator entrypoints to dump file creation, in the form of MediaWiki maintenance scripts that, report progress to the user. |
+| Dump Generators          | Turns persisted entity data into dump files on disk in a variety of formats.                                                           |
+
+## PropertySuggester
+
+![](./diagrams/05-propertysuggester.drawio.svg)
+
+#### Contained Blackboxes
+
+| Block          | Responsibility                                                                                               |
+| -------------- | ------------------------------------------------------------------------------------------------------------ |
+| UI Override    | Adds the PropertySuggester functionality to existing elements provided to Repository Editors by WikibaseRepo |
+| API            | Provides user access to property suggestions                                                                 |
+| Suggester      | Collects suggestions from the database based on a request                                                    |
+| Datbase        | SQL tables storing data to geenrate suggestions from                                                         |
+| Table Updater  | Mechanism for updating the data stored in the Database                                                       |
+| Property Pairs | Externally calculated dataset for loading into the Database                                                  |
+
+::: details Legacy detailed views
+
+The future of this detailed content is undecided...
+
+#### APIs
 
 | Building Block                          | Responsibility                                                                                     |
 | --------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -44,7 +72,7 @@
 | wbsetreference                          | Create a reference or sets the value of an existing one                                            |
 | wbsetsitelink                           | Associate a page on a wiki with a Wikibase item or removes an already made such association        |
 
-### [Action API Edit Entity](https://www.wikidata.org/w/api.php?action=help&modules=wbeditentity)
+##### [Action API Edit Entity](https://www.wikidata.org/w/api.php?action=help&modules=wbeditentity)
 
 ![](./diagrams/05-api-wbeditentity.drawio.svg)
 
@@ -65,7 +93,7 @@
 | ApiErrorReporter                       | API response                  | A component for API modules that handles error reporting                                                                                                                                                     |
 | ResultBuilder                          | API response                  | Builder of MediaWiki ApiResult objects with various convenience functions for adding Wikibase concepts and result parts to results in a uniform way                                                          |
 
-### [Action API Merge Items](https://www.wikidata.org/w/api.php?action=help&modules=wbmergeitems)
+##### [Action API Merge Items](https://www.wikidata.org/w/api.php?action=help&modules=wbmergeitems)
 
 ![](./diagrams/05-api-wbmergeitems.drawio.svg)
 
@@ -77,9 +105,9 @@
 | ApiErrorReporter                            | API response        | A component for API modules that handles error reporting                                                                                            |
 | ResultBuilder                               | API response        | Builder of MediaWiki ApiResult objects with various convenience functions for adding Wikibase concepts and result parts to results in a uniform way |
 
-## Special Pages
+#### Special Pages
 
-### Special Merge Items
+##### Special Merge Items
 
 ![](./diagrams/05-special-mergeitems.drawio.svg)
 
@@ -92,18 +120,9 @@
 | EntityTitleLookup                           | API response        | Represents an arbitrary mapping from entity IDs to wiki page titles, with no further guarantees given. The resulting title does not necessarily represent the page that actually stores the entity contents. |
 | ExceptionLocalizer                          | API response        | Provide localized messages for some types of Exceptions                                                                                                                                                      |
 
-## Dump Generation
+#### Interactors
 
-![](./diagrams/05-dump-generation.drawio.svg)
-
-| Building Block           | Responsibility                                                                                                                         |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
-| Dump Maintenance scripts | Repository operator entrypoints to dump file creation, in the form of MediaWiki maintenance scripts that, report progress to the user. |
-| Dump Generators          | Turns persisted entity data into dump files on disk in a variety of formats.                                                           |
-
-## Interactors
-
-### ItemMergeInteractor
+##### ItemMergeInteractor
 
 ![](./diagrams/05-interactor-itemmerge.drawio.svg)
 
@@ -118,7 +137,7 @@
 | PermissionManager                                                     | MediaWiki binding             | A MediaWiki service class for checking permissions                                                                                                                                                                                                            |
 | EntityStore                                                           | Persistence                   | Storage interface for Entities                                                                                                                                                                                                                                |
 
-### EntityRedirectCreationInteractor
+##### EntityRedirectCreationInteractor
 
 ![](./diagrams/05-interactor-entityredirect.drawio.svg)
 
@@ -132,17 +151,4 @@
 | EditFilterHookRunner    | MediaWiki binding | Runs the MediaWiki EditFilter hook                                                                                                                                                                                                                            |
 | EntityStore             | Persistence       | Storage interface for Entities                                                                                                                                                                                                                                |
 
-## PropertySuggester
-
-![](./diagrams/05-propertysuggester.drawio.svg)
-
-#### Contained Blackboxes
-
-| Block          | Responsibility                                                                                               |
-| -------------- | ------------------------------------------------------------------------------------------------------------ |
-| UI Override    | Adds the PropertySuggester functionality to existing elements provided to Repository Editors by WikibaseRepo |
-| API            | Provides user access to property suggestions                                                                 |
-| Suggester      | Collects suggestions from the database based on a request                                                    |
-| Datbase        | SQL tables storing data to geenrate suggestions from                                                         |
-| Table Updater  | Mechanism for updating the data stored in the Database                                                       |
-| Property Pairs | Externally calculated dataset for loading into the Database                                                  |
+:::

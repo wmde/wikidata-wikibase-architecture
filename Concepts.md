@@ -1,7 +1,5 @@
 # Crosscutting Concepts
 
-![Crosscutting Concepts](./diagrams/08-crosscutting-concepts.drawio.svg)
-
 ## Domain concepts
 
 - [WikibaseDataModel](https://github.com/wmde/WikibaseDataModel)
@@ -65,93 +63,19 @@ A few different implementations of the dispatching pattern currently exist, the 
 How / where to store and retrieve data.  
 TBD
 
-### Process control
-
-TBD
-
 ### Communication and integration
 
 How to integrate with other systems, how to communicate (i.e. sync, async, pub-sub…)  
 TBD
 
-### Exception and error handling
-
-What errors to handle, how to handle exceptional situations.  
-TBD.
-
-### Parallization and threading
-
-How to parallelize tasks, how to create/spawn/manage processes.  
-TBD.
-
-### Plausibility checks and validation
-
-i.e. client-side validation, how to verify/check data, input, results.  
-TBD.
-
-### Business rules
-
-i.e. how to use a rule-engine, how to implement/configure business rules, how to change those…  
-TBD.
-
-### Batch processing
-
-How to process data in batches (i.e. offline processing).  
-TBD.
-
-### Reporting
-
-How to create reports, how to gather the required data, how to render the results.  
-TBD.
-
 ## Development concepts
 
 ### Build, test, deploy
 
-TBD
-
-### Code generation
-
-TBD
-
-### Migration
-
-TBD
+Common tool chains, and patterns.
+TBD.
 
 ### Configurability
 
-TBD
-
-## Operational concepts
-
-### Administration
-
-TBD
-
-### Management
-
-TBD
-
-### Disaster-Recovery
-
-TBD
-
-### Scaling
-
-TBD
-
-### Clustering
-
-TBD
-
-### Monitoring, Logging
-
-TBD
-
-### High Availability
-
-TBD
-
-### Load balancing
-
-TBD
+Aim of having white label services, for generic Wikibase usage.
+TBD.

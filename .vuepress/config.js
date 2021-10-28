@@ -87,6 +87,7 @@ module.exports = {
                 {
                     title: 'Decisions',
                     path: '/docs/decisions/',
+                    sidebarDepth: 0,
                     children: [
                         '/docs/decisions/using-arc42',
                         '/docs/decisions/usecase-scope',
