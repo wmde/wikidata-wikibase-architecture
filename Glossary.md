@@ -60,6 +60,14 @@ The entity type has a defined ID format and json structure. It also has a set of
 There's a minimum set of services which need to be set though, like serializer/deserializer, ID Factory, content factory, [rdf](#rdf) factory etc.
 For detailed information on those services see a `*.entitytypes.php` file in Wikibase's repository.
 
+## [EventBus](https://www.mediawiki.org/wiki/Extension:EventBus)
+
+A [MediaWiki extension](#mediawiki-extension) that propagates state changes (edit, move, delete, revision visibility, etc) to a RESTful event service.
+
+## [EventGate](https://wikitech.wikimedia.org/wiki/Event_Platform/EventGate)
+
+A HTTP service for ingestion of events producing them to a backend such as [Kafka](#kafka).
+
 ## [Federated Properties](https://doc.wikimedia.org/Wikibase/master/php/md_docs_components_repo-federated-properties.html)
 
 Federated Properties is a feature that allows a newly created [Wikibase](#wikibase) instance to use the existing [Properties](#property) of another Wikibase. This enables new users evaluating Wikibase to get started without having to spend a lot of time defining basic Properties first.
@@ -77,6 +85,10 @@ Interwiki links are links to pages of other projects, using a prefixed internal 
 In Wikidata or any other WikibaseRepo instance, Items are used to represent all the things in human knowledge, including topics, concepts, and objects. For example, the "1988 Summer Olympics", "love", "Elvis Presley", and "gorilla" are all Items in Wikidata.
 
 The terms "Wikibase Item" and "Wikidata Item" are used interchangeably throughout the documentation. They are the same thing that lives in different contexts - Wikidata or another WikibaseRepo instance.
+
+## [Kafka](https://kafka.apache.org/intro)
+
+Kafka is is an event streaming platform.
 
 ## [Label](https://www.wikidata.org/wiki/Help:Label)
 
