@@ -23,4 +23,4 @@ The components can be deployed in mutliple configurations.
 | Query Proxy            | Sitting infront of the Backend for user access to the [SPARQL](./../../Glossary.md#sparql) API.                                                            |
 | Query Backend          | Persistence in a modified version of [Blazegraph](./../../Glossary.md#blazegraph).                                                                         |
 | Query Updater          | Taking changes from a source (either [Wikibase Repository](./../../Glossary.md#wikibase-repository) or Kafka) and writing them to the backend persistence. |
-| Query Steaming Updater | Turns a stream of edit events into a stream of RDF changes                                                                                                 |
+| Query Streaming Updater | Turns a stream of edit events into a stream of RDF changes                                                                                                 |
