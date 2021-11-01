@@ -63,6 +63,7 @@ module.exports = {
             '/systems/Query/': [
                 '01-Introduction',
                 '03-Context_and_Scope',
+                '05-Building_Block_View',
             ],
             '/systems/Client/': [
                 '01-Introduction',

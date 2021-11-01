@@ -16,11 +16,8 @@ The components can be deployed in mutliple configurations.
 
 ![Query Service technical context diagram](./diagrams/03-technical-context.drawio.svg)
 
-| Component              | Description                                                                                                                                                |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Query Frontend (UI)    | Provides a user interface for making SPARQL queries and visualizing data.                                                                                  |
-| Query Builder          | Provides a user interface for generating lists from SPARQL queries.                                                                                        |
-| Query Proxy            | Sitting in front of the Backend for user access to the [SPARQL](./../../Glossary.md#sparql) API.                                                            |
-| Query Backend          | Persistence in a modified version of [Blazegraph](./../../Glossary.md#blazegraph).                                                                         |
-| Query Updater          | Taking changes from a source (either [Wikibase Repository](./../../Glossary.md#wikibase-repository) or Kafka) and writing them to the backend persistence. |
-| Query Streaming Updater | Turns a stream of edit events into a stream of RDF changes                                                                                                 |
+| Component                                                    | Description                                                                       |
+| ------------------------------------------------------------ | --------------------------------------------------------------------------------- |
+| [Web Interfaces](./05-Building_Block_View.md#web-interfaces) | Web interfaces and UIs for interacting with the query service                     |
+| [Backend](./05-Building_Block_View.md#backend)               | Main triple storage and SPARQL API access                                         |
+| [Updating](./05-Building_Block_View.md#updating)             | Components to keep the Backend up to date with changes from a Wikibase Repository |
