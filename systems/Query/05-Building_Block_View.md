@@ -25,7 +25,7 @@ The Query Service is made up of a few failry distinct components.
 
 ![](./diagrams/05-01-backend.drawio.svg)
 | Building Block           | Responsibility                                                                                                                                                |
-\| ---------------------- \| ---------------------------------------------------------------------------------------------------------------------------------------------------------- \|
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Query Proxy | Force setting of timeouts, read only queries and basic caching |
 | Blazegraph | Graph datagbase with a SPARQL API |
 
