@@ -64,6 +64,7 @@ module.exports = {
                 '01-Introduction',
                 '03-Context_and_Scope',
                 '05-Building_Block_View',
+                '06-Runtime_View',
                 '07-Deployment_View',
             ],
             '/systems/Client/': [
