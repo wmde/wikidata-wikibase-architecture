@@ -246,6 +246,11 @@ A watchlist is a page which allows any logged-in user to maintain a list of "wat
 Wikibase is a collection of software and services to enable creation and maintenance of a powerful, flexible and customizable knowledge base.
 [Wikidata](#wikidata) is the largest current public deployement of this system.
 
+## Wikibase as a Service
+
+Wikibase as a Service is a platform allowing easy creation of multiple Wikibase instances using a single shared set of resources.
+Primarily developed under the name WBStack at <https://wbstack.com> at the start of 2022 a service was created at <https://wikibase.cloud>
+
 ## Wikibase Client
 
 Wikibase Client is a set of features that enables the use, display and editing of [Entity](#entity) data from a [Wikibase Repository](#wikibase-repository).
