@@ -2,7 +2,7 @@
 
 ## Overall System
 
-The Query Service is made up of a few failry distinct components.
+The Query Service is made up of a few fairly distinct components.
 
 ![](./diagrams/05-00-building-blocks.drawio.svg)
 
