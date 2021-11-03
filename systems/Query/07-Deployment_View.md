@@ -24,6 +24,10 @@ Each server in this setup runs the Streaming Updater Consumer, getting a stream 
 
 Wikibase docker releases, and the suggested 3rd party deployments make use of the older Recent Changes based updater.
 
+Containers can be deployed in any number of ways.
+
+The docker-compose example would result in these containers all being within the same host machine.
+
 ![](./diagrams/07-wikibase-docker.drawio.svg)
 
 ## Wikibase as a Service

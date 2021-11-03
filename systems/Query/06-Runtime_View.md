@@ -8,18 +8,18 @@ A happy path when updating happens.
 sequenceDiagram
     autonumber
     participant Blazegraph
-    participant Updater
+    participant RCPoller
     participant Wikibase Repository
     
-    Updater->>+Blazegraph: Query last udpated timestamp
-    Blazegraph->>+Updater: Last updated time
-    Updater->>+Wikibase Repository: Poll API for RecentChanges since time
-    Wikibase Repository->>+Updater: RecentChanges
-    Updater->>+Wikibase Repository: Get RDF for Entities
-    Wikibase Repository->>+Updater: Entity RDF
-    Updater->>+Blazegraph: RDF Write Queries
-    Updater->>+Blazegraph: Update Timestamp
-    Blazegraph->>+Updater: Success
+    RCPoller->>+Blazegraph: Query last updated timestamp
+    Blazegraph->>+RCPoller: Last updated time
+    RCPoller->>+Wikibase Repository: Poll API for RecentChanges since time
+    Wikibase Repository->>+RCPoller: RecentChanges
+    RCPoller->>+Wikibase Repository: Get RDF for Entities
+    Wikibase Repository->>+RCPoller: Entity RDF
+    RCPoller->>+Blazegraph: RDF Write Queries
+    RCPoller->>+Blazegraph: Update Timestamp
+    Blazegraph->>+RCPoller: Success
 ```
 
 A common error case for infrequently edited wikis is when the storage timestamp in Blazegraph appears to be too old.
@@ -30,9 +30,9 @@ A common error case for infrequently edited wikis is when the storage timestamp 
 sequenceDiagram
     autonumber
     participant Blazegraph
-    participant Updater
+    participant RCPoller
     
-    Updater->>+Blazegraph: Query last udpated timestamp
-    Blazegraph->>+Updater: OLD Last updated time
+    RCPoller->>+Blazegraph: Query last updated timestamp
+    Blazegraph->>+RCPoller: OLD Last updated time
     Note left of Updater: IllegalStateException: <br/>RDF store reports the last update <br/>time is before the minimum safe poll time
 ```

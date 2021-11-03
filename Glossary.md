@@ -173,6 +173,10 @@ For example a triple in XML RDF form from Wikidata:
 
 A textual form of RDF, common in Wikibase is [Turtle](#turtle).
 
+## [Recent changes](https://www.mediawiki.org/wiki/Help:Recent_changes)
+
+A feature withing [MediaWiki](#mediawiki) exposed via API and UI that lists recent changes in reverse order, with change date and time, change in the page size, user who created the page, and edit summary.
+
 ## [Reference](https://www.wikidata.org/wiki/Help:Sources)
 
 A Reference (or source) is used to point to a specific resource that supports a [Statement](#statement) in Wikidata. A reference can be a link to a URL or an item; for example, an item about a book. Wikidata does not aim to answer the question of whether a statemente is correct, but only whether the statemtent appears in a reference.
