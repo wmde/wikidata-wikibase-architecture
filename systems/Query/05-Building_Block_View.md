@@ -31,6 +31,16 @@ The Query Service is made up of a few failry distinct components.
 | Blazegraph     | Graph datagbase with a [SPARQL](./../../Glossary.md#sparql) API |
 | Data Loader    | Loads data into Blazegraph from an RDF rump                     |
 
+### Data Loader
+
+![](./diagrams/05-02-backend-loader.drawio.svg)
+
+| Building Block      | Responsibility                                                                                                                                             |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| loadData            | Load [RDF](./../../Glossary.md#rdf) into Blazegraph                                                                                                        |
+| munger              | Convert Wikibase Repository [RDF](./../../Glossary.md#rdf) triples into different triples for Blazegraph                                                   |
+| TurtleDumpConverter | Convert Wikibase Repository [RDF](./../../Glossary.md#rdf) triples into different triples for Blazegraph in a [Hadoop](./../../Glossary.md#hadoop) cluster |
+
 ## Updating
 
 ![](./diagrams/05-01-updating.drawio.svg)

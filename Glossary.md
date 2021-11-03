@@ -76,6 +76,10 @@ Federated Properties is a feature that allows a newly created [Wikibase](#wikiba
 
 [Gadgets](https://www.mediawiki.org/wiki/Extension:Gadgets) are made up of JavaScript and/or CSS Snippets located on pages in the MediaWiki namespace. These snippets add functionality to the wiki itself and can be enabled and disabled via preferences.
 
+## [Hadoop](https://hadoop.apache.org/)
+
+Allows for the distributed processing of large data sets across clusters of computers using simple programming models.
+
 ## [Interwiki Links](https://www.mediawiki.org/wiki/Manual:Interwiki)
 
 Interwiki links are links to pages of other projects, using a prefixed internal link style. Interwiki links make it possible to link to pages of e.g. Wikipedia, Wikibooks, Wikinews etc. or to your wiki-project in different languages. Interwiki links to pages referring to the same concept across wikis can be centrally stored on a Wikibase Repository by using [Sitelinks](#sitelink).
