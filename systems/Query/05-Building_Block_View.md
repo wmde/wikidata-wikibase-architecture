@@ -34,7 +34,7 @@ The Query Service is made up of a few fairly distinct components.
 ### Data Loader
 
 The Data Loader currently currently exists in 2 different flavours, which are used in difference deployments.
-Only 1 of the choices for munging / RDF conversaion is needed per deployment.
+Only 1 of the choices for munging / RDF conversation is needed per deployment.
 
 ![](./diagrams/05-02-backend-loader.drawio.svg)
 
