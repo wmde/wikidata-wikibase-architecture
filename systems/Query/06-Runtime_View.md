@@ -1,6 +1,6 @@
 # Runtime View
 
-## Updater
+## RCPoller
 
 A happy path when updating happens.
 

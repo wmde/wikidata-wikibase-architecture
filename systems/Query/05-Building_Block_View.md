@@ -35,10 +35,11 @@ The Query Service is made up of a few failry distinct components.
 
 ![](./diagrams/05-01-updating.drawio.svg)
 
-| Building Block                          | Responsibility                                                                           |
-| --------------------------------------- | ---------------------------------------------------------------------------------------- |
-| [Streaming Updater](#streaming-updater) | Updating Blazegraph using a stream of RDF change events                                  |
-| Updater                                 | Updating Blazegraph using a stream of revision creation events, or polling RecentChanges |
+| Building Block                          | Responsibility                                                              |
+| --------------------------------------- | --------------------------------------------------------------------------- |
+| [Streaming Updater](#streaming-updater) | Updating Blazegraph using a stream of RDF change events                     |
+| KafkaPoller                             | Updating Blazegraph using a stream of events created by EventBus from Kafka |
+| RCPoller                                | Updating Blazegraph by polling RecentChanges for new changes                |
 
 ### Streaming Updater
 
