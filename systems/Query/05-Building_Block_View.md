@@ -33,6 +33,9 @@ The Query Service is made up of a few failry distinct components.
 
 ### Data Loader
 
+The Data Loader currently currently exists in 2 different flavours, which are used in difference deployments.
+Only 1 of the choices for munging / RDF conversaion is needed per deployment.
+
 ![](./diagrams/05-02-backend-loader.drawio.svg)
 
 | Building Block      | Responsibility                                                                                                                                             |
@@ -42,6 +45,9 @@ The Query Service is made up of a few failry distinct components.
 | TurtleDumpConverter | Convert Wikibase Repository [RDF](./../../Glossary.md#rdf) triples into different triples for Blazegraph in a [Hadoop](./../../Glossary.md#hadoop) cluster |
 
 ## Updating
+
+The Updating system curently exists in 3 different flavours, which are used in different deployments.
+Only 1 of these update paths is needed in each deployment.
 
 ![](./diagrams/05-01-updating.drawio.svg)
 
