@@ -13,7 +13,7 @@ The Wikidata Query Service at <https://query.wikidata.org>
 
 ![A screenshot of the Wikidata Query Service](<https://upload.wikimedia.org/wikipedia/commons/e/ec/Screenshot_Wikidata_Query_Service_October_2021.png> =1024x)
 
-An example query service for another Wikibase.
+An example query service for another Wikibase, selecting 10 random triples.
 
 ![A screenshot of a query service for another Wikibase](<https://upload.wikimedia.org/wikipedia/commons/b/be/Screenshot_Wikibase_Query_Service_losh.ose-germany.de_October_2021.png> =1024x)
 

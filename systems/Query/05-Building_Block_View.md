@@ -6,15 +6,15 @@ The Query Service is made up of a few fairly distinct components.
 
 ![](./diagrams/05-00-building-blocks.drawio.svg)
 
-| Building Block                    | Responsibility                                                         |
-| --------------------------------- | ---------------------------------------------------------------------- |
-| [Web Interfaces](#web-interfaces) | Allow user interaction with the Query Service via UIs                  |
-| [Backend](#backend)               | Index data and serve [SPARQL](./../../Glossary.md#sparql) queries      |
-| [Updating](#updating)             | Keeping the Backend up to date with changes from a Wikibase Repository |
+| Building Block                      | Responsibility                                                         |
+| ----------------------------------- | ---------------------------------------------------------------------- |
+| [User Interfaces](#user-interfaces) | Allow user interaction with the Query Service via UIs                  |
+| [Backend](#backend)                 | Index data and serve [SPARQL](./../../Glossary.md#sparql) queries      |
+| [Updating](#updating)               | Keeping the Backend up to date with changes from a Wikibase Repository |
 
-## Web Interfaces
+## User Interfaces
 
-![](./diagrams/05-01-web-interfaces.drawio.svg)
+![](./diagrams/05-01-user-interfaces.drawio.svg)
 
 | Building Block | Responsibility                                                                                                              |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------- |
