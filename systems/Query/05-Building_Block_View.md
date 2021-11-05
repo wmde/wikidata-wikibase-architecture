@@ -27,7 +27,7 @@ The Query Service is made up of a few fairly distinct components.
 
 | Building Block | Responsibility                                                  |
 | -------------- | --------------------------------------------------------------- |
-| Query Proxy    | Force setting of timeouts, read only queries and basic caching  |
+| Query Proxy    | Force setting of timeouts, access-control and basic caching  |
 | Blazegraph     | Graph database with a [SPARQL](./../../Glossary.md#sparql) API |
 | Data Loader    | Loads data into Blazegraph from an RDF rump                     |
 
