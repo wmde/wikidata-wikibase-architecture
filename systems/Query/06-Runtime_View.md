@@ -34,5 +34,5 @@ sequenceDiagram
     
     RCPoller->>+Blazegraph: Query last updated timestamp
     Blazegraph->>+RCPoller: OLD Last updated time
-    Note left of Updater: IllegalStateException: <br/>RDF store reports the last update <br/>time is before the minimum safe poll time
+    Note left of RCPoller: IllegalStateException: <br/>RDF store reports the last update <br/>time is before the minimum safe poll time
 ```
