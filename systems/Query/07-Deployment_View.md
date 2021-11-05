@@ -10,15 +10,25 @@ Canonical documentation:
 - [Wikidata Query Service deployment page](https://wikitech.wikimedia.org/wiki/Wikidata_Query_Service)
 - [Wikimedia Event Platform](https://wikitech.wikimedia.org/wiki/Event_Platform)
 
-## Multi Cluster
+### Multi Cluster
 
 ![](./diagrams/07-wikidata-deployment.drawio.svg)
 
-## Single Host
+### Single Host
 
 Each server in this setup runs the Streaming Updater Consumer, getting a stream of RDF changes from Kafka, that have been created by a single Streaming Updater Producer.
 
 ![](./diagrams/07-wikidata-deployment-single-host.drawio.svg)
+
+### User Interfaces
+
+User Interfaces are deployed to [Microsites](https://wikitech.wikimedia.org/wiki/Microsites) infrastructure.
+
+[Wikitech documentation exists for this deployment](https://wikitech.wikimedia.org/wiki/Microsites#Wikidata_Query_Service_(UIs)).
+
+The application is built by Jenkins and committed to a new Git repository, which is then deployed ot Microsites.
+
+![](./diagrams/07-wikidata-deployment-user-interfaces.drawio.svg)
 
 ## Wikibase Docker
 
