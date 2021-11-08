@@ -141,7 +141,7 @@ Properties are [Entities](#entity) that describe a relationship between [Items](
 
 ## [QueryBuilder](https://www.wikidata.org/wiki/Wikidata:Query_Builder)
 
-The Query Builder provides a visual interface for building a simple query.
+The Query Builder provides a visual interface for building simple Wikibase data queries.
 It is ideal for users with little or no experience in [SPARQL](#sparql).
 The Query Builder doesn't offer SPARQL's full functionality.
 
