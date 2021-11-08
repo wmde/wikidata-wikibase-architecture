@@ -257,7 +257,7 @@ Wikibase is a collection of software and services to enable creation and mainten
 ## Wikibase as a Service
 
 Wikibase as a Service is a platform allowing easy creation of multiple Wikibase instances using a single shared set of resources.
-Primarily developed under the name WBStack at <https://wbstack.com> at the start of 2022 a service was created at <https://wikibase.cloud>
+Primarily developed under the name WBStack at <https://wbstack.com>, at the start of 2022 a service was created at <https://wikibase.cloud>
 
 ## Wikibase Client
 
