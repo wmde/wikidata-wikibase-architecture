@@ -12,7 +12,7 @@
 
 The query service is made up of a set of components, which all surround a core [Blazegraph](./../../Glossary.md#blazegraph) powered [SPARQL](./../../Glossary.md#sparql) backend.
 
-The components can be deployed in mutliple configurations.
+The components can be deployed in multiple configurations.
 
 ![Query Service technical context diagram](./diagrams/03-technical-context.drawio.svg)
 
