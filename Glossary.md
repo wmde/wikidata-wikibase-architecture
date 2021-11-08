@@ -78,7 +78,7 @@ Federated Properties is a feature that allows a newly created [Wikibase](#wikiba
 
 ## [Hadoop](https://hadoop.apache.org/)
 
-Allows for the distributed processing of large data sets across clusters of computers using simple programming models.
+Apache Hadoop is a storage system with a collection of libraries, that allow for the distributed processing of large data sets across clusters of computers using simple programming models.
 
 ## [Interwiki Links](https://www.mediawiki.org/wiki/Manual:Interwiki)
 
