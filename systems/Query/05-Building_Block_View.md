@@ -8,7 +8,7 @@ The Query Service is made up of a few fairly distinct components.
 
 | Building Block                      | Responsibility                                                         |
 | ----------------------------------- | ---------------------------------------------------------------------- |
-| [User Interfaces](#user-interfaces) | Allow user interaction with the Query Service via UIs                  |
+| [User Interfaces](#user-interfaces) | Allow user interaction with the Query Service                          |
 | [Backend](#backend)                 | Index data and serve [SPARQL](./../../Glossary.md#sparql) queries      |
 | [Updating](#updating)               | Keeping the Backend up to date with changes from a Wikibase Repository |
 
