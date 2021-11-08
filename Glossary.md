@@ -92,7 +92,7 @@ The terms "Wikibase Item" and "Wikidata Item" are used interchangeably throughou
 
 ## [Kafka](https://kafka.apache.org/intro)
 
-Kafka is an event streaming platform.
+Apache Kafka is an event streaming platform.
 
 ## [Label](https://www.wikidata.org/wiki/Help:Label)
 
