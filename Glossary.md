@@ -60,6 +60,14 @@ The entity type has a defined ID format and json structure. It also has a set of
 There's a minimum set of services which need to be set though, like serializer/deserializer, ID Factory, content factory, [rdf](#rdf) factory etc.
 For detailed information on those services see a `*.entitytypes.php` file in Wikibase's repository.
 
+## [EventBus](https://www.mediawiki.org/wiki/Extension:EventBus)
+
+A [MediaWiki extension](#mediawiki-extension) that propagates state changes (edit, move, delete, revision visibility, etc) to a RESTful event service.
+
+## [EventGate](https://wikitech.wikimedia.org/wiki/Event_Platform/EventGate)
+
+A HTTP service for ingestion of events producing them to a backend such as [Kafka](#kafka).
+
 ## [Federated Properties](https://doc.wikimedia.org/Wikibase/master/php/md_docs_components_repo-federated-properties.html)
 
 Federated Properties is a feature that allows a newly created [Wikibase](#wikibase) instance to use the existing [Properties](#property) of another Wikibase. This enables new users evaluating Wikibase to get started without having to spend a lot of time defining basic Properties first.
@@ -67,6 +75,10 @@ Federated Properties is a feature that allows a newly created [Wikibase](#wikiba
 ## Gadgets
 
 [Gadgets](https://www.mediawiki.org/wiki/Extension:Gadgets) are made up of JavaScript and/or CSS Snippets located on pages in the MediaWiki namespace. These snippets add functionality to the wiki itself and can be enabled and disabled via preferences.
+
+## [Hadoop](https://hadoop.apache.org/)
+
+Apache Hadoop is a storage system with a collection of libraries, that allow for the distributed processing of large data sets across clusters of computers using simple programming models.
 
 ## [Interwiki Links](https://www.mediawiki.org/wiki/Manual:Interwiki)
 
@@ -77,6 +89,10 @@ Interwiki links are links to pages of other projects, using a prefixed internal 
 In Wikidata or any other WikibaseRepo instance, Items are used to represent all the things in human knowledge, including topics, concepts, and objects. For example, the "1988 Summer Olympics", "love", "Elvis Presley", and "gorilla" are all Items in Wikidata.
 
 The terms "Wikibase Item" and "Wikidata Item" are used interchangeably throughout the documentation. They are the same thing that lives in different contexts - Wikidata or another WikibaseRepo instance.
+
+## [Kafka](https://kafka.apache.org/intro)
+
+Apache Kafka is an event streaming platform.
 
 ## [Label](https://www.wikidata.org/wiki/Help:Label)
 
@@ -123,6 +139,14 @@ Parser functions are dynamic functions that can be used directly in wikitext. Fu
 
 Properties are [Entities](#entity) that describe a relationship between [Items](#item) (or other Entities) and [values](#datavalue) of the Property. Typical Properties are _population_ (using numbers as values), _binomial name_ (using strings as values), but also _has father_ and _author of_ (both using Items as values).
 
+## [QueryBuilder](https://www.wikidata.org/wiki/Wikidata:Query_Builder)
+
+The Query Builder provides a visual interface for building simple Wikibase data queries.
+It is ideal for users with little or no experience in [SPARQL](#sparql).
+The Query Builder doesn't offer SPARQL's full functionality.
+
+The Query Builder was initially developed for the Wikidata usecase, and may not currently be optimized for generic Wikibase usage.
+
 ## [QuickStatements](https://www.wikidata.org/wiki/Help:QuickStatements)
 
 QuickStatements is a tool, that can edit Wikidata [Items](#item), based on a simple set of text commands. The tool can add and remove [Statements](#statement), [Labels](#label), Descriptions, and Aliases; as well as add statements with optional qualifiers and sources.
@@ -152,6 +176,10 @@ For example a triple in XML RDF form from Wikidata:
 ```
 
 A textual form of RDF, common in Wikibase is [Turtle](#turtle).
+
+## [Recent changes](https://www.mediawiki.org/wiki/Help:Recent_changes)
+
+A feature within [MediaWiki](#mediawiki) exposed via API and UI that lists recent changes in reverse order, with change date and time, change in the page size, user who created the page, and edit summary.
 
 ## [Reference](https://www.wikidata.org/wiki/Help:Sources)
 
@@ -225,6 +253,11 @@ A watchlist is a page which allows any logged-in user to maintain a list of "wat
 
 Wikibase is a collection of software and services to enable creation and maintenance of a powerful, flexible and customizable knowledge base.
 [Wikidata](#wikidata) is the largest current public deployement of this system.
+
+## Wikibase as a Service
+
+Wikibase as a Service is a platform allowing easy creation of multiple Wikibase instances using a single shared set of resources.
+Primarily developed under the name WBStack at <https://wbstack.com>, at the start of 2022 a service was created at <https://wikibase.cloud>
 
 ## Wikibase Client
 

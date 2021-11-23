@@ -29,5 +29,8 @@
   },
   "bugs": {
     "url": "https://github.com/wmde/wikidata-wikibase-architecture/issues"
+  },
+  "dependencies": {
+    "markdown-it-imsize": "^2.0.1"
   }
 }
