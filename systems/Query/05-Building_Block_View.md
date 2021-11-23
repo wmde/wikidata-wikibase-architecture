@@ -6,11 +6,11 @@ The Query Service is made up of a few fairly distinct components.
 
 ![](./diagrams/05-00-building-blocks.drawio.svg)
 
-| Building Block                      | Responsibility                                                         |
-| ----------------------------------- | ---------------------------------------------------------------------- |
-| [User Interfaces](#user-interfaces) | Allow user interaction with the Query Service                          |
-| [Backend](#backend)                 | Index data and serve [SPARQL](./../../Glossary.md#sparql) queries      |
-| [Updating](#updating)               | Keep the Backend up to date with changes from a Wikibase Repository    |
+| Building Block                      | Responsibility                                                      |
+| ----------------------------------- | ------------------------------------------------------------------- |
+| [User Interfaces](#user-interfaces) | Allow user interaction with the Query Service                       |
+| [Backend](#backend)                 | Index data and serve [SPARQL](./../../Glossary.md#sparql) queries   |
+| [Updating](#updating)               | Keep the Backend up to date with changes from a Wikibase Repository |
 
 ## User Interfaces
 
@@ -25,11 +25,11 @@ The Query Service is made up of a few fairly distinct components.
 
 ![](./diagrams/05-01-backend.drawio.svg)
 
-| Building Block | Responsibility                                                  |
-| -------------- | --------------------------------------------------------------- |
-| Query Proxy    | Force setting of timeouts, access-control and basic caching  |
+| Building Block | Responsibility                                                 |
+| -------------- | -------------------------------------------------------------- |
+| Query Proxy    | Force setting of timeouts, access-control and basic caching    |
 | Blazegraph     | Graph database with a [SPARQL](./../../Glossary.md#sparql) API |
-| Data Loader    | Loads data into Blazegraph from an RDF rump                     |
+| Data Loader    | Loads data into Blazegraph from an RDF rump                    |
 
 ### Data Loader
 
