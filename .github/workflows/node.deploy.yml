@@ -10,11 +10,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: Use Node.js 16.x
-      uses: actions/setup-node@v2.4.1
-      with:
-        node-version: 16.x
-        cache: npm
     - name: vuepress-deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
