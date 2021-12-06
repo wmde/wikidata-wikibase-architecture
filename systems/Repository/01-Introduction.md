@@ -19,10 +19,10 @@ Wikidata specific goals are also fullfilled by Wikibase Repository:
 
 ### Basic Usage
 
-1) A wikibase operator sets up a Wikibase Repository as part of a MediaWiki installation.
-2) Editors interact with data entities via UIs and APIs, creating, reading, updating or deleting them.
-3) Wikibase Repository exposes changes to the data to MediaWiki features enabling monitoring of changes.
-4) The whole currated data set and be dumped and analysed by other users, such as data re-users.
+1. A wikibase operator sets up a Wikibase Repository as part of a MediaWiki installation.
+2. Editors interact with data entities via UIs and APIs, creating, reading, updating or deleting them.
+3. Wikibase Repository exposes changes to the data to MediaWiki features enabling monitoring of changes.
+4. The whole currated data set and be dumped and analysed by other users, such as data re-users.
 
 ## Quality Goals
 

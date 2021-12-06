@@ -18,7 +18,7 @@ It is the central part of the Query Service.
 
 ## [Bots](https://www.wikidata.org/wiki/Wikidata:Bots)
 
- Bots are tools used to make edits without the necessity of human decision-making. Bots can add Sitelinks, labels, descriptions, statements, References, and can even create Items, among other things.
+Bots are tools used to make edits without the necessity of human decision-making. Bots can add Sitelinks, labels, descriptions, statements, References, and can even create Items, among other things.
 
 ## [Commons](https://commons.wikimedia.org/wiki/Main_Page)
 

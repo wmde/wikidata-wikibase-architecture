@@ -23,7 +23,7 @@ The future of this detailed content is undecided...
 
 #### APIs
 
-##### [Action API Description](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bdescription)
+##### [Action API Description](https://www.wikidata.org/w/api.php?action=help\&modules=query%2Bdescription)
 
 ![Action API Description Building Block Diagram](./diagrams/05-api-description.drawio.svg)
 
@@ -32,7 +32,7 @@ The future of this detailed content is undecided...
 | DescriptionLookup | Lookups      | Lookup client [descriptions](../../Glossary.md#description) from a variety of sources |
 | RepoLinker        | Response     | Creates links to Repository Entity concepts                                           |
 
-##### [Action API EntityUsage](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwbentityusage)
+##### [Action API EntityUsage](https://www.wikidata.org/w/api.php?action=help\&modules=query%2Bwbentityusage)
 
 ![Action API EntityUsage Building Block Diagram](./diagrams/05-api-entityusage.drawio.svg)
 
@@ -40,7 +40,7 @@ The future of this detailed content is undecided...
 | -------------- | ------------ | ------------------------------------------- |
 | RepoLinker     | Response     | Creates links to Repository Entity concepts |
 
-##### [Action API Meta Wikibase](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bwikibase)
+##### [Action API Meta Wikibase](https://www.wikidata.org/w/api.php?action=help\&modules=query%2Bwikibase)
 
 ![Action API Meta Building Block Diagram](./diagrams/05-api-metawikibase.drawio.svg)
 
@@ -48,7 +48,7 @@ The future of this detailed content is undecided...
 | -------------- | ------------ | --------------------------------------------------- |
 | SettingsArray  | Config       | WikibaseClient settings containing meta information |
 
-##### [Action API Page Terms](https://www.wikidata.org/w/api.php?action=help&modules=query%2Bpageterms)
+##### [Action API Page Terms](https://www.wikidata.org/w/api.php?action=help\&modules=query%2Bpageterms)
 
 ![Action API Page Terms Building Block Diagram](./diagrams/05-api-pageterms.drawio.svg)
 
@@ -108,7 +108,7 @@ The future of this detailed content is undecided...
 | Building Block                 | Responsibility                                                                      |
 | ------------------------------ | ----------------------------------------------------------------------------------- |
 | TermLookup                     | Lookup terms of Entities for use in LUA                                             |
-| Scribunto_LuaLibraryBase       | Registers and defined methods called by the Scribunto extension                     |
+| Scribunto\_LuaLibraryBase      | Registers and defined methods called by the Scribunto extension                     |
 | LanguageDependentLuaBindings   | Actual implementations of various functions that can be accessed through Scribunto. |
 | LanguageIndependentLuaBindings | Actual implementations of various functions that can be accessed through Scribunto. |
 | LuaEntityBindings              | Actual implementations of various functions that can be accessed through Scribunto. |
@@ -183,11 +183,11 @@ UsageAspectTransformer is only used outside of this block and perhaps shouldn't 
 | SubscriptionManager                                 | Persists infomation about pages being "subscribed" to updates for an Entity                                                  |
 | UsageTracker                                        | Persists infomation about the EntityUsages of a page                                                                         |
 | UsageAspectTransformer                              | Transforms usage aspect based on a filter of aspects relevant in some context.                                               |
-| BulkSubscriptionUpdater                             | Bulk inserts for subscriptions into wb_changes_subscription based on wbc_entity_usage.                                       |
+| BulkSubscriptionUpdater                             | Bulk inserts for subscriptions into wb\_changes\_subscription based on wbc\_entity\_usage.                                   |
 | AddUsagesForPageJob                                 | Job for scheduled invocation of UsageUpdater which is triggered by a MediaWiki hook related to Wikitext-based content edits. |
 | UsageUpdater                                        | Service for updating usage tracking and associated change subscription information.                                          |
-| populateEntityUsage                                 | Maintenance script for populating wbc_entity_usage based on the page_props table.                                            |
-| updateSubscriptions                                 | Maintenance script for inserting subscriptions into wb_changes_subscription based on wbc_entity_usage.                       |
+| populateEntityUsage                                 | Maintenance script for populating wbc\_entity\_usage based on the page\_props table.                                         |
+| updateSubscriptions                                 | Maintenance script for inserting subscriptions into wb\_changes\_subscription based on wbc\_entity\_usage.                   |
 
 #### [Linked Site Page](../../Glossary.md#connected-pages) Changes
 

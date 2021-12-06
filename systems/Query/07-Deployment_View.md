@@ -24,7 +24,7 @@ Each server in this setup runs the Streaming Updater Consumer, getting a stream 
 
 User Interfaces are deployed to [Microsites](https://wikitech.wikimedia.org/wiki/Microsites) infrastructure.
 
-[Wikitech documentation exists for this deployment](https://wikitech.wikimedia.org/wiki/Microsites#Wikidata_Query_Service_(UIs)).
+[Wikitech documentation exists for this deployment](https://wikitech.wikimedia.org/wiki/Microsites#Wikidata_Query_Service_\(UIs\)).
 
 The application is built by Jenkins and committed to a new Git repository, which is then deployed ot Microsites.
 

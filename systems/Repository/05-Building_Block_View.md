@@ -72,7 +72,7 @@ The future of this detailed content is undecided...
 | wbsetreference                          | Create a reference or sets the value of an existing one                                            |
 | wbsetsitelink                           | Associate a page on a wiki with a Wikibase item or removes an already made such association        |
 
-##### [Action API Edit Entity](https://www.wikidata.org/w/api.php?action=help&modules=wbeditentity)
+##### [Action API Edit Entity](https://www.wikidata.org/w/api.php?action=help\&modules=wbeditentity)
 
 ![](./diagrams/05-api-wbeditentity.drawio.svg)
 
@@ -93,7 +93,7 @@ The future of this detailed content is undecided...
 | ApiErrorReporter                       | API response                  | A component for API modules that handles error reporting                                                                                                                                                     |
 | ResultBuilder                          | API response                  | Builder of MediaWiki ApiResult objects with various convenience functions for adding Wikibase concepts and result parts to results in a uniform way                                                          |
 
-##### [Action API Merge Items](https://www.wikidata.org/w/api.php?action=help&modules=wbmergeitems)
+##### [Action API Merge Items](https://www.wikidata.org/w/api.php?action=help\&modules=wbmergeitems)
 
 ![](./diagrams/05-api-wbmergeitems.drawio.svg)
 

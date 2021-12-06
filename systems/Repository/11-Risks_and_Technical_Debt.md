@@ -8,7 +8,7 @@ For most Wikibase usecases the current solution is absolutly fine.
 
 As blazegraph is no longer maintained there is an evaluation of new services happening: <https://phabricator.wikimedia.org/T206560>
 
-See also [Wikidata_query_service/ScalingStrategy](https://wikitech.wikimedia.org/wiki/Wikidata_query_service/ScalingStrategy)
+See also [Wikidata\_query\_service/ScalingStrategy](https://wikitech.wikimedia.org/wiki/Wikidata_query_service/ScalingStrategy)
 
 ## Entity size / serialization
 

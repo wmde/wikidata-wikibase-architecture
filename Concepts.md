@@ -12,10 +12,10 @@ You can read more about Wikibase's data model in the [Glossary](./Glossary.md#en
 
 ### User Interface
 
-User interfaces which were built prior to 2017 use either [OOUI](https://www.mediawiki.org/wiki/OOUI) or [jQuery UI](https://jqueryui.com).  
+User interfaces which were built prior to 2017 use either [OOUI](https://www.mediawiki.org/wiki/OOUI) or [jQuery UI](https://jqueryui.com).
 
-There are several applications which are written in [Vue](https://vuejs.org/) and [TypeScript](https://www.typescriptlang.org/).  
-JavaScript and CSS dependencies are managed through npm. Optimization and minification of files is done through [Webpack](https://v4.webpack.js.org/).  
+There are several applications which are written in [Vue](https://vuejs.org/) and [TypeScript](https://www.typescriptlang.org/).\
+JavaScript and CSS dependencies are managed through npm. Optimization and minification of files is done through [Webpack](https://v4.webpack.js.org/).\
 There is a central Vue components library in development as part of the [Wikidata/Wikibase Design System](https://wmde.github.io/wikit/). In the future, ideally, all frontend components will be using it.
 
 The project Termbox, which delivers the terms section of an item page on mobile, uses Vue and [vue-server-renderer](https://www.npmjs.com/package/vue-server-renderer) to achieve [server side rendering](https://wikitech.wikimedia.org/wiki/WMDE/Wikidata/SSR_Service).
@@ -35,7 +35,7 @@ Security code review is performed by [WMF's Security Team](https://www.mediawiki
 
 ## Architecture and design patterns
 
-Recurring patterns within the system.  
+Recurring patterns within the system.
 
 ### Dispatching
 
@@ -60,12 +60,12 @@ A few different implementations of the dispatching pattern currently exist, the 
 
 ### Persistency
 
-How / where to store and retrieve data.  
+How / where to store and retrieve data.\
 TBD
 
 ### Communication and integration
 
-How to integrate with other systems, how to communicate (i.e. sync, async, pub-sub…)  
+How to integrate with other systems, how to communicate (i.e. sync, async, pub-sub…)\
 TBD
 
 ## Development concepts
