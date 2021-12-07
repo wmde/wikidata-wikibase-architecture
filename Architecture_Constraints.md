@@ -10,7 +10,7 @@ When applicable this environment comes with some constraints which could alter a
 - [Security Readiness Reviews](https://www.mediawiki.org/wiki/Security/SOP/Security_Readiness_Reviews)
 
 Wikimedia production also provides a certain set of resources and services that can be used as part of or next to the system.
-A key requirement her is that software and services are under free and open licences.
+A key requirement here is that software and services are under free and open licences.
 
 ## Wikimedia Principles
 
