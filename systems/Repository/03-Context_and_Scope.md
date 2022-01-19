@@ -6,7 +6,7 @@
 
 **Editor**
 
-A Wikibase editor will create, reads, updates, deletes, monitors and maintains structured data on a Repository.
+A Wikibase editor will create, read, update, delete, monitor and maintain structured data on a Repository.
 
 **Data Re-user**
 
