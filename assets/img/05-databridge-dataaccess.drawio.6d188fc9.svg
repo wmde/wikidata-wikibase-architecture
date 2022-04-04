@@ -1,0 +1,307 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1051px" height="522px" viewBox="-0.5 -0.5 1051 522" content="&lt;mxfile host=&quot;20f2b2cb-29d8-4f7e-8424-91a71ee05c48&quot; modified=&quot;2021-01-22T15:00:06.486Z&quot; agent=&quot;5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.52.1 Chrome/83.0.4103.122 Electron/9.3.5 Safari/537.36&quot; etag=&quot;zDTqfL8wgSfGEy9SMTBa&quot; version=&quot;13.10.0&quot; type=&quot;embed&quot;&gt;&lt;diagram id=&quot;bGDNP6n3uRaXmGmOwKcD&quot; name=&quot;Page-1&quot;&gt;7ZlNc5swEIZ/DcdmDAJsHx3HTTvTTj12ZnJWYAFNAVEhx3Z/fRcjwBjycUDJNOQEvBJC2ke7WgmDLJPDraBZ9JP7EBvWxD8Y5MawLHNqmXgplGOpuHNSCqFgvqrUCFv2F5Q4UeqO+ZC3KkrOY8mytujxNAVPtjQqBN+3qwU8bn81oyF0hK1H4656z3wZlerMmTT6N2BhVH3ZnKiShFaVlZBH1Of7M4msDLIUnMvyLjksIS6MV9mlfO/rE6V1xwSk8jUvWOULjzTeqbEtMrZCE4lcdVAeq1HvIyZhm1GveN4jWYNcRzKJ8cnE24DF8ZLHXJxqkyAILM9DPZeC/4azEt99cB23eIOnUsE1nepZfW/SHYka3CMICYczSY3sFngCUhyxiiq1VSNqlpnV875hVk+p6IxXxZGqaRLWLTeWxBtlzH7DOh3DGpYby8IeGU1bhnX/7Arcp+F/yU/2WGAF08kOTSHehcX1l4xAYCkoRmWb2Juy2bLS/4/Omr4ju3mH3SAeAabvwLTPrHN3SujLZiXXLMHQssizMqgV38hAMBwgFC0JlGkaxrBuxGu6k7ycVE0LVdCy7HqyDOlosy4r2+5hZQ/AqpoDZ7A2kHFUFuvvn8CeAOZYLxJzHF3EumvOMKHxDm2YsDS8F0zipZgGOZO86N0HjZKO47Qw1lHzLaKkSTRx3KK3MBqvcd5vgPqIcpVKJo8jAFrDOlb+1gN0pgvoVBNQTCk3kPogNhAAWseDfAQsZ6TtnLbZw5LoYjnTyXJcTnkJkrxlLlp3VwPIteCYjcjjDZX07pjBGFhaFytmX4DV5ZQ9u+3hWOJqufKZxEwyYXnOeFruWcbA9GLRrDPXt1g0LV1ZUHEOc4qwP+gDxGPASN4xmbVcTRiXPHlgKS6XjWOOwSc7iey8L846mmBqTH5GvLnsWyp1+WO1BOvJXzO+5GnAxkCxswvpOerRR7G7OKrNg/Hhz+c6iHpAPpPSuFcXmWrvCbg9veqJoUOc0hG7g06Fvk90z4fN1/x1Gug0HB+bX4WnsrMfrmT1Dw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <rect x="0" y="60" width="210" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 208px; height: 1px; padding-top: 85px; margin-left: 1px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                ApiErrors
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="105" y="89" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    ApiErrors
+                </text>
+            </switch>
+        </g>
+        <rect x="230" y="60" width="210" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 208px; height: 1px; padding-top: 85px; margin-left: 231px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    Other errors
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="335" y="89" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    Other errors
+                </text>
+            </switch>
+        </g>
+        <rect x="0" y="0" width="440" height="40" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 438px; height: 1px; padding-top: 20px; margin-left: 1px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Errors
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="220" y="24" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    Errors
+                </text>
+            </switch>
+        </g>
+        <rect x="480" y="0" width="550" height="40" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 548px; height: 1px; padding-top: 20px; margin-left: 481px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Repository API
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="755" y="24" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    Repository API
+                </text>
+            </switch>
+        </g>
+        <rect x="515" y="190" width="210" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 208px; height: 1px; padding-top: 215px; margin-left: 516px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    TrimmingWritingRepository
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="620" y="219" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    TrimmingWritingRepository
+                </text>
+            </switch>
+        </g>
+        <rect x="170" y="320" width="280" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 345px; margin-left: 171px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    SpecialPageReadingEntityRepository
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="310" y="350" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    SpecialPageReadingEntityRepository
+                </text>
+            </switch>
+        </g>
+        <rect x="795" y="330" width="230" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 355px; margin-left: 796px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    ApiRenderReferencesRepository
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="910" y="360" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    ApiRenderReferencesRepository
+                </text>
+            </switch>
+        </g>
+        <rect x="795" y="260" width="210" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 208px; height: 1px; padding-top: 285px; margin-left: 796px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    ApiReadingEntityRepository
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="900" y="290" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    ApiReadingEntityRepository
+                </text>
+            </switch>
+        </g>
+        <rect x="785" y="120" width="230" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 228px; height: 1px; padding-top: 145px; margin-left: 786px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    ApiPropertyDataTypeRepository
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="900" y="149" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    ApiPropertyDataTypeRepository
+                </text>
+            </switch>
+        </g>
+        <rect x="770" y="470" width="280" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 278px; height: 1px; padding-top: 495px; margin-left: 771px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    ApiPageEditPermissionErrorsRepository
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="910" y="500" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    ApiPageEditPermissionErrorsRepository
+                </text>
+            </switch>
+        </g>
+        <rect x="795" y="190" width="210" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 208px; height: 1px; padding-top: 215px; margin-left: 796px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    ApiEntityLabelRepository
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="900" y="219" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    ApiEntityLabelRepository
+                </text>
+            </switch>
+        </g>
+        <rect x="170" y="410" width="235" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 233px; height: 1px; padding-top: 435px; margin-left: 171px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    CombiningPermissionsRepository
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="288" y="440" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    CombiningPermissionsRepository
+                </text>
+            </switch>
+        </g>
+        <rect x="515" y="120" width="210" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 208px; height: 1px; padding-top: 145px; margin-left: 516px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    ApiWritingRepository
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="620" y="149" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    ApiWritingRepository
+                </text>
+            </switch>
+        </g>
+        <rect x="795" y="400" width="210" height="50" fill="#fff2cc" stroke="#d6b656" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 208px; height: 1px; padding-top: 425px; margin-left: 796px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                <span style="font-size: 15px">
+                                    ApiRepoConfigRepository
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="900" y="430" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    ApiRepoConfigRepository
+                </text>
+            </switch>
+        </g>
+        <rect x="776.25" y="60" width="247.5" height="40" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 246px; height: 1px; padding-top: 80px; margin-left: 777px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Reading API
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="900" y="84" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    Reading API
+                </text>
+            </switch>
+        </g>
+        <rect x="500" y="60" width="240" height="40" fill="#e1d5e7" stroke="#9673a6" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 238px; height: 1px; padding-top: 80px; margin-left: 501px;">
+                        <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
+                            <div style="display: inline-block; font-size: 15px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                                Writing API
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="620" y="84" fill="#000000" font-family="Helvetica" font-size="15px" text-anchor="middle">
+                    Writing API
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://desk.draw.io/support/solutions/articles/16000042487" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Viewer does not support full SVG 1.1
+            </text>
+        </a>
+    </switch>
+</svg>
