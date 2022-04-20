@@ -31,14 +31,13 @@
 
 #### Contained Blackboxes
 
-| Block          | Responsibility                                                                                               |
-| -------------- | ------------------------------------------------------------------------------------------------------------ |
-| UI Override    | Adds the PropertySuggester functionality to existing elements provided to Repository Editors by WikibaseRepo |
-| API            | Provides user access to property suggestions                                                                 |
-| Suggester      | Collects suggestions from the database based on a request                                                    |
-| Datbase        | SQL tables storing data to geenrate suggestions from                                                         |
-| Table Updater  | Mechanism for updating the data stored in the Database                                                       |
-| Property Pairs | Externally calculated dataset for loading into the Database                                                  |
+| Block                 | Responsibility                                                                                               |
+| --------------------- | ------------------------------------------------------------------------------------------------------------ |
+| UI Override           | Adds the PropertySuggester functionality to existing elements provided to Repository Editors by WikibaseRepo |
+| API                   | Provides user access to property suggestions                                                                 |
+| Suggester             | Collects suggestions from a backend service on each request                                                  |
+| SchemaTree            | External service providing recomendations                                                                    |
+| SchemaTreeRecommender | Generates an index for the SchemaTree to use                                                                 |
 
 ::: details Legacy detailed views
 

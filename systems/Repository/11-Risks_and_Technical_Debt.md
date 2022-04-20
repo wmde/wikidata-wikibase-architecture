@@ -39,3 +39,13 @@ By 2024 Wikidata is likley to have over 2 billion records in its revision table.
 Various things have been worked on in this area, including [T204109](https://phabricator.wikimedia.org/T204109) and other tickets avoiding processing here.
 
 Ultimately the AbuseFilter needs re working in order to make it work better for the Wikibase usecase, or other more specific solutions are needed.
+
+## Property Suggester
+
+The current external SchemaTree service is maintained by a university research group.
+This raises the question regarding who will maintain this system in the long run.
+
+In the case were the Wikidata team has to maintain this service and ensure its reliability, the risks include:
+
+- Usage of Go, a language not familier to the main Wikidata or Wikibase teams.
+- Manual triggering of new index creation through the SchemaTreeRecommender script, requires resources.
