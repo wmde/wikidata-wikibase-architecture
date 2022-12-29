@@ -19,12 +19,13 @@ jobs:
     - run: npm install
     - run: npm run build
     - name: Deploy branch preview to Netlify
-      run: echo "NETLIFY_DEPLOY_URL=$(npx -p netlify-cli
+      id: netlify_deploy
+      run: echo "::set-output name=url::$(npx -p netlify-cli
         netlify deploy --dir=.vuepress/dist --json
         --alias $(echo '${{ github.ref }}' | shasum | awk '{print $1}' | head -c 10 )
-        | jq '.deploy_url' --raw-output)" >> $GITHUB_ENV 
+        | jq '.deploy_url' --raw-output)"
       env:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
     - name: Print deploy URL
-      run: echo ${{ env.NETLIFY_DEPLOY_URL }}
+      run: echo ${{ steps.netlify_deploy.outputs.url }}
